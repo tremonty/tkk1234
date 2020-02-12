@@ -1,0 +1,317 @@
+$review-blue: #3c98ff;
+$review-green: #18ca3e;
+
+.single-stm_review, .post-type-archive-stm_review{
+
+  .stm_breadcrumbs_unit {
+    .navxtBreads {
+      >span {
+        a{
+          color: $review-blue;
+        }
+      }
+    }
+  }
+
+  ul.page-numbers{
+    li{
+      a{
+        background-color: $review-blue;
+      }
+    }
+  }
+}
+
+.btn.review-btn-bg{
+  background: $review-blue;
+
+  &:hover, &:active, &:focus{
+    box-shadow: inset 0px -2px 0px 0px rgba(60, 152, 255, 0.2);
+  }
+}
+
+.btn.review-btn-outline{
+  &:hover, &:active, &:focus {
+    color: $review-blue;
+    border-color: $review-blue;
+  }
+}
+
+
+
+.stm-motors-review-archive-header{
+
+
+  &.review-list-archive{
+
+    &:before {
+      background: $review-blue;
+    }
+
+    .review-category-filter{
+      ul {
+        li {
+          &.active{
+            a {
+              color: $review-blue;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.single-format-video {
+  .stm_breadcrumbs_unit {
+    .navxtBreads {
+      > span {
+        a {
+          color: $review-blue;
+        }
+      }
+    }
+  }
+}
+
+.single-format-standard{
+
+  .stm-motors-review-header {
+    .container {
+      .left {
+        .review-title {
+
+          h2 {
+            .stm-review-blue {
+              color: $review-blue;
+            }
+          }
+        }
+      }
+
+      .right {
+        .rating {
+          .rating-stars {
+            .rating-empty {
+              &:before {
+                color: $review-green;
+              }
+            }
+            .rating-color {
+
+              &:before {
+                color: $review-green;
+              }
+            }
+          }
+        }
+
+        .rating-params {
+          li {
+            .rating-pb-wrap {
+              .rating-prog-bar {
+                background: $review-green;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.single-format-video {
+
+  .stm-motors-review-header {
+    .left {
+      .review-title {
+
+        h2 {
+          .stm-review-blue {
+            color: $review-blue;
+          }
+        }
+      }
+
+      .car-info-wrap {
+        .car-info {
+
+          i {
+            color: $review-green;
+          }
+        }
+      }
+    }
+
+    .right {
+      .rating {
+        .rating-stars {
+          .rating-empty {
+
+            &:before {
+              color: $review-green;
+            }
+          }
+          .rating-color {
+
+            &:before {
+              color: $review-green;
+            }
+          }
+        }
+      }
+
+      .rating-params {
+
+        li {
+          .rating-pb-wrap {
+            .rating-prog-bar {
+              background: $review-green;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.review-top-content{
+
+  .r-t-c-left{
+
+    .r-t-c-comment-num{
+      i{
+        color: $review-blue;
+      }
+    }
+
+    .r-t-c-review-num{
+
+      i{
+        color: $review-blue;
+      }
+    }
+  }
+
+}
+
+.stm_review_excerption{
+
+  &:before {
+    color: $review-green;
+  }
+}
+
+.stm_pros_cons_wrapp {
+
+  &.pros {
+    &:before{
+      color: $review-green;
+    }
+  }
+
+  &.cons {
+    &:before{
+      color: $review-green;
+    }
+  }
+}
+
+.review-tags-wrap {
+  ul {
+
+    li {
+
+
+      a{
+        background: $review-green;
+
+        &:hover {
+          background: $review-blue;
+        }
+      }
+    }
+  }
+}
+
+.author-info-wrap{
+
+  .author-info{
+
+    .author-name {
+      color: $review-blue;
+    }
+  }
+}
+
+.other-review-block{
+
+  .other-review-list{
+
+    .other-review-item{
+
+      .review-data{
+        h6{
+          a{
+            &:hover{
+              color: $review-blue;
+            }
+          }
+        }
+
+        .comment-num {
+          i{
+            color: $review-blue;
+          }
+        }
+      }
+    }
+  }
+}
+
+.archive-review-list{
+  .row {
+
+    .col-md-3 {
+
+      .review-archive-item {
+
+        .review-loop {
+          h5 {
+
+            a{
+              span{
+                color: $review-blue;
+              }
+
+              &:hover {
+                color: $review-blue;
+              }
+            }
+          }
+
+          .middle_info {
+
+            .rating {
+
+              .rating-stars {
+
+                .rating-empty {
+
+                  &:before {
+                    color: $review-green;
+                  }
+                }
+                .rating-color {
+                  &:before {
+                    color: $review-green;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

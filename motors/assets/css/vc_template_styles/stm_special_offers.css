@@ -1,0 +1,82 @@
+.special-offers .colored-separator {
+    margin-bottom: 13px;
+}
+
+.special-offers .car-subtitle {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.special-offers .car-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.special-offers.style_2 .price {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.special-offers.style_2 .car-subtitle {
+    color: #2c313e;
+}
+
+.special-offers.style_2 .car-title {
+    color: #2c313e;
+    margin-top: 6px;
+}
+
+.special-offers.style_2 .listing-car-item-meta {
+    background: #ffffff;
+    padding-bottom: 23px;
+}
+
+.special-offers.style_2 .listing-car-item-meta .car-meta-top {
+    padding-bottom: 19px;
+    border-color: #2c313e;
+}
+
+.special-offers.style_2 .listing-car-item-meta .car-meta-bottom ul li {
+    max-width: 32%;
+    margin-top: 19px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.special-offers.style_2 .listing-car-item-meta .car-meta-bottom ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.special-offers.style_2 .listing-car-item-meta .car-meta-bottom ul li i {
+    color: #2c313e;
+}
+
+.special-offers.style_2 .listing-car-item-meta .car-meta-bottom ul li span {
+    color: #2c313e;
+}
+
+.special-offers.style_2 .stm-owl-prev, .special-offers.style_2 .stm-owl-next {
+    display: none;
+}
+
+.special-offers.style_2 .owl-dots .owl-dot {
+    padding: 4px 10px;
+}
+
+.special-offers.style_2 .owl-dots .owl-dot span {
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 2px solid #c9cbd2;
+}
+
+.special-offers.style_2 .owl-dots .owl-dot.active span {
+    width: 12px;
+    height: 12px;
+    border: 0;
+    transform: scale(1);
+}

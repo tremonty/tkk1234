@@ -1,0 +1,6411 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-02 05:59+0000\n"
+"PO-Revision-Date: 2019-08-02 06:03+0000\n"
+"Language-Team: Turkish\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Last-Translator: Stylemix Themes New <dmitriy.ni@stylemix.net>\n"
+"Language: tr_TR\n"
+"X-Loco-Version: 2.3.0; wp-5.2.2"
+
+#: woocommerce/myaccount/form-edit-account.php:60
+#: woocommerce/myaccount/form-edit-account.php:68
+msgid " (leave blank to leave unchanged)"
+msgstr " (değişmeden bırakmak için boş bırakın)"
+
+#: woocommerce/order/tracking.php:25
+msgid " ago"
+msgstr " önce"
+
+#: inc/stm-ajax.php:58
+msgid " cars"
+msgstr " arabalar"
+
+#: inc/customizer/registration.php:1383 inc/customizer/registration.php:1557
+msgid " for sale"
+msgstr " satılık"
+
+#: inc/customizer/registration.php:954
+msgid " Header Layout"
+msgstr " Başlık Düzeni"
+
+#: inc/woocommerce_setups_rental.php:1194
+msgid " to "
+msgstr " için "
+
+#: inc/customizer/registration.php:1389 inc/customizer/registration.php:1563
+msgid ""
+"\"Put in curly brackets slug of taxonomy. For Example - {make} {serie} {ca-"
+"year}. Leave empty if you want to display default car title.\""
+msgstr ""
+"Taksonomileri kıvırcık parantezlere koyun. Örnek- {make} {serie} {ca-year}. "
+"Varsayılan başlığı kullanmasını istiyorsanız boş bırakın"
+
+#: inc/customizer/registration.php:2147
+msgid "\"Social Widget\" socials"
+msgstr "\"Grup Listeleme Alanı\" grubu"
+
+#: admin/screens/system_status.php:139 admin/screens/system_status.php:175
+#: admin/screens/system_status.php:204
+#, php-format
+msgid ""
+"%1$s - Recommended Value: %2$s.<br />Max input vars limitation will truncate "
+"POST data such as menus. See: <a href=\"%3$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Increasing max input vars limit.</a>"
+msgstr ""
+"%1$s - Önerilen Değer:%2$s.<br />POST verisi menüler gibimaksimum değer "
+"limitleri kesilecek. Şuna bakın:<a href=\"%3$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Maksimum artan giriş artıyor. </a>"
+
+#: admin/screens/system_status.php:219
+#, php-format
+msgid ""
+"%1$s - Recommended Value: %2$s.<br />Post Max Value Length limitation may "
+"prohibit the Theme Options data from being saved to your database. See: <a "
+"href=\"%3$s\" target=\"_blank\" rel=\"noopener noreferrer\">Suhosin "
+"Configuration Info</a>."
+msgstr ""
+"%s - önerilen değer: %s.<br>Yazı Max değer uzunluğu sınırlama tema "
+"seçenekleri veri veritabanına kaydedilmesini yasaklayabilir. Bkz: <a "
+"href=\"%s\" target=\"_blank\">Suhosin yapılandırma bilgilerini</a>."
+
+#: admin/screens/system_status.php:107
+#, php-format
+msgid ""
+"%1$s - We recommend setting max execution time to at least 180. <br /> To "
+"import classic demo content, <strong>300</strong> seconds of max execution "
+"time is required.<br />See: <a href=\"%2$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Increasing max execution to PHP</a>"
+msgstr ""
+"%1$s - We recommend setting max execution time to at least 180. <br /> To "
+"import classic demo content, <strong>300</strong> seconds of max execution "
+"time is required.<br />See: <a href=\"%2$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Increasing max execution to PHP</a>"
+
+#: admin/screens/system_status.php:46
+#, php-format
+msgid ""
+"%1$s - We recommend setting memory to at least <strong>128MB</strong>. <br />"
+" To import classic demo data, <strong>256MB</strong> of memory limit is "
+"required. <br /> Please define memory limit in <strong>wp-config.php</strong>"
+" file. To learn how, see: <a href=\"%2$s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Increasing memory allocated to PHP.</a>"
+msgstr ""
+"%s - Bizim tavsiyemiz olan minimum bellek ayarı <strong>128 MB</strong>.<br>"
+"Klasik demo veri almak için <strong>256 MB</strong> -in bellek sınırı "
+"gereklidir.<br>Lütfen bellek sınırı içinde <strong>wp-config.php</strong> "
+"dosya tanımlayın. Öğrenmek için buraya bakın: <a href=\"%s\" "
+"target=\"_blank\">PHP'ye ayrılan bellek arttırılıyor.</a>"
+
+#. 1: formatted order total 2: total order items
+#: woocommerce/myaccount/orders.php:79
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] "%1$s için inceleme %2$s"
+msgstr[1] "%1$s için inceleme %2$s"
+
+#: partials/rental/common/order-info-empty.php:66
+#, php-format
+msgid "%d x %s"
+msgstr "%d x %s"
+
+#: admin/screens/support.php:15
+#, php-format
+msgid ""
+"%s comes with 6 months of free support for every license you purchase. "
+"Support can be extended through subscriptions via ThemeForest."
+msgstr ""
+"Aldığınız her lisans için %s kadarı 6 aylık ücretsiz destek ile birlikte "
+"gelir. Bu destek ThemeForest araçlığıyla yapılan üyeliklerle uzatılabilir."
+
+#: partials/rental/common/order-info.php:36
+#, php-format
+msgid "%s Days"
+msgstr "%s Gün"
+
+#: partials/rental/common/order-info.php:36
+#, php-format
+msgid "%s Days %s Hours"
+msgstr "%s Gün %s Saat"
+
+#: inc/woocommerce_setups_rental.php:1201
+#, php-format
+msgid "%s days and more: %s sale"
+msgstr "%s gün ve daha fazlası: %s satış"
+
+#: woocommerce/myaccount/my-orders.php:78
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] "%s ürün %s için"
+msgstr[1] "%s ürün %s için"
+
+#: partials/single-car/car-gallery.php:101
+#: partials/single-car/car-gallery.php:150
+#: partials/single-car-listing/car-gallery.php:139
+#: partials/single-car-listing/car-gallery.php:164
+#: partials/single-aircrafts/gallery.php:92
+#, php-format
+msgid "%s full"
+msgstr "%s dolu"
+
+#: admin/includes/admin_screens.php:128
+#, php-format
+msgid ""
+"%s is now installed and ready to use! Get ready to build something beautiful."
+" Please register your purchase to get automatic theme updates, import %1$s "
+"demos and install premium plugins. Read below for additional information. We "
+"hope you enjoy it! %s"
+msgstr ""
+"%s yüklendi ve kullanıma hazır. Güzel bir şey yaratmaya hazır olun. Lütfen "
+"satın almanızı kayıt ettirin; bu sayede otomatik güncellemeleri alıp, %1$s "
+"demolarını deneyebilir ve premium eklentileri indirebilirsiniz. Detaylı "
+"bilgi için aşağıdaki ek bilgileri okuyun. Umarız seversiniz! %s"
+
+#: vc_templates/stm_inventory_on_map.php:211
+#, php-format
+msgid "%s matches"
+msgstr "%s eşleşme"
+
+#: partials/single-car/car-review_rating.php:27
+#: partials/listing-cars/listing-grid-loop-magazine.php:78
+#: listings/loop/default/list/features.php:185
+#, php-format
+msgid "%s out of 5.0"
+msgstr "5.0 üzerinden %s"
+
+#: inc/woocommerce_setups_rental.php:1207
+#, php-format
+msgid "%s Per hour"
+msgstr "Saat başına %s"
+
+#. %s: Quantity.
+#: woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr "%s miktar"
+
+#: partials/rental/wizard-nav/nav-step-2.php:19
+#, php-format
+msgid "%s Type"
+msgstr "%s Tür"
+
+#: partials/single-car-listing/car-gallery.php:88
+#, php-format
+msgid "%s Video"
+msgstr "%s Video"
+
+#: partials/rental/common/order-info.php:77
+#, php-format
+msgid "%s x %1s %s %s day(s)"
+msgstr "%s x %1s %s %s gün(ler)"
+
+#: inc/woocommerce_setups_rental.php:1194 partials/rental/product/option.php:66
+#: partials/rental/product/option.php:71 partials/rental/main-shop/price.php:71
+#: partials/rental/main-shop/price.php:114
+#, php-format
+msgid "%s/Day"
+msgstr "%s/gün"
+
+#: vc_templates/stm_car_class_grid.php:51
+#, php-format
+msgid "%s/day"
+msgstr "%s/gün"
+
+#: partials/rental/main-shop/price.php:64
+#: partials/rental/main-shop/price.php:107
+#, php-format
+msgid "%s/Total"
+msgstr "%s/Toplam"
+
+#: inc/customizer/registration.php:1202
+msgid ""
+"&copy; 2015 <a target=\"_blank\" href=\"http://www.stylemixthemes.com/\">"
+"Stylemix Themes</a><span class=\"divider\"></span>Trademarks and brands are "
+"the property of their respective owners."
+msgstr ""
+"&copy; 2015 <a target=\"_blank\" href=\"http://www.stylemixthemes.com/\">"
+"Stylemix Themes</a><span class=\"divider\"></span>Tesciller ve markalar "
+"sahiplerine aittir."
+
+#: partials/single-aircrafts/gallery.php:158
+#, php-format
+msgid "+%s Images"
+msgstr ""
+
+#: inc/customizer/controls/post-type.php:15
+msgid "--- Default ---"
+msgstr "---Varsayılan---"
+
+#: inc/customizer/registration.php:1976
+msgid "10"
+msgstr "10"
+
+#: inc/customizer/registration.php:1961
+msgid "3"
+msgstr "3"
+
+#: inc/customizer/registration.php:1981
+msgid "4000"
+msgstr "4000"
+
+#: inc/customizer/registration.php:1845
+msgid "42"
+msgstr "42"
+
+#: inc/customizer/registration.php:1966
+msgid "5"
+msgstr "5"
+
+#: inc/customizer/registration.php:1971
+msgid "50"
+msgstr "50"
+
+#: vc_templates/stm_inventory_with_filter.php:133
+#, php-format
+msgid ""
+"<b>Showing <span class=\"ac-showing\">%s</span> jets</b> from <span "
+"class=\"ac-total\">%s</span>"
+msgstr ""
+
+#: hb_templates/elements/cart-2/cart-2.php:47
+#, php-format
+msgid "<span class=\"cart__quantity-badge\">%d</span> items"
+msgstr "<span class =  \"cart__quantity-badge \"> %d </span> öğe"
+
+#: partials/single-aircrafts/header-search.php:23
+msgid "<span>Quick</span> search"
+msgstr ""
+
+#: admin/screens/startup.php:70
+msgid ""
+"A new page will load with a token number in a box. Copy the token number "
+"then come back to this registration page and paste it into the field below "
+"and click the <strong>Submit</strong> button."
+msgstr ""
+"Yeni sayfa kutudaki bir token numarası ile yüklenecek.Bu token numarasını "
+"kopyalayın ve kayıt sayfasına geri dönüp buradaki alana yapıştırın ve "
+"<strong> tıklayın</strong> Gönder butonu."
+
+#: admin/screens/install_demo.php:102
+msgid "Accept"
+msgstr "Kabul etmek"
+
+#: vc_templates/stm_sell_a_car.php:24 vc_templates/stm_sell_a_car.php:455
+#: vc_templates/stm_sell_a_car.php:868
+msgid "Accident"
+msgstr "Kaza"
+
+#: partials/user/private/dealer-settings.php:355
+#: partials/user/private/become-dealer.php:206
+msgid "Account data saved. Reloading the page."
+msgstr "Hesap bilgileri kaydedildi. Sayfa yeniden yükleniyor."
+
+#: woocommerce/myaccount/form-edit-account.php:28
+msgid "Account Settings"
+msgstr "Hesap Ayarları"
+
+#: inc/value_my_car/admin-page.php:61
+msgid "Actions"
+msgstr "Eylemler"
+
+#: admin/includes/envato-market/inc/admin/functions.php:130
+#: admin/includes/envato-market/inc/admin/functions.php:320
+#: admin/includes/envato-market/inc/admin/upgrader-skins.php:66
+msgid "Activate"
+msgstr "Aktive Et"
+
+#: admin/includes/envato-market/inc/admin/functions.php:321
+#, php-format
+msgid "Activate %s"
+msgstr "%s etkinleştir"
+
+#: admin/includes/envato-market/inc/admin/functions.php:130
+#: admin/includes/envato-market/inc/admin/upgrader-skins.php:66
+#, php-format
+msgid "Activate &#8220;%s&#8221;"
+msgstr "Etkinleştir & # 8220; %s & # 8221;"
+
+#: admin/includes/envato-market/inc/admin/upgrader-skins.php:103
+msgid "Activate Plugin"
+msgstr "Eklentiyi Etkinleştir"
+
+#: admin/screens/system_status.php:251 admin/screens/system_status.php:255
+msgid "Active Plugins"
+msgstr "Aktif Eklentiler"
+
+#: admin/includes/envato-market/inc/admin/view/partials/intro.php:19
+msgid "Active Theme"
+msgstr "Aktif Tema"
+
+#: partials/rental/product/option.php:78
+msgid "Add"
+msgstr "Ekle"
+
+#: inc/customizer/registration.php:1937
+msgid "Add a car page"
+msgstr "Araba sayfası ekle"
+
+#: listings/add_car/check_user.php:80
+msgid "Add a Listing using Free or Paid Plan limits"
+msgstr "Ücretsiz veya Ücretli Plan limitlerini kullanarak Giriş Ekleyin"
+
+#: woocommerce/single-product-reviews.php:71
+msgid "Add a review"
+msgstr "İnceleme ekle"
+
+#: vc_templates/stm_compare_cars.php:36
+msgid "Add boat to compare"
+msgstr "Karşılaştırma yapmak için bot ekleyin"
+
+#: vc_templates/stm_compare_cars.php:33 partials/compare.php:125
+#: partials/compare.php:239 partials/compare.php:320
+msgid "Add car to compare"
+msgstr "Karşılaştırma için araba ekleyin"
+
+#: inc/customizer/controls/text-repeater.php:47
+msgid "Add Currency"
+msgstr "Para Birimi Ekle"
+
+#: admin/includes/envato-market/inc/admin/view/callback/section/items.php:10
+msgid ""
+"Add Envato Market themes & plugins using multiple OAuth tokens. This is "
+"especially useful when an item has been purchased on behalf of a third-party."
+" This works similarly to the global OAuth Personal Token, but for individual "
+"items and additionally requires the Envato Market item ID."
+msgstr ""
+"Birden fazla OAuth belirteçleri kullanarak Envato Market temaları ve "
+"eklentileri ekleyin. Bu, özellikle bir üçüncü taraf adına bir öğe satın "
+"alındığında kullanışlıdır. Bu, küresel OAuth Kişisel Simgesine benzer "
+"şekilde çalışır, ancak bireysel ürünler için ve ayrıca Envato Market ürün "
+"kimliği gerekir."
+
+#: vc_templates/stm_listing_two_search.php:153
+msgid "Add Image"
+msgstr "Resim eklemek"
+
+#: admin/includes/envato-market/inc/admin/admin.php:402
+#: admin/includes/envato-market/inc/admin/view/callback/setting/items.php:37
+msgid "Add Item"
+msgstr "Öğe eklemek"
+
+#: listings/add_car/step_5.php:55
+msgid "Add the Template Phrases"
+msgstr "Şablon Cümleleri Ekle"
+
+#: inc/stm-ajax.php:31 partials/car-filter-loop.php:45
+#: partials/single-car/car-actions.php:70
+#: partials/listing-cars/listing-list-loop-actions.php:79
+#: partials/listing-cars/listing-list-directory-loop-animate.php:169
+#: partials/listing-cars/listing-grid-loop-magazine.php:28
+#: partials/listing-cars/listing-directive-list-loop-actions.php:73
+#: partials/single-car-boats/boats-actions.php:63
+#: partials/single-aircrafts/action-bar.php:54
+#: partials/listing-cars/motos/grid.php:53
+#: partials/listing-cars/motos/moto-single-grid.php:53
+#: listings/loop/classified/list/image-inventory-no-filter.php:76
+#: listings/loop/classified/list/image.php:81
+#: listings/loop/classified/grid/image.php:134
+#: listings/loop/boats/list/image.php:34
+#: listings/loop/default/list/features.php:91
+#: listings/loop/default/list/compare.php:25
+#: listings/loop/default/grid/image.php:47
+msgid "Add to compare"
+msgstr "Karşılaştırmak için ekleyin"
+
+#: partials/listing-cars/listing-list-directory-loop-animate.php:180
+#: listings/loop/classified/list/image-inventory-no-filter.php:86
+#: listings/loop/classified/list/image.php:91
+#: listings/loop/classified/grid/image.php:122
+msgid "Add to favorites"
+msgstr "Favorilere ekle"
+
+#: vc_templates/stm_compare_cars.php:38
+msgid "Add vehicle to compare"
+msgstr "Karşılaştırma yapmak için araç ekleyin"
+
+#: listings/add_car/step_4.php:4 listings/add_car/step_4.php:37
+msgid "Add Videos"
+msgstr "Vdeo ekle"
+
+#: vc_templates/stm_sell_a_car.php:961 vc_templates/stm_sell_a_car.php:968
+msgid "Add your boat details"
+msgstr "Botunuzun detaylarını ekleyin"
+
+#: inc/customizer/registration.php:930 partials/header/header-nav.php:75
+msgid "Add your item"
+msgstr "Ürün ekleyin"
+
+#: vc_templates/stm_sell_a_car.php:136 vc_templates/stm_sell_a_car.php:143
+#: vc_templates/stm_sell_a_car.php:548 vc_templates/stm_sell_a_car.php:555
+msgid "Add your vehicle details"
+msgstr "Araç detaylarınızı girin"
+
+#: inc/woocommerce_setups_rental.php:532
+#: partials/rental/common/order-info.php:59
+#: partials/rental/common/order-info-empty.php:48
+msgid "Add-ons"
+msgstr "Eklentiler"
+
+#: partials/rental/common/order-info.php:90
+msgid "Add-ons Charges Rate"
+msgstr "İlave Ücretlendirme Oranları"
+
+#: partials/rental/product/option.php:84
+msgid "Added"
+msgstr "Eklendi"
+
+#: inc/stm-ajax.php:55
+msgid "Added to compare"
+msgstr "Karşılaştırma için eklendi"
+
+#: partials/single-car/car-actions.php:34
+#: partials/single-car-listing/car-price-title.php:36
+#, php-format
+msgid "ADDED: %s"
+msgstr ""
+
+#: vc_templates/stm_compare_cars.php:351 partials/compare.php:289
+#: listings/filter/types/features.php:17
+msgid "Additional features"
+msgstr "Ek özellikler"
+
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional Information"
+msgstr "Ek Bilgiler"
+
+#: woocommerce/checkout/form-shipping.php:78
+msgid "Additional information"
+msgstr "Ek bilgi"
+
+#: inc/customizer/registration.php:1214
+msgid "Additional Scripts"
+msgstr "Ek Senaryolar"
+
+#: partials/rental/wizard-nav/nav-step-2.php:43
+#: partials/rental/wizard-nav/nav-step-2.php:45
+msgid "Addons"
+msgstr "Eklemeler"
+
+#: woocommerce/myaccount/my-address.php:83 inc/customizer/registration.php:880
+#: inc/customizer/registration.php:1040
+msgid "Address"
+msgstr "Adres"
+
+#: vc_templates/stm_listing_two_search.php:105
+#: vc_templates/stm_listing_two_search.php:126
+msgid "Advanced search"
+msgstr "Gelişmiş Arama"
+
+#: woocommerce/order/tracking.php:23
+msgid "ago"
+msgstr "önce"
+
+#: admin/screens/install_demo.php:46
+msgid "AIRCRAFTS"
+msgstr ""
+
+#: inc/value_my_car/admin-page.php:39
+#: partials/single-car-motorcycle/tabs.php:26
+#: partials/user/private/user-inventory.php:19
+msgid "All"
+msgstr "Hepsi"
+
+#: vc_templates/stm_special_offers.php:38
+msgid "all"
+msgstr "hepsi"
+
+#: vc_templates/stm_features_posts.php:46
+msgid "All Features"
+msgstr "Tüm özellikler"
+
+#: vc_templates/stm_recent_posts.php:41
+#: vc_templates/stm_recent_posts_magazine.php:37
+#: partials/magazine/content/title_box_magazine_archive.php:27
+msgid "All News"
+msgstr "Bütün haberler"
+
+#: admin/includes/envato-market/inc/admin/view/notice/success-single-use.php:11
+msgid "All Single Use OAuth Personal Tokens have been verified."
+msgstr "Tüm Tek Kullanımlık OAuth Kişisel Simgeleri doğrulandı."
+
+#: vc_templates/stm_dealer_list.php:23
+msgid "Alphabet"
+msgstr "Alfabe"
+
+#: listings/add_car/registration.php:4
+msgid "Already Registered? Members"
+msgstr "Bu kullanıcı zaten var"
+
+#: partials/rental/common/coupon.php:13
+msgid "amount"
+msgstr "tutar"
+
+#: admin/includes/envato-market/inc/api.php:128
+msgid "An API token is required."
+msgstr "Bir API belirteci gereklidir."
+
+#: admin/includes/envato-market/inc/admin/admin.php:788
+#: admin/includes/envato-market/inc/admin/admin.php:846
+msgid "An error occurred, please check that the item ID is correct."
+msgstr "Bir hata oluştu, lütfen öğe kimliğinin doğru olduğunu kontrol edin."
+
+#: admin/includes/envato-market/inc/api.php:141
+#: admin/includes/envato-market/inc/api.php:145
+msgid "An unknown API error occurred."
+msgstr "Bilinmeyen bir API hatası oluştu."
+
+#: admin/includes/envato-market/inc/admin/admin.php:1043
+msgid "An unknown error occurred."
+msgstr "Bilinmeyen bir hata oluştu."
+
+#: admin/includes/envato-market/inc/admin/admin.php:358
+msgid "An unknown error occurred. Try again."
+msgstr "Bilinmeyen bir hata oluştu. Tekrar deneyin."
+
+#: woocommerce/order/tracking.php:25
+msgid "and was completed"
+msgstr "tamamlandı"
+
+#: woocommerce/myaccount/form-login.php:162
+msgid "Anti-spam"
+msgstr "Anti-spam"
+
+#: vc_templates/stm_inventory_with_filter.php:110
+#: vc_templates/stm_inventory_on_map.php:212 inc/value_my_car/admin-page.php:43
+#: listings/add_car/step_5.php:42
+#: listings/add_car/step_1_additional_fields.php:65
+#: listings/filter/types/checkboxes.php:86
+msgid "Apply"
+msgstr "Uygula"
+
+#: woocommerce/cart/cart.php:122
+msgid "Apply Coupon"
+msgstr "Kupon Uygula"
+
+#: partials/rental/common/coupon-form.php:9
+msgid "Apply coupon"
+msgstr "Kuponu onayla"
+
+#: vc_templates/stm_post_author_box.php:15 partials/blog/content.php:159
+#: partials/magazine/main-interview.php:77 partials/magazine/main.php:85
+msgid "Author:"
+msgstr "Yazar:"
+
+#: admin/screens/install_demo.php:40
+msgid "AUTO PARTS"
+msgstr "OTO PARÇALARI"
+
+#. Description of the theme
+msgid ""
+"Automotive, Cars, Vehicle, Boat Dealership, Classifieds WordPress Theme by "
+"StylemixThemes."
+msgstr ""
+"Otomotiv, Araba, Araçlar, Bot Satış Bayiliği, Sınıflandırma Wordpress Teması,"
+" Stylemix Themes."
+
+#: vc_templates/stm_car_listing_tabbed.php:163
+#: vc_templates/stm_car_listing_tabbed.php:220
+#: vc_templates/stm_listings_tabs_2.php:127
+msgid "available"
+msgstr "uygun"
+
+#: woocommerce/cart/cart.php:71
+msgid "Available on backorder"
+msgstr "Önsipariş için uygun"
+
+#: inc/woocommerce_setups_rental.php:460
+msgid "Availble payment method"
+msgstr "Geçerli ödeme yöntemi"
+
+#: woocommerce/single-product-reviews.php:105
+#: vc_templates/stm_sell_a_car.php:269 vc_templates/stm_sell_a_car.php:270
+#: vc_templates/stm_sell_a_car.php:293 vc_templates/stm_sell_a_car.php:294
+#: vc_templates/stm_sell_a_car.php:681 vc_templates/stm_sell_a_car.php:682
+#: vc_templates/stm_sell_a_car.php:705 vc_templates/stm_sell_a_car.php:706
+#: vc_templates/stm_sell_a_car.php:1094 vc_templates/stm_sell_a_car.php:1095
+#: vc_templates/stm_sell_a_car.php:1118 vc_templates/stm_sell_a_car.php:1119
+msgid "Average"
+msgstr "Ortalama"
+
+#: partials/user/dealer-reviews.php:12
+msgid "Average rating"
+msgstr "Ortalama puan"
+
+#: partials/frontend_customizer.php:102 inc/customizer/registration.php:581
+msgid "Background Image"
+msgstr "Arkaplan Görseli"
+
+#: inc/customizer/registration.php:1822
+msgid "Banner 1 - 900 x 60 pixels"
+msgstr "Banner 1 - 900 x 60 pixels"
+
+#: inc/customizer/registration.php:1823
+msgid "Banner 2 - 900 x 42 pixels"
+msgstr "Banner 2 - 900 x 42 pixels"
+
+#: inc/customizer/registration.php:1824
+msgid "Banner 3 - 748 x 42 pixels"
+msgstr "Banner 3 - 748 x 42 pixels"
+
+#: inc/customizer/registration.php:1825
+msgid "Banner 4 - 550 x 42 pixels"
+msgstr "Banner 4 - 550 x 42 pixels"
+
+#: inc/customizer/registration.php:1826
+msgid "Banner 5 - 374 x 42 pixels"
+msgstr "Banner 5 - 374 x 42 pixels"
+
+#: partials/user/dealer-reviews.php:24
+#, php-format
+msgid "Based on %d %s"
+msgstr "%d %s"
+
+#: woocommerce/single-product-reviews.php:71
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "İlk yorum yapan siz olun & ldquo; %s & rdquo;"
+
+#: partials/user/dealer-reviews.php:92 partials/user/dealer-reviews.php:96
+msgid "Be the first to write a review!"
+msgstr "İlk yorumu yazan olun!"
+
+#: vc_templates/stm_add_a_car.php:127
+msgid "Become a Dealer"
+msgstr "Bayi Olun"
+
+#: partials/user/private/user.php:46
+#: partials/user/private/become-dealer.php:220
+#: partials/user/private/mobile/user-profile.php:98
+msgid "Become a dealer"
+msgstr "Bayi ol"
+
+#: inc/customizer/registration.php:327
+msgid "Behance"
+msgstr "Behance"
+
+#: vc_templates/stm_sell_a_car.php:273 vc_templates/stm_sell_a_car.php:274
+#: vc_templates/stm_sell_a_car.php:297 vc_templates/stm_sell_a_car.php:298
+#: vc_templates/stm_sell_a_car.php:685 vc_templates/stm_sell_a_car.php:686
+#: vc_templates/stm_sell_a_car.php:709 vc_templates/stm_sell_a_car.php:710
+#: vc_templates/stm_sell_a_car.php:1098 vc_templates/stm_sell_a_car.php:1099
+#: vc_templates/stm_sell_a_car.php:1122 vc_templates/stm_sell_a_car.php:1123
+msgid "Below Average"
+msgstr "Ortalamanın Altı"
+
+#: woocommerce/content-product.php:70
+msgid "Best Seller Product"
+msgstr "En Çok Satan Ürün"
+
+#: partials/modals/test-drive.php:34
+msgid "Best time"
+msgstr "En yi zaman"
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr "Faturalandırma ve amp; Nakliye"
+
+#: woocommerce/order/order-details-customer.php:66
+#: woocommerce/myaccount/my-address.php:28
+#: woocommerce/myaccount/my-address.php:34
+msgid "Billing address"
+msgstr "Fatura Adresi"
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing details"
+msgstr "Fatura Detayları"
+
+#: woocommerce/order/form-tracking.php:28
+msgid "Billing email"
+msgstr "Fatura e-postası"
+
+#: inc/customizer/registration.php:1265 inc/customizer/registration.php:1455
+msgid "Bind WP Search form with Inventory"
+msgstr "Envanterden WP Aramayı alın"
+
+#: inc/customizer/registration.php:2102
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/customizer/registration.php:489
+msgid "Blue"
+msgstr "Mavi"
+
+#: vc_templates/stm_sell_a_car.php:967
+msgid "Boat Condition"
+msgstr "Botun Durumu"
+
+#: vc_templates/stm_sell_a_car.php:960
+msgid "Boat Information"
+msgstr "Bot Bilgileri"
+
+#: vc_templates/stm_sell_a_car.php:860 vc_templates/stm_sell_a_car.php:1007
+msgid "Boat type"
+msgstr "Bot tipi"
+
+#: inc/customizer/registration.php:947 inc/customizer/registration.php:950
+msgid "Boats"
+msgstr "Botlar"
+
+#: admin/screens/install_demo.php:31
+msgid "BOATS DEALERSHIP"
+msgstr "TEKNE BAYİ"
+
+#: inc/customizer/registration.php:690
+msgid "Body Font Color"
+msgstr "Gözde Font Rengi"
+
+#: inc/customizer/registration.php:667
+msgid "Body Font Family"
+msgstr "Gövde Font Ailesi"
+
+#: inc/customizer/registration.php:672
+msgid "Body Font Size"
+msgstr "Gövde Font Boyutu"
+
+#: inc/customizer/registration.php:682
+msgid "Body Line Height"
+msgstr "Gözde Font Yüksekliği"
+
+#: inc/customizer/controls/font-weight.php:24
+msgid "Bold"
+msgstr "Bold"
+
+#: inc/customizer/controls/font-weight.php:25
+msgid "Bold Italic"
+msgstr "Bold İtalik"
+
+#: inc/customizer/controls/font-weight.php:16
+msgid "Book"
+msgstr "Kitap"
+
+#: inc/customizer/controls/font-weight.php:17
+msgid "Book Italic"
+msgstr "Kitap İtalik"
+
+#: inc/setup.php:67
+msgid "Bottom menu"
+msgstr "Alt menü"
+
+#: partials/frontend_customizer.php:94
+msgid "Boxed"
+msgstr "Kutulu"
+
+#: vc_templates/stm_modern_filter.php:149
+msgid "Brand"
+msgstr "Marka"
+
+#: inc/customizer/registration.php:928
+msgid "Button label in header"
+msgstr "Başlıkta buton etiketi"
+
+#: inc/customizer/registration.php:933
+msgid "Button link in header"
+msgstr "Başlıkta buton linki"
+
+#: inc/customizer/registration.php:1951
+#: partials/user/dealer-write-review.php:46
+#: partials/user/dealer-single-review.php:11
+msgid "Buying Process"
+msgstr "Satın Alma Süreci"
+
+#: partials/user/dealer-single-review.php:104
+#: admin/includes/envato-market/inc/admin/functions.php:177
+#: admin/includes/envato-market/inc/admin/functions.php:382
+#: admin/includes/envato-market/inc/admin/admin.php:441
+msgid "By"
+msgstr "Tarafından"
+
+#: woocommerce/content-widget-reviews.php:33
+#: woocommerce/content-widget-reviews.php:46
+#, php-format
+msgid "by %s"
+msgstr "%s"
+
+#: admin/screens/system_status.php:285
+#, php-format
+msgctxt "by author"
+msgid "by %s"
+msgstr "%s tarafından"
+
+#: vc_templates/stm_sell_a_car.php:785 vc_templates/stm_sell_a_car.php:1198
+msgid ""
+"By submitting this form, you will be requesting trade-in value at no "
+"obligation and\n"
+"\t\twill be contacted within 48 hours by a sales representative."
+msgstr ""
+"Bu formu göndererek, değer için pazarlık teklif etmiş olacaksınız ve bir "
+"satış temsilcisi size 48 saat içerisinde ulaşacak."
+
+#: vc_templates/stm_sell_a_car.php:373
+msgid ""
+"By submitting this form, you will be requesting trade-in value at no "
+"obligation and\n"
+"\twill be contacted within 48 hours by a sales representative."
+msgstr ""
+"Bu formu göndererek, değer için pazarlık teklif etmiş olacaksınız ve bir "
+"satış temsilcisi size 48 saat içerisinde ulaşacak."
+
+#: vc_templates/stm_auto_loan_calculator.php:73
+#: partials/single-car/car-calculator.php:69
+#: partials/modals/car-calculator.php:85
+#: partials/single-car-boats/boats-calculator.php:58
+msgid "Calculate"
+msgstr "Hesapla"
+
+#: partials/modals/car-calculator.php:8
+msgid "Calculate Payment"
+msgstr "Ödeme Hesapla"
+
+#: vc_templates/stm_call_to_action.php:54
+msgid "Call to action"
+msgstr "Çağrı"
+
+#: woocommerce/myaccount/my-orders.php:94
+#: partials/user/private/user-inventory.php:9
+#: admin/includes/envato-market/inc/admin/admin.php:357
+msgid "Cancel"
+msgstr "İptal"
+
+#: inc/value_my_car/admin-page.php:58
+#: partials/rental/common/order-info-empty.php:7
+msgid "Car"
+msgstr "Araba"
+
+#: inc/stm-ajax.php:1177
+msgid "Car Added, uploading photos"
+msgstr "Araba eklendi, fotoğraflar yükleniyor"
+
+#: partials/single-car/car-actions.php:85
+#: partials/listing-cars/listing-list-loop-actions.php:95
+#: partials/listing-cars/listing-directive-list-loop-actions.php:88
+#: partials/single-car-boats/boats-actions.php:79
+#: partials/single-aircrafts/action-bar.php:88
+#: listings/loop/default/list/features.php:106
+msgid "Car brochure"
+msgstr "Araba broşürü"
+
+#: inc/customizer/registration.php:948
+msgid "Car Dealer"
+msgstr "Araba Bayisi"
+
+#: admin/screens/install_demo.php:10
+msgid "CAR DEALERSHIP ONE"
+msgstr "ARAÇ BAYİ BİRİMİ"
+
+#: admin/screens/install_demo.php:13
+msgid "CAR DEALERSHIP TWO"
+msgstr "ARAÇ BAYİ İKİ"
+
+#: listings/add_car/step_1.php:15
+#: partials/single-car-listing/car-main-four.php:20
+#: partials/single-car-listing/car-main.php:17
+msgid "Car Details"
+msgstr "Araba Detayları"
+
+#: inc/stm_single_dealer.php:7
+msgid "Car in stock"
+msgstr "Araba stokta"
+
+#: vc_templates/stm_sell_a_car.php:135 vc_templates/stm_sell_a_car.php:547
+msgid "Car Information"
+msgstr "Araba Bilgisi"
+
+#. Base ID
+#: listings/add_car/step_1_additional_fields.php:105
+msgid "Car Location"
+msgstr "Araba Lokasyonu"
+
+#: admin/screens/install_demo.php:37
+msgid "CAR MAGAZINE"
+msgstr "ARABA DERGİSİ"
+
+#: inc/woocommerce_setups_rental.php:37
+msgid "Car Option"
+msgstr "Araba Seçeneği"
+
+#: admin/screens/install_demo.php:34
+msgid "CAR REPAIR SERVICE"
+msgstr "ARAÇ TAMİR SERVİSİ"
+
+#: listings/add_car/title.php:9
+msgid "Car title"
+msgstr "Araba başlığı"
+
+#: inc/stm-ajax.php:1175
+msgid "Car Updated, uploading photos"
+msgstr "Araba güncellendi, fotoğraflar yükleniyor"
+
+#: inc/customizer/registration.php:1843
+msgid "CarGuru Enter Height (in pixels)"
+msgstr "CarGuru Yükseliği Gir ( Piksel olarak)"
+
+#: inc/customizer/registration.php:1832
+msgid "CarGuru Minimum Rating to display"
+msgstr "CarGuru gösterim için minimum puanlama"
+
+#: inc/customizer/registration.php:1817
+msgid "CarGuru Style"
+msgstr "CarGuru Stili"
+
+#: vc_templates/stm_image_filter_by_type.php:40
+#: vc_templates/stm_car_listing_tabbed.php:221
+#: vc_templates/stm_listings_tabs_2.php:127
+msgid "cars"
+msgstr "arabalar"
+
+#: inc/customizer/registration.php:1378 inc/customizer/registration.php:1552
+msgid "Cars for sale"
+msgstr "Satılık araçlar"
+
+#: inc/stm_single_dealer.php:5
+msgid "Cars in stock"
+msgstr "Arabalar stokta"
+
+#: vc_templates/stm_dealer_list.php:26
+msgid "Cars number"
+msgstr "Araba sayısı"
+
+#: partials/header/header-nav.php:62 partials/header/header-boats-mobile.php:55
+#: partials/header/header.php:54
+msgid "Cart"
+msgstr "Sepet"
+
+#: woocommerce/cart/cart-totals.php:29
+msgid "Cart totals"
+msgstr "Sepet toplamları"
+
+#: vc_templates/stm_post_meta_bottom.php:16 partials/blog/content.php:111
+msgid "Category:"
+msgstr "Kategori:"
+
+#: partials/user/private/dealer-settings.php:565
+#: partials/user/private/user-settings.php:117
+msgid "Change password"
+msgstr "Şifre Değiştir"
+
+#: admin/includes/envato-market/envato-market.php:156
+#: admin/includes/envato-market/envato-market.php:166
+#: admin/includes/envato-market/inc/items.php:100
+#: admin/includes/envato-market/inc/items.php:110
+#: admin/includes/envato-market/inc/github.php:87
+#: admin/includes/envato-market/inc/github.php:97
+#: admin/includes/envato-market/inc/api.php:80
+#: admin/includes/envato-market/inc/api.php:90
+#: admin/includes/envato-market/inc/admin/admin.php:77
+#: admin/includes/envato-market/inc/admin/admin.php:87
+msgid "Cheatin&#8217; huh?"
+msgstr "Hile & # 8217; ha?"
+
+#: inc/customizer/registration.php:1136
+msgid "Checkout \"order received\" endpoint page"
+msgstr "Ödeme \"sipariş alındı\" sayfası"
+
+#: vc_templates/stm_dealer_list.php:50
+msgid "Choose"
+msgstr "Seç"
+
+#: inc/customizer/registration.php:1139
+msgid "Choose a page to display content from, on order received endpoint."
+msgstr "Sipariş alında sayfasını görüntülemek için bir sayfa seçin."
+
+#: inc/customizer/registration.php:2115
+msgid "Choose archive sidebar"
+msgstr "Arşiv kenar çubuğu seçin"
+
+#: inc/customizer/registration.php:2121
+msgid "Choose default sidebar for single blog post"
+msgstr "Tek bir blog postu için varsayılan bir kenar çubuğu seçin"
+
+#: partials/user/private/dealer-settings.php:413
+#: partials/user/private/dealer-settings.php:444
+#: partials/user/private/user-settings.php:55
+#: partials/user/private/become-dealer.php:241
+msgid "Choose file"
+msgstr "Dosya seç"
+
+#: vc_templates/stm_sell_a_car.php:209 vc_templates/stm_sell_a_car.php:425
+#: vc_templates/stm_sell_a_car.php:621 vc_templates/stm_sell_a_car.php:837
+#: vc_templates/stm_sell_a_car.php:1034 vc_templates/stm_sell_a_car.php:1250
+msgid "Choose file..."
+msgstr "Dosya seçin..."
+
+#: listings/add_car/step_3.php:34 listings/add_car/step_3.php:70
+msgid "Choose files"
+msgstr "Dosya seçin"
+
+#: inc/customizer/registration.php:1250 inc/customizer/registration.php:1440
+msgid "Choose inventory sidebar"
+msgstr "Envanter kenar çubuğu seçin"
+
+#: inc/customizer/registration.php:1864
+msgid "Choose landing page for compare"
+msgstr "Karşılaştırma için bir sayfa seç"
+
+#: inc/customizer/registration.php:1232 inc/customizer/registration.php:1436
+msgid "Choose listing archive page"
+msgstr "Listeleme arşiv sayfası seçin"
+
+#: vc_templates/stm_rent_car_form.php:55 vc_templates/stm_rent_car_form.php:83
+msgid "Choose office"
+msgstr "Ofis seçin"
+
+#: inc/customizer/registration.php:1940
+msgid ""
+"Choose page for Add to car Page (Also, this page will be used for editing "
+"items)"
+msgstr ""
+"Araba sayfasında Ekle için bir sayfa seçin ( Bu sayfa bir şeyleri düzenlemek "
+"için de kullanılacak)"
+
+#: inc/customizer/registration.php:1894
+msgid "Choose page for Dealer list page"
+msgstr "Bayi listesi sayfası için bir sayfa seçin"
+
+#: inc/customizer/registration.php:1908 inc/customizer/registration.php:1924
+msgid "Choose page for Default user sidebar"
+msgstr "Varsayılan kullanıcı kenar çubuğu için bir sayfa seçin"
+
+#: inc/customizer/registration.php:1879 inc/customizer/registration.php:1901
+msgid "Choose page for login User/Dealer"
+msgstr "Kullanıcı/Bayi girişi için bir sayfa seçin"
+
+#: inc/customizer/registration.php:1132
+msgid "Choose page for reservation date"
+msgstr "Rezervasyon tarihi için sayfa seçin"
+
+#: inc/woocommerce_setups_rental.php:461
+msgid ""
+"Choose payment method available only for this variable product. If this "
+"product will be in cart, all other payment methods will be disabled on "
+"checkout page."
+msgstr ""
+"Yalnızca bu değişken ürün için geçerli olan ödeme yöntemini seçin. Bu ürün "
+"sepetinizde olacaksa, ödeme sayfasında diğer tüm ödeme yöntemleri devre dışı "
+"bırakılacaktır."
+
+#: inc/customizer/registration.php:2083
+msgid "Choose Shop Sidebar"
+msgstr "Alışveriş Kenar Çubuğu Seçin"
+
+#: woocommerce/myaccount/my-address.php:87
+#: partials/listing-cars/listing-grid-loop-magazine.php:67
+msgid "City"
+msgstr "Kent"
+
+#: partials/single-car/car-mpg.php:12
+#: partials/single-car-boats/boats-mpg.php:12
+msgid "city mpg"
+msgstr "şehir mpg"
+
+#: admin/screens/install_demo.php:16
+msgid "CLASSIFIED LISTING"
+msgstr "SINIFLANDIRILMIŞ LİSTE"
+
+#: admin/screens/install_demo.php:19
+msgid "CLASSIFIED LISTING 2"
+msgstr "SINIFLANDIRMA LİSTESİ 2"
+
+#: admin/screens/install_demo.php:22
+msgid "CLASSIFIED LISTING 3"
+msgstr "SINIFLANDIRILMIŞ LİSTE 3"
+
+#: admin/screens/install_demo.php:43
+msgid "CLASSIFIED LISTING 4"
+msgstr ""
+
+#: vc_templates/stm_sell_a_car.php:265 vc_templates/stm_sell_a_car.php:266
+#: vc_templates/stm_sell_a_car.php:289 vc_templates/stm_sell_a_car.php:290
+#: vc_templates/stm_sell_a_car.php:677 vc_templates/stm_sell_a_car.php:678
+#: vc_templates/stm_sell_a_car.php:701 vc_templates/stm_sell_a_car.php:702
+#: vc_templates/stm_sell_a_car.php:1090 vc_templates/stm_sell_a_car.php:1091
+#: vc_templates/stm_sell_a_car.php:1114 vc_templates/stm_sell_a_car.php:1115
+msgid "Clean"
+msgstr "Temiz"
+
+#: vc_templates/stm_rent_car_form.php:119
+msgid "Clear Data"
+msgstr "Net veriler"
+
+#: admin/screens/startup.php:68
+#, php-format
+msgid ""
+"Click on this <a href=\"%s\" target=\"_blank\">Generate A Personal Token</a> "
+"link. <strong>IMPORTANT:</strong> You must be logged into the same "
+"Themeforest account that purchased %s. If you are logged in already, look in "
+"the top menu bar to ensure it is the right account. If you are not logged in,"
+" you will be directed to login then directed back to the Create A Token Page."
+msgstr ""
+"Buna tıklayın<a href=\"%s\" target=\"_blank\">Kişisel bir token linki "
+"üretin</a>. <strong>ÖNEMLİ:</strong> %s'i aldığınız hesapla ThemeForest'a "
+"giriş yapmış olmalısınız. Eğer zaten giriş yaptıysanız yukarıdaki menüden "
+"doğru hesap olup olmadığını kontrol edin. Eğer giriş yapmadıysanız, Bir "
+"Token Üret sayfasına yönlendirileceksiniz."
+
+#: footer.php:61
+msgid "Close"
+msgstr "Kapat"
+
+#: vc_templates/stm_working_days.php:32
+msgid "Closed"
+msgstr "Kapalı"
+
+#: partials/frontend_customizer.php:121
+msgid "Color Skin"
+msgstr "Ten Rengi"
+
+#: partials/single-car/car-review_rating.php:41
+#: partials/listing-cars/listing-grid-loop-magazine.php:90
+msgid "Comfort"
+msgstr "Konfor"
+
+#. Name of the template
+msgid "Coming soon"
+msgstr "Çok yakında"
+
+#: vc_templates/stm_recent_posts.php:62
+msgid "Comment"
+msgstr "Yorum yaz"
+
+#: comments.php:28
+msgid "Comment navigation"
+msgstr "Yorum navigasyonu"
+
+#: vc_templates/stm_sell_a_car.php:27 vc_templates/stm_sell_a_car.php:357
+#: vc_templates/stm_sell_a_car.php:458 vc_templates/stm_sell_a_car.php:769
+#: vc_templates/stm_sell_a_car.php:871 vc_templates/stm_sell_a_car.php:1182
+msgid "Comments"
+msgstr "Yorumlar"
+
+#: comments.php:45
+msgid "Comments are closed."
+msgstr "Yorumlar kapatılmıştır."
+
+#: admin/screens/support.php:84
+msgid "Community Forum"
+msgstr "Forum"
+
+#: woocommerce/myaccount/my-address.php:79
+msgid "Company"
+msgstr "şirket"
+
+#: partials/user/private/become-dealer.php:66
+msgid "Company license"
+msgstr "Şirket lisansı"
+
+#: inc/user-extra.php:126 partials/user/private/become-dealer.php:65
+msgid "Company name"
+msgstr "Şirket adı"
+
+#: partials/user/private/dealer-settings.php:511
+#: partials/user/private/become-dealer.php:260
+msgid "Company name*"
+msgstr "Şirket Adı*"
+
+#: partials/user/private/dealer-settings.php:463
+msgid "Company Website URL"
+msgstr "Web Sitesi URL'si"
+
+#: inc/customizer/registration.php:1857
+#: partials/single-car/single-car-compare-modal.php:13
+#: partials/single-car-motorcycle/car-gallery.php:39
+#: partials/single-car-boats/single-car-compare-modal.php:13
+#: partials/header/header-magazine.php:80
+#: partials/header/header-magazine.php:110
+#: partials/header/header-aircrafts.php:84
+#: partials/header/header-aircrafts.php:118 partials/header/header-nav.php:45
+#: partials/header/header-dealer-two.php:82
+#: partials/header/header-boats-mobile.php:64 partials/header/header.php:51
+#: partials/header/header-listing.php:117 partials/header/header-boats.php:81
+#: partials/listing-cars/motos/grid.php:118
+#: partials/listing-cars/motos/list.php:135
+#: partials/listing-cars/motos/moto-single-grid.php:117
+msgid "Compare"
+msgstr "Karşılaştır"
+
+#: listings/loop/default/list/features.php:91
+msgid "compare"
+msgstr ""
+
+#: vc_templates/stm_compare_cars.php:43
+msgid "Compare Boats"
+msgstr "Botları karşılaştır"
+
+#: inc/customizer/registration.php:1861
+msgid "Compare page"
+msgstr "Sayfa karşılaştır"
+
+#: vc_templates/stm_compare_cars.php:41 partials/compare.php:43
+#: partials/compare.php:224
+msgid "Compare Vehicles"
+msgstr "Araçları Karşılaştır"
+
+#: woocommerce/myaccount/form-edit-account.php:75
+msgid "Confirm new password"
+msgstr "Yeni şifreyi onayla"
+
+#: partials/user/private/dealer-settings.php:54
+msgid "Confirmation password is wrong"
+msgstr "Konfirmasyon şifresi hatalı"
+
+#: vc_templates/stm_sell_a_car.php:149 vc_templates/stm_sell_a_car.php:561
+#: vc_templates/stm_sell_a_car.php:974
+msgid "Contact details"
+msgstr "İletişim detayları"
+
+#: vc_templates/stm_contact_information.php:7
+msgid "Contact Information"
+msgstr "İletişim Bilgileri"
+
+#: partials/rental/common/order-info-accept.php:8
+msgid "Continue"
+msgstr "Devam Et"
+
+#: partials/blog/grid-loop.php:44 partials/blog/content-grid-loop.php:82
+msgid "Continue reading"
+msgstr "Okumaya devam et"
+
+#: vc_templates/stm_rent_car_form.php:123
+msgid "Continue reservation"
+msgstr "Rezervasyona devam et"
+
+#: woocommerce/checkout/thankyou.php:108
+msgid "Continue Shopping"
+msgstr "Alışverişe devam"
+
+#: inc/customizer/controls/input_controller.php:113
+#: inc/customizer/controls/input_controller.php:135
+msgid "Conver. Rate"
+msgstr "Dönüşüm Oranı"
+
+#: inc/customizer/registration.php:1312 inc/customizer/registration.php:1502
+msgid "Conversion Rate should be delimited by dot (example: 1.2)"
+msgstr "Dönüşüm Oranı notlarla gösterilmeli ( mesela 1.2)"
+
+#: inc/customizer/registration.php:1201
+msgid "Copyright"
+msgstr "Telif Hakları"
+
+#: inc/customizer/registration.php:1206
+msgid "Copyright Socials"
+msgstr "Telif Hakkı Grupları"
+
+#: inc/customizer/registration.php:505
+msgid "Corall"
+msgstr "Mercan"
+
+#: woocommerce/myaccount/my-address.php:67
+msgid "Country"
+msgstr "ülke"
+
+#: woocommerce/cart/cart.php:122 partials/rental/common/coupon-form.php:5
+#: partials/rental/common/coupon.php:11
+msgid "Coupon code"
+msgstr "Kupon kodu"
+
+#: partials/rental/common/coupon.php:7
+msgid "Coupons"
+msgstr "Kuponlar"
+
+#: admin/screens/support.php:16
+msgid "Create A Support Account"
+msgstr "Bir Yardım Hesabı Oluşturun"
+
+#: woocommerce/checkout/form-billing.php:73
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+"Aşağıdaki bilgileri girerek bir hesap oluşturun. Eğer daha önceden giriş "
+"yaptıysanız lütfen sayfanın en üstünden giriş yapın."
+
+#: woocommerce/checkout/form-billing.php:62
+msgid "Create an account?"
+msgstr "Bir hesap oluştur?"
+
+#: woocommerce/myaccount/orders.php:60
+msgid "Created Date"
+msgstr ""
+
+#: inc/customizer/registration.php:2185
+msgid "CSS"
+msgstr "CSS"
+
+#: inc/customizer/registration.php:2049
+#: inc/customizer/controls/input_controller.php:105
+#: inc/customizer/controls/input_controller.php:127
+msgid "Currency"
+msgstr "Para Birimi"
+
+#: inc/multiple_currencies.php:22 inc/multiple_currencies.php:29
+#, php-format
+msgid "Currency (%s)"
+msgstr "Para Birimi (%s)"
+
+#: hb_templates/elements/multi-currency/multi-currency.php:16
+msgid "Currency: "
+msgstr "Para birimi: "
+
+#: partials/user/private/dealer-settings.php:640
+#: partials/user/private/user-settings.php:203
+msgid "Current Password"
+msgstr "Mevcut Şifre"
+
+#: woocommerce/myaccount/form-edit-account.php:60
+msgid "Current password"
+msgstr "Şimdiki Şifre"
+
+#: woocommerce/myaccount/form-edit-account.php:62
+msgid "Current password (leave blank to leave unchanged)"
+msgstr "Geçerli şifre (değişmeden bırakmak için boş bırakın)"
+
+#: partials/user/private/dealer.php:78 partials/user/private/dealer.php:106
+#: partials/user/private/user.php:85 partials/user/private/user.php:113
+#: partials/user/private/mobile/dealer-profile.php:46
+#: partials/user/private/mobile/dealer-profile.php:76
+#: partials/user/private/mobile/user-profile.php:57
+#: partials/user/private/mobile/user-profile.php:85
+msgid "Current Plan"
+msgstr "Mevcut plan"
+
+#: admin/screens/system_status.php:111
+msgid ""
+"Current time limit is sufficient, but if you need import demo content, the "
+"required time is <strong>300</strong>."
+msgstr ""
+"Mevcut zaman limiti yeterli değil, eğer demo içerik eklemeniz gerekiyorsa, "
+"gerekli zaman <strong>300</strong>."
+
+#: inc/customizer/registration.php:549
+msgid "Custom Base Car Dealer Color"
+msgstr "Özel Araba Bayisi Rengi"
+
+#: inc/customizer/registration.php:517 inc/customizer/registration.php:530
+#: inc/customizer/registration.php:638
+msgid "Custom Base Color"
+msgstr "Özel Zemin Rengi"
+
+#: inc/customizer/registration.php:561
+msgid "Custom Base Listing Color"
+msgstr "Özel Zemin Listeleme Rengi"
+
+#: inc/customizer/registration.php:592
+msgid "Custom Bg Image"
+msgstr "Özel Bg Görseli"
+
+#: inc/customizer/registration.php:479 inc/customizer/registration.php:494
+#: inc/customizer/registration.php:509 inc/customizer/registration.php:633
+msgid "Custom Colors"
+msgstr "Özel Renkler"
+
+#: listings/add_car/step_6.php:48
+msgid "Custom label instead of price"
+msgstr "Fiyat yerine özel etiket"
+
+#: inc/customizer/registration.php:555
+msgid "Custom Secondary Car Dealer Color"
+msgstr "Özel İkinci Araba Bayisi Rengi"
+
+#: inc/customizer/registration.php:523 inc/customizer/registration.php:536
+#: inc/customizer/registration.php:644
+msgid "Custom Secondary Color"
+msgstr "Özel İkinci Renk"
+
+#: inc/customizer/registration.php:567
+msgid "Custom Secondary Listing Color"
+msgstr "Özel İkinci Listeleme Rengi"
+
+#: inc/customizer/registration.php:542
+msgid "Custom Third Color"
+msgstr "Özel Üçüncü Renk"
+
+#: woocommerce/order/order-details-customer.php:27
+msgid "Customer Details"
+msgstr "Müşteri Detayları"
+
+#: inc/customizer/registration.php:1946
+#: partials/user/dealer-write-review.php:45
+#: partials/user/dealer-single-review.php:10
+msgid "Customer Service"
+msgstr "Müşteri Hizmeteler"
+
+#: admin/includes/envato-market/inc/admin/functions.php:103
+msgid "Customize"
+msgstr "Özelleştirmek"
+
+#: admin/includes/envato-market/inc/admin/functions.php:103
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr "Özelleştir & # 8220; %s & # 8221;"
+
+#: inc/customizer/registration.php:1242
+msgid "Dark"
+msgstr "karanlık"
+
+#: vc_templates/stm_dealer_list.php:25 woocommerce/myaccount/my-orders.php:26
+#: woocommerce/myaccount/my-orders.php:52
+#: woocommerce/myaccount/my-orders.php:71
+msgid "Date"
+msgstr "Tarih"
+
+#: woocommerce/checkout/thankyou.php:61
+msgid "Date:"
+msgstr "Tarih:"
+
+#: vc_templates/stm_modern_filter.php:407 listings/filter/actions.php:6
+#: listings/boats/filter/actions.php:9
+#: listings/motorcycles/filter/actions.php:36
+msgid "Date: newest first"
+msgstr "Tarih: Önce en yeni"
+
+#: vc_templates/stm_modern_filter.php:408 listings/filter/actions.php:7
+#: listings/boats/filter/actions.php:10
+#: listings/motorcycles/filter/actions.php:37
+msgid "Date: oldest first"
+msgstr "Tarih: Önce en eski"
+
+#: admin/includes/envato-market/inc/admin/functions.php:293
+msgid "Deactivate"
+msgstr "Devre dışı bırakmak"
+
+#: admin/includes/envato-market/inc/admin/functions.php:294
+#, php-format
+msgid "Deactivate %s"
+msgstr "%s devre dışı bırak"
+
+#: inc/woocommerce_setups.php:102
+msgid "Dealer"
+msgstr "Bayi"
+
+#: partials/user/private/dealer.php:49
+#: partials/user/private/mobile/dealer-profile.php:105
+msgid "Dealer Contact Phone"
+msgstr "Bayi İletişim Numarası"
+
+#: partials/user/private/dealer.php:56
+#: partials/user/private/mobile/dealer-profile.php:113
+msgid "Dealer Email"
+msgstr "Bayi Emaili"
+
+#: inc/user-extra.php:170
+msgid "Dealer Image"
+msgstr "Bayi Resmi"
+
+#: inc/user-extra.php:179
+msgid "Dealer image(stores URL and path to image)"
+msgstr "Bayi resmi( URL'yi kaydeder ve görseli takip eder)"
+
+#: partials/user/private/dealer-settings.php:505
+msgid "Dealer Information"
+msgstr "Bayi Bilgileri"
+
+#: partials/user/dealer-inventory.php:28
+msgid "Dealer Inventory"
+msgstr "Bayi Envanteri"
+
+#: inc/customizer/registration.php:1891
+msgid "Dealer list page"
+msgstr "Bayi listesi sayfası"
+
+#: inc/user-extra.php:184
+msgid "Dealer Location"
+msgstr "Bayi Lokasyonu"
+
+#: inc/user-extra.php:190
+msgid "Dealer location address"
+msgstr "Bayi lokasyon adresi"
+
+#: inc/user-extra.php:194
+msgid "Dealer location latitude"
+msgstr "Bayi lokasyon enlem"
+
+#: inc/user-extra.php:198
+msgid "Dealer location longitude"
+msgstr "Bayi lokasyon boylam"
+
+#: inc/user-extra.php:156
+msgid "Dealer Logo"
+msgstr "Bayi Logosu"
+
+#: inc/user-extra.php:165
+msgid "Dealer logo(stores URL and path to image)"
+msgstr "Bayi logosu ( URL'yi kaydeder ve görseli takip eder)"
+
+#: inc/customizer/registration.php:1974
+msgid "Dealer Post Images Upload Limit:"
+msgstr "Bayi post görseli yükleme limiti:"
+
+#: inc/customizer/registration.php:1969
+msgid "Dealer Posts Limit:"
+msgstr "Bayi post limiti:"
+
+#: partials/user/dealer-reviews.php:9
+msgid "Dealer Rating"
+msgstr "Bayi Puanı"
+
+#: partials/user/dealer-public-profile.php:145
+msgid "Dealer Reviews"
+msgstr "Bayi Yorumları"
+
+#: inc/user-extra.php:108
+msgid "Dealer Settings"
+msgstr "Bayi Ayarları"
+
+#: inc/customizer/registration.php:1928
+msgid "Dealer Sidebar Position"
+msgstr "Bayi kenar çubuğu pozisyonu"
+
+#: partials/user/dealer-public-profile.php:139
+msgid "Dealer's Inventory"
+msgstr "Bayi Envanteri"
+
+#: inc/user-filter.php:223
+msgid "Dealerships"
+msgstr "Bayiler"
+
+#: inc/user-filter.php:221
+msgid "Dealerships near"
+msgstr "Yakındaki bayiler"
+
+#: admin/screens/install_demo.php:101
+msgid "Decline"
+msgstr "düşüş"
+
+#: inc/customizer/registration.php:478 inc/customizer/registration.php:488
+#: inc/customizer/registration.php:504 inc/customizer/registration.php:632
+msgid "Default"
+msgstr "Varsayılan"
+
+#: inc/customizer/registration.php:1422 inc/customizer/registration.php:1578
+#: inc/customizer/registration.php:1601
+msgid "Default choice (Ex: 9)."
+msgstr "Varsayılan seçim (Örn: 9)."
+
+#: inc/customizer/registration.php:1921
+msgid "Default dealer sidebar"
+msgstr "Varsayılan bayi kenar çubuğu"
+
+#: inc/customizer/registration.php:1690
+msgid "Default down payment type"
+msgstr "Varsayılan peşinat türü"
+
+#: inc/customizer/registration.php:1679
+msgid "Default interest rate"
+msgstr "Varsayılan faiz oranı"
+
+#: inc/customizer/registration.php:1684
+msgid "Default Month Period"
+msgstr "Varsayılan ay periyotu"
+
+#: inc/setup.php:119
+msgid "Default sidebar for Single Boat Page (Boats layout)"
+msgstr "Tek Bot Sayfası içi arsayılan kenar çubuğu (Bot sayfa düzeni)"
+
+#: inc/setup.php:107
+msgid "Default sidebar for Single Car Page (Listing layout)"
+msgstr ""
+"Tek Araba Sayfası için Varsayılan Kenar Çubuğu ( Listeleme sayfa düzeni)"
+
+#: inc/customizer/registration.php:1376 inc/customizer/registration.php:1550
+msgid "Default Title"
+msgstr "Varsayılan Başlık"
+
+#: inc/customizer/registration.php:1905
+msgid "Default user sidebar"
+msgstr "Varsayılan kullanıcı kenar çubuğu"
+
+#: admin/screens/system_status.php:213
+msgid ""
+"Defines the maximum length of a variable that is registered through a POST "
+"request."
+msgstr "POST isteğiyle kaydedilen bir değişkenin maksimum uzunluğunu tanımlar."
+
+#: woocommerce/cart/cart.php:31
+#: partials/listing-cars/listing-list-directory-edit-loop.php:160
+#: partials/user/private/user-inventory.php:4
+#: partials/user/private/user-inventory.php:8
+#: admin/includes/envato-market/inc/admin/functions.php:306
+#: admin/includes/envato-market/inc/admin/admin.php:385
+#: admin/includes/envato-market/inc/admin/view/callback/setting/items.php:24
+msgid "Delete"
+msgstr "Sil"
+
+#: admin/includes/envato-market/inc/admin/functions.php:307
+#, php-format
+msgid "Delete %s"
+msgstr "%s sil"
+
+#: inc/customizer/registration.php:334
+msgid "Delicious"
+msgstr "Delicious"
+
+#: admin/screens/install_demo.php:132
+msgid "Demo content"
+msgstr "Demo içeriği"
+
+#: admin/includes/admin_screens.php:53 admin/includes/admin_screens.php:54
+#: admin/includes/admin_screens.php:155
+msgid "Demo import"
+msgstr "Demo göster"
+
+#: admin/screens/install_demo.php:107
+msgid "Demo Installation"
+msgstr "Demo Kurulumu"
+
+#: woocommerce/single-product/tabs/description.php:25
+msgid "Description"
+msgstr "Açıklama"
+
+#: inc/value_my_car/admin-page.php:59
+msgid "Details"
+msgstr "ayrıntılar"
+
+#: admin/includes/envato-market/inc/admin/view/partials/intro.php:16
+#, php-format
+msgid ""
+"Development of this plugin is done on %sGitHub%s. Pull requests welcome."
+msgstr ""
+"Bu eklentinin geliştirilmesi %s GitHub %s . Çekme istekleri kabul edilir."
+
+#: partials/listing-cars/listing-list-directory-edit-loop.php:148
+msgid "Disable"
+msgstr "Devre Dışı Bırak"
+
+#: partials/user/private/user-favourite.php:62
+#: partials/user/private/user-inventory.php:21
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: inc/rental/PricePerHour.php:109
+msgid "Discount By Days"
+msgstr "Günlere Göre İndirim"
+
+#: inc/woocommerce_setups_rental.php:1199
+msgid "Discounts:"
+msgstr "İndirimler:"
+
+#: inc/customizer/registration.php:1275 inc/customizer/registration.php:1465
+msgid "Display Additional Features on Inventory Filter"
+msgstr "Envanter filtresinde ek özellikler görüntüleyin"
+
+#: inc/customizer/registration.php:1386 inc/customizer/registration.php:1560
+msgid "Display generated car title as:"
+msgstr "Arabanın başlığını şu şekilde göster:"
+
+#: woocommerce/myaccount/form-edit-account.php:42
+msgid "Display name"
+msgstr "Ekran adı"
+
+#: inc/user-filter.php:221 inc/user-filter.php:223
+msgid "Displaying"
+msgstr "Görüntüleniyor"
+
+#: inc/user-filter.php:201
+msgid "Displaying Dealerships near"
+msgstr "Yakındaki Bayiler Görüntüleniyor"
+
+#: inc/user-filter.php:35
+msgid "Displaying Local Car Dealerships"
+msgstr "Lokal Araba Bayilikleri Görüntüleniyor"
+
+#: admin/screens/system_status.php:58
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr "WordPress'in Hata Ayıklama Modunda olup olmadığını görüntüler."
+
+#: partials/listing-cars/listing-list-directory-loop-animate.php:315
+#: listings/loop/classified/list/options.php:72
+#: listings/loop/default/list/options.php:70
+msgid "Distance"
+msgstr "Mesafe"
+
+#: listings/classified/filter/actions.php:33
+msgid "Distance : nearby"
+msgstr "Mesafe: yakında"
+
+#: inc/stm-ajax.php:618
+msgid "Do not cheat"
+msgstr "Lütfen kopya çekmeyin"
+
+#: inc/stm-ajax.php:560
+msgid "Do not cheat!"
+msgstr "Lütfen kopya çekmeyin!"
+
+#: partials/user/private/user-inventory.php:62
+msgid "Do you want to delete Listing images permanently?"
+msgstr "Listing resimlerini kalıcı olarak silmek istiyor musunuz?"
+
+#: admin/screens/support.php:47
+msgid "Documentation"
+msgstr "Dokümentasyon"
+
+#: vc_templates/stm_auto_loan_calculator.php:68
+#: partials/single-car/car-calculator.php:64
+#: partials/modals/car-calculator.php:78
+#: partials/single-car-boats/boats-calculator.php:53
+msgid "Down Payment"
+msgstr "Ödeme adımı"
+
+#: inc/customizer/registration.php:1700
+msgid "Down payment amount"
+msgstr "Peşinat tutarı"
+
+#: vc_templates/stm_auto_loan_calculator.php:180
+#: partials/single-car/car-calculator.php:161
+#: partials/modals/car-calculator.php:180
+#: partials/single-car-boats/boats-calculator.php:150
+msgid "Down payment can not be more than vehicle price"
+msgstr "Ödeme adımı araç fiyatından yüksek olamaz"
+
+#: inc/customizer/registration.php:1706
+msgid "Down payment percent (%)"
+msgstr "Peşinat yüzdesi (%)"
+
+#: partials/single-car/car-actions.php:82
+#: partials/listing-cars/listing-list-loop-actions.php:92
+#: partials/listing-cars/listing-directive-list-loop-actions.php:85
+#: partials/single-car-boats/boats-actions.php:76
+#: partials/single-aircrafts/action-bar.php:85
+#: listings/loop/default/list/features.php:103
+msgid "Download brochure"
+msgstr "Broşürü yükle"
+
+#: admin/includes/envato-market/inc/admin/upgrader.php:45
+#: admin/includes/envato-market/inc/admin/upgrader.php:83
+msgid "Downloading the Envato Market install package&#8230;"
+msgstr "Envato Market yükleme paketini indirme & # 8230;"
+
+#: admin/includes/envato-market/inc/admin/upgrader.php:34
+#: admin/includes/envato-market/inc/admin/upgrader.php:72
+msgid "Downloading the Envato Market upgrade package&#8230;"
+msgstr "Envato Market yükseltme paketini indirme & # 8230;"
+
+#: inc/customizer/registration.php:328
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/woocommerce_setups_rental.php:362
+msgid "Driver license"
+msgstr "Ehliyet"
+
+#: vc_templates/stm_rent_car_form.php:96
+msgid "Drop Date/Time*"
+msgstr "İade Tarih/ Saat*"
+
+#: inc/woocommerce_setups_rental.php:524
+#: partials/rental/wizard-nav/nav-step-1.php:38
+msgid "Drop off"
+msgstr "Teslim etme"
+
+#: inc/customizer/registration.php:335
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: woocommerce/myaccount/my-address.php:122
+#: partials/listing-cars/listing-list-directory-edit-loop.php:143
+#: partials/listing-cars/listing-list-directory-edit-loop.php:156
+msgid "Edit"
+msgstr "Düzenle"
+
+#: listings/add_car/check_user.php:82
+msgid "Edit Listing"
+msgstr "Liste düzenleme"
+
+#: woocommerce/myaccount/form-login.php:137
+msgid "EMAIL"
+msgstr "EMAIL"
+
+#: woocommerce/single-product-reviews.php:84 partials/modals/test-drive.php:20
+#: partials/modals/get-car-price.php:20 partials/modals/trade-offer.php:26
+msgid "Email"
+msgstr "Email"
+
+#: vc_templates/stm_login_register.php:107 listings/add_car/registration.php:42
+msgid "Email *"
+msgstr "Email*"
+
+#: vc_templates/stm_sell_a_car.php:345 vc_templates/stm_sell_a_car.php:757
+#: vc_templates/stm_sell_a_car.php:1170
+msgid "Email Address"
+msgstr "Email adresi"
+
+#: woocommerce/myaccount/form-edit-account.php:48
+#: woocommerce/myaccount/form-login.php:140
+msgid "Email address"
+msgstr "Email adresi"
+
+#: inc/email_template_manager/email_template_manager.php:4
+#: inc/email_template_manager/main.php:17
+msgid "Email Template Manager"
+msgstr "E-posta Şablon Yöneticisi"
+
+#: woocommerce/order/form-tracking.php:28
+msgid "Email you used during checkout."
+msgstr "Ödeme sırasında kullandığınız e-posta."
+
+#: partials/user/private/dealer-settings.php:491
+#: partials/user/private/user-settings.php:99
+msgid "Email*"
+msgstr "Email*"
+
+#: vc_templates/stm_contact_information.php:38
+#: woocommerce/order/order-details-customer.php:39
+#: woocommerce/checkout/thankyou.php:67
+msgid "Email:"
+msgstr "Email:"
+
+#: vc_templates/stm_compare_cars.php:88 vc_templates/stm_compare_cars.php:146
+#: vc_templates/stm_compare_cars.php:299 vc_templates/stm_compare_cars.php:380
+#: partials/compare.php:65 partials/compare.php:123 partials/compare.php:237
+#: partials/compare.php:318
+msgid "Empty"
+msgstr "Boş"
+
+#: partials/listing-cars/listing-list-directory-edit-loop.php:146
+msgid "Enable"
+msgstr "Aktive Et"
+
+#: inc/customizer/registration.php:576
+msgid "Enable Boxed Layout"
+msgstr "Kutulu Düzeni Aktive Et"
+
+#: inc/customizer/registration.php:1989
+msgid "Enable Dealer ads moderation"
+msgstr "Bayi reklam moderasyonunu aktive et"
+
+#: inc/customizer/registration.php:1402
+msgid "Enable dealer info on listing"
+msgstr "Bayi bilgisini listelemede aktive et"
+
+#: inc/customizer/registration.php:1397
+msgid "Enable favorites"
+msgstr "Favorileri aktive et"
+
+#: inc/customizer/registration.php:2004
+msgid "Enable moderation for dealer review"
+msgstr "Bayi incelemesi için denetlemeyi etkinleştir"
+
+#: inc/customizer/registration.php:1994
+msgid "Enable Pay Per Listing"
+msgstr "Giriş Başına Ödemeyi Etkinleştir"
+
+#: inc/customizer/registration.php:1999
+msgid "Enable Payed Featured Listing"
+msgstr "Ücretli Özel Listeleri Etkinleştir"
+
+#: inc/customizer/registration.php:602
+msgid "Enable Preloader"
+msgstr "Yükleyiciyi Aktive Et"
+
+#: inc/customizer/registration.php:2023
+msgid "Enable Pricing Plans (Woocommerce)"
+msgstr "Fiyatlandırma Planlarını Aktive Et (Woocommerce)"
+
+#: inc/customizer/registration.php:1984
+msgid "Enable User ads moderation"
+msgstr "Kullanıcı reklam moderasyonunu aktive et"
+
+#: inc/rental/PriceForDatePeriod.php:371 inc/rental/PriceForDatePeriod.php:407
+msgid "End Date"
+msgstr "Bitiş tarihi"
+
+#: listings/add_car/step_1.php:105
+#, php-format
+msgid "Enter %s %s"
+msgstr "%s %s girin"
+
+#: vc_templates/stm_dealer_list.php:78
+msgid "Enter a location"
+msgstr "Konum belirt"
+
+#: admin/screens/startup.php:69
+msgid ""
+"Enter a name for your token, then check the boxes for <strong>View Your "
+"Envato Account Username, Download Your Purchased Items, Verify Purchases "
+"You've Made</strong> and <strong>List Purchases You've Made</strong> from "
+"the permissions needed section. Check the box to agree to the terms and "
+"conditions, then click the <strong>Create Token button</strong>"
+msgstr ""
+"<strong> için kutucukları işaretleyin ve token'ınıza bir isim verin. Envato "
+"kullanıcı adınızı görüntüleyip satın aldığını ürünleri yükleyin ve </strong> "
+"ve <strong> alışverişini onaylayın. Yaptığınız alışverişleri</strong> "
+"buradan izin alınması gereken bölümler için listeleyin. Kapsam ve Kullanım "
+"Koşulları'nı kabul etmek için kutuyu işaretleyin ve <strong> tıklayıp bir "
+"token butonu yaratın</strong>"
+
+#: partials/user/private/dealer-settings.php:514
+#: partials/user/private/become-dealer.php:263
+msgid "Enter Company Name"
+msgstr "Şirket Adı Girin"
+
+#: listings/add_car/step_1_additional_fields.php:11
+msgid "Enter date"
+msgstr "Tarih girin"
+
+#: vc_templates/stm_login_register.php:108 listings/add_car/registration.php:43
+#: partials/user/private/dealer-settings.php:492
+#: partials/user/private/user-settings.php:102
+msgid "Enter E-mail"
+msgstr "E-mail girin"
+
+#: partials/user/private/dealer-settings.php:472
+#: partials/user/private/user-settings.php:76
+msgid "Enter First Name"
+msgstr "Adınızı girin"
+
+#: vc_templates/stm_login_register.php:93 listings/add_car/registration.php:28
+msgid "Enter First name"
+msgstr "Adınızı girin"
+
+#: inc/customizer/registration.php:464
+msgid ""
+"Enter here the secret api key you have created on Google APIs. You can "
+"enable MAP API in Google APIs > Google Maps APIs > Google Maps JavaScript "
+"API."
+msgstr ""
+"Google API'de yarattığınız api anahtarını buraya girin. Google API'lerdeki "
+"MAP API'yi şöyle aktive edebilirsiniz > Google Maps APIs > Google Maps "
+"JavaScript API."
+
+#: inc/customizer/registration.php:1221
+msgid ""
+"Enter in any custom script to include in your site's footer. Be sure to use "
+"double quotes for strings."
+msgstr ""
+"Herhanig bir özel senaryoyu sitenizin altbilgisini ekleyerek girin. "
+"Stringler için iki kere quote kullanın."
+
+#: partials/user/private/dealer-settings.php:478
+#: partials/user/private/user-settings.php:84
+msgid "Enter Last Name"
+msgstr "Soyadınızı girin"
+
+#: vc_templates/stm_login_register.php:97 listings/add_car/registration.php:32
+msgid "Enter Last name"
+msgstr "Soyadınızı girin"
+
+#: listings/add_car/step_1_additional_fields.php:123
+msgid "Enter Latitude"
+msgstr "Enlem Girin"
+
+#: partials/user/private/dealer-settings.php:522
+#: partials/user/private/become-dealer.php:271
+msgid "Enter License number"
+msgstr "Lisans numarası girin"
+
+#: partials/user/private/dealer-settings.php:618
+#: partials/user/private/user-settings.php:177
+msgid "Enter Linkedin Public profile URL"
+msgstr "Linkedin Profili URL'sini girin"
+
+#: vc_templates/stm_login_register.php:115 listings/add_car/registration.php:50
+msgid "Enter Login"
+msgstr "Kullanıcı adı girin"
+
+#: vc_templates/stm_login_register.php:44
+#: vc_templates/stm_login_register.php:71 listings/add_car/check_user.php:47
+#: partials/user/user-dropdown.php:49 partials/user/private/mobile/user.php:8
+msgid "Enter login or E-mail"
+msgstr "Kullanıcı veya E-mail adresi girin"
+
+#: listings/add_car/step_1_additional_fields.php:131
+msgid "Enter Longitude"
+msgstr "Boylam Girin"
+
+#: partials/user/private/password-recovery.php:36
+msgid "Enter new password"
+msgstr "Yeni bir şifre gir"
+
+#: vc_templates/stm_login_register.php:121 listings/add_car/registration.php:56
+msgid "Enter Password"
+msgstr "Şifre Girin"
+
+#: vc_templates/stm_login_register.php:48 listings/add_car/check_user.php:53
+#: partials/user/user-dropdown.php:54 partials/user/private/mobile/user.php:13
+msgid "Enter password"
+msgstr "Şifre girin"
+
+#: vc_templates/stm_login_register.php:104 listings/add_car/registration.php:39
+#: partials/user/private/dealer-settings.php:486
+#: partials/user/private/user-settings.php:94
+msgid "Enter Phone"
+msgstr "Telefon numarası girin"
+
+#: inc/stm-ajax.php:904 inc/stm-ajax.php:911
+msgid "Enter required fields"
+msgstr "Gerekli alanları doldurun"
+
+#: listings/add_car/step_5.php:21 listings/add_car/step_5.php:47
+msgid "Enter Seller's notes"
+msgstr "Satıcı Notu Ekle"
+
+#: admin/includes/envato-market/inc/admin/admin.php:407
+msgid "Enter the Envato API Personal Token."
+msgstr "Envato API Kişisel Simgesini girin."
+
+#: admin/includes/envato-market/inc/admin/admin.php:410
+msgid "Enter the Envato Item ID."
+msgstr "Envato Öğe Kimliğini girin."
+
+#: listings/add_car/step_1_additional_fields.php:26
+msgid "Enter VIN"
+msgstr "VIN girin"
+
+#: partials/user/private/dealer-settings.php:464
+msgid "Enter Website URL"
+msgstr "Web Sitesi URL'si Gir"
+
+#: partials/user/private/dealer-settings.php:637
+#: partials/user/private/user-settings.php:199
+msgid "Enter your Current Password to confirm changes"
+msgstr "Değişiklikleri onaylamak için mevcut şifrenizi girin"
+
+#: admin/includes/envato-market/inc/admin/view/callback/setting/token.php:12
+msgid "Enter your Envato API Personal Token."
+msgstr "Envato API Kişisel Simgenizi girin."
+
+#: partials/user/private/dealer-settings.php:598
+#: partials/user/private/user-settings.php:153
+msgid "Enter your Facebook profile URL"
+msgstr "Facebook Profil URL'i"
+
+#: partials/user/private/dealer-settings.php:533
+#: partials/user/private/become-dealer.php:283
+msgid "Enter Your location"
+msgstr "Lokasyonunuzu girin"
+
+#: partials/user/dealer-write-review.php:31
+msgid "Enter Your Review"
+msgstr "Yorumunuzu girin"
+
+#: partials/user/private/dealer-settings.php:547
+#: partials/user/private/become-dealer.php:297
+msgid "Enter Your sales hours"
+msgstr "Satış saatlerinizi girin"
+
+#: partials/user/private/dealer-settings.php:607
+#: partials/user/private/user-settings.php:164
+msgid "Enter your Twitter URL"
+msgstr "Twitter URL'i"
+
+#: partials/user/private/dealer-settings.php:627
+#: partials/user/private/user-settings.php:188
+msgid "Enter Youtube channel URL"
+msgstr "Youtube Kanalı URL'si girin"
+
+#: listings/add_car/step_1_additional_fields.php:115
+msgid "Enter ZIP or Address"
+msgstr "ZIP veya Adres Girin"
+
+#: admin/includes/envato-market/inc/admin/view/partials/intro.php:12
+msgid "Envato Market"
+msgstr "Envato Pazarı"
+
+#: admin/includes/envato-market/inc/admin/admin.php:496
+msgid "Envato Market Items"
+msgstr "Envato Market Ürünleri"
+
+#: woocommerce/notices/error.php:29 inc/value_my_car/value_my_car.php:78
+msgid "Error"
+msgstr "Hata"
+
+#: admin/includes/theme.php:203
+msgid "Error occured"
+msgstr "Hata oluştu"
+
+#: partials/user/private/dealer-settings.php:7
+msgid "Error, try again"
+msgstr "Hata, tekrar deneyin"
+
+#: woocommerce/cart/cart-totals.php:73
+#, php-format
+msgid "estimated for %s"
+msgstr "%s için tahmin edildi"
+
+#: partials/rental/common/order-info.php:105
+#: partials/rental/common/order-info-empty.php:104
+msgid "Estimated total"
+msgstr "Tahmain edilen toplam"
+
+#: inc/woocommerce_setups_rental.php:578
+#: partials/rental/wizard-nav/nav-step-3.php:15
+#, php-format
+msgid "Estimated Total - %s"
+msgstr "Tahmin edilen toplam -%s"
+
+#: inc/customizer/registration.php:2052
+msgid "Ex.: USD"
+msgstr "Ex: USD"
+
+#: partials/user/dealer-write-review.php:25
+msgid "Example: Great Service, clean facilities, etc"
+msgstr "Örnek: İyi Hizmet, temiz tesisiler, vs"
+
+#: inc/scripts_styles.php:294
+msgctxt "Exo 2 font: on or off"
+msgid "on"
+msgstr "açık"
+
+#: partials/single-car/car-review_rating.php:59
+#: partials/listing-cars/listing-grid-loop-magazine.php:104
+msgid "Exterior"
+msgstr "Dış"
+
+#: vc_templates/stm_sell_a_car.php:19 vc_templates/stm_sell_a_car.php:231
+#: vc_templates/stm_sell_a_car.php:450 vc_templates/stm_sell_a_car.php:643
+#: vc_templates/stm_sell_a_car.php:863 vc_templates/stm_sell_a_car.php:1056
+msgid "Exterior color"
+msgstr "Dış rengi"
+
+#: vc_templates/stm_sell_a_car.php:22 vc_templates/stm_sell_a_car.php:453
+#: vc_templates/stm_sell_a_car.php:866
+msgid "Exterior condition"
+msgstr "Dış durumu"
+
+#: inc/customizer/controls/font-weight.php:26
+msgid "Extra Bold"
+msgstr "Ekstra Bold"
+
+#: inc/customizer/controls/font-weight.php:27
+msgid "Extra Bold Italic"
+msgstr "Ekstra Bold İtalik"
+
+#: vc_templates/stm_sell_a_car.php:261 vc_templates/stm_sell_a_car.php:262
+#: vc_templates/stm_sell_a_car.php:285 vc_templates/stm_sell_a_car.php:286
+#: vc_templates/stm_sell_a_car.php:673 vc_templates/stm_sell_a_car.php:674
+#: vc_templates/stm_sell_a_car.php:697 vc_templates/stm_sell_a_car.php:698
+#: vc_templates/stm_sell_a_car.php:1086 vc_templates/stm_sell_a_car.php:1087
+#: vc_templates/stm_sell_a_car.php:1110 vc_templates/stm_sell_a_car.php:1111
+msgid "Extra clean"
+msgstr "Ekstra temiz"
+
+#: inc/user-extra.php:56 inc/customizer/registration.php:323
+#: partials/user/private/dealer-settings.php:596
+#: partials/user/private/user-settings.php:149
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/registration.php:1837
+msgid "Fair Price"
+msgstr "Makul fiyat"
+
+#: partials/user/user-dropdown.php:34
+msgid "Favorites"
+msgstr "Favoriler"
+
+#: inc/woocommerce_setups_rental.php:922
+msgid "Fax:"
+msgstr "Faks:"
+
+#: partials/single-aircrafts/action-bar.php:39
+msgid "Featured"
+msgstr ""
+
+#: listings/classified/filter/featured.php:30
+msgid "Featured Classified"
+msgstr "Özellikler Sınıflandırıldı"
+
+#: inc/customizer/registration.php:2014
+msgid "Featured Listing Price"
+msgstr "Önerilen İlan Fiyatı"
+
+#: partials/single-car-listing/car-main-four.php:32
+#: partials/single-car-listing/car-main.php:29
+msgid "Features"
+msgstr "Özellikler"
+
+#: vc_templates/stm_sell_a_car.php:43 vc_templates/stm_sell_a_car.php:472
+#: vc_templates/stm_sell_a_car.php:886
+msgid "field"
+msgstr "alan"
+
+#: inc/customizer/registration.php:1280 inc/customizer/registration.php:1470
+msgid "Filter Position"
+msgstr "Filte pozisyonu"
+
+#: partials/single-car/car-calculator.php:34
+#: partials/modals/car-calculator.php:44
+#: partials/single-car-boats/boats-calculator.php:23
+msgid "Financing calculator"
+msgstr "Hesap makinesi"
+
+#: vc_templates/stm_rent_car_form.php:116
+#: partials/rental/common/order-info-empty.php:18
+msgid "Find a vehicle"
+msgstr "Araç bul"
+
+#: vc_templates/stm_dealer_list.php:36
+msgid "Find Dealer"
+msgstr "Bayi Bul"
+
+#: vc_templates/stm_login_register.php:92
+#: woocommerce/myaccount/my-address.php:71 listings/add_car/registration.php:27
+msgid "First Name"
+msgstr "Ad"
+
+#: vc_templates/stm_sell_a_car.php:333 vc_templates/stm_sell_a_car.php:745
+#: vc_templates/stm_sell_a_car.php:1158
+#: woocommerce/myaccount/form-edit-account.php:32
+#: partials/user/private/dealer-settings.php:471
+#: partials/user/private/user-settings.php:73
+msgid "First name"
+msgstr "Ad"
+
+#: inc/customizer/registration.php:329
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/setup.php:81 inc/customizer/registration.php:379
+#: inc/customizer/registration.php:399
+msgid "Footer"
+msgstr "Alt bilgi"
+
+#: inc/customizer/registration.php:1167
+msgid "Footer background color"
+msgstr "Alt Bilgi Arkaplan Rengi"
+
+#: inc/customizer/registration.php:1194
+msgid "Footer Copyright background color"
+msgstr "Alt Bilgi Telif Hakları arkaplan rengi"
+
+#: inc/customizer/registration.php:1188
+msgid "Footer copyright Enabled"
+msgstr "Alt Bilgi Teklif Hakkı Aktive Edildi"
+
+#: inc/setup.php:83
+msgid "Footer Widgets Area"
+msgstr "Alt Bilgi Listeleme Alanları"
+
+#: partials/rental/common/order-info.php:77
+msgid "for"
+msgstr "için"
+
+#: vc_templates/stm_login_register.php:57
+msgid "Forgot Password"
+msgstr "Şifreyi kaydetme"
+
+#: woocommerce/order/form-tracking.php:27
+msgid "Found in your order confirmation email."
+msgstr "Sipariş onayı e-postasında bulundu."
+
+#: vc_templates/stm_filter_selects.php:125
+msgid "Found:"
+msgstr "Bulundu:"
+
+#: partials/user/private/dealer.php:107 partials/user/private/user.php:114
+#: partials/user/private/mobile/dealer-profile.php:77
+#: partials/user/private/mobile/user-profile.php:86
+msgid "Free"
+msgstr "Ücretsiz"
+
+#: vc_templates/stm_working_days.php:13
+msgid "Friday"
+msgstr "Cuma"
+
+#: inc/stm_single_dealer.php:142 vc_templates/stm_car_class_grid.php:50
+msgid "From"
+msgstr "Oradan"
+
+#: inc/woocommerce_setups_rental.php:1194
+msgid "From "
+msgstr "itibaren "
+
+#: inc/customizer/registration.php:597
+msgid "Frontend Customizer"
+msgstr "Önyüz Özelleştirme"
+
+#: vc_templates/stm_sell_a_car.php:12
+msgid "GDPR"
+msgstr "GDPR"
+
+#: admin/includes/envato-market/inc/admin/view/callback/section/oauth.php:12
+msgid "generate a personal token"
+msgstr "kişisel bir belirteç oluştur"
+
+#: inc/customizer/registration.php:1381 inc/customizer/registration.php:1555
+msgid "Generated title affix"
+msgstr "Başlık ön eki üret"
+
+#: partials/user/private/dealer.php:102 partials/user/private/user.php:109
+#: partials/user/private/mobile/dealer-profile.php:72
+#: partials/user/private/mobile/user-profile.php:81
+msgid "Get new plan"
+msgstr "Yeni bir plan seçin"
+
+#: inc/customizer/registration.php:330
+msgid "Git"
+msgstr "Git"
+
+#: admin/includes/envato-market/inc/admin/admin.php:471
+msgid "Global OAuth Personal Token"
+msgstr "Global OAuth Kişisel Simgesi"
+
+#: woocommerce/myaccount/orders.php:120
+msgid "Go shop"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:104
+msgid "Good"
+msgstr "İyi"
+
+#: inc/customizer/registration.php:1836
+msgid "Good Price"
+msgstr "İyi fiyat"
+
+#: inc/customizer/registration.php:338
+msgid "Google"
+msgstr "Google"
+
+#: inc/customizer/registration.php:339
+msgid "Google +"
+msgstr "Google+"
+
+#: inc/customizer/registration.php:462
+msgid "Google API Key"
+msgstr "Google API Anahtarı"
+
+#: inc/customizer/registration.php:457
+msgid "Google Api Settings"
+msgstr "Google Api Ayarları"
+
+#: inc/customizer/registration.php:885 inc/customizer/registration.php:1055
+msgid "Google Map Address URL"
+msgstr "Google Maps Adres URL"
+
+#: inc/customizer/registration.php:1835
+msgid "Great Price"
+msgstr "Çok iyi fiyat"
+
+#: inc/customizer/registration.php:491 inc/customizer/registration.php:507
+msgid "Green"
+msgstr "Yeşil"
+
+#: inc/customizer/registration.php:1259 inc/customizer/registration.php:1449
+#: inc/customizer/registration.php:2109
+msgid "Grid"
+msgstr "Tablo Görünümü"
+
+#: inc/customizer/registration.php:753
+msgid "H1 Font Size"
+msgstr "H1 Font Boyutu"
+
+#: inc/customizer/registration.php:763
+msgid "H2 Font Size"
+msgstr "H2 Font Boyutu"
+
+#: inc/customizer/registration.php:773
+msgid "H3 Font Size"
+msgstr "H3 Font Boyutu"
+
+#: inc/customizer/registration.php:783
+msgid "H4 Font Size"
+msgstr "H4 Font Boyutu"
+
+#: inc/customizer/registration.php:793
+msgid "H5 Font Size"
+msgstr "H5 Font Boyutu"
+
+#: inc/customizer/registration.php:803
+msgid "H6 Font Size"
+msgstr "H6 Font Boyutu"
+
+#: inc/stm-ajax.php:62
+msgid "has already added"
+msgstr "daha önce eklendi"
+
+#: vc_templates/stm_sell_a_car.php:1132
+msgid "Has boat been in accident"
+msgstr "Botun kazası var mı"
+
+#: vc_templates/stm_sell_a_car.php:307 vc_templates/stm_sell_a_car.php:719
+msgid "Has vehicle been in accident"
+msgstr "Araç bir kaza yaptı mı"
+
+#: woocommerce/myaccount/orders.php:55
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: inc/customizer/registration.php:391
+msgid "Header"
+msgstr "Başlık"
+
+#: inc/customizer/registration.php:833 inc/customizer/registration.php:993
+msgid "Header Background Color"
+msgstr "Başlık Arkaplan Rengi"
+
+#: inc/customizer/registration.php:1113
+msgid "Header button label"
+msgstr "Başlık buton etiketi"
+
+#: inc/customizer/registration.php:1118
+msgid "Header button link"
+msgstr "Başlık buton linki"
+
+#: inc/customizer/registration.php:1000
+msgid "Header Phone"
+msgstr "Başlık Telefon"
+
+#: inc/customizer/registration.php:1150 inc/customizer/registration.php:1154
+msgid "Header Socials"
+msgstr "Başlık Toplulukları"
+
+#: inc/customizer/registration.php:892
+msgid "Header Style"
+msgstr "Başlık Stili"
+
+#: inc/customizer/registration.php:746
+msgid "Headings Color"
+msgstr "Başlıkların Rengi"
+
+#: inc/customizer/registration.php:725
+msgid "Headings Font Family"
+msgstr "Başlıklar Font Ailesi"
+
+#: inc/customizer/registration.php:1270 inc/customizer/registration.php:1460
+msgid "Hide empty Categories from Inventory filter"
+msgstr "Envanter filtresinden boş Kategorileri gizle"
+
+#: inc/customizer/registration.php:1407
+msgid "Hide price labels on listing archive"
+msgstr "Fiyat etiketlerini listeleme arşivlerinde sakla"
+
+#: listings/add_car/step_1_additional_fields.php:43
+#: partials/single-car-listing/car-data.php:42
+#: partials/single-car-listing/car-data.php:52
+msgid "History"
+msgstr "Tarih"
+
+#: partials/single-car-motorcycle/car-links.php:67
+#: partials/listing-cars/motos/list-actions.php:55
+msgid "History report"
+msgstr "Geçmiş raporu"
+
+#: partials/service/header-service.php:25
+#: partials/service/header-service.php:33
+#: partials/header/header-magazine.php:40
+#: partials/header/header-magazine.php:48
+#: partials/header/header-coming-soon.php:6
+#: partials/header/header-aircrafts.php:40
+#: partials/header/header-aircrafts.php:48
+#: partials/header/header-motorcycle.php:54
+#: partials/header/header-motorcycle.php:62
+#: partials/header/header-motorcycle.php:95
+#: partials/header/header-motorcycle.php:103
+#: partials/header/header-dealer-two.php:39
+#: partials/header/header-dealer-two.php:47
+#: partials/header/header-boats-mobile.php:13
+#: partials/header/header-boats-mobile.php:21 partials/header/header-404.php:7
+#: partials/header/header.php:16 partials/header/header.php:24
+#: partials/header/header-listing.php:35 partials/header/header-listing.php:43
+#: partials/header/header-rental.php:22 partials/header/header-rental.php:30
+#: partials/header/header-boats.php:38 partials/header/header-boats.php:46
+msgid "Home"
+msgstr "AnaSayfa"
+
+#: 404.php:8
+msgid "Home Page"
+msgstr "Ana Sayfa"
+
+#: admin/screens/system_status.php:20
+msgid "Home URL:"
+msgstr "Ana sayfa URL:"
+
+#. URI of the theme
+msgid "http://motors.stylemixthemes.com/"
+msgstr "http://motors.stylemixthemes.com/"
+
+#. Author URI of the theme
+msgid "https://stylemixthemes.com/"
+msgstr "https://stylemixthemes.com/"
+
+#: vc_templates/stm_sell_a_car.php:862 vc_templates/stm_sell_a_car.php:1019
+msgid "Hull material"
+msgstr "Gövde materyali"
+
+#: partials/listing-cars/listing-grid-loop-magazine.php:67
+msgid "Hwy"
+msgstr "Highway"
+
+#: partials/single-car/car-mpg.php:19
+#: partials/single-car-boats/boats-mpg.php:19
+msgid "hwy mpg"
+msgstr "hwy mpg"
+
+#: vc_templates/stm_login_register.php:130 listings/add_car/registration.php:65
+msgid "I accept the terms of the"
+msgstr "Koşulları kabul ediyorum"
+
+#: partials/user/dealer-write-review.php:36
+msgid "I am not a dealer, and I am not employed by a dealership."
+msgstr "Ben bayi değilim veya bayide çalışmıyorum."
+
+#: vc_templates/stm_sell_a_car.php:277 vc_templates/stm_sell_a_car.php:278
+#: vc_templates/stm_sell_a_car.php:301 vc_templates/stm_sell_a_car.php:302
+#: vc_templates/stm_sell_a_car.php:317 vc_templates/stm_sell_a_car.php:318
+#: vc_templates/stm_sell_a_car.php:689 vc_templates/stm_sell_a_car.php:690
+#: vc_templates/stm_sell_a_car.php:713 vc_templates/stm_sell_a_car.php:714
+#: vc_templates/stm_sell_a_car.php:729 vc_templates/stm_sell_a_car.php:730
+#: vc_templates/stm_sell_a_car.php:1102 vc_templates/stm_sell_a_car.php:1103
+#: vc_templates/stm_sell_a_car.php:1126 vc_templates/stm_sell_a_car.php:1127
+#: vc_templates/stm_sell_a_car.php:1142 vc_templates/stm_sell_a_car.php:1143
+msgid "I don't know"
+msgstr "Bilmiyorum"
+
+#: inc/motors-gdpr.php:33 admin/includes/envato-market/inc/admin/admin.php:383
+#: admin/includes/envato-market/inc/admin/view/callback/setting/items.php:22
+msgid "ID"
+msgstr "ID"
+
+#: listings/add_car/step_4.php:25 listings/add_car/step_4.php:80
+msgid ""
+"If you don't have the videos handy, don't worry. You can add or edit them "
+"after you complete your ad using the \"Manage Your Ad\" page."
+msgstr ""
+"Eğer videolarınız kullanışlı değilse, üzülmeyin. \"Reklamını Yönet\" "
+"sayfasına videoyu ekledikten sonra düzenleyebilirsiniz."
+
+#: inc/customizer/registration.php:434
+msgid "If you dont have logo, you can customize your brand name"
+msgstr "Eğer logonuz yoksa, marka adınızı özelleştirebilirsiniz"
+
+#: admin/screens/install_demo.php:64
+msgid ""
+"If you want to import another layout, please <a href=\"https://wordpress."
+"org/plugins/wordpress-reset/\" target=\"_blank\">Reset WordPress</a> "
+"database."
+msgstr ""
+"Başka bir düzen almak istiyorsanız, lütfen <a href=\"https://wordpress."
+"org/plugins/wordpress-reset/\" target=\"_blank\"> WordPress'i Sıfırla </a> "
+"veritabanını kullanın."
+
+#: inc/customizer/registration.php:1979
+msgid "Image size limit (Kb)"
+msgstr "Görsel boyut limiti (Kb)"
+
+#: inc/value_my_car/admin-page.php:60
+msgid "Images"
+msgstr "Görüntüler"
+
+#: admin/screens/install_demo.php:82
+msgid "Import"
+msgstr "İthalat"
+
+#: admin/screens/install_demo.php:277
+msgid "Imported"
+msgstr "İthal"
+
+#: admin/screens/install_demo.php:276
+msgid "Importing Demo"
+msgstr "Demoyu İçe Aktarma"
+
+#: inc/user-extra.php:120
+msgid ""
+"In case a user has entered incorrect details in Dealer submission, you can "
+"reject the request and add a notice."
+msgstr ""
+"Eğer kullanıcı Bayi başvurusunda yanlış bilgiler vermişse, talebi "
+"reddedebilirsiniz."
+
+#: inc/stm-ajax.php:32
+msgid "In compare list"
+msgstr "Karşılaştırma listesinde"
+
+#: partials/single-car/car-actions.php:62
+#: partials/listing-cars/listing-list-loop-actions.php:66
+#: partials/listing-cars/listing-directive-list-loop-actions.php:61
+#: partials/single-car-boats/boats-actions.php:50
+#: partials/single-aircrafts/action-bar.php:46
+#: listings/loop/default/list/features.php:83
+msgid "in compare list"
+msgstr "karşılaştırma listesinde"
+
+#: admin/screens/system_status.php:85
+msgid "Information about the web server that is currently hosting your site."
+msgstr "Şu anda sitenizin kayıtlı olduğu web sunucusu hakkında bilgi."
+
+#: woocommerce/notices/notice.php:29
+msgid "Informational"
+msgstr "Bilgi için"
+
+#: listings/add_car/step_1_additional_fields.php:63
+msgid "Insert link"
+msgstr "Link girin"
+
+#: inc/customizer/registration.php:326
+msgid "Instagram"
+msgstr "Instagram"
+
+#: admin/includes/envato-market/inc/admin/functions.php:150
+#: admin/includes/envato-market/inc/admin/functions.php:355
+#: admin/includes/envato-market/inc/admin/admin.php:448
+#: admin/includes/envato-market/inc/admin/admin.php:449
+msgid "Install"
+msgstr "Yükle"
+
+#: admin/includes/envato-market/inc/admin/functions.php:151
+#: admin/includes/envato-market/inc/admin/functions.php:356
+#, php-format
+msgid "Install %s"
+msgstr "%s yükle"
+
+#: admin/includes/admin_screens.php:141
+msgid "Install Demos"
+msgstr "Demoları Yükle"
+
+#: admin/screens/install_demo.php:79
+msgid "Installed"
+msgstr "Kurulmuş"
+
+#: admin/screens/install_demo.php:112 admin/screens/install_demo.php:224
+msgid "Installed & Activated"
+msgstr "Yüklendi ve Etkinleştirildi"
+
+#: admin/screens/install_demo.php:223
+msgid "Installing"
+msgstr "yükleme"
+
+#: admin/includes/envato-market/inc/admin/admin.php:762
+#: admin/includes/envato-market/inc/admin/admin.php:787
+msgid "Installing Plugin..."
+msgstr "Eklenti yükleniyor ..."
+
+#: admin/includes/envato-market/inc/admin/admin.php:794
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Eklenti yükleniyor :%s"
+
+#: admin/includes/envato-market/inc/admin/admin.php:820
+#: admin/includes/envato-market/inc/admin/admin.php:845
+msgid "Installing Theme..."
+msgstr "Tema yükleniyor ..."
+
+#: admin/includes/envato-market/inc/admin/admin.php:854
+#, php-format
+msgid "Installing Theme: %s"
+msgstr "Tema Yükleme: %s"
+
+#: admin/screens/startup.php:66
+msgid "Instructions For Generating A Token"
+msgstr "Bir Token Üretmek İçin Yönergeler"
+
+#: inc/stm-ajax.php:729
+msgid "Instructions send on your email"
+msgstr "Yönergeler mail adresinize gönderildi"
+
+#: vc_templates/stm_auto_loan_calculator.php:53
+#: partials/single-car/car-calculator.php:49
+#: partials/modals/car-calculator.php:61
+#: partials/single-car-boats/boats-calculator.php:38
+msgid "Interest rate"
+msgstr "Faiz oranı"
+
+#: partials/single-car/car-review_rating.php:50
+#: partials/listing-cars/listing-grid-loop-magazine.php:97
+msgid "Interior"
+msgstr "İç"
+
+#: vc_templates/stm_sell_a_car.php:20 vc_templates/stm_sell_a_car.php:237
+#: vc_templates/stm_sell_a_car.php:451 vc_templates/stm_sell_a_car.php:649
+#: vc_templates/stm_sell_a_car.php:864 vc_templates/stm_sell_a_car.php:1062
+msgid "Interior color"
+msgstr "İç rengi"
+
+#: vc_templates/stm_sell_a_car.php:23 vc_templates/stm_sell_a_car.php:454
+#: vc_templates/stm_sell_a_car.php:867
+msgid "Interior condition"
+msgstr "İç durumu"
+
+#. Name of the template
+#: partials/magazine/content/top-interview.php:11
+msgid "Interview"
+msgstr "Röportaj"
+
+#: inc/perpay.php:20
+msgid "Invalid product."
+msgstr "Geçersiz ürün"
+
+#: partials/title_box.php:50 inc/customizer/registration.php:1292
+#: inc/customizer/registration.php:1482
+msgid "Inventory"
+msgstr "Envanter"
+
+#: inc/customizer/registration.php:1238
+msgid "Inventory Layout"
+msgstr "Envanter Düzeni"
+
+#: inc/customizer/registration.php:1609
+msgid "Inventory settings"
+msgstr "Envanter ayarları"
+
+#: admin/includes/envato-market/inc/admin/admin.php:408
+msgid "Item ID"
+msgstr "Öğe Kimliği"
+
+#: listings/boats/filter/sidebar.php:56
+msgid "Items"
+msgstr "Ürünler"
+
+#: partials/listing-layout-parts/items-per-page.php:47
+msgid "items per page"
+msgstr "sayfa başına ürün"
+
+#: inc/customizer/registration.php:1417 inc/customizer/registration.php:1573
+#: inc/customizer/registration.php:1596
+msgid "Items per page choices(Grid version. Ex: 9,12,18,27)."
+msgstr "Her sayfa başına seçilen ürün (Grid yapısı. Örn: 9,12,18,27)."
+
+#: partials/user/private/user-settings.php:60
+msgid "JPEG or PNG minimal 160x160px"
+msgstr "JPEG ya da PNG minimum 160x160px"
+
+#: partials/user/private/dealer-settings.php:418
+#: partials/user/private/become-dealer.php:247
+msgid "JPEG or PNG minimal 236x60px"
+msgstr "JPEG ya da PNG minimum 236x60px"
+
+#: partials/user/private/dealer-settings.php:449
+msgid "JPEG or PNG minimal 500x282"
+msgstr "JPEG ya da PNG minimum 500x282"
+
+#: vc_templates/stm_dealer_list.php:93
+msgid "Keyword"
+msgstr "Anahtar kelime"
+
+#: inc/customizer/registration.php:1331
+msgid "Kilometers"
+msgstr "Kilometre"
+
+#: woocommerce/order/tracking.php:40 woocommerce/myaccount/view-order.php:43
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr "l jS \\o\\f F Y, h:ia"
+
+#: partials/top-bar.php:41 partials/top-bar.php:52 partials/top-bar.php:80
+msgid "Language flag"
+msgstr "Dil bayrağı"
+
+#: admin/screens/system_status.php:68
+msgid "Language:"
+msgstr "Dil:"
+
+#: vc_templates/stm_login_register.php:96
+#: woocommerce/myaccount/my-address.php:75 listings/add_car/registration.php:31
+msgid "Last Name"
+msgstr "Soyad"
+
+#: vc_templates/stm_sell_a_car.php:8 vc_templates/stm_sell_a_car.php:339
+#: vc_templates/stm_sell_a_car.php:443 vc_templates/stm_sell_a_car.php:751
+#: vc_templates/stm_sell_a_car.php:856 vc_templates/stm_sell_a_car.php:1164
+#: woocommerce/myaccount/form-edit-account.php:36
+#: partials/user/private/dealer-settings.php:477
+#: partials/user/private/user-settings.php:81
+msgid "Last name"
+msgstr "Soyad"
+
+#: listings/add_car/step_1_additional_fields.php:134
+msgid "Lat and Long Finder"
+msgstr "Enlem ve Boylam Bulun"
+
+#: listings/add_car/step_1_additional_fields.php:120
+msgid "Latitude"
+msgstr "Enlem"
+
+#: partials/frontend_customizer.php:17 partials/frontend_customizer.php:90
+msgid "Layout"
+msgstr "Sayfa Düzeni"
+
+#: admin/screens/support.php:53
+msgid "Learn more"
+msgstr "Daha fazla öğren"
+
+#: woocommerce/single-product-reviews.php:72
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%s yazısına bir cevap bırak."
+
+#: inc/customizer/registration.php:348 inc/customizer/registration.php:1915
+#: inc/customizer/registration.php:1931 inc/customizer/registration.php:2092
+#: inc/customizer/registration.php:2130
+msgid "Left"
+msgstr "Sol"
+
+#: vc_templates/stm_sell_a_car.php:861 vc_templates/stm_sell_a_car.php:1013
+msgid "Length"
+msgstr "Uzunluk"
+
+#: listings/boats/filter/sidebar.php:33
+msgid "Less options"
+msgstr "Daha Az Seçenek"
+
+#: inc/user-extra.php:146
+msgid "License"
+msgstr "Lisans"
+
+#: partials/user/private/dealer-settings.php:520
+#: partials/user/private/become-dealer.php:269
+msgid "License number*"
+msgstr "Lisans numarası*"
+
+#: inc/customizer/registration.php:1241
+#: inc/customizer/controls/font-weight.php:14
+msgid "Light"
+msgstr "Light"
+
+#: inc/customizer/registration.php:490
+msgid "Light Blue"
+msgstr "Açık mavi"
+
+#: inc/customizer/controls/font-weight.php:15
+msgid "Light Italic"
+msgstr "Light İtalik"
+
+#: inc/user-extra.php:76 partials/user/private/dealer-settings.php:616
+#: partials/user/private/user-settings.php:173
+msgid "Linked In"
+msgstr "Linkedin"
+
+#: inc/customizer/registration.php:331
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/customizer/registration.php:1260 inc/customizer/registration.php:1450
+#: inc/customizer/registration.php:2110
+msgid "List"
+msgstr "Liste Görünümü"
+
+#: inc/customizer/registration.php:1591
+msgid "List version sort parameter (Type slug)"
+msgstr "Parametre sıralama liste versiyonu ( Başlık türü)"
+
+#: inc/motors-gdpr.php:29 inc/customizer/registration.php:395
+msgid "Listing"
+msgstr "Listeleme"
+
+#: inc/customizer/registration.php:1229 inc/customizer/registration.php:1433
+msgid "Listing archive"
+msgstr "Listeleme Arşivi"
+
+#: inc/customizer/registration.php:1290 inc/customizer/registration.php:1480
+msgid "Listing archive \"Title box\" title"
+msgstr "Listeleme arşiv \" başlık kutusu\" başlığı"
+
+#: inc/customizer/registration.php:924
+msgid "Listing layout header image for non-transparent option"
+msgstr ""
+"Transparan olmayan opsiyonlar için başlık görseli listeleme sayfa düzeni"
+
+#: inc/customizer/registration.php:1412
+msgid "Listing sidebar filter background"
+msgstr "Listeleme kenar çubuğu filtre arkaplanı"
+
+#: inc/customizer/registration.php:1256 inc/customizer/registration.php:1446
+msgid "Listing view type"
+msgstr "Görüntü türleri listeniyor"
+
+#: inc/customizer/registration.php:2064
+msgid "Live"
+msgstr "Canlı"
+
+#: partials/header/header-nav.php:115
+msgid "Live chat"
+msgstr "Canlı Yardım"
+
+#: admin/includes/envato-market/inc/admin/functions.php:137
+#: admin/includes/envato-market/inc/admin/upgrader-skins.php:53
+msgid "Live Preview"
+msgstr "Canlı önizleme"
+
+#: admin/includes/envato-market/inc/admin/functions.php:137
+#: admin/includes/envato-market/inc/admin/upgrader-skins.php:53
+#, php-format
+msgid "Live Preview &#8220;%s&#8221;"
+msgstr "Canlı Önizleme & # 8220; %s & # 8221;"
+
+#: listings/filter/results.php:59
+msgid "Load More"
+msgstr ""
+
+#: vc_templates/stm_magazine_events_list.php:90
+#: vc_templates/stm_car_listing_tabbed.php:188
+#: vc_templates/stm_listing_search_with_car_rating.php:68
+msgid "Load more"
+msgstr "Daha fazla yükle"
+
+#: listings/add_car/step_1_additional_fields.php:111
+#: partials/user/dealer-public-profile.php:57
+#: partials/listing-layout-parts/boats-list-sort.php:24
+#: partials/single-car-boats/boats-data.php:51
+#: partials/user/private/become-dealer.php:67
+#: listings/loop/boats/list/options.php:24
+msgid "Location"
+msgstr "Lokasyon"
+
+#: partials/user/private/dealer-settings.php:529
+#: partials/user/private/become-dealer.php:279
+msgid "Location*"
+msgstr "Lokasyon*"
+
+#: partials/top-bar-boats.php:55 partials/top-bar-boats.php:57
+#: partials/top-bar-boats.php:78 partials/top-bar-boats.php:80
+#: partials/top-bar.php:102 partials/top-bar.php:104 partials/top-bar.php:141
+#: partials/top-bar.php:143 listings/add_car/registered.php:38
+#: listings/add_car/user_info.php:42 listings/add_car/user_info.php:74
+msgid "Log out"
+msgstr "Çıkış yap"
+
+#: woocommerce/myaccount/form-login.php:42
+#: woocommerce/myaccount/form-login.php:125
+msgid "LOGIN"
+msgstr "GİRİŞ YAP"
+
+#: vc_templates/stm_login_register.php:62 partials/top-bar-boats.php:64
+#: partials/top-bar-boats.php:84 partials/top-bar.php:124
+#: partials/top-bar.php:147 woocommerce/myaccount/form-login.php:34
+#: woocommerce/myaccount/form-login.php:69
+#: woocommerce/myaccount/form-login.php:73
+#: woocommerce/myaccount/form-login.php:92 partials/user/user-dropdown.php:64
+#: partials/user/dealer-write-review.php:175
+#: partials/user/private/mobile/user.php:24
+msgid "Login"
+msgstr "Giriş"
+
+#: vc_templates/stm_login_register.php:114 listings/add_car/registration.php:49
+msgid "Login *"
+msgstr "Giriş Yap*"
+
+#: listings/add_car/registration.php:5
+msgid "Login Here"
+msgstr "Buradan giriş yapın"
+
+#: vc_templates/stm_login_register.php:43
+#: vc_templates/stm_login_register.php:69 listings/add_car/check_user.php:45
+#: partials/user/user-dropdown.php:48 partials/user/private/mobile/user.php:7
+msgid "Login or E-mail"
+msgstr "Kullanıcı adı veya E-mail"
+
+#: inc/customizer/registration.php:1876 inc/customizer/registration.php:1898
+msgid "Login/Registration page"
+msgstr "Giriş/ Kayıt sayfası"
+
+#: inc/customizer/registration.php:415 partials/service/header-service.php:34
+#: partials/header/header-magazine.php:49
+#: partials/header/header-coming-soon.php:7
+#: partials/header/header-aircrafts.php:49
+#: partials/header/header-motorcycle.php:63
+#: partials/header/header-motorcycle.php:104
+#: partials/header/header-dealer-two.php:48
+#: partials/header/header-boats-mobile.php:22 partials/header/header-404.php:8
+#: partials/header/header.php:25 partials/header/header-listing.php:44
+#: partials/header/header-rental.php:31 partials/header/header-boats.php:47
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/customizer/registration.php:410
+msgid "Logo &amp; Title"
+msgstr "Logo &amp; Başlık"
+
+#: partials/single-car/car-actions.php:137
+#: partials/listing-cars/listing-list-loop-actions.php:138
+#: partials/listing-cars/listing-directive-list-loop-actions.php:120
+#: partials/single-car-boats/boats-actions.php:114
+#: listings/loop/default/list/features.php:145
+msgid "Logo 1"
+msgstr "Logo 1"
+
+#: partials/single-car/car-actions.php:158
+#: partials/listing-cars/listing-list-loop-actions.php:161
+#: partials/listing-cars/listing-directive-list-loop-actions.php:143
+#: partials/single-car-boats/boats-actions.php:127
+#: listings/loop/default/list/features.php:168
+msgid "Logo 2"
+msgstr "Logo 2"
+
+#: partials/user/private/become-dealer.php:118
+msgid "Logo is required field"
+msgstr "Logo gerekli bir alan"
+
+#: inc/customizer/registration.php:1143
+msgid "Logo margin top"
+msgstr "Logo üst boşluk"
+
+#: inc/customizer/registration.php:420
+msgid "Logo Width (px)"
+msgstr "Logo Genişliği (px)"
+
+#: partials/user/user-dropdown.php:37
+#: partials/user/private/mobile/dealer-profile.php:126
+#: partials/user/private/mobile/user-profile.php:129
+msgid "Logout"
+msgstr "Çıkış"
+
+#: listings/add_car/step_1_additional_fields.php:128
+msgid "Longitude"
+msgstr "Boylam"
+
+#: woocommerce/myaccount/form-login.php:53
+#: woocommerce/myaccount/form-login.php:81
+#: woocommerce/myaccount/form-login.php:90
+msgid "Lost your password?"
+msgstr "Şifrenizi mi kaybettiniz?"
+
+#: vc_templates/stm_sell_a_car.php:394 vc_templates/stm_sell_a_car.php:806
+#: vc_templates/stm_sell_a_car.php:1219
+msgid "Mail successfully sent"
+msgstr "Mail başarıyla gönderildi"
+
+#: partials/user/private/dealer-settings.php:457
+#: partials/user/private/user-settings.php:67
+#: partials/user/private/become-dealer.php:254
+msgid "Main Information"
+msgstr "Ana Bilgiler"
+
+#: inc/customizer/registration.php:846
+msgid "Main phone"
+msgstr "Ana Telefon"
+
+#: inc/customizer/registration.php:841
+msgid "Main phone label"
+msgstr "Ana Telefon Etiketi"
+
+#: inc/customizer/registration.php:829 inc/customizer/registration.php:1163
+msgid "Main settings"
+msgstr "Ana ayarlar"
+
+#: inc/setup.php:73
+msgid "Main sidebar that appears on the right or left."
+msgstr "Sağda veya solda görünen ana kenar çubuğu."
+
+#: vc_templates/stm_sell_a_car.php:5 vc_templates/stm_sell_a_car.php:164
+#: vc_templates/stm_sell_a_car.php:440 vc_templates/stm_sell_a_car.php:582
+#: vc_templates/stm_sell_a_car.php:853 vc_templates/stm_sell_a_car.php:989
+msgid "Make"
+msgstr "Yap"
+
+#: inc/customizer/registration.php:1115 partials/service/header-service.php:42
+msgid "Make an Appointment"
+msgstr "Randevu Al"
+
+#: partials/single-car/car-buttons.php:19
+msgid "Make an offer price"
+msgstr "Bir teklif fiyatı ver"
+
+#: partials/listing-cars/listing-list-directory-edit-loop.php:132
+msgid "Make Featured"
+msgstr "Öne Çıkanlar"
+
+#: partials/listing-cars/listing-list-directory-edit-loop.php:120
+msgid "Mark as sold"
+msgstr "Satıldı olarak işaretle"
+
+#: listings/classified/filter/actions.php:6
+#: listings/motorcycles/filter/actions.php:7
+msgid "matches"
+msgstr "eşleşmeler"
+
+#: listings/classified/filter/sidebar.php:114
+#: listings/classified/filter/sidebar.php:124
+#: listings/motorcycles/filter/sidebar.php:94
+#: listings/motorcycles/filter/sidebar.php:104
+msgid "Max"
+msgstr "Max"
+
+#: admin/screens/system_status.php:244
+msgid "Max Upload Size:"
+msgstr "Maksimum Yükleme Boyutu:"
+
+#: vc_templates/stm_media_library.php:37
+msgid "Media gallery image"
+msgstr "Görüntü galerisi"
+
+#: inc/customizer/controls/font-weight.php:20
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/customizer/controls/font-weight.php:21
+msgid "Medium Italic"
+msgstr "Medium italik"
+
+#: inc/customizer/registration.php:2069
+msgid "Membership price"
+msgstr "Üyelik ücreti"
+
+#: inc/customizer/registration.php:2072
+msgid "Membership submission price"
+msgstr "Üyelik başvurusu ücreti"
+
+#: inc/customizer/registration.php:424
+msgid "Menu margin top (px)"
+msgstr "Yukardaki Menü Boşluğu (px)"
+
+#: inc/customizer/registration.php:715
+msgid "Menu Text Color"
+msgstr "Meni Metin Rengi"
+
+#: inc/customizer/registration.php:700
+msgid "Menu Text Font Family"
+msgstr "Menü Metin Font Ailesi"
+
+#: inc/customizer/registration.php:705
+msgid "Menu Text Font Size"
+msgstr "Menü Metin Font Boyutu"
+
+#: inc/user-extra.php:113
+msgid "Message to pending user"
+msgstr "Bekleyen kullanıcıya mesaj"
+
+#: vc_templates/stm_sell_a_car.php:17 vc_templates/stm_sell_a_car.php:188
+#: vc_templates/stm_sell_a_car.php:448 vc_templates/stm_sell_a_car.php:600
+msgid "Mileage"
+msgstr "Kilometre"
+
+#: vc_templates/stm_modern_filter.php:412 listings/filter/actions.php:11
+#: listings/motorcycles/filter/actions.php:41
+msgid "Mileage: highest first"
+msgstr "Kilometre: önce en yüksek"
+
+#: vc_templates/stm_modern_filter.php:411 listings/filter/actions.php:10
+#: listings/motorcycles/filter/actions.php:40
+msgid "Mileage: lowest first"
+msgstr "Kilometre: önce en düşük"
+
+#: inc/customizer/registration.php:1330
+msgid "Miles"
+msgstr "Mil"
+
+#: vc_templates/stm_sell_a_car.php:6 vc_templates/stm_sell_a_car.php:170
+#: vc_templates/stm_sell_a_car.php:441 vc_templates/stm_sell_a_car.php:588
+#: vc_templates/stm_sell_a_car.php:854 vc_templates/stm_sell_a_car.php:995
+msgid "Model"
+msgstr "Model"
+
+#: vc_templates/stm_working_days.php:9
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: vc_templates/stm_auto_loan_calculator.php:60
+#: partials/single-car/car-calculator.php:56
+#: partials/modals/car-calculator.php:70
+#: partials/single-car-boats/boats-calculator.php:45
+msgid "month"
+msgstr "ay"
+
+#: vc_templates/stm_auto_loan_calculator.php:86
+#: partials/single-car/car-calculator.php:82
+#: partials/modals/car-calculator.php:99
+#: partials/single-car-boats/boats-calculator.php:71
+msgid "Monthly Payment"
+msgstr "Aylık Ödeme"
+
+#: inc/scripts_styles.php:296
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr "açık"
+
+#: inc/stm-ajax.php:1521
+msgid "More Details"
+msgstr "Daha fazla detay"
+
+#: partials/rental/product/option.php:48 partials/rental/main-shop/loop.php:114
+msgid "More information"
+msgstr "Daha fazla bilgi"
+
+#: vc_templates/stm_listing_two_search.php:178
+msgid "More Options"
+msgstr "Daha fazla seçenek"
+
+#: listings/boats/filter/sidebar.php:31
+msgid "More options"
+msgstr "Daha Fazla Seçenek"
+
+#: inc/customizer/registration.php:985
+msgid "Motorcycle"
+msgstr "Motosiklet"
+
+#: inc/customizer/registration.php:981
+msgid "Motorcycle Header Layout"
+msgstr "Motorsiklet Başlık Sayfa Düzeni"
+
+#: admin/screens/install_demo.php:28
+msgid "MOTORCYCLES DEALERS"
+msgstr "MOTOSİKLETLER BAYİLER"
+
+#. Name of the theme
+msgid "Motors"
+msgstr "Motorlar"
+
+#: inc/motors-gdpr.php:66 inc/motors-gdpr.php:115
+msgid "Motors Dealer Data"
+msgstr "Motor Bayi Verileri"
+
+#: inc/customizer/registration.php:1311 inc/customizer/registration.php:1501
+msgid "Multiple currencies"
+msgstr "Birden fazla para birimi"
+
+#: woocommerce/checkout/thankyou.php:38
+msgid "My Account"
+msgstr "Hesabım"
+
+#: woocommerce/myaccount/my-address.php:32
+msgid "My Address"
+msgstr "Adresim"
+
+#: woocommerce/myaccount/my-address.php:26
+msgid "My Addresses"
+msgstr "Adreslerim"
+
+#: partials/user/private/user-favourite.php:13
+msgid "My Favorites"
+msgstr "Favorilerim"
+
+#: partials/user/private/user-inventory.php:14
+msgid "My Inventory"
+msgstr "Envanterim"
+
+#: vc_templates/stm_add_a_car.php:131
+msgid "My inventory"
+msgstr "Envanterim"
+
+#: partials/user/user-dropdown.php:33
+msgid "My items"
+msgstr "Ürünlerim"
+
+#: partials/modals/subscription_ended.php:22
+msgid "My subscriptions"
+msgstr "Üyeliklerim"
+
+#: admin/screens/system_status.php:233
+msgid "MySQL Version:"
+msgstr "MySQL Versiyonu:"
+
+#: inc/stm_single_dealer.php:151 inc/stm-ajax.php:853
+#: woocommerce/order/order-details-customer.php:69
+#: woocommerce/order/order-details-customer.php:80
+#: partials/single-car-listing/car-data.php:33
+#: partials/single-car-listing/car-data.php:53
+#: partials/single-car-listing/car-data.php:72
+#: partials/single-car-listing/car-data.php:137
+msgid "N/A"
+msgstr "Uygulanamaz"
+
+#: woocommerce/single-product-reviews.php:80 partials/modals/test-drive.php:14
+#: partials/modals/get-car-price.php:14 partials/modals/trade-offer.php:20
+msgid "Name"
+msgstr "İsim"
+
+#: partials/frontend_customizer.php:63
+msgid "Nav Mode"
+msgstr "Navigasyon Modu"
+
+#: partials/frontend_customizer.php:76
+msgid "Nav Transparency"
+msgstr "Navigasyon Şeffaflığı"
+
+#: admin/includes/envato-market/inc/admin/functions.php:339
+#: admin/includes/envato-market/inc/admin/upgrader-skins.php:114
+msgid "Network Activate"
+msgstr "Ağ Etkinleştir"
+
+#: admin/includes/envato-market/inc/admin/functions.php:340
+#, php-format
+msgid "Network Activate %s"
+msgstr "Ağ %s etkinleştir"
+
+#: admin/includes/envato-market/inc/admin/functions.php:117
+#: admin/includes/envato-market/inc/admin/upgrader-skins.php:62
+msgid "Network Enable"
+msgstr "Ağ Etkinleştir"
+
+#: admin/includes/envato-market/inc/admin/functions.php:117
+#, php-format
+msgid "Network Enable &#8220;%s&#8221;"
+msgstr "Ağ Etkinleştir & # 8220; %s & # 8221;"
+
+#: partials/user/private/dealer-settings.php:571
+#: partials/user/private/user-settings.php:123
+msgid "New Password"
+msgstr "Yeni Şifre"
+
+#: woocommerce/myaccount/form-edit-account.php:68
+#: partials/user/private/password-recovery.php:35
+msgid "New password"
+msgstr "Yeni şifre"
+
+#: woocommerce/myaccount/form-edit-account.php:70
+msgid "New password (leave blank to leave unchanged)"
+msgstr "Yeni şifre (değişmeden bırakmak için boş bırakın)"
+
+#: partials/user/private/dealer-settings.php:279
+msgid "New password not saved, because of wrong confirmation."
+msgstr "Yanlış konfirmasyondan dolayı yeni şifre kaydedilmedi."
+
+#: inc/stm-ajax.php:124
+msgid "New request for test drive"
+msgstr "Test sürüşü için yeni bir talep var"
+
+#: comments.php:34
+msgid "Newer Comments"
+msgstr "Yeni Yorumlar"
+
+#: partials/title_box.php:40
+msgid "News"
+msgstr "Haberler"
+
+#: partials/magazine/content/previous_next_pagination.php:63
+msgid "NEXT"
+msgstr "SONRAKİ"
+
+#: woocommerce/myaccount/orders.php:111
+msgid "Next"
+msgstr "Sonraki"
+
+#: vc_templates/vc_tabs.php:60
+msgid "Next tab"
+msgstr "Sıradaki tab"
+
+#: vc_templates/stm_sell_a_car.php:313 vc_templates/stm_sell_a_car.php:314
+#: vc_templates/stm_sell_a_car.php:725 vc_templates/stm_sell_a_car.php:726
+#: vc_templates/stm_sell_a_car.php:1138 vc_templates/stm_sell_a_car.php:1139
+#: partials/user/dealer-write-review.php:73 partials/user/dealer-reviews.php:60
+#: partials/user/dealer-single-review.php:113
+msgid "No"
+msgstr "Hayır"
+
+#: vc_templates/stm_add_a_car.php:161
+msgid "No car to edit."
+msgstr "Düzenlenecek araba bulunamadı."
+
+#: vc_templates/stm_recent_posts.php:68
+msgid "No comments"
+msgstr "Yorum yok"
+
+#: vc_templates/stm_dealer_list.php:145
+msgid "No dealers on your search parameters"
+msgstr "Kriterlerinize göre bayi bulunamadı"
+
+#: partials/user/private/dealer-settings.php:414
+#: partials/user/private/dealer-settings.php:445
+#: partials/user/private/dealer-settings.php:662
+#: partials/user/private/user-settings.php:56
+#: partials/user/private/user-settings.php:225
+#: partials/user/private/become-dealer.php:243
+#: partials/user/private/become-dealer.php:329
+msgid "No File Chosen"
+msgstr "Dosya seçilmedi"
+
+#: partials/user/dealer-inventory.php:87
+#: partials/user/user-public-profile.php:69
+msgid "No Inventory added yet."
+msgstr "Envanter eklenmedi."
+
+#: partials/user/private/main.php:78
+msgid "No Inventory yet"
+msgstr "Henüz envanter yok"
+
+#: woocommerce/myaccount/orders.php:122
+msgid "No order has been made yet."
+msgstr ""
+
+#: index.php:102
+msgid "No Results"
+msgstr "Sonuç Yok"
+
+#: partials/listing-cars/listing-grid-loop-magazine.php:115
+msgid "No reviews for this Vehicle"
+msgstr "Bu Araç için yorum yok"
+
+#: vc_templates/stm_compare_cars.php:242 vc_templates/stm_compare_cars.php:246
+#: partials/compare.php:184 partials/compare.php:188
+msgid "None"
+msgstr "Hiçbiri"
+
+#: admin/screens/install_demo.php:112
+msgid "Not installed"
+msgstr "Yüklü değil"
+
+#: woocommerce/single-product-reviews.php:106
+msgid "Not that bad"
+msgstr "O kadar da kötü değil"
+
+#: woocommerce/order/order-details.php:85
+#: woocommerce/order/order-details-customer.php:32
+msgid "Note:"
+msgstr "Not:"
+
+#: partials/user/private/dealer-settings.php:554
+#: partials/user/private/become-dealer.php:304
+msgid "Notes"
+msgstr "Notlar"
+
+#: admin/includes/envato-market/inc/admin/view/callback/section/oauth.php:10
+msgid ""
+"OAuth is a protocol that lets external apps request authorization to private "
+"details in a user's Envato Market account without entering their password. "
+"This is preferred over Basic Authentication because tokens can be limited to "
+"specific types of data, and can be revoked by users at any time."
+msgstr ""
+"OAuth, harici uygulamaların bir kullanıcının Envato Market hesabındaki "
+"şifrelerini girmeden özel detaylar için yetki isteğinde bulunmasını sağlayan "
+"bir protokoldür. Bu, Temel Kimlik Doğrulama'ya göre tercih edilir, çünkü "
+"belirteçler belirli veri türleriyle sınırlı olabilir ve kullanıcılar "
+"tarafından herhangi bir zamanda iptal edilebilir."
+
+#: partials/frontend_customizer.php:80
+msgid "Off"
+msgstr "Kapalı"
+
+#: partials/modals/trade-offer.php:12
+msgid "Offer Price"
+msgstr "Fiyat teklif et"
+
+#: comments.php:31
+msgid "Older Comments"
+msgstr "Eski Yorumlar"
+
+#: partials/frontend_customizer.php:82
+msgid "On"
+msgstr "Açık"
+
+#: admin/includes/envato-market/inc/admin/view/notice/error-single-use.php:11
+msgid ""
+"One or more Single Use OAuth Personal Tokens could not be verified and "
+"should be removed."
+msgstr ""
+"Bir veya daha fazla Tek Kullanımlık OAuth Kişisel Simgesi doğrulanamadı ve "
+"kaldırılması gerekiyor."
+
+#: inc/user-extra.php:21
+msgid "Only \"show\" means that user mail is visible to public"
+msgstr "\"Göster\" bu mailin herkes tarafından görünmesi demek"
+
+#: woocommerce/single-product-reviews.php:121
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Sadece giriş yapmış ve bu ürünü satın almış kullanıcılar yorum bırakabilir."
+
+#: partials/header/header-nav.php:113
+msgid "Open Live Chat"
+msgstr "Canlı Yardım aç"
+
+#: inc/scripts_styles.php:298
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr "açık"
+
+#: woocommerce/myaccount/my-orders.php:25
+#: woocommerce/myaccount/my-orders.php:51
+msgid "Order"
+msgstr "Sipariş"
+
+#. 1: order number 2: order date 3: order status
+#: woocommerce/myaccount/view-order.php:29
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr "Sipariş # %1$s , %2$s üzerine verildi ve şu anda %3$s ."
+
+#: woocommerce/emails/email-order-details.php:32
+#: woocommerce/emails/email-order-details.php:34
+#, php-format
+msgid "Order #%s"
+msgstr "Sipariş # %s"
+
+#: woocommerce/order/tracking.php:23
+#, php-format
+msgid "Order #%s which was made %s has the status &ldquo;%s&rdquo;"
+msgstr "Verilmiş#%s sipariş %s statüsü &ldquo;%s&rdquo;"
+
+#: woocommerce/order/order-again.php:22
+msgid "Order Again"
+msgstr "Tekrar Sipariş Ver"
+
+#: woocommerce/order/order-details.php:47
+msgid "Order Details"
+msgstr "Sipariş Detayları"
+
+#: woocommerce/order/form-tracking.php:27
+msgid "Order ID"
+msgstr "Sipariş Kimliği"
+
+#: woocommerce/myaccount/my-orders.php:66
+msgid "Order Number"
+msgstr "Sipariş Numarası"
+
+#: woocommerce/checkout/thankyou.php:56
+msgid "Order number:"
+msgstr "Sipariş numarası:"
+
+#: woocommerce/order/tracking.php:34 woocommerce/myaccount/view-order.php:37
+msgid "Order updates"
+msgstr "sipariş güncellemeleri"
+
+#: admin/screens/support.php:87
+#, php-format
+msgid ""
+"Our forum is the best place for user to user interactions. Ask another %s "
+"user or share your experience with the community to help others."
+msgstr ""
+"Kullanıcı etkileşimi için forumlarımız doğru adresler. Başka bir %s "
+"kullanıcısına deneyimlerini paylaşması için forumdan ulaşabilirsiniz."
+
+#: admin/screens/support.php:50
+#, php-format
+msgid ""
+"Our online documentaiton is a useful resource for learning the every aspect "
+"and features of %s."
+msgstr ""
+"Online dokümentasyonumuz  %s'in tüm özelliklerini öğrenmek için oldukça "
+"faydalı bir kaynak."
+
+#: partials/user/dealer-write-review.php:59 partials/user/dealer-reviews.php:41
+#: partials/user/dealer-single-review.php:81
+msgid "out of"
+msgstr "üzerinden"
+
+#: inc/customizer/registration.php:1956
+#: partials/user/dealer-write-review.php:47
+#: partials/user/dealer-single-review.php:12
+msgid "Overall Experience"
+msgstr "Genel Deneyim"
+
+#: vc_templates/stm_sell_a_car.php:21 vc_templates/stm_sell_a_car.php:243
+#: vc_templates/stm_sell_a_car.php:452 vc_templates/stm_sell_a_car.php:655
+#: vc_templates/stm_sell_a_car.php:865 vc_templates/stm_sell_a_car.php:1068
+msgid "Owner"
+msgstr "Sahibi"
+
+#: page.php:47 partials/blog/content.php:16 partials/blog/content.php:99
+#: partials/magazine/main-interview.php:31 partials/magazine/main.php:39
+msgid "Page"
+msgstr "Sayfa"
+
+#: page.php:43 partials/blog/content.php:12 partials/blog/content.php:95
+#: partials/magazine/main-interview.php:27 partials/magazine/main.php:35
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: woocommerce/myaccount/form-login.php:52
+#: woocommerce/myaccount/form-login.php:150
+msgid "PASSWORD"
+msgstr "ŞİFRE"
+
+#: vc_templates/stm_login_register.php:47
+#: woocommerce/myaccount/form-login.php:56
+#: woocommerce/myaccount/form-login.php:153 listings/add_car/check_user.php:51
+#: partials/user/user-dropdown.php:53 partials/user/private/mobile/user.php:12
+msgid "Password"
+msgstr "Şifre"
+
+#: vc_templates/stm_login_register.php:118 listings/add_car/registration.php:53
+msgid "Password *"
+msgstr "Şifre*"
+
+#: woocommerce/myaccount/form-edit-account.php:56
+msgid "Password change"
+msgstr "Parola değişimi"
+
+#: partials/user/private/password-recovery.php:22
+msgid "Password changed"
+msgstr "Şifre değiştirildi"
+
+#: partials/user/private/password-recovery.php:30
+msgid "Password Recovery"
+msgstr "Şifre kurtar"
+
+#: admin/includes/admin_screens.php:149 admin/includes/admin_screens.php:162
+msgid "Patching"
+msgstr "Yamalar"
+
+#: woocommerce/myaccount/my-orders.php:87 woocommerce/checkout/thankyou.php:36
+msgid "Pay"
+msgstr "Öde"
+
+#: listings/add_car/check_user.php:93
+msgid "Pay for Listing"
+msgstr "İlan Ücretini Ödeyin"
+
+#: listings/add_car/check_user.php:92
+msgid "Pay for this Listing"
+msgstr "Bu ilanın parasını öde"
+
+#: partials/rental/main-shop/price.php:119
+msgid "Pay now"
+msgstr "Şimdi öde"
+
+#: inc/customizer/registration.php:2009
+msgid "Pay Per Listing Price"
+msgstr "İlan Fiyatı Başına Ödeme"
+
+#: partials/user/private/main.php:39
+msgid "Pay Per Listings"
+msgstr "İlan Başına Ödeme"
+
+#: woocommerce/checkout/payment.php:28
+msgid "Payment"
+msgstr "Ödeme"
+
+#: inc/woocommerce_setups_rental.php:1225
+msgid ""
+"Payment amount doesn`t depend on rental days. Only one time payment for this "
+"option."
+msgstr ""
+"Ödeme tutarı kiralama günlerine bağlı değildir. Bu seçenek için yalnızca bir "
+"seferlik ödeme."
+
+#: inc/woocommerce_setups_rental.php:540
+#: partials/rental/wizard-nav/nav-step-3.php:33
+msgid "Payment information"
+msgstr "Ödeme bilgileri"
+
+#: woocommerce/checkout/thankyou.php:80
+msgid "Payment method:"
+msgstr "Ödeme şekli:"
+
+#: inc/user-extra.php:221
+msgid "Payment status"
+msgstr "Ödeme Statüsü"
+
+#: inc/customizer/registration.php:2055
+msgid "Paypal Email"
+msgstr "Paypal Email"
+
+#: inc/customizer/registration.php:2060
+msgid "Paypal mode"
+msgstr "Paypal modu"
+
+#: inc/customizer/registration.php:2045
+msgid "Paypal options"
+msgstr "Paypal seçenekleri"
+
+#: inc/value_my_car/admin-page.php:40
+#: partials/listing-cars/listing-list-directory-edit-loop.php:153
+#: partials/user/private/user-inventory.php:20
+msgid "Pending"
+msgstr "Bekliyor"
+
+#: inc/woocommerce_setups_rental.php:1206
+msgid "Per Hour:"
+msgstr "Saat başı:"
+
+#: inc/customizer/registration.php:1694
+msgid "Percent"
+msgstr "Yüzde"
+
+#: woocommerce/single-product-reviews.php:103
+msgid "Perfect"
+msgstr "Mükemmel"
+
+#: partials/single-car/car-review_rating.php:32
+#: partials/listing-cars/listing-grid-loop-magazine.php:83
+msgid "Performance"
+msgstr "performans"
+
+#: vc_templates/stm_auto_loan_calculator.php:60
+#: partials/single-car/car-calculator.php:56
+#: partials/modals/car-calculator.php:69
+#: partials/single-car-boats/boats-calculator.php:45
+msgid "Period"
+msgstr "Periyot"
+
+#: partials/user/listing-list-user-info.php:60
+msgid "Personal Seller"
+msgstr "Kişisel Satıcı"
+
+#: inc/user-extra.php:26 partials/modals/test-drive.php:28
+#: partials/modals/get-car-price.php:28 partials/modals/trade-offer.php:34
+#: partials/user/private/dealer-settings.php:485
+#: partials/user/private/user-settings.php:91
+msgid "Phone"
+msgstr "Telefon"
+
+#: vc_templates/stm_login_register.php:103 vc_templates/stm_sell_a_car.php:351
+#: vc_templates/stm_sell_a_car.php:763 vc_templates/stm_sell_a_car.php:1176
+#: inc/customizer/registration.php:1074 listings/add_car/registration.php:38
+msgid "Phone number"
+msgstr "Telefon numarası"
+
+#: inc/woocommerce_setups_rental.php:919
+#: vc_templates/stm_contact_information.php:26
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: admin/screens/system_status.php:118
+msgid "PHP Max Input Vars:"
+msgstr "PHP Maksimum Input:"
+
+#: admin/screens/system_status.php:95
+msgid "PHP Post Max Size:"
+msgstr "PHP Post Maksimum Boyutu:"
+
+#: admin/screens/system_status.php:100
+msgid "PHP Time Limit:"
+msgstr "PHP Zaman Limiti:"
+
+#: admin/screens/system_status.php:89
+msgid "PHP Version:"
+msgstr "PHP Verisyonu:"
+
+#: inc/woocommerce_setups_rental.php:520 vc_templates/stm_rent_car_form.php:49
+msgid "Pick Up"
+msgstr "Teslim alma"
+
+#: partials/rental/wizard-nav/nav-step-1.php:33
+msgid "Pick up"
+msgstr "Varış"
+
+#: vc_templates/stm_rent_car_form.php:68
+msgid "Pick-up Date/Time*"
+msgstr "Teslim alma Tarih/ Saat*"
+
+#: vc_templates/stm_rent_car_form.php:70
+msgid "Pickup Date"
+msgstr "Teslim alma Tarihi"
+
+#: woocommerce/emails/email-order-details.php:59
+msgid "Pickup date"
+msgstr "Teslim alma Tarihi"
+
+#: woocommerce/emails/email-order-details.php:67
+msgid "Pickup location"
+msgstr "Teslim alma lokasyonu"
+
+#: inc/customizer/registration.php:332
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: vc_templates/stm_rent_car_form.php:79
+msgid "Place to drop the Car*"
+msgstr "Arabayı bırakmak için tamamlayın*"
+
+#: vc_templates/stm_rent_car_form.php:51
+msgid "Place to pick up the Car*"
+msgstr "Arabayı almak için tamamlayın*"
+
+#: partials/car-filter-loop.php:27 partials/car-filter-loop.php:33
+#: partials/single-car/car-gallery.php:28
+#: partials/listing-cars/listing-list-directory-edit-loop.php:191
+#: partials/listing-cars/listing-list-directory-loop-animate.php:202
+#: partials/single-car-listing/car-gallery.php:38
+#: partials/single-car-motorcycle/car-gallery.php:21
+#: partials/single-aircrafts/gallery.php:17
+#: partials/listing-cars/motos/grid.php:106
+#: partials/listing-cars/motos/list.php:123
+#: partials/listing-cars/motos/moto-single-grid.php:105
+#: listings/loop/classified/list/image-inventory-no-filter.php:113
+#: listings/loop/classified/list/image.php:118
+#: listings/loop/classified/grid/image.php:47
+#: listings/loop/boats/list/image.php:22
+#: listings/loop/default/list/image.php:21
+#: listings/loop/default/grid/image.php:35
+msgid "Placeholder"
+msgstr "Yer tutucu"
+
+#: partials/modals/subscription_ended.php:14
+msgid "Plan days left:"
+msgstr "Plan günü kaldı:"
+
+#: partials/single-aircrafts/header-search.php:26
+msgid "Planes"
+msgstr ""
+
+#: hb_templates/elements/multi-currency/multi-currency.php:43
+msgid "Pleace install WooCommerce & Multi Currency for WooCommerce"
+msgstr "Pleace WooCommerce ve WooCommerce için Çoklu Para Birimi'ni kurar"
+
+#: inc/stm-ajax.php:988
+msgid "Please add car price"
+msgstr "Lütfen araba fiyatını ekleyin"
+
+#: inc/stm-ajax.php:590
+msgid "Please add rating"
+msgstr "Lütfen puanlayın"
+
+#: inc/stm-ajax.php:91
+msgid "Please enter correct email"
+msgstr "Lütfen emailinizi kontrol edin"
+
+#: inc/stm-ajax.php:95
+msgid "Please enter correct phone number"
+msgstr "Lütfen telefon numaranızı kontrol edin"
+
+#: inc/value_my_car/value_my_car.php:82
+msgid "Please enter required fields"
+msgstr "Lütfen zorunlu alanları giriniz"
+
+#: admin/screens/install_demo.php:147
+#, php-format
+msgid ""
+"Please enter your <a href=\"%s\">Activation Token</a> before running the "
+"Motors."
+msgstr ""
+"Motorları çalıştırmadan önce lütfen <a href=\" %s \"> Etkinleştirme "
+"Simgenizi </a> girin."
+
+#: inc/updater/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "Lütfen Envato Pazaryeri API anahtarını girin."
+
+#: inc/updater/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "Lütfen Envato Pazaryeri kullanıcı adınızı girin."
+
+#: vc_templates/stm_sell_a_car.php:43 vc_templates/stm_sell_a_car.php:472
+#: vc_templates/stm_sell_a_car.php:886
+msgid "Please fill"
+msgstr "Lütfen doldurun"
+
+#: inc/stm-ajax.php:87 inc/stm-ajax.php:99 inc/stm-ajax.php:104
+#: inc/stm-ajax.php:238 inc/stm-ajax.php:348
+msgid "Please fill all fields"
+msgstr "Lütfen tüm alanları doldurun"
+
+#: vc_templates/stm_auto_loan_calculator.php:174
+#: partials/single-car/car-calculator.php:155
+#: partials/modals/car-calculator.php:174
+#: partials/single-car-boats/boats-calculator.php:144
+msgid "Please fill Down Payment field"
+msgstr "Lütfen ödeme adımı alanını doldurun"
+
+#: woocommerce/checkout/payment.php:43
+msgid "Please fill in your details above to see available payment methods."
+msgstr "Lütfen ödeme yöntemlerini görmek için yukarıda bilgilerinizi girin."
+
+#: vc_templates/stm_auto_loan_calculator.php:164
+#: partials/single-car/car-calculator.php:145
+#: partials/modals/car-calculator.php:164
+#: partials/single-car-boats/boats-calculator.php:134
+msgid "Please fill Interest Rate field"
+msgstr "Lütfen faiz oranı alanını doldurun"
+
+#: vc_templates/stm_auto_loan_calculator.php:169
+#: partials/single-car/car-calculator.php:150
+#: partials/modals/car-calculator.php:169
+#: partials/single-car-boats/boats-calculator.php:139
+msgid "Please fill Period field"
+msgstr "Lütfen periyot alanını doldurun"
+
+#: inc/stm-ajax.php:736
+msgid "Please fill required fields"
+msgstr "Lütfen tüm alanları doldurun"
+
+#: vc_templates/stm_auto_loan_calculator.php:159
+#: partials/single-car/car-calculator.php:140
+#: partials/modals/car-calculator.php:159
+#: partials/single-car-boats/boats-calculator.php:129
+msgid "Please fill Vehicle Price field"
+msgstr "Lütfen araç fiyatı alanını doldurun"
+
+#: vc_templates/stm_social_follow_counter.php:13
+msgid "Please install plugin Access Press Social Counter"
+msgstr "Lütfen eklentiyi yükleyin Access Press Social Counter"
+
+#: partials/user/private/dealer-settings.php:134
+#: partials/user/private/dealer-settings.php:214
+#: partials/user/private/become-dealer.php:185
+msgid "Please load image with right extension (jpg, jpeg, png)"
+msgstr "Lütfen doğru uzantılı bir görsel yüklein (jpg, jpeg, png)"
+
+#: vc_templates/stm_add_a_car.php:147
+msgid "Please login."
+msgstr "Lütfen giriş yapın."
+
+#: inc/woocommerce_setups.php:276
+msgid "Please make featured this Listing manually"
+msgstr "Lütfen bu girişi el ile yapın"
+
+#: admin/screens/startup.php:23
+msgid ""
+"Please make sure you have purchased this theme with the account you "
+"registered current token"
+msgstr ""
+"Lütfen kayıt yaptırdığınız hesabın mevcut token'ı üzerinden temayı satın "
+"aldığınıza emin olun"
+
+#: inc/stm-ajax.php:174 inc/stm-ajax.php:246
+msgid "Please prove you're not a robot"
+msgstr "Lütfen robot olmadığınızı kanıtlayın"
+
+#: inc/woocommerce_setups.php:272
+msgid "Please publish this Listing manually"
+msgstr "Lütfen bu girişi el ile yayınlayın"
+
+#: partials/rental/common/order-info-empty.php:8
+msgid "Please select your vehicle "
+msgstr "Lütfen aracınızı seçin "
+
+#: inc/stm-ajax.php:574 inc/stm-ajax.php:578
+msgid "Please, check you are not a dealer."
+msgstr "Lütfen bayi olup olmadığınızı kontrol edin."
+
+#: inc/stm-ajax.php:569
+msgid "Please, enter review text."
+msgstr "Lütfen, incelenmiş metni girin."
+
+#: inc/stm-ajax.php:555
+msgid "Please, enter review title."
+msgstr "Lütfen bir inceleme başlığı girin."
+
+#: inc/stm-ajax.php:867
+msgid "Please, log in"
+msgstr "Lütfen giriş yapın"
+
+#: admin/includes/admin_screens.php:157
+#: admin/includes/envato-market/inc/admin/view/partials/tabs.php:42
+msgid "Plugins"
+msgstr "Eklentiler"
+
+#: partials/user/dealer-inventory.php:44
+msgid "Popular items"
+msgstr "Popüler ürünler"
+
+#: vc_templates/stm_dealer_list.php:27
+msgid "Popularity"
+msgstr "Popülerlik"
+
+#: woocommerce/myaccount/my-address.php:95
+msgid "Postcode"
+msgstr "posta kodu"
+
+#: vc_templates/stm_post_info.php:19
+#: vc_templates/stm_post_animated_image.php:32
+#: vc_templates/stm_post_fullwidth_info.php:27 partials/blog/content.php:68
+#: partials/blog/content-list-loop.php:41
+msgid "Posted by:"
+msgstr "Yayınlayan:"
+
+#: vc_templates/stm_add_a_car.php:114 vc_templates/stm_posts_available.php:13
+msgid "Posts Available"
+msgstr "Postlar mevcut"
+
+#: partials/modals/limit_exceeded.php:3
+msgid "Posts Available:"
+msgstr "Postlar mevcut:"
+
+#: partials/magazine/content/previous_next_pagination.php:41
+msgid "PREVIOUS"
+msgstr "ÖNCEKİ"
+
+#: woocommerce/myaccount/orders.php:106
+msgid "Previous"
+msgstr "Önceki"
+
+#: vc_templates/vc_tabs.php:60
+msgid "Previous tab"
+msgstr "Önceki tab"
+
+#: vc_templates/stm_compare_cars.php:197
+#: woocommerce/emails/email-order-details.php:42 woocommerce/cart/cart.php:28
+#: woocommerce/cart/cart.php:76 inc/rental/PricePerHour.php:119
+#: listings/add_car/step_6.php:31 listings/add_car/step_6.php:59
+#: partials/listing-layout-parts/boats-list-sort.php:29
+msgid "Price"
+msgstr "Fiyat"
+
+#: inc/customizer/registration.php:1300 inc/customizer/registration.php:1490
+msgid "Price currency"
+msgstr "Fiyat para birimi"
+
+#: inc/customizer/registration.php:1295 inc/customizer/registration.php:1485
+msgid "Price currency name"
+msgstr "Fiyat para birimi adı"
+
+#: inc/customizer/registration.php:1305 inc/customizer/registration.php:1495
+msgid "Price currency position"
+msgstr "Fiyat para birimi pozisyonu"
+
+#: inc/customizer/registration.php:1317 inc/customizer/registration.php:1507
+msgid "Price delimeter"
+msgstr "Fiyat ayracı"
+
+#: inc/rental/PricePerHour.php:112
+msgid "Price For Date Peiod"
+msgstr "Tarih Peiod Ücreti"
+
+#: inc/rental/PricePerHour.php:106
+msgid "Price Per Hour"
+msgstr "Saat Başına Fiyat"
+
+#: inc/woocommerce_setups.php:94
+msgid "Price Plan Car Images Quota"
+msgstr "Fiyat Planı Araba Görseli Kotası"
+
+#: inc/woocommerce_setups.php:90
+msgid "Price Plan Cars Quota"
+msgstr "Fiyat Planı Araba Kotası"
+
+#: inc/woocommerce_setups.php:98
+msgid "Price Plan User Role"
+msgstr "Fiyat Planı Kullanıcı Rolü"
+
+#: vc_templates/stm_modern_filter.php:410 listings/filter/actions.php:9
+#: listings/boats/filter/actions.php:12
+#: listings/motorcycles/filter/actions.php:39
+msgid "Price: highest first"
+msgstr "Fiyat: en yüksek"
+
+#: vc_templates/stm_modern_filter.php:409 listings/filter/actions.php:8
+#: listings/boats/filter/actions.php:11
+#: listings/motorcycles/filter/actions.php:38
+msgid "Price: lower first"
+msgstr "Fiyat: en düşük"
+
+#: inc/customizer/registration.php:2028
+msgid "Pricing Link"
+msgstr "Fiyatlandırma Linki"
+
+#: inc/woocommerce_setups.php:87
+msgid "Pricing Plan Options (Works only with \"Subscription\" Product)"
+msgstr "Fiyatlandırma Planı ( Sadece \"Üyelik\" Ürünlerinde geçerli)"
+
+#: inc/setup.php:71
+msgid "Primary Sidebar"
+msgstr "Öncelikli Kenar Çubuğu"
+
+#: inc/customizer/registration.php:362
+msgid "Primary sidebar"
+msgstr "Öncelikli Kenar Çubuğu"
+
+#: partials/rental/common/order-print.php:3
+msgid "Print"
+msgstr "Yazdır"
+
+#: partials/single-car/car-actions.php:118
+#: partials/single-aircrafts/action-bar.php:31
+msgid "Print page"
+msgstr "Sayfayı yazdır"
+
+#: admin/screens/install_demo.php:96
+msgid "Privacy Policy"
+msgstr "Gizlilik Politikası"
+
+#: listings/add_car/registered.php:26 listings/add_car/user_info.php:65
+#: partials/user/user-public-profile.php:35
+#: partials/single-car-listing/car-dealer.php:92
+#: partials/user/private/user.php:25
+#: partials/user/private/mobile/user-profile.php:22
+msgid "Private Seller"
+msgstr "Özel Satıcı"
+
+#: woocommerce/order/order-details.php:51
+#: woocommerce/emails/email-order-details.php:40
+#: woocommerce/checkout/review-order.php:26 woocommerce/cart/cart.php:47
+msgid "Product"
+msgstr "Ürün"
+
+#: woocommerce/cart/cart.php:27
+msgid "Product Name"
+msgstr "Ürün Adı"
+
+#: woocommerce/global/quantity-input.php:41
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Adet"
+
+#: partials/user/private/dealer-settings.php:381
+#: partials/user/private/user-settings.php:14
+msgid "Profile Settings"
+msgstr "Profil Ayarları"
+
+#: vc_templates/stm_sell_a_car.php:1042
+msgid "Provide a hosted video url of your boat"
+msgstr "Botunuz için bir video URL'i paylaşın"
+
+#: vc_templates/stm_sell_a_car.php:217 vc_templates/stm_sell_a_car.php:629
+msgid "Provide a hosted video url of your car"
+msgstr "Arabanızın bir video url'sini paylaşın"
+
+#: inc/stm-ajax.php:1026 vc_templates/stm_sell_a_car.php:67
+#: inc/value_my_car/value_my_car.php:88
+#, php-format
+msgid ""
+"Providing consent to our <a href='%s'>%s</a> is necessary in order to use "
+"our services and products."
+msgstr ""
+"Hizmetlerimizi ve ürünlerimizi kullanabilmemiz için <a href=' %s %s </a> "
+"onayımızı vermek gerekir."
+
+#: inc/customizer/registration.php:2174
+msgid "Public key"
+msgstr "Genel anahtar"
+
+#: partials/rental/common/order-info.php:26
+#: partials/rental/common/order-info.php:63
+#: partials/rental/common/order-info-empty.php:53
+msgid "QTY"
+msgstr "QTY"
+
+#: woocommerce/emails/email-order-details.php:41 woocommerce/cart/cart.php:29
+#: woocommerce/cart/cart.php:82 woocommerce/global/quantity-input.php:31
+msgid "Quantity"
+msgstr "Miktar"
+
+#: partials/single-car-motorcycle/car-links.php:37
+#: partials/listing-cars/motos/list-actions.php:48
+msgid "Quote by Phone"
+msgstr "Telefonla quote"
+
+#: partials/rental/common/order-info.php:22
+#: partials/rental/common/order-info.php:27
+#: partials/rental/common/order-info.php:64
+#: partials/rental/common/order-info-empty.php:26
+#: partials/rental/common/order-info-empty.php:54
+msgid "Rate"
+msgstr "Puan"
+
+#: inc/customizer/registration.php:1944
+msgid "Rate 1 label:"
+msgstr "Yorum 1 etiketi:"
+
+#: inc/customizer/registration.php:1949
+msgid "Rate 2 label:"
+msgstr "Yorum 2 etiketi:"
+
+#: inc/customizer/registration.php:1954
+msgid "Rate 3 label:"
+msgstr "Yorum 3 etiketi:"
+
+#: woocommerce/single-product-reviews.php:102
+msgid "Rate&hellip;"
+msgstr "Puan & hellip;"
+
+#: partials/user/dealer-reviews.php:24
+msgid "ratings"
+msgstr "puanlar"
+
+#: partials/user/private/dealer-settings.php:577
+#: partials/user/private/user-settings.php:130
+msgid "Re-enter New Password"
+msgstr "Şifreyi yeniden gir"
+
+#: inc/customizer/registration.php:2165 inc/customizer/registration.php:2169
+msgid "Recaptcha"
+msgstr "Recaptcha"
+
+#: partials/user/dealer-inventory.php:45
+msgid "Recent items"
+msgstr "Yeni ürünler"
+
+#: woocommerce/myaccount/my-orders.php:45
+msgid "Recent Orders"
+msgstr "Yakın zamandaki siparişler"
+
+#: partials/user/dealer-reviews.php:49
+msgid "Recommend"
+msgstr "Tavsiye"
+
+#: inc/customizer/registration.php:492 inc/customizer/registration.php:508
+msgid "Red"
+msgstr "Kırmızı"
+
+#: inc/customizer/registration.php:336
+msgid "Reddit"
+msgstr "Reddit"
+
+#: partials/single-aircrafts/title.php:23
+msgid "Reg Number: "
+msgstr ""
+
+#: partials/top-bar-boats.php:87 partials/top-bar.php:127
+#: partials/top-bar.php:150 woocommerce/myaccount/form-login.php:115
+#: woocommerce/myaccount/form-login.php:171
+#: woocommerce/myaccount/form-login.php:176
+msgid "Register"
+msgstr "Kayıt ol"
+
+#: listings/add_car/step_1_additional_fields.php:15
+#: partials/single-car-listing/car-data.php:23
+#: partials/single-car-listing/car-data.php:32
+msgid "Registered"
+msgstr "Kayıtlı"
+
+#: vc_templates/stm_add_a_car.php:133 admin/includes/admin_screens.php:139
+msgid "Registration"
+msgstr "Kayıt"
+
+#: inc/customizer/controls/font-weight.php:18
+msgid "Regular"
+msgstr "Normal"
+
+#: inc/customizer/controls/font-weight.php:19
+msgid "Regular Italic"
+msgstr "Normal İtalik"
+
+#: woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr "İlgili ürünler"
+
+#: vc_templates/stm_login_register.php:53
+#: woocommerce/myaccount/form-login.php:76
+#: woocommerce/myaccount/form-login.php:88 listings/add_car/check_user.php:59
+#: partials/user/user-dropdown.php:60 partials/user/private/mobile/user.php:19
+msgid "Remember me"
+msgstr "Beni hatırla"
+
+#: partials/rental/product/option.php:85
+#: admin/includes/envato-market/inc/admin/admin.php:356
+msgid "Remove"
+msgstr "Kaldır"
+
+#: inc/scripts_styles.php:231 vc_templates/stm_compare_cars.php:135
+#: partials/compare.php:112
+#: partials/listing-cars/listing-grid-loop-magazine.php:32
+#: partials/listing-cars/motos/grid.php:57
+#: partials/listing-cars/motos/moto-single-grid.php:57
+#: listings/loop/default/list/compare.php:16
+msgid "Remove from compare"
+msgstr "Karşılatırmadan kaldır"
+
+#: inc/scripts_styles.php:232
+msgid "Remove from favorites"
+msgstr "Favorilerden çıkar"
+
+#: inc/stm-ajax.php:33 vc_templates/stm_compare_cars.php:99
+#: vc_templates/stm_compare_cars.php:189 partials/compare.php:76
+#: partials/single-car/car-actions.php:65
+#: partials/listing-cars/listing-list-loop-actions.php:69
+#: partials/listing-cars/listing-directive-list-loop-actions.php:64
+#: partials/single-car-boats/boats-actions.php:53
+#: partials/single-aircrafts/action-bar.php:49
+#: listings/loop/default/list/features.php:86
+msgid "Remove from list"
+msgstr "Listeden kaldır"
+
+#: admin/includes/envato-market/inc/admin/admin.php:396
+msgid "Remove Item"
+msgstr "Öğeyi kaldırmak"
+
+#: woocommerce/cart/cart.php:107
+msgid "Remove this item"
+msgstr "Bu ürünü sil"
+
+#: partials/modals/subscription_ended.php:19
+msgid "Renew"
+msgstr "Yenile"
+
+#: admin/screens/install_demo.php:25
+msgid "RENT A CAR SERVICE"
+msgstr "ARAÇ SERVİSİ KİRALAMA"
+
+#: partials/rental/common/order-info.php:49
+#: partials/rental/common/order-info-empty.php:78
+msgid "Rental Charges Rate"
+msgstr "Kiralama Ücretlendirme Oranları"
+
+#: inc/customizer/registration.php:1126
+msgid "Rental Layout"
+msgstr "Kiralık Sayfa Düzeni"
+
+#: inc/value_my_car/admin-page.php:99
+msgid "Reply"
+msgstr "cevap"
+
+#: inc/value_my_car/value_my_car.php:217
+msgid "Reply was sent"
+msgstr ""
+
+#: partials/user/dealer-single-review.php:119
+msgid "Report"
+msgstr "Rapor"
+
+#: inc/stm-ajax.php:784
+msgid "Reported"
+msgstr "Raporlandı"
+
+#: partials/modals/test-drive.php:59 partials/modals/get-car-price.php:42
+#: partials/modals/trade-offer.php:66
+msgid "Request"
+msgstr "İstek"
+
+#: partials/single-car-motorcycle/car-links.php:21
+msgid "Request a quote"
+msgstr "Quote iste"
+
+#: inc/customizer/registration.php:1796
+msgid "Request a quote link"
+msgstr "Quote linki iste"
+
+#: partials/modals/get-car-price.php:7
+msgid "Request car price"
+msgstr "Araç fiyatı talep edin"
+
+#: vc_templates/stm_sell_a_car.php:30
+#, php-format
+msgid "Request for %s"
+msgstr "%s için talep"
+
+#: partials/rental/wizard-nav/main.php:3
+msgid "Reservation"
+msgstr "Rezervasyon"
+
+#: inc/customizer/registration.php:1129
+msgid "Reservation Date Page"
+msgstr "Rezervasyon Günü Sayfası"
+
+#: woocommerce/myaccount/orders.php:65
+msgid "Reservation Period"
+msgstr ""
+
+#: partials/rental/wizard-nav/nav-step-3.php:25
+msgid "Reserve Your Vehicle"
+msgstr "Aracınızı Rezerve Edin"
+
+#: listings/classified/filter/sidebar.php:29
+#: listings/motorcycles/filter/sidebar.php:27
+msgid "Reset All"
+msgstr "Sıfırla"
+
+#: vc_templates/stm_inventory_on_map.php:189 listings/filter/sidebar.php:60
+#: listings/classified/filter/sidebar.php:87
+#: listings/motorcycles/filter/sidebar.php:77
+msgid "Reset all"
+msgstr "Hepsini sıfırla"
+
+#: vc_templates/stm_car_listing_tabbed.php:268
+msgid "Reset search fields"
+msgstr "Arama alanlarını sıfırla"
+
+#: vc_templates/stm_rent_car_form.php:76
+msgid "Return"
+msgstr "İade"
+
+#: vc_templates/stm_rent_car_form.php:100
+msgid "Return Date"
+msgstr "İade Tarihi"
+
+#: woocommerce/emails/email-order-details.php:75
+msgid "Return date"
+msgstr "İade Tarihi"
+
+#: woocommerce/emails/email-order-details.php:83
+msgid "Return location"
+msgstr "İade lokasyonu"
+
+#: woocommerce/checkout/thankyou.php:49
+msgid "Return to account"
+msgstr "Hesaba dön"
+
+#: admin/includes/envato-market/inc/admin/upgrader-skins.php:118
+#: admin/includes/envato-market/inc/admin/admin.php:764
+#: admin/includes/envato-market/inc/admin/admin.php:789
+#: admin/includes/envato-market/inc/admin/admin.php:847
+msgid "Return to Plugin Installer"
+msgstr "Eklenti Yükleyicisine dön"
+
+#: vc_templates/stm_rent_car_form.php:65
+msgid "Return to the same location"
+msgstr "Aynı lokasyona dön"
+
+#: admin/includes/envato-market/inc/admin/upgrader-skins.php:68
+#: admin/includes/envato-market/inc/admin/admin.php:822
+msgid "Return to Theme Installer"
+msgstr "Tema Yükleyiciye Dön"
+
+#: woocommerce/single-product-reviews.php:36 inc/stm_single_dealer.php:81
+#: vc_templates/stm_dealer_list.php:24 partials/user/dealer-reviews.php:78
+#: partials/single-car-listing/car-dealer.php:42
+msgid "Reviews"
+msgstr "İncelemeler"
+
+#: inc/customizer/registration.php:349 inc/customizer/registration.php:1916
+#: inc/customizer/registration.php:1932 inc/customizer/registration.php:2093
+#: inc/customizer/registration.php:2131
+msgid "Right"
+msgstr "Sağ"
+
+#: listings/add_car/step_6.php:39
+msgid "Sale Price"
+msgstr "Satış Fiyatı"
+
+#: woocommerce/content-product.php:67
+msgid "Sale Product"
+msgstr "Satılık Ürün"
+
+#: inc/user-extra.php:203 partials/user/dealer-public-profile.php:83
+#: partials/user/private/dealer-settings.php:544
+#: partials/user/private/become-dealer.php:294
+msgid "Sales Hours"
+msgstr "Satış Saatleri"
+
+#: partials/user/dealer-public-profile.php:67
+msgid "Sales Phone"
+msgstr "Satış Telefonu"
+
+#: inc/customizer/registration.php:2063
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: vc_templates/stm_working_days.php:14
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: admin/includes/envato-market/inc/admin/admin.php:355
+msgid "Save"
+msgstr "Kayıt etmek"
+
+#: vc_templates/stm_sell_a_car.php:250 vc_templates/stm_sell_a_car.php:323
+#: vc_templates/stm_sell_a_car.php:662 vc_templates/stm_sell_a_car.php:735
+#: vc_templates/stm_sell_a_car.php:1075 vc_templates/stm_sell_a_car.php:1148
+msgid "Save and continue"
+msgstr "Kaydet ve devam et"
+
+#: vc_templates/stm_sell_a_car.php:370 vc_templates/stm_sell_a_car.php:782
+#: vc_templates/stm_sell_a_car.php:1195
+msgid "Save and finish"
+msgstr "Kaydet ve bitir"
+
+#: partials/user/private/dealer-settings.php:643
+#: partials/user/private/user-settings.php:206
+#: admin/includes/envato-market/inc/admin/view/partials/settings.php:17
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: woocommerce/myaccount/form-edit-account.php:85
+msgid "Save changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: partials/rental/main-shop/price.php:79
+#, php-format
+msgid "Saves you %s"
+msgstr "%s size kazandırır"
+
+#: partials/modals/test-drive.php:7
+msgid "Schedule a Test Drive"
+msgstr "Deneme sürüşü planla"
+
+#: partials/single-car/car-actions.php:52
+#: partials/listing-cars/listing-list-loop-actions.php:51
+#: partials/listing-cars/listing-directive-list-loop-actions.php:47
+#: partials/single-car-boats/boats-actions.php:35
+#: listings/loop/default/list/features.php:73
+msgid "Schedule Test Drive"
+msgstr "Deneme sürüşü planla"
+
+#: partials/single-car-motorcycle/car-links.php:29
+msgid "Schedule test drive"
+msgstr "Deneme sürüşü planla"
+
+#: vc_templates/stm_listing_search_without_tabs.php:71
+#: vc_templates/stm_filter_selects.php:130
+#: vc_templates/stm_car_listing_tabbed.php:263 partials/title_box.php:60
+#: partials/modals/searchform.php:6 listings/classified/filter/sidebar.php:27
+#: listings/motorcycles/filter/sidebar.php:25
+msgid "Search"
+msgstr "Ara"
+
+#: partials/listing-layout-parts/footer-copyright-top.php:20
+msgid "Search Inventory"
+msgstr "Envanter ara"
+
+#: vc_templates/stm_car_listing_tabbed.php:89
+msgid "Search inventory"
+msgstr "Envanter ara"
+
+#: vc_templates/stm_inventory_on_map.php:131 listings/filter/sidebar.php:9
+#: listings/classified/filter/sidebar.php:23
+msgid "Search Options"
+msgstr "Arama Opsiyonları"
+
+#: listings/filter/types/location.php:38
+msgid "Search radius"
+msgstr "Yarıçapı araştır"
+
+#: inc/customizer/registration.php:860
+msgid "Secondary phone 1"
+msgstr "İkinci telefon 1"
+
+#: inc/customizer/registration.php:871
+msgid "Secondary phone 2"
+msgstr "İkinci telefon 2"
+
+#: inc/customizer/registration.php:855
+msgid "Secondary phone label 1"
+msgstr "İkinci telefon etiketi 1"
+
+#: inc/customizer/registration.php:866
+msgid "Secondary phone label 2"
+msgstr "İkinci telefone tiketi 2"
+
+#: inc/customizer/registration.php:2178
+msgid "Secret key"
+msgstr "Gizli anahtar"
+
+#: inc/stm_single_dealer.php:133
+msgid "See map"
+msgstr "Haritaya bak"
+
+#: partials/user/private/dealer-settings.php:167
+msgid ""
+"Seems like image too small, please load image with minimal dimensions 500x282"
+msgstr ""
+"Görsel çok küçük görünüyor, lütfen minimum 500x282 boyutunda bir görsel "
+"ekleyin"
+
+#: listings/add_car/step_1.php:57 listings/add_car/step_1.php:73
+#: listings/add_car/step_1.php:78 listings/add_car/step_1.php:141
+msgid "Select"
+msgstr "Seç"
+
+#: vc_templates/stm_filter_selects.php:77
+#: vc_templates/stm_car_listing_tabbed.php:243 listings/add_car/step_1.php:114
+#, php-format
+msgid "Select %s"
+msgstr "%s seç"
+
+#: listings/add_car/step_5.php:31
+msgid "Select all the phrases that apply to your vehicle."
+msgstr "Aracıma uygun tüm cümleleri seç."
+
+#: listings/filter/types/price.php:65
+msgid "Select Price"
+msgstr "Fiyat Seç"
+
+#: partials/modals/rental-notification-choose-another-class.php:12
+msgid "Select Vehicle"
+msgstr "Araç Seç"
+
+#: partials/rental/wizard-nav/nav-step-2.php:34
+msgid "Select Vehicle/Add-ons"
+msgstr "Araç/ Ekleme Seçin"
+
+#: partials/rental/main-shop/archive-content.php:4
+msgid "Select vehicle/add-ons"
+msgstr "Araç seç/ekler"
+
+#: listings/add_car/step_2.php:3
+msgid "Select Your Car Features"
+msgstr "Araba Özelliklerini Seç"
+
+#: partials/user/private/user.php:55
+#: partials/user/private/mobile/user-profile.php:108
+msgid "Seller Contact Phone"
+msgstr "Satıcı Kontakt Telefonu"
+
+#: partials/single-car-listing/car-dealer.php:68
+#: partials/single-car-listing/car-dealer.php:111
+#: partials/user/private/user.php:62
+#: partials/user/private/mobile/user-profile.php:116
+msgid "Seller Email"
+msgstr "Satıcı Email"
+
+#: partials/user/dealer-public-profile.php:92
+#: partials/user/user-public-profile.php:42
+msgid "Seller email"
+msgstr "Satıcı email"
+
+#: listings/add_car/step_5.php:11
+#: partials/single-car-listing/car-main-four.php:39
+#: partials/single-car-listing/car-main.php:36
+msgid "Seller Note"
+msgstr "Satıcı Notu"
+
+#: inc/user-extra.php:213
+msgid "Seller Notes"
+msgstr "Satıcı Notları"
+
+#: partials/user/user-public-profile.php:52
+msgid "Seller phone"
+msgstr "Satıcı telefonu"
+
+#: partials/user/dealer-public-profile.php:128
+msgid "Seller's Notes"
+msgstr "Satıcı Notları"
+
+#: partials/user/user-public-profile.php:61
+msgid "Sellers Inventory"
+msgstr "Satıcı Envanteri"
+
+#: inc/customizer/controls/font-weight.php:22
+msgid "Semi-Bold"
+msgstr "Yarın-Bold"
+
+#: inc/customizer/controls/font-weight.php:23
+msgid "Semi-Bold Italic"
+msgstr "Yarı-Bold İtalik"
+
+#: vc_templates/stm_login_register.php:72
+msgid "Send password"
+msgstr "Şifre gönder"
+
+#: partials/single-aircrafts/title.php:19
+msgid "Serial Number: "
+msgstr ""
+
+#: admin/screens/system_status.php:75 admin/screens/system_status.php:79
+msgid "Server Environment"
+msgstr "Sunucu Ortamı"
+
+#: admin/screens/system_status.php:84
+msgid "Server Info:"
+msgstr "Sunucu Bilgisi:"
+
+#: inc/customizer/registration.php:1110
+msgid "Service Layout"
+msgstr "Servis Sayfa Düzeni"
+
+#. Name of the template
+msgid "Service Page Layout"
+msgstr "Hizmet Sayfası Düzeni"
+
+#: inc/woocommerce_setups_rental.php:1192
+msgid "Sessions:"
+msgstr "Oturumlar:"
+
+#: inc/customizer/registration.php:1336
+msgid "Set max search radius"
+msgstr "Maksimum arama sonucu belirle"
+
+#: partials/user/private/password-recovery.php:37
+msgid "Set new password"
+msgstr "Yeni bir şifre belirle"
+
+#: listings/add_car/step_6.php:13
+msgid "Set Your Asking Price"
+msgstr "Sorma Fiyatını Belirle"
+
+#: admin/includes/envato-market/inc/admin/view/partials/tabs.php:45
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: admin/screens/install_demo.php:138
+msgid "Setup Layout"
+msgstr "Kurulum düzeni"
+
+#: vc_templates/stm_post_meta_bottom.php:41
+#: vc_templates/stm_post_meta_bottom.php:44
+#: partials/single-car/car-actions.php:99
+#: partials/single-car/car-actions.php:102 partials/blog/content.php:137
+#: partials/blog/content.php:140
+#: partials/listing-cars/listing-list-loop-actions.php:109
+#: partials/listing-cars/listing-list-loop-actions.php:111
+#: partials/listing-cars/listing-directive-list-loop-actions.php:99
+#: partials/magazine/main-interview.php:55
+#: partials/magazine/main-interview.php:58 partials/magazine/main.php:63
+#: partials/magazine/main.php:66
+#: partials/single-car-motorcycle/car-links.php:60
+#: partials/single-car-boats/boats-actions.php:92
+#: partials/single-car-boats/boats-actions.php:95
+#: partials/single-aircrafts/action-bar.php:65
+#: partials/single-aircrafts/action-bar.php:68
+#: listings/loop/default/list/features.php:118
+msgid "Share this"
+msgstr "Paylaş"
+
+#: woocommerce/checkout/form-shipping.php:41
+msgid "Ship to a different address?"
+msgstr "Farklı bir adrese kargola?"
+
+#: woocommerce/cart/cart-totals.php:57
+msgid "Shipping"
+msgstr "Nakliye"
+
+#: woocommerce/order/order-details-customer.php:77
+#: woocommerce/myaccount/my-address.php:29
+msgid "Shipping address"
+msgstr "Teslimat adresi"
+
+#: inc/setup.php:92 partials/title_box.php:45
+#: inc/customizer/registration.php:2079
+msgid "Shop"
+msgstr "Alışveriş"
+
+#: inc/customizer/registration.php:2089
+msgid "Shop Sidebar Position"
+msgstr "Alışveriş Kenar Çubuğu Pozisyonu"
+
+#: inc/customizer/registration.php:960 inc/customizer/registration.php:969
+msgid "Shopping Cart Enabled (Woocommerce needed)"
+msgstr "Alışveriş Sepeti Aktive Edildi ( Woocommerce gerekiyor)"
+
+#: partials/listing-layout-parts/items-per-page.php:17
+msgid "Show"
+msgstr "Göster"
+
+#: inc/customizer/registration.php:1537
+msgid "Show \"Calculate Payment\" popup"
+msgstr "\"Ödeme Hesapla\" popup'ı göster"
+
+#: inc/customizer/registration.php:1527
+msgid "Show \"Quote by phone\""
+msgstr "\"Telefonla quote\" göster"
+
+#: inc/customizer/registration.php:1522
+msgid "Show \"Test drive\" popup"
+msgstr "\"Test sürüşü\" popup'ı göster"
+
+#: inc/customizer/registration.php:1532
+msgid "Show \"Trade value\" popup"
+msgstr "\"Pazarlık değeri\" popup'ı göster"
+
+#: inc/customizer/registration.php:1542
+msgid "Show \"VIN\" link"
+msgstr "\"VIN\" linki göster"
+
+#: inc/customizer/registration.php:1723
+msgid "Show Added Date"
+msgstr ""
+
+#: inc/customizer/registration.php:1045
+msgid "Show address on mobile"
+msgstr "Mobilde adresleri göster"
+
+#: vc_templates/stm_car_listing_tabbed.php:200
+#: vc_templates/stm_cars_on_top.php:61 vc_templates/stm_modern_filter.php:456
+#: vc_templates/stm_listings_tabs_2.php:140
+#: vc_templates/stm_listings_tabs_2.php:193
+#: vc_templates/stm_listings_tabs_2.php:241
+#: vc_templates/stm_listings_tabs_2.php:296
+#: vc_templates/stm_reduced_cars.php:58
+#: listings/classified/filter/featured.php:32
+msgid "Show all"
+msgstr "Hepsini Göster"
+
+#: vc_templates/stm_cars_on_top.php:70
+msgid "Show all premium cars"
+msgstr "Tüm premium arabaları göster"
+
+#: vc_templates/stm_reduced_cars.php:67
+msgid "Show all reduced cars"
+msgstr "Tüm arabaları göster"
+
+#: inc/customizer/registration.php:1762
+msgid "Show Calculator"
+msgstr "Hesap makinesini göster"
+
+#: inc/customizer/registration.php:1782
+msgid "Show calculator button"
+msgstr "Hesaplama butonunu göster"
+
+#: vc_templates/stm_inventory_on_map.php:186 listings/filter/sidebar.php:57
+#: listings/classified/filter/sidebar.php:84
+#: listings/motorcycles/filter/sidebar.php:74
+msgid "Show cars"
+msgstr "Arabaları göster"
+
+#: inc/customizer/registration.php:912
+msgid "Show cart"
+msgstr "Sepeti Göster"
+
+#: inc/customizer/registration.php:1363 inc/customizer/registration.php:1637
+msgid "Show certified logo 1"
+msgstr "Sertifikalı logo 1 'i göster"
+
+#: inc/customizer/registration.php:1368 inc/customizer/registration.php:1641
+msgid "Show certified logo 2"
+msgstr "Sertifikalı logo 2 'yi göster"
+
+#: inc/customizer/registration.php:902 inc/customizer/registration.php:1350
+#: inc/customizer/registration.php:1517 inc/customizer/registration.php:1622
+msgid "Show compare"
+msgstr "Karşılaştırma Göster"
+
+#: partials/user/private/dealer-settings.php:495
+#: partials/user/private/user-settings.php:106
+msgid "Show Email Address on my Profile"
+msgstr "Email adresimi profilimde göster"
+
+#: inc/user-extra.php:15
+msgid "Show email public"
+msgstr "Emailimi herkese göster"
+
+#: inc/customizer/registration.php:2136
+msgid "Show excerpt"
+msgstr "Alıntı göster"
+
+#: inc/customizer/registration.php:1645
+msgid "Show featured button"
+msgstr "Özellikler butonunu göster"
+
+#: inc/customizer/registration.php:1566
+msgid "Show first parametre as a badge (only on archive page)"
+msgstr "Rozetin ilk parametresini gösterin (sadece arşiv sayfaları)"
+
+#: inc/customizer/registration.php:1663
+msgid "Show History"
+msgstr "Geçmiş göster"
+
+#: inc/customizer/registration.php:1787
+msgid "Show history report"
+msgstr "Geçmiş raporu göster"
+
+#: inc/customizer/registration.php:1322
+msgid "Show location/include location in filter"
+msgstr "Lokasyonu göster/ lokasyonu filtreye dahil et"
+
+#: vc_templates/stm_dealer_list.php:142 partials/user/dealer-reviews.php:87
+#: partials/user/dealer-inventory.php:64 partials/user/dealer-inventory.php:80
+msgid "Show more"
+msgstr "Daha fazla göster"
+
+#: listings/add_car/registered.php:34 listings/add_car/user_info.php:38
+#: listings/add_car/user_info.php:71 partials/user/private/dealer.php:118
+#: partials/user/private/user.php:125
+#: partials/user/private/mobile/dealer-profile.php:121
+#: partials/user/private/mobile/user-profile.php:124
+msgid "Show my Public Profile"
+msgstr "Profilimi göster"
+
+#: inc/customizer/registration.php:1671
+msgid "Show Number"
+msgstr "Numara göster"
+
+#: inc/stm_single_dealer.php:117 partials/user/dealer-public-profile.php:74
+#: partials/user/listing-list-user-info.php:71
+#: partials/single-car-listing/car-dealer.php:55
+#: partials/single-car-listing/car-dealer.php:104
+msgid "Show number"
+msgstr "Numara göster"
+
+#: inc/customizer/registration.php:1756
+msgid "Show Offer Price button"
+msgstr "Fiyat teklif et butonunu göster"
+
+#: inc/customizer/registration.php:1359 inc/customizer/registration.php:1632
+msgid "Show PDF brochure"
+msgstr "PDF broşürü göster"
+
+#: inc/customizer/registration.php:1079
+msgid "Show phone on mobile"
+msgstr "Mobilde telefon göster"
+
+#: inc/customizer/registration.php:1732
+msgid "Show Print button"
+msgstr "Yazdır butonunu göster"
+
+#: inc/customizer/registration.php:1772
+msgid "Show quote by phone"
+msgstr "Telefon numarasını göster"
+
+#: inc/customizer/registration.php:1658
+msgid "Show Registered date"
+msgstr "Kayıt tarihi göster"
+
+#: inc/customizer/registration.php:1355 inc/customizer/registration.php:1627
+msgid "Show share block"
+msgstr "Paylaşılan blok göster"
+
+#: inc/customizer/registration.php:1802
+msgid ""
+"Show similar cars by param (slug of listing category, separated by comma, "
+"without spaces. Ex: make,condition)"
+msgstr ""
+"Benzer arabaları paramla göster ( listeleme kategorisinde, virgülle ayır, "
+"boşluk kullanma. Örn: yap, durum)"
+
+#: inc/customizer/registration.php:1340 inc/customizer/registration.php:1512
+#: inc/customizer/registration.php:1617
+msgid "Show stock"
+msgstr "Stokları göster"
+
+#: inc/customizer/registration.php:1345 inc/customizer/registration.php:1741
+msgid "Show test drive schedule"
+msgstr "Deneme sürüşü zamanlamasını göster"
+
+#: inc/customizer/registration.php:1750
+msgid "Show Trade In button"
+msgstr "Pazarlık butonunu göster"
+
+#: inc/customizer/registration.php:1777
+msgid "Show trade in form"
+msgstr "Pazarlığı şu şekidle göster"
+
+#: inc/customizer/registration.php:1392
+msgid "Show two first parameters as a badge (only on archive page)"
+msgstr "Rozetin ilk iki parametresini gösterin (sadece arşiv sayfaları)"
+
+#: inc/customizer/registration.php:1653
+msgid "Show VIN"
+msgstr "VIN göster"
+
+#: inc/customizer/registration.php:1714
+msgid "Show Vin History button"
+msgstr ""
+
+#: inc/customizer/registration.php:1067
+msgid "Show Working hours on mobile"
+msgstr "Mobilde çalışma saatlerini göster"
+
+#: inc/customizer/registration.php:2127
+msgid "Sidebar position"
+msgstr "Kenar Çubuğu Pozisyonu"
+
+#: vc_templates/stm_login_register.php:19
+msgid "Sign In"
+msgstr "Üye Ol"
+
+#: vc_templates/stm_login_register.php:86 partials/top-bar-boats.php:61
+#: listings/add_car/registration.php:3 partials/user/user-dropdown.php:66
+#: partials/user/private/mobile/user.php:26
+msgid "Sign Up"
+msgstr "Üye Ol"
+
+#: vc_templates/stm_login_register.php:150 listings/add_car/registration.php:84
+msgid "Sign up now!"
+msgstr "Şimdi üye ol!"
+
+#: vc_templates/stm_car_listing_similar.php:10
+msgid "Similar Listing"
+msgstr "Benzer Listeleme"
+
+#: woocommerce/checkout/payment.php:56
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your order."
+" You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+"Tarayacınız JavaScript desteklemediği ya da devre dışı olduğu için, <em>"
+"Hepsini Güncelle</em> butonuna sipariş vermeden önce tıkladığınıza emin olun."
+" Eğer bunu atlarsanız, yukarı belirtilen tutardan daha fazla "
+"faturalandırabilirsiniz."
+
+#: inc/customizer/registration.php:1792
+msgid "Single car page background"
+msgstr "Tek araba sayfası arkaplanı"
+
+#: inc/customizer/registration.php:1851
+msgid "Single Car Settings"
+msgstr "Tek Araba Ayarları"
+
+#: inc/woocommerce_setups_rental.php:1224
+msgid "Single pay for the option"
+msgstr "Seçenek için tek ödeme"
+
+#: admin/includes/envato-market/inc/admin/admin.php:488
+msgid "Single Use OAuth Personal Tokens"
+msgstr "Tek Kullanımlık OAuth Kişisel Simgeleri"
+
+#: admin/includes/envato-market/inc/admin/functions.php:331
+#: admin/includes/envato-market/inc/admin/upgrader-skins.php:110
+msgid "Site Activate"
+msgstr "Site Etkinleştir"
+
+#: admin/includes/envato-market/inc/admin/functions.php:332
+#, php-format
+msgid "Site Activate %s"
+msgstr "Site %s etkinleştir"
+
+#: inc/customizer/registration.php:619
+msgid "Site Background Color"
+msgstr "Site arkaplan rengi"
+
+#: inc/customizer/registration.php:2037
+msgid "Site demo mode"
+msgstr "Site demo modu"
+
+#: admin/includes/envato-market/inc/admin/functions.php:113
+#: admin/includes/envato-market/inc/admin/upgrader-skins.php:58
+msgid "Site Enable"
+msgstr "Site Etkinleştir"
+
+#: admin/includes/envato-market/inc/admin/functions.php:113
+#, php-format
+msgid "Site Enable &#8220;%s&#8221;"
+msgstr "Site Etkinleştir & # 8220; %s & # 8221;"
+
+#: inc/stm-ajax.php:881 partials/user/private/dealer-settings.php:364
+#: partials/user/private/become-dealer.php:79
+msgid "Site is on demo mode"
+msgstr "Site demo modundadır"
+
+#: inc/stm-ajax.php:542 inc/stm-ajax.php:734
+msgid "Site is on demo mode."
+msgstr "Site demo modundadır."
+
+#: inc/customizer/registration.php:375 inc/customizer/registration.php:387
+msgid "Site Settings"
+msgstr "Site Ayarları"
+
+#: inc/customizer/registration.php:607
+msgid "Site smooth scroll"
+msgstr "Site hafif kaydırma"
+
+#: admin/screens/system_status.php:25
+msgid "Site URL:"
+msgstr "Site URL'si:"
+
+#: inc/customizer/registration.php:340
+msgid "Skype"
+msgstr "Skype"
+
+#. Base ID
+#: inc/customizer/registration.php:2197
+msgid "Socials"
+msgstr "Gruplar"
+
+#: inc/customizer/registration.php:2201
+msgid "Socials Links"
+msgstr "Grup Linkleri"
+
+#: inc/customizer/registration.php:2143
+msgid "Socials Widget"
+msgstr "Grup Listeleme Alanları"
+
+#: partials/listing-cars/listing-list-directory-loop-animate.php:207
+#: partials/single-car-listing/car-price-title.php:27
+#: listings/loop/classified/list/image-inventory-no-filter.php:118
+#: listings/loop/classified/list/image.php:123
+#: listings/loop/classified/grid/image.php:53
+msgid "Sold"
+msgstr "Satıldı"
+
+#: woocommerce/checkout/payment.php:45
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+"Üzgünüz, bulunduğunuz lokasyon için uygun bir ödeme seçeneği yok. Lütfen "
+"alternatifler ve detaylı bilgi için bize ulaşın."
+
+#: listings/filter/results.php:63
+msgid "Sorry, No results"
+msgstr "Üzgünüz, sonuç yok"
+
+#: partials/user/dealer-inventory.php:41
+#: partials/user/private/user-inventory.php:17
+msgid "Sort by"
+msgstr "Sırala"
+
+#: vc_templates/stm_modern_filter.php:404 vc_templates/stm_dealer_list.php:111
+#: listings/filter/actions.php:3 listings/classified/filter/actions.php:40
+#: listings/boats/filter/actions.php:6
+#: listings/motorcycles/filter/actions.php:33
+msgid "Sort by:"
+msgstr "Sırala:"
+
+#: inc/customizer/registration.php:337
+msgid "Soundcloud"
+msgstr "Soundcloud"
+
+#: vc_templates/stm_special_offers.php:39
+msgid "specials"
+msgstr "özeller"
+
+#: inc/rental/PriceForDatePeriod.php:363 inc/rental/PriceForDatePeriod.php:399
+msgid "Start Date"
+msgstr "Başlangıç tarihi"
+
+#: partials/modals/searchform.php:9
+msgid "Start typing here..."
+msgstr "Buraya yazın..."
+
+#: partials/listing-cars/listing-grid-loop-magazine.php:59
+msgid "Starting at"
+msgstr "Buradan başlayarak"
+
+#: woocommerce/myaccount/my-address.php:91
+msgid "State"
+msgstr "Belirtmek, bildirmek"
+
+#: partials/frontend_customizer.php:67 inc/customizer/registration.php:1693
+msgid "Static"
+msgstr "Statik"
+
+#: inc/customizer/registration.php:817
+msgid "Static Front Page"
+msgstr "Statik Font Sayfası"
+
+#: woocommerce/myaccount/my-orders.php:27
+#: woocommerce/myaccount/my-orders.php:53
+#: woocommerce/myaccount/my-orders.php:74
+msgid "Status"
+msgstr "Statü"
+
+#: listings/add_car/step_4.php:5 listings/add_car/step_4.php:38
+#: listings/add_car/step_5.php:22 listings/add_car/step_6.php:14
+#: listings/add_car/step_2.php:4 listings/add_car/step_3.php:8
+#: listings/add_car/step_1.php:16
+msgid "step"
+msgstr "adım"
+
+#: partials/frontend_customizer.php:69 inc/customizer/registration.php:896
+#: inc/customizer/registration.php:1005 partials/blog/grid-loop.php:28
+#: partials/blog/content-grid-loop.php:56
+msgid "Sticky"
+msgstr "Not"
+
+#: partials/blog/grid-loop.php:21 partials/blog/content-list-loop.php:8
+#: partials/blog/content-grid-loop.php:43
+msgid "Sticky Post"
+msgstr "Not"
+
+#: inc/setup.php:105
+msgid "STM Listing Car Sidebar"
+msgstr "STM Araç Listeleme Kenar Çubuğu"
+
+#: inc/setup.php:117
+msgid "STM Single Boat Sidebar"
+msgstr "STM Tek Bot Kenar Çubuğu"
+
+#: inc/user-extra.php:10
+msgid "STM User/Dealer additional fields"
+msgstr "STM Kullanıcı/ Bayi ek alanları"
+
+#: inc/user-extra.php:51
+msgid "STM User/Dealer additional fields (socials)"
+msgstr "STM Kullanıcı/ Bayi ek alanları (topluluklar)"
+
+#: partials/single-car/car-actions.php:42
+#: partials/listing-cars/listing-list-loop-actions.php:42
+#: partials/listing-cars/listing-directive-list-loop-actions.php:38
+#: partials/single-car-boats/boats-actions.php:26
+#: listings/loop/default/list/features.php:64
+msgid "stock"
+msgstr "stok"
+
+#: partials/single-car-listing/car-data.php:62
+#: partials/single-car-listing/car-data.php:71
+msgid "Stock id"
+msgstr "Stok ID"
+
+#: partials/single-car-boats/boat-top.php:17
+#: partials/listing-cars/motos/list.php:267
+msgid "Stock#"
+msgstr "Stok#"
+
+#: inc/customizer/registration.php:475 inc/customizer/registration.php:485
+#: inc/customizer/registration.php:501 inc/customizer/registration.php:629
+#: inc/customizer/registration.php:654
+msgid "Style"
+msgstr "Stil"
+
+#: inc/customizer/registration.php:1820
+msgid "Style 1"
+msgstr "Stil 1"
+
+#: inc/customizer/registration.php:1821
+msgid "Style 2"
+msgstr "Stil 2"
+
+#. Author of the theme
+msgid "StylemixThemes"
+msgstr "StylemixThemes"
+
+#: woocommerce/single-product-reviews.php:88 admin/screens/startup.php:58
+msgid "Submit"
+msgstr "Gönder"
+
+#: admin/screens/support.php:36
+msgid "Submit a ticket"
+msgstr "Bilet gönder"
+
+#: partials/user/private/become-dealer.php:313
+msgid "Submit for review"
+msgstr "İnceleme için gönder"
+
+#: listings/add_car/check_user.php:84
+msgid "Submit listing"
+msgstr "Listelemeyi gönder"
+
+#: partials/user/dealer-write-review.php:40
+#: partials/user/dealer-write-review.php:80
+msgid "Submit review"
+msgstr "Yorum gönder"
+
+#: partials/user/private/main.php:34
+msgid "Subsciption Listings"
+msgstr "Abonelik Listeleri"
+
+#: partials/user/private/dealer.php:80 partials/user/private/user.php:87
+#: partials/user/private/mobile/dealer-profile.php:48
+#: partials/user/private/mobile/user-profile.php:59
+msgid "Subscription renewal"
+msgstr "Üyelik yenileme"
+
+#: woocommerce/checkout/review-order.php:55 woocommerce/cart/cart-totals.php:35
+#: partials/rental/common/order-info.php:28
+#: partials/rental/common/order-info.php:65
+#: partials/rental/common/order-info-empty.php:55
+msgid "Subtotal"
+msgstr "Ara toplam"
+
+#: admin/screens/system_status.php:147
+msgid "SUHOSIN Installed:"
+msgstr "SUHOSIN Yüklendi:"
+
+#: admin/screens/system_status.php:148
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.\n"
+"\t\t\tIf enabled on your server, Suhosin may need to be configured to "
+"increase its data submission limits."
+msgstr ""
+"Suhosin PHP yüklemeleri için gelişmiş bir koruma sistemidir. Bir yandan "
+"sunucularınızı PHP uygulamaları içinde iyi bilinen hatalara karşı korurken "
+"bir yandan bilinmeyen ama öngörülen zayıf noktalar PHP'in kendisi için de "
+"korur. Eğer sunucunuzu aktive ederseniz, Suhosin data limit gönderimlerini "
+"arttırabilmek için kurulum başlatır."
+
+#: admin/screens/system_status.php:212
+msgid "Suhosin Post Max Value Length:"
+msgstr "Suhoin Maksimum Post Uzunluk Değeri:"
+
+#: admin/screens/system_status.php:154
+msgid "Suhosin Post Max Vars:"
+msgstr "Suhosin Maksimum Post Var:"
+
+#: admin/screens/system_status.php:183
+msgid "Suhosin Request Max Vars:"
+msgstr "Suhosin Maksimum Talep Var:"
+
+#: partials/rental/common/order-details.php:4
+msgid "Summary"
+msgstr "Özet"
+
+#: vc_templates/stm_working_days.php:8
+msgid "Sunday"
+msgstr "Pazar"
+
+#: admin/includes/admin_screens.php:34 admin/includes/admin_screens.php:35
+#: admin/includes/admin_screens.php:143
+msgid "Support"
+msgstr "Destek"
+
+#: inc/customizer/controls/input_controller.php:109
+#: inc/customizer/controls/input_controller.php:131
+msgid "Symbol"
+msgstr "Sembol"
+
+#: admin/includes/admin_screens.php:146
+msgid "System Status"
+msgstr "Sistem Statüsü"
+
+#: admin/includes/admin_screens.php:44 admin/includes/admin_screens.php:45
+msgid "System status"
+msgstr "Sistem statüsü"
+
+#: partials/magazine/main-interview.php:42 partials/magazine/main.php:50
+msgid "Tags"
+msgstr "Etiketler"
+
+#: vc_templates/stm_post_meta_bottom.php:28 partials/blog/content.php:124
+msgid "Tags:"
+msgstr "Tagler:"
+
+#: partials/rental/common/tax.php:7
+msgid "Taxes & Fees"
+msgstr "Vergi&Ücretler"
+
+#: woocommerce/order/order-details-customer.php:46
+msgid "Telephone:"
+msgstr "Telefon:"
+
+#: admin/includes/envato-market/inc/admin/admin.php:378
+#: admin/includes/envato-market/inc/admin/view/partials/settings.php:19
+msgid "Test API Connection"
+msgstr "API Bağlantısını Test Et"
+
+#: inc/stm-ajax.php:1548
+msgid "Test Drive"
+msgstr "Test sürüşü"
+
+#: partials/listing-cars/motos/list-actions.php:24
+msgid "Test drive"
+msgstr "Deneme Sürüşü"
+
+#: inc/customizer/registration.php:447
+msgid "Text Logo Color"
+msgstr "Metin Logo Rengi"
+
+#: inc/customizer/registration.php:432
+msgid "Text Logo Font Family"
+msgstr "Metin Logosu Font Ailesi"
+
+#: inc/customizer/registration.php:438
+msgid "Text Logo Font Size"
+msgstr "Metin Logosu Font Boyutu"
+
+#: admin/screens/startup.php:39
+#, php-format
+msgid ""
+"Thank you for choosing %s! Please register it to enable the %1$s demos and "
+"theme auto updates. The instructions below must be followed exactly."
+msgstr ""
+"%s 'i seçtiğiniz için teşekkürler! %1$s demolara erişmek ve otomatik tema "
+"güncellemeleri için lütfen kayıt olun. Aşağıdaki adımları takip "
+"edebilirsiniz."
+
+#: woocommerce/checkout/thankyou.php:47 woocommerce/checkout/thankyou.php:117
+msgid "Thank you. Your order has been received."
+msgstr "Teşekkürler. Siparişiniz alınmıştır."
+
+#: inc/value_my_car/value_my_car.php:75 inc/value_my_car/value_my_car.php:144
+msgid ""
+"Thanks for your request, we will contact you as soon as we review you car."
+msgstr ""
+"İsteğiniz için teşekkür ederiz, aracı incelerken en kısa sürede sizinle "
+"iletişime geçeceğiz."
+
+#: admin/screens/system_status.php:101
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+"Zaman hatası vermeden önce (Sunucu aramalarından kaçınmak için) sitenizin "
+"tek bir operasyonda harcayacağı zaman ( saniye cinsinden)"
+
+#: inc/updater/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "\"kur\" API'si gerekli bir parametredir."
+
+#: admin/screens/system_status.php:69
+msgid "The current language used by WordPress. Default = English"
+msgstr "WordPress tarafından kullanılan geçerli dil. Varsayılan = Türkçe"
+
+#: inc/updater/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Envato Pazaryeri \"ürün ID\" gerekli bir parametredir."
+
+#: woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr "Bu adres ödeme sayfasında varsayılan adres olarak kullanılacak."
+
+#: admin/includes/envato-market/inc/admin/admin.php:980
+msgid "The item cannot be downloaded."
+msgstr "Öğe indirilemiyor."
+
+#: admin/includes/envato-market/inc/admin/admin.php:965
+#: admin/includes/envato-market/inc/admin/admin.php:1060
+msgid "The Item ID is missing."
+msgstr "Öğe Kimliği eksik."
+
+#: partials/user/private/user-favourite.php:96
+msgid "the Item was removed"
+msgstr "bu ürün çıkartıldı"
+
+#: admin/screens/system_status.php:96
+msgid "The largest file size that can be contained in one post."
+msgstr "Bir postun içerebileceği maksimum dosya boyutu."
+
+#: admin/screens/system_status.php:245
+msgid ""
+"The largest file size that can be uploaded to your WordPress installation."
+msgstr "Wordpress yapınıza yüklenebilecek maksimum dosya boyutu."
+
+#: admin/screens/system_status.php:41
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr "Sitenizin bir seferde kullanabileceği maksimum hafıza (RAM)"
+
+#: admin/screens/system_status.php:119 admin/screens/system_status.php:155
+#: admin/screens/system_status.php:184
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+"Tekrar yüklemeyi engellemek için sunucunuzun kullanabileceği maksimum "
+"sayıdaki değişken. "
+
+#: admin/includes/envato-market/inc/admin/view/notice/error.php:11
+msgid ""
+"The OAuth Personal Token could not be verified. Please check that the Token "
+"has been entered correctly and has the minimum required permissions."
+msgstr ""
+"OAuth Kişisel Simgesi doğrulanamadı. Lütfen Token'ın doğru girildiğinden ve "
+"gerekli minimum izinlere sahip olduğundan emin olun."
+
+#: 404.php:7
+msgid "The page you are looking for does not exist."
+msgstr "Aradığınız sayfaya ulaşılamıyor."
+
+#: admin/screens/system_status.php:26
+msgid "The root URL of your site."
+msgstr "Sitenizin kaynak URL'i."
+
+#: admin/includes/envato-market/inc/admin/admin.php:963
+msgid "The Token is missing."
+msgstr "Jetonu kayıp."
+
+#: admin/includes/envato-market/inc/admin/admin.php:976
+msgid "The Token or Item ID is incorrect."
+msgstr "Belirteç veya Öğe Kimliği yanlış."
+
+#: admin/screens/system_status.php:21
+msgid "The URL of your site's homepage."
+msgstr "Sitenizin ana sayfa URL'i."
+
+#: admin/screens/system_status.php:234
+msgid "The version of MySQL installed on your hosting server."
+msgstr "Sunucunuzda yüklü olan MySQL versiyonu."
+
+#: admin/screens/system_status.php:90
+msgid "The version of PHP installed on your hosting server."
+msgstr "PHP versiyonu sunucunuza yüklenmiştir."
+
+#: admin/screens/system_status.php:31
+msgid "The version of WordPress installed on your site."
+msgstr "Sitenize uygulanmış Wordpress versiyonu."
+
+#: admin/includes/admin_screens.php:144 admin/includes/admin_screens.php:159
+msgid "Theme Options"
+msgstr "Tema Opsiyonları"
+
+#: admin/includes/envato-market/inc/admin/view/partials/tabs.php:28
+msgid "Themes"
+msgstr "Temalar"
+
+#: partials/rental/main-shop/archive-content.php:38
+msgid "There are no cars in this office"
+msgstr "Bu ofiste araba bulunmuyor"
+
+#: woocommerce/single-product-reviews.php:58
+msgid "There are no reviews yet."
+msgstr "Henüz hiç yorum yapılmamış."
+
+#: partials/modals/rental-notification-choose-another-class.php:7
+msgid ""
+"There is no selected car class in current office. Please choose another "
+"Class!"
+msgstr "Bu ofiste seçilen araba sınıfından yok. Lütfen farklı bir sınıf seçin!"
+
+#: inc/stm-ajax.php:1328 inc/woocommerce_setups_rental.php:1128
+#: partials/rental/main-shop/loop.php:145
+msgid "This Class is already booked in: "
+msgstr "Bu Sınıf zaten için rezerve edildi: "
+
+#: admin/includes/envato-market/inc/admin/view/partials/intro.php:14
+msgid ""
+"This plugin can install WordPress themes and plugins purchased from "
+"ThemeForest & CodeCanyon by connecting with the Envato Market API using a "
+"secure OAuth personal token. Once your themes & plugins are installed "
+"WordPress will periodically check for updates, so keeping your items up to "
+"date is as simple as a few clicks."
+msgstr ""
+"Bu eklenti, ThemeForest & CodeCanyon'dan satın alınan WordPress temalarını "
+"ve eklentilerini güvenli bir OAuth kişisel belirteci kullanarak Envato "
+"Market API'sine bağlayarak yükleyebilir. Tema ve eklentileriniz kurulduktan "
+"sonra WordPress periyodik olarak güncellemeleri kontrol eder, bu nedenle "
+"öğelerinizi güncel tutmak bir kaç tıklama kadar kolaydır."
+
+#: inc/user-extra.php:109
+msgid ""
+"This settings will only be filled by dealers, and shown only on dealer page."
+msgstr ""
+"Bu ayarlar sadece bayiler tarafından yapılabilir ve sadece bayi sayfasında "
+"görünür."
+
+#: woocommerce/myaccount/form-edit-account.php:43
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr "Adınız hesap bölümünde ve incelemelerde nasıl görünecek?"
+
+#: vc_templates/stm_working_days.php:12
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: admin/screens/support.php:30
+msgid "Ticket System"
+msgstr "Bilet Sistemi"
+
+#: inc/motors-gdpr.php:37 listings/add_car/title.php:10
+#: partials/user/dealer-write-review.php:23
+msgid "Title"
+msgstr "Başlık"
+
+#: inc/customizer/registration.php:1286 inc/customizer/registration.php:1476
+msgid "Title background"
+msgstr "Başlık arkaplanı"
+
+#: listings/add_car/registered.php:39 listings/add_car/user_info.php:43
+#: listings/add_car/user_info.php:75
+msgid "to choose a different account"
+msgstr "farklı bir hesap seç"
+
+#: partials/user/dealer-write-review.php:175
+msgid "to leave a review"
+msgstr "yorum bırakmak için"
+
+#: woocommerce/order/form-tracking.php:25
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+"Siparişinizi takip etmek için lütfen aşağıdaki kutuya Sipariş Kimliğinizi "
+"girin ve  \"Parça \" düğmesine basın. Bu size makbuzunuzda verildi ve onay e-"
+"postasında almanız gereken mesaj."
+
+#: admin/includes/envato-market/inc/admin/admin.php:405
+#: admin/includes/envato-market/inc/admin/admin.php:479
+msgid "Token"
+msgstr "Jeton"
+
+#: inc/customizer/registration.php:1017
+msgid "Top bar"
+msgstr "Üst Çubuk"
+
+#: inc/customizer/registration.php:1099
+msgid "Top bar background color"
+msgstr "Üst bar arkaplan rengi"
+
+#: inc/customizer/registration.php:1021
+msgid "Top bar Enabled"
+msgstr "Üst Çubuğu Aktive Edildi"
+
+#: inc/customizer/registration.php:1033
+msgid "Top bar language switcher (WPML needed)"
+msgstr "Üst bar dil seçimi (WPML gerekiyor)"
+
+#: inc/customizer/registration.php:1027
+msgid "Top bar Login Enabled (Woocommerce needed or listing Layout chosen)"
+msgstr ""
+"Üst bar giriş aktive edildi ( Woocommerce gerekiyor ya da listeleme sayfa "
+"düzeni seçildi)"
+
+#: inc/setup.php:66
+msgid "Top bar menu"
+msgstr "Üst çubuk menü"
+
+#: inc/customizer/registration.php:1087
+msgid "Top bar menu Enabled"
+msgstr "Üst bar menü aktive edildi"
+
+#: inc/customizer/registration.php:1094
+msgid "Top bar Socials"
+msgstr "Üst bar toplulukları"
+
+#: inc/setup.php:65
+msgid "Top primary menu"
+msgstr "Ana menü"
+
+#: woocommerce/content-product.php:73
+msgid "Top Rated Product"
+msgstr "En Çok Oylanan Ürün"
+
+#: woocommerce/order/order-details.php:52
+#: woocommerce/myaccount/my-orders.php:28
+#: woocommerce/myaccount/my-orders.php:54
+#: woocommerce/myaccount/my-orders.php:77
+#: woocommerce/checkout/review-order.php:27
+#: woocommerce/checkout/review-order.php:102 woocommerce/cart/cart.php:30
+#: woocommerce/cart/cart.php:99 woocommerce/cart/cart-totals.php:94
+msgid "Total"
+msgstr "Total"
+
+#: vc_templates/stm_auto_loan_calculator.php:92
+#: partials/single-car/car-calculator.php:88
+#: partials/modals/car-calculator.php:107
+#: partials/single-car-boats/boats-calculator.php:77
+msgid "Total Amount to Pay"
+msgstr "Ödenecek Toplam Tutar"
+
+#: partials/rental/common/coupon.php:34
+msgid "Total discount"
+msgstr "Toplam İndirim"
+
+#: vc_templates/stm_auto_loan_calculator.php:89
+#: partials/single-car/car-calculator.php:85
+#: partials/modals/car-calculator.php:103
+#: partials/single-car-boats/boats-calculator.php:74
+msgid "Total Interest Payment"
+msgstr "Toplam Faiz Ödemesi"
+
+#: woocommerce/checkout/thankyou.php:73
+msgid "Total:"
+msgstr "Genel Toplam:"
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Track"
+msgstr "Izlemek"
+
+#: partials/single-car-motorcycle/car-links.php:45
+msgid "Trade In"
+msgstr ""
+
+#: partials/modals/trade-in.php:7
+msgid "Trade in"
+msgstr "Pazarlık"
+
+#: partials/single-car/car-buttons.php:12
+msgid "Trade in form"
+msgstr "Pazarlığı şu şekidle göster"
+
+#: partials/modals/trade-offer.php:8
+msgid "Trade Offer"
+msgstr "Pazarlık teklifi"
+
+#: partials/modals/trade-offer.php:40
+msgid "Trade price"
+msgstr "Pazarlık fiyatı"
+
+#: partials/listing-cars/motos/list-actions.php:40
+msgid "Trade value"
+msgstr "Değer"
+
+#: vc_templates/stm_sell_a_car.php:16 vc_templates/stm_sell_a_car.php:182
+msgid "Transmission"
+msgstr "İletim"
+
+#: inc/value_my_car/admin-page.php:41 inc/value_my_car/admin-page.php:102
+msgid "Trash"
+msgstr "Çöp"
+
+#: vc_templates/stm_working_days.php:10
+msgid "Tuesday"
+msgstr "Salı"
+
+#: inc/customizer/registration.php:343
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/customizer/registration.php:506
+msgid "Turquoise"
+msgstr "Turkuaz"
+
+#: inc/user-extra.php:66 inc/customizer/registration.php:324
+#: partials/user/private/dealer-settings.php:605
+#: partials/user/private/user-settings.php:160
+msgid "Twitter"
+msgstr "Twitter"
+
+#: partials/single-aircrafts/title.php:13
+msgid "Type: "
+msgstr ""
+
+#: inc/customizer/registration.php:662
+msgid "Typography"
+msgstr "Tipografi"
+
+#: inc/customizer/controls/font-weight.php:28
+msgid "Ultra Bold"
+msgstr "Ultra Bold"
+
+#: inc/customizer/controls/font-weight.php:29
+msgid "Ultra Bold Italic"
+msgstr "Ultra Bold İtalik"
+
+#: inc/customizer/controls/font-weight.php:12
+msgid "Ultra Light"
+msgstr "Ultra Light"
+
+#: inc/customizer/controls/font-weight.php:13
+msgid "Ultra Light Italic"
+msgstr "Ultra Light İtalik"
+
+#: admin/includes/envato-market/inc/admin/admin.php:938
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "Dosya sistemine bağlanılamıyor. Lütfen kimlik bilgilerinizi onaylayın."
+
+#: partials/user/private/user-favourite.php:68
+msgid "Under review"
+msgstr "İncelemede"
+
+#: woocommerce/checkout/thankyou.php:33
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+"Bankanızdan onay alamadığımız için siparişinizi tamamlayamıyoruz. Lütfen "
+"tekrar deneyiniz."
+
+#: inc/customizer/registration.php:1327
+msgid "Unit measurement"
+msgstr "Unite ölçümü"
+
+#: partials/listing-cars/listing-list-directory-edit-loop.php:116
+msgid "Unmark as sold"
+msgstr "Satıldı olarak işaretini kaldır"
+
+#: admin/includes/envato-market/inc/admin/functions.php:69
+#: admin/includes/envato-market/inc/admin/functions.php:261
+#, php-format
+msgid "Update %s now"
+msgstr "Şimdi %s güncelle"
+
+#: admin/includes/envato-market/inc/admin/functions.php:73
+#: admin/includes/envato-market/inc/admin/functions.php:266
+msgid "Update Available"
+msgstr "Güncelleme uygun"
+
+#: woocommerce/cart/cart.php:128
+msgid "Update Cart"
+msgstr "Sepeti güncelle"
+
+#: woocommerce/checkout/payment.php:56
+msgid "Update totals"
+msgstr "Hepsini güncelle"
+
+#: partials/modals/limit_exceeded.php:9
+msgid "Upgrade"
+msgstr "Yükselt"
+
+#: vc_templates/stm_add_a_car.php:121
+msgid "Upgrade Plan"
+msgstr "Üyelik planını yükseltin"
+
+#: partials/user/private/dealer.php:111 partials/user/private/user.php:118
+#: partials/user/private/mobile/dealer-profile.php:82
+#: partials/user/private/mobile/user-profile.php:90
+msgid "Upgrade plan"
+msgstr "Üyelik planını yükseltin"
+
+#: partials/user/private/dealer-settings.php:442
+msgid "Upload Dealer Image"
+msgstr "Bayi Görseli Ekle"
+
+#: partials/user/private/user-settings.php:53
+msgid "Upload new avatar"
+msgstr "Yeni bir avatar yükle"
+
+#: partials/user/private/dealer-settings.php:411
+msgid "Upload new logo"
+msgstr "Yeni logo yükle"
+
+#: listings/add_car/step_3.php:7
+msgid "Upload photo"
+msgstr "Fotoğraf yükle"
+
+#: vc_templates/stm_sell_a_car.php:1031
+msgid "Upload your boat Photos"
+msgstr "Botunuzun fotoğraflarını yükleyin"
+
+#: vc_templates/stm_sell_a_car.php:206 vc_templates/stm_sell_a_car.php:618
+msgid "Upload your car Photos"
+msgstr "Arabanızın fotoğraflarını yükleyin"
+
+#: partials/user/private/become-dealer.php:238
+msgid "Upload your company logo*"
+msgstr "Şirket logonuzu yükleyin*"
+
+#: inc/motors-gdpr.php:41
+msgid "URL"
+msgstr "URL"
+
+#: inc/customizer/registration.php:2051
+msgid "USD"
+msgstr "USD"
+
+#: inc/customizer/registration.php:1586
+msgid "Use Boats filter style"
+msgstr "Bot Filtre Stili Kullan"
+
+#: inc/woocommerce_setups.php:101
+msgid "User"
+msgstr "Kullanıcı"
+
+#: inc/user-extra.php:37
+msgid "User Avatar"
+msgstr "Kullanıcı avatarı"
+
+#: inc/user-extra.php:46
+msgid "User avatar(stores URL and path to image)"
+msgstr "Kullanıcı avatarı ( URL'yi kaydeder ve görseli takip eder)"
+
+#: vc_templates/stm_sell_a_car.php:7 vc_templates/stm_sell_a_car.php:442
+#: vc_templates/stm_sell_a_car.php:855
+msgid "User details<br/>First name"
+msgstr "Kullanıcı detayları <br/>Ad"
+
+#: inc/user-extra.php:96
+msgid "User favorite car ids"
+msgstr "Favori araba ID'lerini ekle"
+
+#: inc/stm-ajax.php:710
+msgid "User not found"
+msgstr "Kullanıcı bulunamadı"
+
+#: inc/user-extra.php:32
+msgid "User phone"
+msgstr "Kullanıcı telefonu"
+
+#: inc/customizer/registration.php:1964
+msgid "User Post Images Upload Limit:"
+msgstr "Kullanıcı post görseli yükleme limiti:"
+
+#: inc/customizer/registration.php:1959
+msgid "User Posts Limit:"
+msgstr "Kullanıcı post limiti:"
+
+#: inc/customizer/registration.php:1912
+msgid "User Sidebar Position"
+msgstr "Kullanıcı Kenar Çubuğu Pozisyonu"
+
+#: inc/customizer/registration.php:1871 inc/customizer/registration.php:1887
+msgid "User/Dealer options"
+msgstr "Kullanıcı/ Bayi opsiyonları"
+
+#: woocommerce/myaccount/form-login.php:128
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: woocommerce/myaccount/form-login.php:45
+msgid "Username or email address"
+msgstr "Kullanıcı adı veya email"
+
+#: inc/value_my_car/admin-page.php:34 inc/value_my_car/value_my_car.php:21
+msgid "Value My Car"
+msgstr "Arabama Değer Ver"
+
+#: partials/rental/product/content.php:7
+msgid "Vehicle Add-ons"
+msgstr "Araç eklemeleri"
+
+#: vc_templates/stm_sell_a_car.php:142 vc_templates/stm_sell_a_car.php:554
+msgid "Vehicle Condition"
+msgstr "Aracın Durumu"
+
+#: listings/add_car/step_1_additional_fields.php:49
+msgid "Vehicle history"
+msgstr "Araç geçmişi"
+
+#: listings/add_car/step_1_additional_fields.php:40
+msgid "Vehicle History Report"
+msgstr "Araç Geçmişi Raporu"
+
+#: vc_templates/stm_auto_loan_calculator.php:45
+#: partials/single-car/car-calculator.php:41
+#: partials/modals/car-calculator.php:51
+#: partials/single-car-boats/boats-calculator.php:30
+msgid "Vehicle price"
+msgstr "Araç fiyatı"
+
+#: inc/woocommerce_setups_rental.php:528 vc_templates/stm_sell_a_car.php:447
+#: vc_templates/stm_sell_a_car.php:576
+msgid "Vehicle Type"
+msgstr "Araç türü"
+
+#: vc_templates/stm_filter_selects.php:127
+msgid "Vehicles"
+msgstr "Araçlar"
+
+#: vc_templates/stm_modern_filter.php:372
+msgid "Vehicles available"
+msgstr "Araçlar mevcut"
+
+#: partials/listing-layout-parts/items-per-page.php:15
+msgid "Vehicles per page:"
+msgstr "Sayfa başına araç:"
+
+#: admin/includes/envato-market/inc/admin/admin.php:433
+msgid "Version"
+msgstr "Versiyon"
+
+#: admin/includes/envato-market/inc/admin/functions.php:169
+#: admin/includes/envato-market/inc/admin/functions.php:374
+#: admin/includes/envato-market/inc/admin/functions.php:374
+#: admin/includes/envato-market/inc/admin/admin.php:433
+#: admin/includes/envato-market/inc/admin/admin.php:892
+#: admin/includes/envato-market/inc/admin/admin.php:928
+#, php-format
+msgid "Version %s"
+msgstr "%s sürümü"
+
+#: woocommerce/single-product-reviews.php:107
+msgid "Very poor"
+msgstr "Çok fakir"
+
+#: partials/single-car/car-gallery.php:41 partials/blog/grid-loop.php:16
+#: partials/blog/content-list-loop.php:22
+#: partials/blog/content-grid-loop.php:38
+#: partials/single-aircrafts/gallery.php:55
+#: partials/single-aircrafts/gallery.php:118
+#: listings/loop/default/list/video.php:5
+msgid "Video"
+msgstr "Video"
+
+#: listings/add_car/step_4.php:13 listings/add_car/step_4.php:47
+msgid "Video link"
+msgstr "Video Linki"
+
+#: partials/single-car/car-gallery.php:88
+#: partials/single-car/car-gallery.php:115
+#: partials/single-car/car-gallery.php:139
+#: partials/single-car/car-gallery.php:163
+#: partials/single-car-boats/boats-video.php:20
+#: partials/single-car-boats/boats-video.php:33
+#: partials/single-car-boats/boats-video.php:51
+#: partials/single-car-boats/boats-video.php:64
+#: partials/single-aircrafts/gallery.php:48
+#: partials/single-aircrafts/gallery.php:111
+msgid "Video preview"
+msgstr "Video önizleme"
+
+#: admin/screens/support.php:67
+msgid "Video Tutorials"
+msgstr "Video Eğitimleri"
+
+#: vc_templates/stm_sell_a_car.php:26 vc_templates/stm_sell_a_car.php:457
+#: vc_templates/stm_sell_a_car.php:870
+msgid "Video url"
+msgstr "Video url"
+
+#: woocommerce/myaccount/my-orders.php:100
+msgid "View"
+msgstr "Görüntüle"
+
+#: vc_templates/stm_modern_filter.php:163
+msgid "View all"
+msgstr "Hepsini göster"
+
+#: vc_templates/stm_featured_boats.php:36
+msgid "View All Inventory"
+msgstr "Tüm envanteri görüntüle"
+
+#: partials/listing-cars/motos/list-actions.php:17
+msgid "View Details"
+msgstr "Detayları Görüntüle"
+
+#: partials/listing-cars/listing-list-directory-edit-loop.php:209
+#: partials/listing-cars/listing-list-directory-loop-animate.php:404
+#: partials/listing-cars/listing-list-directory-loop.php:35
+#: partials/listing-cars/listing-list-loop-boats.php:91
+#: partials/listing-cars/motos/list.php:282
+msgid "View more"
+msgstr "Daha fazla görüntüle"
+
+#: partials/header/header.php:162
+msgid "View on map"
+msgstr "Haritada görüntüle"
+
+#: inc/customizer/registration.php:2106
+msgid "View type"
+msgstr "Türü görüntüle"
+
+#: admin/includes/envato-market/inc/admin/functions.php:88
+#: admin/includes/envato-market/inc/admin/functions.php:274
+#, php-format
+msgid "View version %1$s details."
+msgstr "%1$s sürümünün ayrıntılarını görüntüleyin."
+
+#: partials/user/dealer-public-profile.php:103
+msgid "View Website"
+msgstr "Web Sitesini Görüntüle"
+
+#: vc_templates/stm_sell_a_car.php:194 vc_templates/stm_sell_a_car.php:606
+#: listings/add_car/step_1_additional_fields.php:29
+msgid "VIN"
+msgstr "VIN"
+
+#: vc_templates/stm_sell_a_car.php:18 vc_templates/stm_sell_a_car.php:449
+#: partials/single-car/car-data.php:80
+#: partials/single-car-motorcycle/car-data.php:74
+msgid "Vin"
+msgstr "Vin"
+
+#: partials/single-car-listing/car-data.php:83
+#: partials/single-car-listing/car-data.php:93
+msgid "VIN:"
+msgstr "VIN:"
+
+#: admin/screens/support.php:90
+msgid "Visit Our Forum"
+msgstr "Forumumuzu Ziyaret Edin"
+
+#: admin/screens/system_status.php:279
+msgid "Visit plugin homepage"
+msgstr "Eklenti ana sayfayı ziyaret et"
+
+#: inc/customizer/registration.php:325
+msgid "VK"
+msgstr "Vk"
+
+#: admin/includes/envato-market/inc/admin/view/callback/section/items.php:12
+msgid "Warning: These tokens can be revoked by the account holder at any time."
+msgstr ""
+"Uyarı: Bu belirteçler hesap sahibi tarafından herhangi bir zamanda iptal "
+"edilebilir."
+
+#: inc/stm-ajax.php:45
+msgid "was removed from compare"
+msgstr "listaden kaldırıldı"
+
+#: partials/header/header-magazine.php:109
+#: partials/header/header-aircrafts.php:83 partials/header/header-nav.php:44
+#: partials/header/header-dealer-two.php:81
+#: partials/header/header-boats-mobile.php:63
+#: partials/header/header-listing.php:88 partials/header/header-boats.php:80
+msgid "Watch compared"
+msgstr "Karşılaştırmaları izle"
+
+#: vc_templates/stm_special_offers.php:60
+msgid "Watch full information about"
+msgstr "Hakkındaki tüm bilgiyi izleyin"
+
+#: vc_templates/stm_media_library.php:36 vc_templates/stm_carousel.php:56
+msgid "Watch in popup"
+msgstr "Popup'da gör"
+
+#: admin/includes/admin_screens.php:128
+msgid "Watch Our Quick Guided Tour!"
+msgstr "Hızlı Turumuzu İzle!"
+
+#: partials/header/header-aircrafts.php:67 partials/header/header-nav.php:60
+#: partials/header/header-dealer-two.php:66
+#: partials/header/header-boats-mobile.php:54
+#: partials/header/header-boats.php:65
+msgid "Watch shop items"
+msgstr "Alışveriş ürünleri izle"
+
+#: admin/screens/support.php:73
+msgid "Watch Videos"
+msgstr "Videoları İzle"
+
+#: admin/screens/support.php:33
+msgid ""
+"We offer excellent support through our advanced ticket system. Make sure to "
+"register your purchase first to access our support services and other "
+"resources."
+msgstr ""
+"Gelişmiş bilet sistemimiz sayesinde mükemmel bir destek sunuyoruz. Bu "
+"servislere ulaşabilmek için lütfen ilk alışverişinizin kaydını tamamlayın."
+
+#: admin/screens/support.php:70
+#, php-format
+msgid ""
+"We recommend you to watch video tutorials before you start the theme "
+"customization. Our video tutorials can teach you the different aspects of "
+"using %s."
+msgstr ""
+"Tema oluşturmadan önce eğitim videolarını izlemenizi tavsiye ederiz. Eğitim "
+"videolarımız %s'in farklı yönlerini öğrenmeniz için size yardımcı olacak."
+
+#: inc/user-extra.php:136
+msgid "Website URL"
+msgstr "Web Sitesi URL'si"
+
+#: vc_templates/stm_working_days.php:11
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: admin/includes/admin_screens.php:125
+#, php-format
+msgid "Welcome to %s"
+msgstr "%s'a Hoşgeldiniz"
+
+#: admin/includes/envato-market/inc/admin/view/partials/intro.php:13
+msgid "Welcome!"
+msgstr "Hoşgeldiniz!"
+
+#: vc_templates/stm_sell_a_car.php:259 vc_templates/stm_sell_a_car.php:671
+#: vc_templates/stm_sell_a_car.php:1084
+msgid "What is the Exterior Condition?"
+msgstr "Dış durumu nasıl?"
+
+#: vc_templates/stm_sell_a_car.php:283 vc_templates/stm_sell_a_car.php:695
+#: vc_templates/stm_sell_a_car.php:1108
+msgid "What is the Interior Condition?"
+msgstr "İçi ne durumda?"
+
+#: inc/customizer/registration.php:344
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#: admin/screens/system_status.php:36
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr "WordPress Multi Site aktive mi değil mi."
+
+#: partials/frontend_customizer.php:96
+msgid "Wide"
+msgstr "Genişlik"
+
+#: inc/customizer/registration.php:1174
+msgid "Widget Areas"
+msgstr "Ek Listeleme Alanları"
+
+#: inc/customizer/registration.php:361
+msgid "Without sidebar"
+msgstr "Kenar Çubuğu olmadan"
+
+#: inc/setup.php:94
+msgid "Woocommerce pages sidebar"
+msgstr "Woocommerce sayfaları kenar çubuğu"
+
+#: admin/screens/system_status.php:11 admin/screens/system_status.php:15
+msgid "WordPress Environment"
+msgstr "Wordpress Dünyası"
+
+#: inc/customizer/registration.php:1062
+msgid "Working Hours"
+msgstr "Çalışma Saatleri"
+
+#: partials/user/dealer-single-review.php:108
+msgid "Would I recommend this Dealer:"
+msgstr "Bu bayiyi önerir miyim:"
+
+#: partials/user/dealer-write-review.php:66
+msgid "Would you recommend this dealer?"
+msgstr "Bu satıcıyı tavsiye eder misiniz?"
+
+#: admin/screens/system_status.php:57
+msgid "WP Debug Mode:"
+msgstr "WP Hata Ayıklama Modu:"
+
+#: admin/screens/system_status.php:40
+msgid "WP Memory Limit:"
+msgstr "WP Hafıza Limiti:"
+
+#: admin/screens/system_status.php:35
+msgid "WP Multisite:"
+msgstr "WP Multi Sitesi:"
+
+#: admin/screens/system_status.php:30
+msgid "WP Version:"
+msgstr "WP versiyonu:"
+
+#: partials/user/dealer-public-profile.php:151
+msgid "Write a review"
+msgstr "Yorum bırak"
+
+#: inc/customizer/registration.php:333
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#: vc_templates/stm_sell_a_car.php:25 vc_templates/stm_sell_a_car.php:176
+#: vc_templates/stm_sell_a_car.php:456 vc_templates/stm_sell_a_car.php:594
+#: vc_templates/stm_sell_a_car.php:869 vc_templates/stm_sell_a_car.php:1001
+msgid "Year"
+msgstr "Yaş"
+
+#: inc/customizer/registration.php:493
+msgid "Yellow"
+msgstr "Sarı"
+
+#: vc_templates/stm_sell_a_car.php:309 vc_templates/stm_sell_a_car.php:310
+#: vc_templates/stm_sell_a_car.php:721 vc_templates/stm_sell_a_car.php:722
+#: vc_templates/stm_sell_a_car.php:1134 vc_templates/stm_sell_a_car.php:1135
+#: partials/user/dealer-write-review.php:69 partials/user/dealer-reviews.php:53
+#: partials/user/dealer-single-review.php:110
+msgid "Yes"
+msgstr "Evet"
+
+#: admin/includes/envato-market/inc/admin/admin.php:397
+msgid ""
+"You are about to remove the connection between the Envato Market API and "
+"this item. You cannot undo this action."
+msgstr ""
+"Envato Market API'sı ve bu ürün arasındaki bağlantıyı kaldırmak üzeresiniz. "
+"Bu işlemi geri alamazsınız."
+
+#: inc/stm-ajax.php:603
+msgid "You are not logged in"
+msgstr "Giriş yapmadınız"
+
+#: vc_templates/stm_add_a_car.php:157
+msgid "You are not the owner of this car."
+msgstr "Bu aracın sahibi değilsiniz."
+
+#: admin/includes/envato-market/inc/admin/view/partials/intro.php:15
+msgid ""
+"You can add a global token to connect all your items from your account, "
+"and/or connect directly with a specific item using a singe-use token & item "
+"ID. When the global token and single-use token are set for the same item, "
+"the single-use token will be used to communicate with the API."
+msgstr ""
+"Hesabınızdaki tüm öğelerinizi bağlamak için genel bir simge ekleyebilir ve / "
+"veya tek kullanımlık bir simge ve öğe kimliği kullanarak doğrudan belirli "
+"bir öğeye bağlanabilirsiniz. Genel belirteç ve tek kullanımlık belirteç aynı "
+"öğe için ayarlandığında, tek kullanımlık belirteç API ile iletişim kurmak "
+"için kullanılacaktır."
+
+#: admin/includes/envato-market/inc/admin/admin.php:204
+msgid "You do not have sufficient permissions to delete transients."
+msgstr "Geçicileri silmek için yeterli izniniz yok."
+
+#: admin/includes/envato-market/inc/admin/admin.php:763
+msgid "You do not have sufficient permissions to install plugins on this site."
+msgstr "Bu siteye eklentileri yüklemek için yeterli izniniz yok."
+
+#: admin/includes/envato-market/inc/admin/admin.php:821
+msgid "You do not have sufficient permissions to install themes on this site."
+msgstr "Bu siteye tema yüklemek için yeterli izniniz yok."
+
+#: admin/includes/envato-market/inc/admin/admin.php:896
+msgid "You do not have sufficient permissions to update themes for this site."
+msgstr "Bu sitenin temalarını güncellemek için yeterli izniniz yok."
+
+#: vc_templates/stm_add_a_car.php:115
+msgid ""
+"You ended the limit of free classified ads. Please select one of the "
+"following"
+msgstr "Ücretsiz reklam hakkınızı doldurdunuz. Lütfen bunlardan birini seçin"
+
+#: inc/stm-ajax.php:58
+msgid "You have already added"
+msgstr "Daha önce eklemiştiniz"
+
+#: partials/user/dealer-write-review.php:13
+msgid ""
+"You have already added review. If you leave another one review, previous "
+"will be deleted."
+msgstr "Zaten bir yorum bıraktınız. Başka bir yorum bırakırsanız silinecektir."
+
+#: partials/user/private/user-favourite.php:105
+#: partials/user/private/user-favourite.php:111
+msgid "You have not added favorites yet"
+msgstr "Henüz favorileri eklemediniz"
+
+#: woocommerce/myaccount/my-address.php:103
+msgid "You have not set up this type of address yet."
+msgstr "Daha önce böyle bir adres kaydetmediniz."
+
+#: woocommerce/single-product-reviews.php:94
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "Yorum %s için <a href=\" %s \"> giriş %s olmalısınız </a>."
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr "Ödeme sayfasına gidebilmek için giriş yapmalısınız."
+
+#: admin/includes/envato-market/inc/admin/view/callback/section/oauth.php:12
+#, php-format
+msgid "You will need to %s, and then insert it below."
+msgstr "%s yazmanız ve sonra aşağıya eklemeniz gerekir."
+
+#: admin/screens/startup.php:71
+msgid ""
+"You will see a green check mark for success, or a failure message if "
+"something went wrong. If it failed, please make sure you followed the steps "
+"above correctly."
+msgstr ""
+"Başarılı işlem için yeşil bir işaret, eğer bir şeyler yanlış ise de bir hata "
+"mesajı göreceksiniz. Eğer hata varsa, adımları takip ettiğinizden emin olun."
+
+#: vc_templates/stm_sell_a_car.php:150 vc_templates/stm_sell_a_car.php:562
+#: vc_templates/stm_sell_a_car.php:975
+msgid "Your contact details"
+msgstr "İletişim bilgileriniz"
+
+#: admin/screens/system_status.php:50
+msgid ""
+"Your current memory limit is sufficient, but if you need to import classic "
+"demo content, the required memory limit is <strong>256MB.</strong>"
+msgstr ""
+"Geçerli bellek sınırınız yeterlidir, ancak klasik demo içeriğini aktarmanız "
+"gerekiyorsa, gereken bellek sınırı <strong> 256MB'dir. </Strong>"
+
+#: vc_templates/stm_sell_a_car.php:52 vc_templates/stm_sell_a_car.php:481
+#: vc_templates/stm_sell_a_car.php:895
+msgid "Your E-mail address is invalid"
+msgstr "E-mail adresini geçersiz"
+
+#: inc/woocommerce_setups_rental.php:536
+msgid "Your Information"
+msgstr "Bilgileriniz"
+
+#: partials/rental/wizard-nav/nav-step-3.php:29
+msgid "Your information"
+msgstr "Bilgileriniz"
+
+#: partials/rental/wizard-nav/nav-step-1.php:29
+msgid "Your Itinerary"
+msgstr "Seyahat Planınız"
+
+#: admin/includes/envato-market/inc/admin/view/notice/success.php:11
+msgid "Your OAuth Personal Token has been verified."
+msgstr "OAuth Kişisel Simgeniz doğrulandı."
+
+#: admin/includes/envato-market/inc/admin/view/notice/success-no-items.php:11
+msgid ""
+"Your OAuth Personal Token has been verified. However, there are no WordPress "
+"downloadable items in your account."
+msgstr ""
+"OAuth Kişisel Simgeniz doğrulandı. Ancak, hesabınızda WordPress "
+"indirilebilir öğeleri yoktur."
+
+#: woocommerce/checkout/form-checkout.php:59
+#: woocommerce/checkout/form-checkout.php:79
+msgid "Your order"
+msgstr "Siparişiniz"
+
+#: vc_templates/stm_sell_a_car.php:59 vc_templates/stm_sell_a_car.php:488
+#: vc_templates/stm_sell_a_car.php:902
+msgid "Your Phone is invalid"
+msgstr "Telefonunuz geçersiz"
+
+#: partials/modals/subscription_ended.php:15
+msgid "Your plan period time is expired, please renew the subscription."
+msgstr "Üyeliğinizin süresi dolmuştur, lütfen yenileyin."
+
+#: woocommerce/single-product-reviews.php:99
+msgid "Your rating:"
+msgstr "Sizin dereceniz:"
+
+#: partials/modals/limit_exceeded.php:4
+msgid "Your reached the limit of ads. Please upgrade your plan."
+msgstr "Reklam limitinize ulaştınız. lütfen planınızı yükseltin."
+
+#: inc/stm-ajax.php:132 inc/stm-ajax.php:219 inc/stm-ajax.php:330
+msgid "Your request was sent"
+msgstr "Talebiniz iletildi"
+
+#: partials/user/dealer-write-review.php:29
+msgid "Your Review"
+msgstr "Yorumunuz"
+
+#: woocommerce/single-product-reviews.php:111
+msgid "Your review"
+msgstr "Yorumun"
+
+#: partials/user/private/become-dealer.php:12
+#: partials/user/private/become-dealer.php:17
+#: partials/user/private/become-dealer.php:42
+#: partials/user/private/become-dealer.php:112
+msgid "Your review is under submission"
+msgstr "İşleminiz iletildi"
+
+#: partials/user/private/become-dealer.php:20
+msgid "Your review is under submission. Paypal status - Completed"
+msgstr "İşleminiz iletildi. Paypal statüsü- Tamamlandı"
+
+#: partials/user/private/become-dealer.php:22
+msgid "Your review is under submission. Paypal status - Pending"
+msgstr "İşleminiz iletildi. Paypal statüsü- Bekliyor"
+
+#: partials/user/private/become-dealer.php:26
+msgid "Your review is under submission. Redirecting to Paypal"
+msgstr "İşleminiz iletildi. Paypal 'a yönlendiriliyorsunuz"
+
+#: partials/user/private/dealer-settings.php:588
+#: partials/user/private/user-settings.php:141
+msgid "Your Social Networks"
+msgstr "Sosyal Ağlarınız"
+
+#: inc/user-extra.php:86 inc/customizer/registration.php:341
+#: partials/user/private/dealer-settings.php:625
+#: partials/user/private/user-settings.php:184
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/customizer/registration.php:342
+msgid "Youtube Play"
+msgstr "Youtube Play"
+
+#: admin/screens/system_status.php:229
+msgid ""
+"ZipArchive is required for importing demos. They are used to import and "
+"export zip files specifically for sliders."
+msgstr ""
+"ZipArşiv demoları alabilmek için gereklidir. Zip dosyalarını almak ve "
+"çıkarmak için özellikler silder'lar için kullanılır."
+
+#: admin/screens/system_status.php:228
+msgid "ZipArchive:"
+msgstr "Zip Arşiv:"
+
+#: inc/customizer/registration.php:1388 inc/customizer/registration.php:1562
+msgid "{make} {serie} {ca-year}"
+msgstr "{make} {serie} {ca-year}"
+
+#: partials/listing-cars/motos/list-actions.php:32
+msgid "Сalculate"
+msgstr "Hesapla"
+
+#: partials/single-car-motorcycle/car-links.php:53
+msgid "Сalculate Payment"
+msgstr "Ödeme Hesapla"

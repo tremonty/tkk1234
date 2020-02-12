@@ -1,0 +1,1948 @@
+.stm-template-car_magazine {
+
+    @media (max-width: 1134px) {
+        .stm-features-posts-main {
+            .features_posts_wrap {
+                .features-big-wrap {
+                    max-width: 62%;
+                }
+
+                .features-small-wrap, .adsense-200-200 {
+                    max-width: 18%;
+                    min-width: 18%;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+
+
+    @media (max-width: 1100px) {
+
+        .btn-magazine-green{
+            max-width: 44%;
+        }
+
+        .stm-features-posts-main {
+            .features_posts_wrap {
+                .features-big-wrap {
+                    max-width: 62%;
+                }
+
+                .features-small-wrap, .adsense-200-200 {
+                    max-width: 17.9%;
+                    min-width: 17.9%;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .stm-events-wrap {
+            .events-middle {
+                .event-content {
+                    .event-data {
+                        .address {
+                            max-width: 50%;
+                        }
+
+                        .date {
+                            max-width: 20%;
+                        }
+
+                        .time {
+                            max-width: 30%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .classic-filter-row {
+            .filter-sidebar {
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            .sidebar-entry-header {
+                padding: 26px 10px 21px 48px;
+                margin: 0 -20px 25px;
+
+                i {
+                    top: 39px;
+                    left: 9px;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .stm-accordion-content .stm-accordion-content-wrapper.stm-accordion-content-padded .stm-accordion-inner label{
+            width: 100%;
+        }
+
+        &.post-template-single-interview {
+            #wrapper {
+                #main {
+                    .interview-top {
+                        .top-data {
+                            top: inherit;
+                            transform: none;
+                            bottom: 5%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider_post{
+            tbody {
+                tr {
+                    td {
+
+                        a{
+
+                            h2 {
+                                font-size: 46px !important;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .stm-recent_videos-posts-main {
+            .container {
+                h2 {
+                    width: 80%;
+                }
+
+                .recent-owl-nav {
+                    width: 20%;
+                    justify-content: flex-end;
+                }
+            }
+        }
+
+    }
+    @media (max-width: 991px) {
+        #wrapper #header .header-magazine .container .magazine-service-right ul.magazine-menu {
+            display: none;
+        }
+
+        .magazine-menu-mobile-wrapper {
+            position: relative;
+            float: left;
+            margin-left: 20px;
+
+            .stm-opened-menu-magazine {
+                //position: fixed;
+                position: absolute;
+                //top: 80px;
+                top: 53px;
+                bottom: 0;
+                //right: -279px;
+                right: -300px;
+                background-color: $magazine_green;
+                padding: 16px 0 16px;
+                width: 279px;
+                height: 100vh;
+                @include box-shadow(-1px,3px,5px,rgba(0,0,0,0.2));
+                overflow-y: auto;
+                overflow-x: hidden;
+                z-index: 100;
+                transition: all .2s ease-in;
+
+                &:before {
+                    @include pseudo();
+                    top: -5px;
+                    right: 25px;
+                    width: 0;
+                    height: 0;
+                    border-left: 6px solid transparent;
+                    border-right: 6px solid transparent;
+                    border-bottom: 5px solid $magazine_green;
+                }
+                &.opened {
+                    //right: 0;
+                    right: -15px;
+                }
+                #top-bar {
+                    display: block;
+                }
+                .top-bar-wrapper {
+                    padding: 0 !important;
+                    .top-bar-info {
+                        display: none;
+                    }
+                    .pull-right {
+                        float: none !important;
+                        width: 100%;
+                    }
+                    .header-login-url {
+                        display: none;
+                    }
+                    .header-top-bar-socs {
+                        background: rgba(0,0,0,0.1);
+                        padding: 15px 20px 15px 36px;
+                        margin: 0 -15px !important;
+                        li {
+                            margin-right: 26px !important;
+                            &:last-child {
+                                margin-right: 0 !important;
+                            }
+                            a {
+                                i {
+                                    font-size: 16px !important;
+                                }
+                            }
+                        }
+                    }
+                    .top_bar_menu {
+                        padding-top: 10px;
+                        display: block !important;
+                        margin-left: 20px !important;
+                        li {
+                            width: 100%;
+                            a {
+                                display: block;
+                                padding: 15px 0 !important;
+                                font-size: 14px !important;
+                            }
+                            &:after {
+                                display: none;
+                                opacity: 0;
+                            }
+                        }
+                    }
+                    .language-switcher-unit {
+                        float: none !important;
+                        background: rgba(0,0,0,0.1);
+                        padding: 15px 10px 0px 36px;
+                        margin: 0 -15px !important;
+                        .stm_current_language {
+                            padding-bottom: 10px;
+                            font-size: 14px !important;
+                            i {
+                                position: absolute !important;
+                                top: 15px !important;
+                                right: 25px !important;
+                            }
+                        }
+
+                        .dropdown-backdrop{
+                            display: none !important;
+                        }
+
+                        .dropdown-menu {
+                            position: static;
+                            float: none !important;
+                            background-color: transparent !important;
+                            border: 0 !important;
+                            box-shadow: none !important;
+                            li {
+                                box-shadow: none !important;
+                                a {
+                                    background-color: transparent !important;
+                                    padding: 10px 0 10px !important;
+                                    color: #aaa !important;
+                                    font-size: 14px !important;
+                                }
+                            }
+                        }
+                    }
+
+                    .currency-switcher {
+                        float: none !important;
+                        background: rgba(0, 0, 0, 0.1);
+                        padding: 15px 10px 0px 36px;
+                        margin: 0 -15px !important;
+
+                        .stm-multiple-currency-wrap{
+                            margin-left: 0 !important;
+
+                            .select2-container--default .select2-selection--single {
+                                .select2-selection__rendered {
+                                    padding-left: 0 !important;
+                                    font-size: 14px !important;
+                                }
+
+                                .select2-selection__arrow{
+                                    right: 5px;
+
+                                    b{
+                                        color: #aaaaaa;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .magazine-menu-mobile {
+                    padding: 0;
+                    list-style: none;
+                    li {
+                        margin-bottom: 0;
+                        a {
+                            display: block;
+                            height: 50px;
+                            line-height: 50px;
+                            padding-left: 36px;
+                            padding-right: 25px;
+                            text-decoration: none !important;
+                        }
+                    }
+                    > li {
+                        margin-bottom: 0;
+                        > a {
+                            padding-right: 40px;
+                            position: relative;
+                            color: $white;
+                            font-size: 20px;
+                            font-weight: 700;
+                            .stm_frst_lvl_trigger {
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                width: 50px;
+                                height: 50px;
+                                opacity: 0.5;
+                                &.active {
+                                    opacity: 1;
+                                    &:after,
+                                    &:before {
+                                        @include transform(rotate(-45deg));
+                                    }
+                                }
+                                &:after {
+                                    @include pseudo();
+                                    top: 17px;
+                                    left: 17px;
+                                    width: 3px;
+                                    height: 13px;
+                                    background: white;
+                                }
+                                &:before {
+                                    @include pseudo();
+                                    top: 22px;
+                                    left: 12px;
+                                    width: 13px;
+                                    height: 3px;
+                                    background: white;
+                                }
+                            }
+                        }
+                        > ul {
+                            position: relative;
+                            &:before {
+                                @include pseudo();
+                                top: -5px;
+                                right: 25px;
+                                width: 0;
+                                height: 0;
+                                border-left: 6px solid transparent;
+                                border-right: 6px solid transparent;
+                                border-bottom: 5px solid #fff;
+                            }
+                            > li {
+                                border-bottom: 1px solid #e1e1e1;
+                                > a {
+                                    background-color: $white;
+                                    color: #222;
+                                }
+                                > ul {
+                                    position: relative;
+                                    &:before {
+                                        @include pseudo();
+                                        top: -5px;
+                                        right: 25px;
+                                        width: 0;
+                                        height: 0;
+                                        border-left: 6px solid transparent;
+                                        border-right: 6px solid transparent;
+                                        border-bottom: 5px solid #e1e1e1;
+                                    }
+                                    > li {
+                                        a {
+                                            background-color: #e1e1e1;
+                                            color: #222;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    & ul.sub-menu {
+                        display: none;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                }
+            }
+            .stm-menu-trigger {
+                margin-top: 0px;
+                span {
+                    display: block;
+                    width: 28px;
+                    height: 4px;
+                    margin-bottom: 7px;
+                    border-radius: 2px;
+                    background: rgba(255,255,255,0.5);
+                    &:first-child {
+                        position: relative;
+                        top: 0;
+                        -webkit-transition: top .3s .3s, transform .3s 0s;
+                        transition: top .3s .3s, transform .3s 0s;
+                    }
+                    &:nth-child(2) {
+                        opacity: 1;
+                        -webkit-transition: opacity .3s;
+                        transition: opacity .3s;
+                    }
+                    &:last-child {
+                        margin-bottom: 0;
+                        position: relative;
+                        top: 0;
+                        -webkit-transition: top .3s .3s, transform .3s 0s;
+                        transition: top .3s .3s, transform .3s 0s;
+                    }
+                }
+                &.opened {
+                    span {
+                        background: rgba(255,255,255,1);
+                        &:first-child {
+                            top: 11px;
+                            @include transform(rotate(-45deg));
+                            -webkit-transition: top .3s 0s, transform .3s .3s;
+                            transition: top .3s 0s, transform .3s .3s;
+                        }
+                        &:nth-child(2) {
+                            opacity: 0;
+
+                        }
+                        &:last-child {
+                            top: -11px;
+                            @include transform(rotate(45deg));
+                            -webkit-transition: top .3s 0s, transform .3s .3s;
+                            transition: top .3s 0s, transform .3s .3s;
+                        }
+                    }
+                }
+            }
+        }
+
+        .slider_post{
+            tbody {
+                tr {
+                    td {
+
+                        .post_standart:before{
+                            font-size: 38px;
+                        }
+
+                        a{
+
+                            h2 {
+                                font-size: 26px !important;
+                                line-height: 36px !important;
+                            }
+                        }
+
+                        span{
+                            font-size: 12px !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-features-posts-main {
+            .features_posts_wrap {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+
+                .features-big-wrap {
+                    width: 100%;
+                    max-width: 100%;
+                    margin-bottom: 10px;
+
+                    a {
+                        .magazine-grid-img {
+                            width: 100%;
+
+                            img{
+                                display: block;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+
+                >div:nth-child(2){
+                    margin-left: 0;
+                }
+
+                .features-small-wrap, .adsense-200-200 {
+                    width: 24%;
+                    max-width: 24%;
+                    margin-left: 9px;
+                }
+            }
+        }
+
+        .stm_widget_recent_news {
+            &:before {
+                display: none;
+            }
+
+            .recentNewsAnimate {
+                padding: 0;
+            }
+        }
+
+        .vc_col-sm-12 {
+            .vc_column-inner {
+                .wpb_wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+
+                    .stm-social-follow-wrap {
+                        width: 100%;
+                        margin-top: 40px;
+
+                        .apsc-icons-wrapper {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                        }
+                    }
+
+                    .stm-most-popular-posts {
+                        width: 100%;
+                    }
+
+                    .stm-mc-form-wrap {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .stm-recent_videos-posts-main {
+            .recent_videos_posts_wrap {
+                width: 750px;
+            }
+        }
+
+        .stm-events-wrap {
+            .events-middle {
+                flex-direction: column;
+
+                .events-list {
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+
+                    .event-loop {
+                        .img {
+                            width: 11%;
+                            height: auto;
+                        }
+                    }
+                }
+
+                .event-content {
+                    width: 100%;
+                    justify-content: flex-start;
+                    margin-top: 30px;
+                    .event-data {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 20px 0;
+
+                        >div {
+                            width: 100%;
+                            max-width: 100% !important;
+                            margin: 0 0 10px;
+                        }
+                    }
+
+                    .event-single-wrap {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .stm_popular_makes_unit {
+            .stm_listing_popular_makes {
+                flex-wrap: wrap;
+                padding: 0 10%;
+
+                a{
+                    margin-bottom: 20px;
+                }
+            }
+
+            .description {
+                margin: 32px auto 0;
+            }
+        }
+
+        .stm_dynamic_listing_filter_with_rating {
+            .top-filter-wrap {
+                .middle {
+                    .filter {
+                        .stm-filter-tab-selects {
+                            .row {
+                                .col-sm-6 {
+                                    width: 50%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-listing-with-rating-wrap {
+            .listing-list-with-rating-loop {
+                width: 50%;
+            }
+        }
+
+
+        .stm-accordion-content .stm-accordion-content-wrapper.stm-accordion-content-padded .stm-accordion-inner {
+            justify-content: flex-start;
+
+            label {
+                width: 33.3%;
+            }
+        }
+
+        .single-car-actions > ul li {
+            display: block;
+        }
+
+        &.single-post #main .post.type-post .stm-single-post .container .row .col-md-9 {
+            width: 100%;
+        }
+
+        &.post-template-single-interview {
+            #wrapper {
+                #main {
+                    .interview-top {
+                        .top-data {
+                            .container {
+                                h1 {
+                                    font-size: 25px;
+                                }
+
+                                .excerpt {
+                                    font-size: 18px;
+                                    line-height: 20px;
+                                    padding-left: 45px;
+
+                                    .quote {
+                                        font-size: 60px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .review-load-more-btn-wrap .btn_loading {
+            &:after, &:before {
+                width: 30%;
+            }
+        }
+
+        &.single-format-standard {
+            .stm-motors-review-header {
+                .container {
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    align-items: flex-start;
+
+                    .left {
+                        width: 100%;
+                    }
+
+                    .right {
+                        display: flex;
+                        width: 100%;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: flex-start;
+                        align-items: flex-end;
+
+                        .rating {
+                            max-width: 26%;
+                            margin-bottom: 0;
+                            margin-right: 20px;
+                        }
+
+                        .rating-params {
+                            max-width: 70%;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+
+                            li{
+                                width: 50%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .review-top-content{
+            .r-t-c-left{
+                width: 15%;
+            }
+
+            .r-t-c-right {
+                width: 85%;
+
+                .stm-motors-review-header {
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    align-items: flex-start;
+
+                    .left {
+                        width: 100%;
+                    }
+
+                    .right {
+                        display: flex;
+                        width: 100%;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: flex-start;
+                        align-items: flex-end;
+
+                        .rating {
+                            max-width: 30%;
+                            margin-bottom: 0;
+                        }
+
+                        .rating-params {
+                            max-width: 70%;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+
+                            li{
+                                width: 48%;
+
+                                .rating-pb-wrap{
+                                    margin: 0 9px;
+                                }
+
+                                span:last-child{
+                                    width: 32%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-motors-event-header {
+            .container {
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: flex-end;
+
+                .left {
+                    width: 100%;
+                    padding: 0;
+                }
+
+                .right {
+                    width: 100%;
+
+                    .actions-block {
+                        .stm_single_event__actions {
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            justify-content: flex-start;
+                        }
+                    }
+                }
+            }
+        }
+
+        .car-listing-row.car-listing-modern-grid {
+            .col-md-4{
+                clear: none !important;
+
+                .magazine-listing-item {
+                    .magazine-loop {
+                        .excerpt {
+                            min-height: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    @media (max-width: 767px) {
+        .stm-recent_videos-posts-main .recent_videos_posts_wrap {
+            width: 700px;
+        }
+
+    }
+
+    @media (max-width: 736px) {
+
+        .slider_post {
+            tbody {
+                tr {
+                    td {
+                        .post_date, .num_comments {
+                            font-size: 12px !important;
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-recent_videos-posts-main .recent_videos_posts_wrap {
+            width: 472px;
+        }
+
+        .stm-features-posts-main {
+
+            .features-top {
+                flex-direction: column;
+
+                .left{
+                    width: 100%;
+                }
+
+                .right {
+                    width: 100%;
+                    justify-content: space-between;
+
+                    ul{
+                        li{
+                            &:first-child{
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .features_posts_wrap {
+                .features-small-wrap,
+                .adsense-200-200 {
+                    margin: 0;
+                }
+            }
+        }
+
+        .stm_widget_recent_news {
+            .recent-top {
+                flex-direction: column;
+                padding-bottom: 10px;
+
+                .left {
+                    width: 100%;
+                    margin-bottom: 10px;
+                }
+
+                .right {
+                    width: 100%;
+                    justify-content: space-between;
+
+                    ul {
+                        li{
+                            &:nth-child(1) {
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 667px) {
+        .stm_dynamic_listing_filter_with_rating {
+            .top-filter-wrap {
+                .container {
+                    h3 {
+                        font-size: 24px !important;
+                    }
+                }
+            }
+        }
+
+        &.blog {
+            .row-2 {
+                .col-xs-12 {
+                    width: 50%;
+                }
+            }
+        }
+
+        #main {
+            .row {
+                .motors-sidebar.col-md-3, .col-md-3.col-md-3 {
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 650px) {
+    }
+
+    @media (max-width: 600px) {
+    }
+
+    @media (max-width: 568px) {
+        .stm_popular_makes_unit {
+            .stm_listing_popular_makes {
+                padding: 0 1%;
+            }
+        }
+    }
+
+    @media (width: 568px) {
+        &.single-format-standard {
+            .stm-motors-review-header {
+                .container {
+                    .left {
+                        padding-right: 0;
+
+                        .car-info-wrap {
+                            flex-wrap: wrap;
+
+                            .car-info {
+                                margin-bottom: 10px;
+
+                                &:nth-child(4n+1) {
+                                    padding-left: 0;
+                                }
+                            }
+                        }
+                    }
+
+                    .right {
+                        width: 100%;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+
+                        .rating-params {
+                            flex-direction: column;
+                            width: 70%;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            overflow: hidden;
+
+                            li {
+                                width: 100%;
+
+                                span:first-child {
+                                    min-width: 44%;
+                                    max-width: 50%;
+                                }
+
+                                .rating-pb-wrap{
+                                    min-width: 30%;
+                                    width: auto;
+                                }
+
+                                span:last-child {
+                                    min-width: 30%;
+                                    width: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .other-review-block {
+            .other-review-list {
+                flex-wrap: wrap;
+
+                .other-review-item {
+                    width: 50%;
+                    max-width: 50%;
+                    flex: none;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        .stm_pros_cons_wrapp.cons{
+            padding: 44px 30px 25px 110px;
+        }
+
+        .stm_review_excerption {
+            padding: 24px 20px 22px 64px;
+        }
+
+        #main {
+            .container {
+                .col-md-9 {
+                    .stm-motors-event-archive-header.event-list-archive {
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        padding-bottom: 15px;
+                        margin: 0;
+
+                        h1{
+                            margin-bottom: 20px;
+                        }
+
+                        .events-category-filter {
+                            ul {
+                                flex-direction: row;
+                                flex-wrap: wrap;
+
+                                li {
+                                    padding: 0;
+                                    margin-right: 15px;
+                                    margin-bottom: 5px;
+
+                                    a{
+                                        padding: 0;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        &.post-type-archive-stm_events, .tax-event_tag, .tax-event_category {
+            .container{
+                .stm_events_list_style_1 {
+                    padding: 0;
+
+                    .stm_event_single_list {
+                        flex-direction: column;
+
+                        .events-list-img {
+                            width: 100%;
+                            margin-bottom: 20px;
+                        }
+
+                        .stm-event-loop-data {
+                            width: 100%;
+                            padding: 0;
+
+                            h3 {
+                                margin-bottom: 0;
+                            }
+
+                            .middle-content {
+                                width: 100%;
+                                max-width: 100%;
+                                flex-direction: column;
+                                justify-content: flex-start;
+                                align-items: flex-start;
+
+                                >div {
+                                    margin-bottom: 10px;
+                                }
+
+                                .event-loop-Address {
+                                    div {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 500px) {
+    }
+
+    @media (max-width: 430px) {
+
+        #main {
+            margin-top: 0 !important;
+        }
+
+        #wrapper {
+            #header {
+                .header-magazine {
+                    background: #293742 !important;
+
+                    .container {
+
+                        .magazine-logo-main {
+                            flex-shrink: 1;
+                        }
+
+                        .pull-right{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.blog {
+            .row-2 {
+                .col-xs-12 {
+                    width: 100%;
+                }
+            }
+        }
+
+        #main {
+            .row {
+                .motors-sidebar.col-md-3, .col-md-3.col-md-3 {
+                    width: 100%;
+                }
+            }
+        }
+
+        .slider_post{
+            tbody {
+                tr {
+                    td {
+
+                        .post_standart, .post_video {
+                            height: 50px !important;
+                        }
+
+                        .post_standart:before{
+                            font-size: 28px;
+                        }
+
+                        a{
+
+                            h2 {
+                                width: 95%;
+                                font-size: 26px !important;
+                                line-height: 36px !important;
+                                margin: 0 auto !important;
+                            }
+                        }
+
+                        span {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-recent_videos-posts-main .recent_videos_posts_wrap {
+            width: 340px;
+        }
+
+        .stm-features-posts-main {
+            .features-top {
+                .right {
+                    .cat-list {
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+
+                        li {
+                            padding: 0;
+                            margin-right: 10px;
+                            margin-bottom: 5px;
+                        }
+                    }
+
+                    .features-show-all{
+                        flex-shrink: 0;
+                    }
+                }
+            }
+        }
+
+        .stm-features-posts-main {
+            .features_posts_wrap {
+                .features-small-wrap, .adsense-200-200 {
+                    width: 49%;
+                    max-width: 49%;
+                    margin-bottom: 8px;
+                }
+
+                .features_hiden {
+                    margin: 0;
+                }
+            }
+        }
+
+        .stm_widget_recent_news {
+            .stm_magazine_single_list {
+                flex-direction: column;
+
+                .magazine-list-img{
+                    width: 100%;
+                }
+
+                .stm-magazine-loop-data {
+                    width: 100%;
+                    padding-left: 0;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        .stm_dynamic_listing_filter_with_rating {
+            .top-filter-wrap {
+                .container {
+                    h3 {
+                        width: 100%;
+                        font-size: 20px !important;
+                    }
+                }
+            }
+        }
+
+        .stm-listing-with-rating-wrap {
+            .listing-list-with-rating-loop {
+                width: 100%;
+            }
+        }
+
+        .stm-recent_videos-posts-main {
+            .recent_videos_posts_wrap {
+                .recent-videos-wrap-loop {
+                    max-width: 340px;
+
+                    a {
+                        .stm-magazine-loop-data {
+                            .news-meta-wrap {
+                                .left{
+                                    width: 60%;
+                                }
+
+                                .right {
+                                    width: 40%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-motors-review-archive-header.review-list-archive {
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-bottom: 0;
+            padding-bottom: 10px;
+
+            h1{
+                margin-bottom: 10px;
+            }
+
+            .review-category-filter {
+                ul {
+                    flex-wrap: wrap;
+                }
+            }
+        }
+
+        .stm-events-wrap {
+            .events-middle {
+                .event-content {
+                    .event-single-wrap {
+                        .timer {
+                            padding: 20px 0 10px;
+
+                            span{
+                                font-size: 30px !important;
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-accordion-content {
+            .stm-accordion-content-wrapper.stm-accordion-content-padded {
+                .stm-accordion-inner {
+                    label {
+                        width: 50%;
+                    }
+                }
+            }
+        }
+
+        .single-car-actions {
+            li {
+                margin: 10px auto;
+
+                .rating {
+                    align-items: center;
+                }
+            }
+        }
+
+        .stm-archives {
+            .stm-magazine-blog-archive-header.magazine-archive {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding-bottom: 15px;
+
+                h1 {
+                    margin-bottom: 20px;
+                }
+
+                .blog-category-filter{
+                    ul {
+                        flex-wrap: wrap;
+
+                        li{
+                            padding: 0;
+                            margin-right: 30px;
+                            margin-top: 10px;
+
+                            a{
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .stm-archives.stm-view-type-list {
+            .stm_magazine_single_list {
+                flex-direction: column;
+                flex-wrap: wrap;
+
+                .magazine-list-img{
+                    width: 100%;
+                }
+
+                .stm-magazine-loop-data {
+                    width: 100%;
+                    padding-left: 0;
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        &.single-post {
+            #main {
+                .post.type-post {
+                    .stm-single-post {
+                        .container {
+                            .row {
+                                .col-md-9 {
+                                    .post-top-content {
+                                        .r-t-c-left {
+                                            display: none;
+                                        }
+
+                                        .r-t-c-right {
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.post-template-single-interview {
+            #wrapper {
+                #main {
+                    .interview-top {
+                        display: block;
+                        position: relative;
+                        overflow: visible;
+
+                        .top-data {
+                            .container {
+                                .top-label{
+                                    display: none;
+                                }
+
+                                h1 {
+                                    margin-bottom: 0;
+                                }
+
+                                .excerpt{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm_prev_next_pagination{
+            flex-wrap: wrap;
+
+            .left, .right {
+                width: 100%;
+            }
+
+            .right {
+                margin-top: 20px;
+            }
+        }
+
+        .blog-meta-bottom {
+            .clearfix {
+                .post-tags {
+                    align-items: flex-start;
+                    padding-bottom: 0;
+
+                    .h6{
+                        margin-top: 9px;
+                    }
+
+                    .post-tag{
+                        flex-wrap: wrap;
+
+                        a {
+                            margin-bottom: 5px;
+                        }
+                    }
+
+                }
+
+                .right{
+                    margin-top: 0;
+
+                    .stm-shareble{
+                        padding: 20px 0 25px;
+                    }
+                }
+            }
+        }
+
+        &.single-post #main .post.type-post .stm-single-post .container .row .col-md-9 .post-top-content .r-t-c-right h1 {
+            font-size: 22px;
+        }
+
+
+        &.single-format-standard {
+            .stm-motors-review-header {
+                min-height: 600px;
+                max-height: 630px;
+
+                .container {
+                    height: 600px;
+
+                    .left {
+                        padding: 0;
+                        .review-title{
+                            h2 {
+                                font-size: 22px;
+                                margin-bottom: 20px;
+                            }
+                        }
+
+                        .car-info-wrap{
+                            flex-wrap: wrap;
+
+                            .car-info{
+                                width: 50%;
+                                margin-bottom: 5px;
+
+                                &:nth-child(2n+1) {
+                                    padding-left: 0;
+                                }
+
+                                &:last-child {
+                                    border-right: 1px solid #ffffff;
+                                }
+                            }
+                        }
+                    }
+
+                    .right {
+                        margin-top: 20px;
+                        flex-direction: column;
+
+                        .rating {
+                            width: 100%;
+                            max-width: 100%;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            margin: 0;
+                        }
+
+                        .rating-params {
+                            flex-direction: column;
+                            width: 100%;
+                            max-width: 100%;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+
+                            li{
+                                width: 100%;
+                                justify-content: flex-start;
+
+                                span:first-child {
+                                    width: auto;
+                                    max-width: 46%;
+                                    min-width: 23%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.single-format-video {
+            .stm-motors-review-header {
+                .left {
+                    padding: 0;
+                    .review-title{
+                        h2 {
+                            font-size: 22px;
+                            margin-bottom: 20px;
+                        }
+                    }
+
+                    .car-info-wrap{
+                        flex-wrap: wrap;
+
+                        .car-info{
+                            width: 50%;
+                            margin-bottom: 5px;
+
+                            &:nth-child(2n+1) {
+                                padding-left: 0;
+                            }
+
+                            &:last-child {
+                                border-right: 1px solid #ffffff;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .review-top-content {
+                .r-t-c-right {
+                    .stm-motors-review-header {
+                        .right {
+                            margin-top: 20px;
+                            flex-direction: column;
+
+                            .rating {
+                                width: 100%;
+                                max-width: 100%;
+                                flex-direction: column;
+                                justify-content: flex-start;
+                                align-items: flex-start;
+                                margin: 0;
+                            }
+
+                            .rating-params {
+                                flex-direction: column;
+                                width: 100%;
+                                max-width: 100%;
+                                justify-content: flex-start;
+                                align-items: flex-start;
+
+                                li{
+                                    width: 100%;
+                                    justify-content: flex-start;
+
+                                    span:first-child {
+                                        width: auto;
+                                        max-width: 46%;
+                                        min-width: 23%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .stm-review-video .play-btn i {
+                        font-size: 70px;
+                    }
+                }
+            }
+        }
+
+
+
+        .review-top-content {
+            .r-t-c-left {
+                display: none;
+            }
+
+            .r-t-c-right{
+                width: 100%;
+            }
+        }
+
+        #main .stm-single-post .container > .vc_row > .wpb_column > .vc_column-inner > .wpb_wrapper > .wpb_text_column.wpb_content_element {
+            margin: 0;
+        }
+
+        .stm_review_excerption {
+            padding: 24px 14px 21px 54px;
+        }
+
+        .stm_pros_cons_wrapp.cons {
+            padding: 44px 30px 25px 110px;
+        }
+
+        .other-review-block {
+            .other-review-list {
+                flex-direction: column;
+
+                .other-review-item {
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+        }
+
+        .row.stm-row-comments {
+            margin-bottom: 0 !important;
+
+            .col-xs-12 {
+                margin-bottom: 10px;
+            }
+        }
+
+        &.post-type-archive-stm_events {
+            .container {
+                .stm_events_grid_style_1 {
+                    .stm_event_single_grid {
+                        .stm-event-loop-data {
+                            padding: 0 20px 0 20px;
+
+                            .left {
+                                width: 100%;
+                                max-width: 100%;
+                                .event-category, .event-loop-Date, .event-loop-Address {
+                                    display: none;
+                                }
+
+                                .ttc {
+                                    font-size: 20px !important;
+                                    width: 100%;
+                                }
+                            }
+
+                            .right {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        #main {
+            .container {
+                .col-md-9 {
+                    .stm-motors-event-archive-header.event-list-archive {
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        padding-bottom: 15px;
+                        margin: 0;
+
+                        h1{
+                            margin-bottom: 20px;
+                        }
+
+                        .events-category-filter {
+                            ul {
+                                flex-direction: row;
+                                flex-wrap: wrap;
+
+                                li {
+                                    padding: 0;
+                                    margin-right: 15px;
+                                    margin-bottom: 5px;
+
+                                    a{
+                                        padding: 0;
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        &.post-type-archive-stm_events, .tax-event_tag, .tax-event_category {
+            .container{
+                .stm_events_list_style_1 {
+                    padding: 0;
+
+                    .stm_event_single_list {
+                        flex-direction: column;
+
+                        .events-list-img {
+                            width: 100%;
+                            margin-bottom: 20px;
+                        }
+
+                        .stm-event-loop-data {
+                            width: 100%;
+                            padding: 0;
+
+                            h3 {
+                                margin-bottom: 0;
+                            }
+
+                            .middle-content {
+                                width: 100%;
+                                max-width: 100%;
+                                flex-direction: column;
+                                justify-content: flex-start;
+                                align-items: flex-start;
+
+                                >div {
+                                    margin-bottom: 10px;
+                                }
+
+                                .event-loop-Address {
+                                    div {
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-motors-event-header {
+            min-height: 600px;
+
+            .container {
+                height: 600px;
+                flex-direction: column;
+
+                .left {
+                    width: 100%;
+                    max-width: 100%;
+
+                    .event-title {
+                        h2 {
+                            font-size: 26px;
+                            margin-bottom: 20px;
+                        }
+                    }
+
+                    .event-data-header{
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        padding-bottom: 20px;
+
+                        >div {
+                            width: 100%;
+                            padding: 0;
+                            margin: 0 0 10px;
+                            border: 0;
+                            justify-content: flex-start;
+                        }
+                    }
+                }
+
+                .right {
+                    width: 100%;
+                    max-width: 100%;
+                    padding-bottom: 10px;
+
+                    .actions-block {
+                        .stm_single_event__actions {
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+
+                            a {
+                                margin: 0 !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm_events.type-stm_events {
+            .event-top-content {
+                padding-left: 0;
+
+                .img {
+                    margin: 0 0 20px;
+                }
+            }
+        }
+
+        .stm_events.type-stm_events {
+            .map-title {
+                padding: 0;
+            }
+        }
+
+        .stm_events.type-stm_events {
+            h2, h3, h4, h5, p {
+                margin: 0;
+            }
+        }
+
+        .vc_toggle {
+            margin: 0 0 17px 0 !important;
+        }
+
+        .stm_single_event__form{
+            margin-left: 0;
+        }
+
+        .stm_single_event__form .form_actions {
+            flex-direction: column;
+        }
+    }
+
+
+
+    @media (max-width: 340px) {
+
+        .stm-features-posts-main {
+            .features_posts_wrap {
+                .features-big-wrap {
+                    .stm-magazine-loop-data {
+                        .magazine-category {
+                            display: none;
+                        }
+
+                        .news-meta-wrap{
+                            .left, .right {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+
+                .features-small-wrap {
+                    .stm-magazine-loop-data {
+                        .magazine-category {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        .stm_widget_recent_news {
+            .recent-top {
+                .right {
+                    .cat-list {
+                        flex-direction: column;
+
+                        li {
+                            padding: 0;
+                            a{
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .stm_magazine_single_list {
+                .stm-magazine-loop-data {
+                    .middle-content {
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+
+                        >div {
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-recent_videos-posts-main {
+            .container {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                .recent-owl-nav {
+                    width: 100%;
+                    justify-content: flex-start;
+                    padding: 0;
+                }
+            }
+
+            .recent_videos_posts_wrap {
+                width: 300px;
+
+                .recent-videos-wrap-loop{
+                    width: 300px;
+                }
+            }
+        }
+
+        .stm_popular_makes_unit .stm_listing_popular_makes {
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .stm-archives .stm-magazine-blog-archive-header.magazine-archive {
+            margin-top: 0;
+        }
+
+        .stm-archives.stm-view-type-list {
+            .stm_magazine_single_list {
+                .stm-magazine-loop-data {
+                    .middle-content {
+                        flex-direction: column;
+                        align-items: flex-start;
+                        justify-content: flex-start;
+                        padding-bottom: 0;
+
+                        >div {
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

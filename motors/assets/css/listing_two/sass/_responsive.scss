@@ -1,0 +1,602 @@
+@media (max-width: 1150px) {
+    .stm_dynamic_listing_filter_without_tabs {
+        margin: 0 15px;
+
+        .tab-content {
+            .tab-pane {
+                form {
+                    .btn-wrap {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .stm_dynamic_listing_filter_without_tabs {
+        margin: 0;
+
+        .tab-content {
+            .tab-pane {
+                form {
+                    .btn-wrap {
+                        width: 30%;
+
+                        .border-btn {
+                            margin: 0 !important;
+                            max-width: 140px;
+                            min-width: inherit !important;
+                            padding: 17px 15px 15px 15px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .stm-listing-with-rating-wrap {
+        .listing-list-with-rating-loop {
+            width: 50%;
+        }
+    }
+
+    &.single-format-standard {
+        .stm-motors-review-header {
+            .container {
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-start;
+
+                .left {
+                    width: 100%;
+                }
+
+                .right {
+                    display: flex;
+                    width: 100%;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+
+                    .rating {
+                        max-width: 26%;
+                        margin-bottom: 0;
+                        margin-right: 20px;
+                    }
+
+                    .rating-params {
+                        max-width: 70%;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+
+                        li {
+                            width: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .review-top-content {
+        .r-t-c-left {
+            width: 15%;
+        }
+
+        .r-t-c-right {
+            width: 85%;
+
+            .stm-motors-review-header {
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-start;
+
+                .left {
+                    width: 100%;
+                }
+
+                .right {
+                    display: flex;
+                    width: 100%;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: flex-start;
+                    align-items: flex-end;
+
+                    .rating {
+                        max-width: 30%;
+                        margin-bottom: 0;
+                    }
+
+                    .rating-params {
+                        max-width: 70%;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+
+                        li {
+                            width: 48%;
+
+                            .rating-pb-wrap {
+                                margin: 0 9px;
+                            }
+
+                            span:last-child {
+                                width: 32%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 860px) {
+    .stm_dynamic_listing_filter_without_tabs {
+        margin: 0;
+
+        .tab-content {
+            .tab-pane {
+                form {
+                    flex-direction: column-reverse;
+                    flex-wrap: wrap;
+
+                    .stm-filter-tab-selects {
+                        width: 100%;
+                    }
+
+                    .btn-wrap {
+                        width: 100%;
+
+                        .border-btn {
+                            margin: 0 !important;
+                            max-width: 140px;
+                            min-width: inherit !important;
+                            padding: 17px 15px 15px 15px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 568px) {
+    .stm_dynamic_listing_filter_without_tabs {
+        margin: 0;
+
+        .tab-content {
+            .tab-pane {
+                form {
+                    flex-direction: column-reverse;
+                    flex-wrap: wrap;
+
+                    .stm-filter-tab-selects {
+                        width: 100%;
+
+                        .row {
+                            .col-md-3 {
+                                width: 50%;
+                            }
+                        }
+                    }
+
+                    .btn-wrap {
+                        width: 100%;
+
+                        .border-btn {
+                            margin: 0 !important;
+                            max-width: 140px;
+                            min-width: inherit !important;
+                            padding: 17px 15px 15px 15px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (width: 568px) {
+    &.single-format-standard {
+        .stm-motors-review-header {
+            .container {
+                .left {
+                    padding-right: 0;
+
+                    .car-info-wrap {
+                        flex-wrap: wrap;
+
+                        .car-info {
+                            margin-bottom: 10px;
+
+                            &:nth-child(4n+1) {
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+
+                .right {
+                    width: 100%;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+
+                    .rating-params {
+                        flex-direction: column;
+                        width: 70%;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        overflow: hidden;
+
+                        li {
+                            width: 100%;
+
+                            span:first-child {
+                                min-width: 44%;
+                                max-width: 50%;
+                            }
+
+                            .rating-pb-wrap {
+                                min-width: 30%;
+                                width: auto;
+                            }
+
+                            span:last-child {
+                                min-width: 30%;
+                                width: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .other-review-block {
+        .other-review-list {
+            flex-wrap: wrap;
+
+            .other-review-item {
+                width: 50%;
+                max-width: 50%;
+                flex: none;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .stm_pros_cons_wrapp.cons {
+        padding: 44px 30px 25px 110px;
+    }
+
+    .stm_review_excerption {
+        padding: 24px 20px 22px 64px;
+    }
+
+    #main {
+        .container {
+            .col-md-9 {
+                .stm-motors-event-archive-header.event-list-archive {
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    padding-bottom: 15px;
+                    margin: 0;
+
+                    h1 {
+                        margin-bottom: 20px;
+                    }
+
+                    .events-category-filter {
+                        ul {
+                            flex-direction: row;
+                            flex-wrap: wrap;
+
+                            li {
+                                padding: 0;
+                                margin-right: 15px;
+                                margin-bottom: 5px;
+
+                                a {
+                                    padding: 0;
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    &.post-type-archive-stm_events, .tax-event_tag, .tax-event_category {
+        .container {
+            .stm_events_list_style_1 {
+                padding: 0;
+
+                .stm_event_single_list {
+                    flex-direction: column;
+
+                    .events-list-img {
+                        width: 100%;
+                        margin-bottom: 20px;
+                    }
+
+                    .stm-event-loop-data {
+                        width: 100%;
+                        padding: 0;
+
+                        h3 {
+                            margin-bottom: 0;
+                        }
+
+                        .middle-content {
+                            width: 100%;
+                            max-width: 100%;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+
+                            > div {
+                                margin-bottom: 10px;
+                            }
+
+                            .event-loop-Address {
+                                div {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .stm_dynamic_listing_filter_without_tabs {
+        .tab-content {
+            padding: 0;
+
+            .heading-title {
+                padding: 30px 15px;
+            }
+
+            .tab-pane form {
+                flex-direction: column-reverse;
+                flex-wrap: wrap;
+                align-items: center;
+
+                .stm-filter-tab-selects {
+                    width: 100%;
+                    padding: 0 15px;
+
+                    .row {
+                        flex-direction: column !important;
+                        flex-wrap: wrap;
+
+                        .col-md-3 {
+                            width: 100% !important;
+                        }
+                    }
+                }
+
+                .btn-wrap {
+                    width: 100%;
+                    padding: 0 15px;
+                    flex-direction: row;
+
+                    .border-btn {
+                        margin: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 430px) {
+
+    .stm-listing-with-rating-wrap {
+        .listing-list-with-rating-loop {
+            width: 100%;
+        }
+    }
+
+    &.single-format-standard {
+        .stm-motors-review-header {
+            min-height: 600px;
+            max-height: 630px;
+
+            .container {
+                height: 600px;
+
+                .left {
+                    padding: 0;
+                    .review-title {
+                        h2 {
+                            font-size: 22px;
+                            margin-bottom: 20px;
+                        }
+                    }
+
+                    .car-info-wrap {
+                        flex-wrap: wrap;
+
+                        .car-info {
+                            width: 50%;
+                            margin-bottom: 5px;
+
+                            &:nth-child(2n+1) {
+                                padding-left: 0;
+                            }
+
+                            &:last-child {
+                                border-right: 1px solid $white;
+                            }
+                        }
+                    }
+                }
+
+                .right {
+                    margin-top: 20px;
+                    flex-direction: column;
+
+                    .rating {
+                        width: 100%;
+                        max-width: 100%;
+                        flex-direction: column;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        margin: 0;
+                    }
+
+                    .rating-params {
+                        flex-direction: column;
+                        width: 100%;
+                        max-width: 100%;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+
+                        li {
+                            width: 100%;
+                            justify-content: flex-start;
+
+                            span:first-child {
+                                width: auto;
+                                max-width: 46%;
+                                min-width: 23%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.single-format-video {
+        .stm-motors-review-header {
+            .left {
+                padding: 0;
+                .review-title {
+                    h2 {
+                        font-size: 22px;
+                        margin-bottom: 20px;
+                    }
+                }
+
+                .car-info-wrap {
+                    flex-wrap: wrap;
+
+                    .car-info {
+                        width: 50%;
+                        margin-bottom: 5px;
+
+                        &:nth-child(2n+1) {
+                            padding-left: 0;
+                        }
+
+                        &:last-child {
+                            border-right: 1px solid $white;
+                        }
+                    }
+                }
+            }
+        }
+
+        .review-top-content {
+            .r-t-c-right {
+                .stm-motors-review-header {
+                    .right {
+                        margin-top: 20px;
+                        flex-direction: column;
+
+                        .rating {
+                            width: 100%;
+                            max-width: 100%;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            margin: 0;
+                        }
+
+                        .rating-params {
+                            flex-direction: column;
+                            width: 100%;
+                            max-width: 100%;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+
+                            li {
+                                width: 100%;
+                                justify-content: flex-start;
+
+                                span:first-child {
+                                    width: auto;
+                                    max-width: 46%;
+                                    min-width: 23%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .stm-review-video .play-btn i {
+                    font-size: 70px;
+                }
+            }
+        }
+    }
+
+    .review-top-content {
+        .r-t-c-left {
+            display: none;
+        }
+
+        .r-t-c-right {
+            width: 100%;
+        }
+    }
+
+    #main .stm-single-post .container > .vc_row > .wpb_column > .vc_column-inner > .wpb_wrapper > .wpb_text_column.wpb_content_element {
+        margin: 0;
+    }
+
+    .stm_review_excerption {
+        padding: 24px 14px 21px 54px;
+    }
+
+    .stm_pros_cons_wrapp.cons {
+        padding: 44px 30px 25px 110px;
+    }
+
+    .other-review-block {
+        .other-review-list {
+            flex-direction: column;
+
+            .other-review-item {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+
+    .row.stm-row-comments {
+        margin-bottom: 0 !important;
+
+        .col-xs-12 {
+            margin-bottom: 10px;
+        }
+    }
+}

@@ -1,0 +1,3272 @@
+@import 'colors';
+@import 'mixins';
+
+@font-face {
+    font-family: 'stm-aircrafts-icon';
+    src:  url('../fonts/aircrafts-icon-font/stm-aircrafts-icon.eot?l6elzm');
+    src:  url('../fonts/aircrafts-icon-font/stm-aircrafts-icon.eot?l6elzm#iefix') format('embedded-opentype'),
+    url('../fonts/aircrafts-icon-font/stm-aircrafts-icon.ttf?l6elzm') format('truetype'),
+    url('../fonts/aircrafts-icon-font/stm-aircrafts-icon.woff?l6elzm') format('woff'),
+    url('../fonts/aircrafts-icon-font/stm-aircrafts-icon.svg?l6elzm#stm-aircrafts-icon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ac-icon-"], [class*=" ac-icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'stm-aircrafts-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ac-icon-ac-paper-pen:before {
+    content: "\e904";
+}
+.ac-icon-arrow-left:before {
+    content: "\e902";
+}
+.ac-icon-arrow-right:before {
+    content: "\e903";
+}
+.ac-icon-ac-brochure:before {
+    content: "\e900";
+}
+.ac-icon-ac-compare:before {
+    content: "\e901";
+}
+.ac-icon-ac-message:before {
+    content: "\e905";
+}
+.ac-icon-ac-offer-price:before {
+    content: "\e906";
+}
+.ac-icon-ac-phone:before {
+    content: "\e907";
+}
+.ac-icon-ac-share:before {
+    content: "\e908";
+}
+.ac-icon-ac-trade-in:before {
+    content: "\e909";
+}
+
+.stm-site-preloader:before {
+    background-color: $aircraft_blue_dark;
+}
+
+.stm-template-aircrafts {
+
+    &:not(.home):not(.stm-inventory-page):not(.single-listings) {
+        #wrapper {
+            #top-bar, #header {
+                position: relative;
+                background-color: $aircraft_blue_dark;
+                top: inherit;
+                left: inherit;
+                transform: none;
+                margin: 0 auto;
+            }
+
+            #header {
+                min-height: 110px !important;
+                padding-top: 30px !important;
+            }
+        }
+    }
+
+    &.admin-bar.home, &.admin-bar.stm-inventory-page {
+        #top-bar {
+            top: 32px;
+        }
+
+        #header {
+            top: 122px;
+        }
+    }
+
+    &.single-listings {
+        #wrapper {
+            #top-bar, #header {
+                position: relative;
+                background-color: $aircraft_blue_dark;
+                top: inherit;
+                left: inherit;
+                transform: none;
+                margin: 0 auto;
+            }
+
+            #header {
+                min-height: 209px !important;
+                padding-top: 30px !important;
+            }
+        }
+    }
+
+    span.tp-bullet-title {
+        display: none !important;
+    }
+
+    #top-bar {
+        display: block;
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        color: $white;
+        font-size: 13px;
+
+        .top-bar-wrapper {
+            padding: 21px 0 17px;
+        }
+
+        .language-switcher-unit {
+            .stm_current_language {
+                text-transform: capitalize;
+            }
+        }
+
+        a {
+            color: $white;
+        }
+
+        .top-bar-info {
+            li {
+                font-size: 13px;
+
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        .header-top-bar-socs {
+            ul {
+                li {
+                    margin-right: 40px;
+
+                    &:last-child{
+                        margin-right: 0;
+                    }
+
+                    a {
+                        .fa {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #header {
+        width: 100%;
+        background-color: transparent;
+        position: absolute;
+        top: 90px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .header-inner-content {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            .listing-logo-main {
+                margin-right: auto;
+                margin-top: 0;
+                margin-bottom: 0;
+                margin-left: 0;
+            }
+
+            .listing-service-right {
+                .listing-menu {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    list-style: none;
+                    margin: 0;
+
+                    >li {
+                        margin: 0;
+                        padding: 0 30px;
+                        position: relative;
+
+                        a {
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: $white;
+                            text-transform: uppercase;
+                            transition: all .2s ease-in-out;
+                            border-bottom: 2px solid transparent;
+
+                            &:hover {
+                                border-bottom-color: $white;
+                            }
+                        }
+
+                        &.current-menu-item {
+                            a {
+                                border-bottom-color: $white;
+                            }
+                        }
+
+                        &:first-child {
+                            padding-left: 0;
+                        }
+
+                        &:last-child {
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+
+            .listing-service-right {
+                .listing-menu {
+                    & > li {
+                        & > .sub-menu {
+                            z-index: 10;
+
+                            &:before {
+                                @include pseudo();
+                                top: -30px;
+                                height: 30px;
+                                width: 100%;
+                                background-color: transparent;
+                                opacity: 0;
+                            }
+                        }
+                        & > a {
+                            position: relative;
+                            display: block;
+                            padding-bottom: 12px;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            text-decoration: none;
+
+                            &:after {
+                                @include pseudo();
+                                height: 2px;
+                                bottom: 6px;
+                                left: 0;
+                                right: 0;
+                                opacity: 0;
+                                visibility: hidden;
+                                transform: scale(0);
+                            }
+                            &:hover:after {
+                                opacity: 1;
+                                visibility: visible;
+                                transform: scale(1);
+                            }
+                        }
+                        &.current-menu-item {
+                            a:after {
+                                opacity: 1;
+                                visibility: visible;
+                                transform: scale(1);
+                            }
+                        }
+                        &.menu-item-has-children {
+                            a {
+                                position: relative;
+
+                                &:before {
+                                    @include pseudo();
+                                    @include fa();
+                                    content: "\f107";
+                                    top: 3px;
+                                    right: -20px;
+                                }
+                            }
+                        }
+                        &:hover {
+                            & > ul {
+                                visibility: visible;
+                                top: 100%;
+                                opacity: 1;
+                            }
+                        }
+                        //Second LVL depth menu
+                        & > ul {
+                            visibility: hidden;
+                            opacity: 0;
+                            padding: 0;
+                            margin-top: 19px;
+                            list-style: none;
+                            position: absolute;
+                            width: 250px;
+                            top: 115%;
+                            left: 0;
+                            background-color: $white;
+                            @include box-shadow(1px, 1px, 3px, rgba(0, 0, 0, 0.2));
+                            li {
+                                display: block;
+                                position: relative;
+                                margin: 0 !important;
+                                text-align: left;
+
+                                &.menu-item-has-children {
+                                    & > a {
+                                        &:after {
+                                            @include pseudo();
+                                            @include fa();
+                                            top: 50%;
+                                            margin-top: -7px;
+                                            right: 20px;
+                                            font-size: 14px;
+                                            content: "\f105";
+                                            transition: none !important;
+                                        }
+                                    }
+                                }
+                                a {
+                                    position: relative;
+                                    display: block;
+                                    padding: 12px 25px 12px 25px !important;
+                                    text-decoration: none !important;
+                                    font-weight: 400;
+                                    color: $black-19;
+
+                                    &:before {
+                                        display: none !important;
+                                    }
+
+                                    &:hover {
+                                        color: $white;
+                                        background-color: $aircraft_primary;
+                                    }
+                                }
+                                //Third LVL depth menu
+                                & > ul {
+                                    visibility: hidden;
+                                    opacity: 0;
+                                    padding: 0;
+                                    list-style: none;
+                                    position: absolute;
+                                    width: 250px;
+                                    top: 0;
+                                    left: 105%;
+                                    margin-top: 0;
+                                    background-color: $white;
+                                    @include box-shadow(1px, 1px, 3px, rgba(0, 0, 0, 0.2));
+                                    z-index: -1;
+                                    & li {
+                                        //Fourth LVL depth menu
+                                        & > ul {
+                                            visibility: hidden;
+                                            opacity: 0;
+                                            padding: 0;
+                                            list-style: none;
+                                            position: absolute;
+                                            width: 250px;
+                                            top: 0;
+                                            left: 105%;
+                                            background-color: $white;
+                                            @include box-shadow(1px, 1px, 3px, rgba(0, 0, 0, 0.2));
+                                            z-index: -1;
+                                            & li {
+                                                //Fifth LVL depth menu
+                                                & > ul {
+                                                    visibility: hidden;
+                                                    opacity: 0;
+                                                    padding: 0;
+                                                    list-style: none;
+                                                    position: absolute;
+                                                    width: 250px;
+                                                    top: 0;
+                                                    left: 105%;
+                                                    background-color: $white;
+                                                    @include box-shadow(1px, 1px, 3px, rgba(0, 0, 0, 0.2));
+                                                    z-index: -1;
+                                                }
+                                                &:hover {
+                                                    & > ul {
+                                                        visibility: visible;
+                                                        left: 100%;
+                                                        opacity: 1;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        &:hover {
+                                            & > ul {
+                                                visibility: visible;
+                                                left: 100%;
+                                                opacity: 1;
+                                            }
+                                        }
+                                    }
+                                }
+                                &:hover {
+                                    & > ul {
+                                        visibility: visible;
+                                        left: 100%;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .select2-container--default {
+        .select2-results {
+            > .select2-results__options {
+                max-height: 200px;
+            }
+        }
+    }
+
+    .entry-header {
+        position: relative;
+        background-size: cover;
+        background-color: #8f9fad;
+        background-image: url("../images/title-box-ac-default-bg.jpg");
+        background-position: 50% 0;
+
+        &:after {
+            background: rgba(35, 38, 40, 0.7);
+        }
+    }
+
+    .compare-col-stm-empty {
+        .image {
+
+            i {display: none}
+
+            img.stm-compare-empty {
+                width: 100%;
+                max-height: 135px;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .listing-menu-mobile-wrapper {
+        display: none;
+
+
+        .stm-opened-menu-listing {
+            position: fixed;
+            top: 82px;
+            bottom: 0;
+            right: -279px;
+            background-color: $aircraft_blue_dark_opacity_2;
+            padding: 26px 0 16px;
+            width: 279px;
+            @include dropShadow_2;
+            overflow-y: auto;
+            overflow-x: hidden;
+            z-index: 99;
+            height: 100vh;
+
+            &:before {
+                position: absolute;
+                content: '';
+                display: block;
+                top: -5px;
+                right: 25px;
+                width: 0;
+                height: 0;
+                border-left: 6px solid transparent;
+                border-right: 6px solid transparent;
+                border-bottom: 5px solid $aircraft_blue_dark_opacity_2;
+            }
+
+            &.opened {
+                right: 0;
+            }
+
+            #top-bar {
+                display: block;
+                position: relative;
+                background-color: transparent !important;
+            }
+
+            .top-bar-wrapper {
+                padding: 0 !important;
+
+                .top-bar-info {
+                    display: none;
+                }
+
+                .pull-left {
+                    width: 100%;
+
+                    .language-switcher-unit {
+                        width: 100%;
+                    }
+                }
+
+                .pull-right {
+                    float: none !important;
+                    width: 100%;
+                }
+
+                .header-login-url {
+                    display: none;
+                }
+
+                .header-top-bar-socs {
+                    background: rgba(0, 0, 0, 0.1);
+                    padding: 15px 20px 15px 36px;
+                    margin: 0 -15px !important;
+                }
+
+                .header-top-bar-socs li {
+                    margin-right: 26px !important;
+
+                    &:last-child {
+                        margin-right: 0 !important;
+                    }
+
+                    a i {
+                        font-size: 16px !important;
+                    }
+                }
+
+                .top_bar_menu {
+                    padding-top: 10px;
+                    display: block !important;
+                    margin-left: 20px !important;
+
+                    li {
+                        width: 100%;
+
+                        a {
+                            display: block;
+                            padding: 15px 0 !important;
+                            font-size: 14px !important;
+                        }
+
+                        &:after {
+                            display: none;
+                            opacity: 0;
+                        }
+                    }
+                }
+
+                .language-switcher-unit {
+                    float: none !important;
+                    padding: 15px 10px 0px 36px;
+                    margin: 0 -15px !important;
+
+                    .stm_current_language {
+                        padding-bottom: 10px;
+                        font-size: 14px !important;
+
+                        i {
+                            position: absolute !important;
+                            top: 15px !important;
+                            right: 25px !important;
+                        }
+                    }
+
+                    .dropdown-menu {
+                        position: static;
+                        float: none !important;
+                        background-color: transparent !important;
+                        border: 0 !important;
+                        box-shadow: none !important;
+
+                        li {
+                            box-shadow: none !important;
+
+                            a {
+                                background-color: transparent !important;
+                                padding: 10px 0 10px !important;
+                                color: #aaa !important;
+                                font-size: 14px !important;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .listing-menu-mobile {
+                padding: 0;
+                list-style: none;
+
+                li {
+                    margin-bottom: 0;
+
+                    a {
+                        display: block;
+                        height: 50px;
+                        line-height: 50px;
+                        padding-left: 36px;
+                        padding-right: 25px;
+                        text-decoration: none !important;
+                    }
+                }
+
+                > li {
+                    margin-bottom: 0;
+
+                    > a {
+                        padding-right: 40px;
+                        position: relative;
+                        color: #fff;
+                        font-size: 20px;
+                        font-weight: 700;
+
+                        .stm_frst_lvl_trigger {
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            width: 50px;
+                            height: 50px;
+                            opacity: 0.5;
+                            display: block;
+
+                            &:after {
+                                position: absolute;
+                                content: '';
+                                display: block;
+                                top: 17px;
+                                left: 17px;
+                                width: 3px;
+                                height: 13px;
+                                background: white;
+                            }
+
+                            &:before {
+                                position: absolute;
+                                content: '';
+                                display: block;
+                                top: 22px;
+                                left: 12px;
+                                width: 13px;
+                                height: 3px;
+                                background: white;
+                            }
+
+                            &.active {
+                                opacity: 1;
+
+                                &:after,
+                                &:before {
+                                    -moz-transform: rotate(-45deg);
+                                    -o-transform: rotate(-45deg);
+                                    -ms-transform: rotate(-45deg);
+                                    -webkit-transform: rotate(-45deg);
+                                    transform: rotate(-45deg);
+                                }
+
+                                &:after {
+                                    position: absolute;
+                                    content: '';
+                                    display: block;
+                                    top: 17px;
+                                    left: 17px;
+                                    width: 3px;
+                                    height: 13px;
+                                    background: white;
+                                }
+
+                                &:before {
+                                    position: absolute;
+                                    content: '';
+                                    display: block;
+                                    top: 22px;
+                                    left: 12px;
+                                    width: 13px;
+                                    height: 3px;
+                                    background: white;
+                                }
+                            }
+                        }
+                    }
+
+                    > ul {
+                        position: relative;
+
+                        &:before {
+                            position: absolute;
+                            content: '';
+                            display: block;
+                            top: -5px;
+                            right: 25px;
+                            width: 0;
+                            height: 0;
+                            border-left: 6px solid transparent;
+                            border-right: 6px solid transparent;
+                            border-bottom: 5px solid #fff;
+                        }
+
+                        > li {
+                            border-bottom: 1px solid #e1e1e1;
+
+                            > a {
+                                background-color: #fff;
+                                color: #222;
+                            }
+
+                            > ul {
+                                position: relative;
+
+                                &:before {
+                                    position: absolute;
+                                    content: '';
+                                    display: block;
+                                    top: -5px;
+                                    right: 25px;
+                                    width: 0;
+                                    height: 0;
+                                    border-left: 6px solid transparent;
+                                    border-right: 6px solid transparent;
+                                    border-bottom: 5px solid #e1e1e1;
+                                }
+
+                                > li a {
+                                    background-color: #e1e1e1;
+                                    color: #222;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                ul {
+                    &.sub-menu {
+                        display: none;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                }
+            }
+        }
+
+        .stm-menu-trigger {
+            margin-top: 0px;
+            z-index: 100;
+            position: relative;
+            top: 7px;
+
+            span {
+                display: block;
+                width: 28px;
+                height: 4px;
+                margin-bottom: 7px;
+                border-radius: 2px;
+                background: rgba(255, 255, 255, 0.5);
+
+                &:first-child {
+                    position: relative;
+                    top: 0;
+                    -webkit-transition: top 0.3s 0.3s, transform 0.3s 0s;
+                    transition: top 0.3s 0.3s, transform 0.3s 0s;
+                }
+
+                &:nth-child(2) {
+                    opacity: 1;
+                    -webkit-transition: opacity 0.3s;
+                    transition: opacity 0.3s;
+                }
+
+                &:last-child {
+                    margin-bottom: 0;
+                    position: relative;
+                    top: 0;
+                    -webkit-transition: top 0.3s 0.3s, transform 0.3s 0s;
+                    transition: top 0.3s 0.3s, transform 0.3s 0s;
+                }
+            }
+
+            &.opened {
+                position: fixed;
+                top: 36px;
+                right: 15px;
+            }
+
+            &.opened span {
+                background: white;
+
+                &:first-child {
+                    top: 11px;
+                    -moz-transform: rotate(-45deg);
+                    -o-transform: rotate(-45deg);
+                    -ms-transform: rotate(-45deg);
+                    -webkit-transform: rotate(-45deg);
+                    transform: rotate(-45deg);
+                    -webkit-transition: top 0.3s 0s, transform 0.3s 0.3s;
+                    transition: top 0.3s 0s, transform 0.3s 0.3s;
+                }
+
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+
+                &:last-child {
+                    top: -11px;
+                    -moz-transform: rotate(45deg);
+                    -o-transform: rotate(45deg);
+                    -ms-transform: rotate(45deg);
+                    -webkit-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                    -webkit-transition: top 0.3s 0s, transform 0.3s 0.3s;
+                    transition: top 0.3s 0s, transform 0.3s 0.3s;
+                }
+            }
+        }
+    }
+
+    .stm-template-listing .header-listing-unfixed .stm-opened-menu-listing {
+        top: 82px !important;
+    }
+
+    #wrapper {
+        #main {
+            .stm-error-page-unit {
+                position: relative;
+                top: 80px;
+
+                .col-md-12 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    rs-bullets {
+        rs-bullet {
+            width: 7px !important;
+            height: 7px !important;
+            background: $white !important;
+            margin-top: 1px !important;
+            margin-left: 3px;
+            margin-right: 3px;
+
+            &.selected {
+                width: 9px !important;
+                height: 9px !important;
+                background: $aircraft_primary !important;
+                margin-top: 0 !important;
+            }
+        }
+    }
+
+    .stm-single-header-search-wrap {
+        display: block;
+        position: relative;
+        bottom: -75px;
+        margin-bottom: 47px;
+    }
+
+    .stm-single-header-search {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        background: $white;
+        border-top: 4px solid $aircraft_primary;
+        padding: 30px 30px 30px 50px;
+        position: relative;
+        @include dropShadow();
+
+
+        .select2-container--default {
+            .select2-selection--single {
+                height: 43px;
+                opacity: 1 !important;
+                background: transparent;
+                border: 1px solid $aircraft_border;
+                border-radius: 3px;
+
+                .select2-selection__rendered {
+                    line-height: 43px;
+                    color: $aircraft_text_light;
+                    font-size: 13px;
+                }
+
+                .select2-selection__arrow {
+                    height: 43px;
+
+                    b {
+                        font-size: 13px;
+                        margin-top: -9px;
+                    }
+                }
+            }
+        }
+
+        h4 {
+            width: 20%;
+            font-size: 20px;
+            font-weight: 400;
+            text-transform: capitalize;
+            margin: 0 48px 0 0;
+
+            span {
+                font-weight: 700;
+            }
+        }
+
+        .row {
+            width: 100%;
+            margin: 0;
+
+            .stm-select-col {
+                width: 33.33%;
+                padding: 0 5px;
+            }
+        }
+
+        button {
+            min-width: 14.5%;
+            margin-left: 25px;
+            position: relative;
+            top: 0;
+            float: right;
+            padding: 14px 12px 14px 15px;
+            font-weight: 700;
+            background: $aircraft_bg;
+            box-shadow: none;
+
+            i {
+                display: inline-block;
+                margin-right: 6px;
+                font-size: 14px;
+            }
+
+            &:active {
+                top: -1px;
+            }
+        }
+    }
+
+    .aircraft-price-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background: $aircraft_secondary;
+        padding: 10px 0;
+        margin-bottom: 10px;
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            width: 55%;
+
+            span {
+                text-align: right;
+                margin: 0;
+                color: $white;
+
+                &.h4 {
+                    text-decoration: line-through;
+                    color: $black-33;
+                }
+
+                &.h3 {
+                    font-size: 22px;
+                    line-height: 20px;
+                }
+            }
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            width: 45%;
+
+            .price-description-single {
+                background: transparent;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 13px;
+                text-transform: uppercase;
+                text-align: left;
+            }
+        }
+    }
+
+    .stm_dynamic_listing_filter {
+        position: relative;
+        filter: drop-shadow(-1px 0 10px rgba(0, 0, 0, 0.1));
+        margin-top: -100px;
+        z-index: 10;
+
+        .stm_dynamic_listing_filter_nav {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            background: $aircraft_primary;
+
+            li {
+                float: left;
+                margin-bottom: 0;
+                background: $aircraft_primary;
+                border-right: 1px solid $aircraft_primary;
+
+                a {
+                    position: relative;
+                    display: block;
+                    padding: 15px 40px 16px 40px;
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 13px;
+                    text-decoration: none !important;
+                    letter-spacing: 0.2px;
+                    z-index: 2;
+                }
+
+                &.active {
+                    background-color: $white;
+                    border-right-color: $white;
+
+                    a {
+                        color: $aircraft_text;
+                    }
+                }
+            }
+        }
+
+        .tab-content {
+            padding: 29px 30px 0;
+            background-color: $white;
+
+            .tab-pane {
+                position: relative;
+                z-index: 2;
+
+                input[type="text"],
+                input[type="number"],
+                input[type="tel"],
+                input[type="email"],
+                input[type="search"],
+                input[type="password"] {
+                    height: 46px;
+                    line-height: 46px;
+                    font-size: 14px;
+                }
+
+                input[type="text"].stm_listing_filter_text {
+                    height: 43px;
+                    line-height: 43px;
+                    background: transparent;
+                    border: 1px solid $aircraft_border;
+                    border-radius: 3px;
+                    color: $aircraft_text_light;
+                    font-size: 13px;
+                }
+            }
+
+            .stm-filter-tab-selects {
+                overflow: hidden;
+            }
+
+            .stm-filter-tab-selects .stm-select-col {
+                margin-bottom: 30px;
+                padding: 0 8px;
+            }
+
+            .stm-filter-tab-selects > .row {
+                margin: 0 -8px;
+            }
+
+            button[type="submit"] {
+                position: relative;
+                top: 0;
+                float: right;
+                margin-left: 16px;
+                min-width: 150px;
+                padding: 14px 12px 14px 15px;
+                font-weight: 700;
+                background: $aircraft_bg;
+                box-shadow: none;
+
+                i {
+                    display: inline-block;
+                    margin-right: 6px;
+                    font-size: 14px;
+                }
+
+                &:active {
+                    top: -1px;
+                }
+            }
+
+            .stm-slide-content{
+                display: none;
+                position: relative;
+            }
+
+            .stm-more-options-wrap {
+                display: block;
+                position: relative;
+                float: right;
+                clear: both;
+                cursor: pointer;
+                padding: 10px 0 10px 10px;
+
+                span {
+                    border-bottom: 1px dotted;
+                }
+            }
+        }
+
+        .select2-container--default {
+            .select2-selection--single {
+                height: 43px;
+                opacity: 1 !important;
+                background: transparent;
+                border: 1px solid $aircraft_border;
+                border-radius: 3px;
+
+                .select2-selection__rendered {
+                    line-height: 43px;
+                    color: $aircraft_text_light;
+                    font-size: 13px;
+                }
+
+                .select2-selection__arrow {
+                    height: 43px;
+
+                    b {
+                        font-size: 13px;
+                        margin-top: -9px;
+                    }
+                }
+            }
+        }
+    }
+
+    .special-offers {
+        .title {
+            margin-bottom: 46px;
+        }
+
+        .colored-separator {
+            display: none;
+        }
+
+        .owl-controls {
+            margin-top: 45px;
+        }
+    }
+
+    .stm-service-layout-info-box {
+
+    }
+
+    .listing-archive-dealer-info {
+        .dealer-image {
+            float: left;
+            margin-right: 17px;
+            height: 36px;
+            width: 36px;
+            line-height: 36px;
+            vertical-align: top;
+            background-color: #eee;
+            border-radius: 50%;
+
+            a {
+                color: #5b6771;
+                text-decoration: none !important;
+            }
+
+            img {
+                vertical-align: top;
+
+                &.stm-user-image {
+                    display: inline-block;
+                    border-radius: 50%;
+                }
+            }
+
+            .stm-user-image-empty {
+                width: 36px;
+                height: 36px;
+                line-height: 36px;
+                text-align: center;
+                background-color: #eee;
+                text-indent: 2px;
+                border-radius: 50%;
+            }
+        }
+
+        .dealer-info-block {
+            overflow: hidden;
+            position: relative;
+            top: 0;
+            display: inline-block;
+            max-width: 100%;
+            vertical-align: top;
+
+            div.title {
+                text-decoration: none !important;
+            }
+
+            .title {
+                display: block;
+                margin: 0;
+                padding-top: 0;
+                font-size: 13px;
+                line-height: 15px;
+                color: $aircraft_primary;
+                font-weight: 400;
+
+                span {
+                    color: #b1b5bc;
+                }
+
+                a {
+                    color: $aircraft_primary;
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            .dealer-information {
+                .phone {
+                    display: inline-block;
+                    margin-right: 12px;
+                    font-size: 15px;
+                    font-weight: 700;
+                    vertical-align: top;
+                    color: $aircraft_title;
+                }
+
+                i {
+                    position: relative;
+                    top: 0;
+                    font-size: 12px;
+                    color: $aircraft_title;
+                    margin-left: 1px;
+                    margin-right: 4px;
+                }
+
+                .stm-show-number {
+                    display: inline-block;
+                    margin-right: 0;
+                    font-size: 12px;
+                    font-weight: 400;
+                    vertical-align: top;
+                    border-bottom: 1px dotted;
+                    cursor: pointer;
+                    position: relative;
+                    min-width: 20px;
+
+                    &.load_number {
+                        color: transparent;
+                        &:before {
+                            content: '\f1ce';
+                            display: block;
+                            font-family: 'FontAwesome';
+                            color: #333333;
+                            font-size: 15px;
+                            position: absolute;
+                            left: 0;
+                            -webkit-animation:spin 2s linear infinite;
+                            -moz-animation:spin 2s linear infinite;
+                            animation:spin 2s linear infinite;
+                        }
+                    }
+                }
+            }
+
+            .phone {
+                display: inline-block;
+                margin-right: 12px;
+                font-size: 13px;
+                font-weight: 700;
+                vertical-align: top;
+
+                a {
+                    color: $aircraft_primary;
+                }
+            }
+
+            .send-message {
+                color: #888;
+                text-decoration: none !important;
+                font-size: 13px;
+
+                i {
+                    font-size: 11px;
+                    margin-right: 4px;
+                }
+
+                &:hover span {
+                    border-bottom: 1px dashed #888;
+                }
+            }
+        }
+    }
+
+    .stm-badge-directory {
+        position: absolute;
+        right: -65px;
+        padding: 0 55px;
+        top: 20px;
+        width: 200px;
+        height: 33px;
+        line-height: 33px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        background-color: $aircraft_secondary;
+        color: #fff !important;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .stm-shareble {
+        .stm-a2a-popup.stm-a2a-popup-active{
+            top: -112%;
+        }
+    }
+
+    .wpcf7-form-control.wpcf7-submit {
+        display: inline-block;
+    }
+
+    .listing-car-items {
+        .listing-car-item {
+
+            .image {
+                .discounted-price {
+                    .regular-price {
+                        font-weight: 700;
+                    }
+                }
+            }
+
+            .listing-car-item-meta {
+                .car-subtitle {
+                    text-transform: uppercase;
+                }
+
+                .car-title {
+                    text-transform: none;
+                    font-size: 20px;
+                    line-height: 26px;
+                }
+
+                .car-meta-top {
+                    border-color: #d5d6d8;
+                }
+
+                .car-meta-bottom {
+                    ul {
+                        li {
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .listing-list-loop.stm-listing-directory-list-loop {
+        margin-bottom: 23px;
+        border-color: $aircraft_border;
+
+        .stm-car-medias {
+            position: absolute;
+            top: 15px;
+            left: 7px;
+            z-index: 20;
+
+            > div {
+                display: inline-block;
+                margin-right: 9px;
+                padding: 2px 5px 0 6px;
+                border-radius: 2px;
+                background: rgba(0, 0, 0, 0.3);
+                color: #fff;
+                font-size: 11px;
+                line-height: 22px;
+                font-weight: 600;
+
+                i {
+                    font-size: 12px;
+                    margin-right: 2px;
+                }
+
+                span {
+                    position: relative;
+                    top: -1px;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    background: rgba(0, 0, 0, 0.6);
+                }
+
+                &.stm-listing-videos-unit i {
+                    position: relative;
+                    top: -1px;
+                    left: 1px;
+                    margin-right: 3px;
+                }
+            }
+        }
+
+        .stm-listing-compare {
+            position: absolute;
+            left: 7px;
+            bottom: 7px;
+            padding: 3px 5px;
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            font-size: 14px;
+            border-radius: 2px;
+            opacity: 0;
+            z-index: 20;
+
+            &:hover {
+                background: rgba(0, 0, 0, 0.6);
+                cursor: pointer;
+            }
+
+            &.active {
+                background: -webkit-linear-gradient(90deg, $aircraft_primary 0%, $aircraft_primary_dk 100%);
+                background: -webkit-linear-gradient(90deg, $aircraft_primary 0%, $aircraft_primary_dk 100%);
+                background: -o-linear-gradient(90deg, $aircraft_primary 0%, $aircraft_primary_dk 100%);
+                background: -ms-linear-gradient(90deg, $aircraft_primary 0%, $aircraft_primary_dk 100%);
+                background: linear-gradient(180deg, $aircraft_primary 0%, $aircraft_primary_dk 100%);
+                opacity: 1;
+            }
+        }
+
+        .stm-listing-favorite {
+            display: none !important;
+            position: absolute;
+            left: 7px;
+            bottom: 40px;
+            padding: 3px 5px 3px 6px;
+            background: rgba(0, 0, 0, 0.3);
+            color: #fff;
+            border-radius: 2px;
+            font-size: 16px;
+            opacity: 0;
+            z-index: 20;
+
+            &:hover {
+                background: rgba(0, 0, 0, 0.6);
+                cursor: pointer;
+            }
+
+            &.active {
+                background: -webkit-linear-gradient(90deg, $aircraft_primary 0%, $aircraft_primary_dk 100%);
+                background: -webkit-linear-gradient(90deg, $aircraft_primary 0%, $aircraft_primary_dk 100%);
+                background: -o-linear-gradient(90deg, $aircraft_primary 0%, $aircraft_primary_dk 100%);
+                background: -ms-linear-gradient(90deg, $aircraft_primary 0%, $aircraft_primary_dk 100%);
+                background: linear-gradient(180deg, $aircraft_primary 0%, $aircraft_primary_dk 100%);
+                opacity: 1;
+            }
+        }
+
+        .image-inner {
+            max-height: 163px;
+
+            img {
+                object-fit: cover;
+                min-height: 163px;
+            }
+        }
+
+        .image {
+            &:hover {
+                .stm-listing-compare, .stm-listing-favorite, .stm-car-medias {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .content {
+            .meta-top {
+                margin-bottom: 19px;
+
+                .price {}
+
+                .title {
+                    padding: 0;
+
+                    .labels {
+                        font-size: 14px;
+                        line-height: 22px;
+                        color: $aircraft_primary;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+            .meta-middle {
+                margin-bottom: 0;
+
+                .meta-middle-unit {
+                    width: 24%;
+                    padding-right: 5px;
+                    margin-right: 5px;
+
+                    &:nth-child(4n) {
+                        margin-right: 0;
+                    }
+
+                    .value {
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+
+            .meta-bottom {
+                margin-top: 19px;
+
+                .list-unstyled {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin-bottom: 0;
+
+                    li {
+                        margin-right: 20px;
+                        margin-bottom: 9px;
+
+                        > img {
+                            max-width: 96px;
+                            object-fit: cover;
+                        }
+
+                        .listing-archive-dealer-info {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: nowrap;
+                            align-items: center;
+                            justify-content: flex-start;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .car-action-unit {
+        border-color: $aircraft_border;
+        border-radius: 5px;
+        padding: 4px 12px;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: lowercase;
+        color: $aircraft_primary;
+        margin-top: 2px;
+
+        &.add-to-compare, &.stm-brochure {
+            display: block;
+            width: auto;
+            min-width: inherit;
+        }
+
+        &.add-to-compare.stm-added {
+            .stm-show-on-hover {
+                padding-top: 5px;
+                padding-left: 45px;
+
+                > i {
+                    top: 10px;
+                }
+            }
+        }
+
+        &.add-to-compare.disabled:after {
+            top: 11px;
+        }
+    }
+
+    .post-grid-single-unit {
+        .image{
+            max-height: 232px;
+            margin-bottom: 20px;
+
+            img {
+                vertical-align: middle;
+                object-fit: contain;
+            }
+        }
+
+        .content {
+            border: 2px solid $aircraft_border;
+            padding-bottom: 24px;
+
+            .title-relative {
+                a {
+                    .title {
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 26px;
+                    }
+                }
+            }
+
+            .post-meta-bottom {
+                padding-top: 24px;
+                margin-top: 24px;
+            }
+        }
+    }
+
+    #main .stm-single-post {
+
+        .col-md-3.col-md-pull-9 {
+            padding-top: 6px;
+        }
+
+        #wp-calendar {
+            > caption {
+                font-size: 12px;
+            }
+        }
+
+        aside.widget {
+            padding-bottom: 27px;
+
+            .widget-title {
+                h4 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    &.blog {
+        .post-grid-single-unit {
+            .content {
+                padding: 25px 20px 14px;
+
+                .post-meta-bottom {
+                    .blog-meta-unit {
+                        margin-right: 10px;
+
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .col-md-3 {
+            aside:last-child {
+                border-bottom: 0 !important;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+
+            .widget_calendar{
+                tfoot {
+                    a {
+                        display: block;
+                        padding: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .blog-meta-bottom {
+        .car-action-unit {
+            padding-left: 32px;
+        }
+    }
+
+    footer {
+        .footer_widgets_wrapper {
+            padding: 40px 0;
+
+            aside {
+                .search-form {
+                    max-width: 350px;
+                    border: 1px solid $aircraft_border;
+                    opacity: 0.5;
+
+                    label {
+                        max-width: 100%;
+
+                        input[type='search'] {
+                            height: 41px;
+                            line-height: 41px;
+                            background: transparent;
+                            border: 0;
+                            color: $white;
+
+                            &::placeholder {
+                                color: #e1e1e1;
+                            }
+                        }
+                    }
+
+                    input[type='submit'] {
+                        background-color: transparent;
+                        box-shadow: none;
+                    }
+
+                    &:after {
+                        background: transparent;
+                        font-size: 14px;
+                    }
+                }
+
+                &.widget_nav_menu ul {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: flex-end;
+                    align-items: center;
+                    list-style: none;
+                    margin: 11px 0 0;
+                    padding: 0;
+
+                    li {
+                        margin: 0;
+                        &:last-child {
+                            a {
+                                padding-right: 0;
+                            }
+                        }
+
+                        a {
+                            color: $white;
+                            text-transform: uppercase;
+                            font-size: 13px;
+                            font-weight: 700;
+                            padding: 0 25px;
+                        }
+                    }
+                }
+            }
+        }
+
+        #footer-copyright {
+            padding: 25px 0 20px;
+
+            .container {
+                &:before {
+                    top: -25px;
+                }
+            }
+        }
+
+        .copyright-socials {
+            ul {
+                li {
+                    a {
+                        i {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .listing-car-items {
+        .listing-car-item {
+            .image {
+                max-height: 187px;
+
+                img {
+                    width: 100%;
+                    max-width: inherit;
+                    object-fit: cover;
+                    height: 100%;
+                    max-height: 187px;
+                }
+            }
+        }
+    }
+
+    .car-listing-modern-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .car-meta-bottom {
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: flex-start;
+
+                li {
+                    display: block;
+                    max-width: 43%;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+
+                    span {
+                    }
+                }
+            }
+        }
+    }
+
+    &.stm-inventory-page {
+        .entry-header {
+            > .container {
+                min-height: 585px;
+
+                .entry-title {
+                    transform: none;
+
+                    h1, h2 {
+                        letter-spacing: -2px;
+                        text-transform: none;
+                        margin-bottom: 30px;
+                    }
+
+                    .sub-title {
+                        font-size: 22px;
+                        line-height: 28px;
+                        letter-spacing: 0;
+                        font-weight: 500;
+                        max-width: 500px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+
+    &.single-listings {
+
+        .stm-aircraft-title-box {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 45px;
+            margin-bottom: 43px;
+
+            .left {
+                h1 {
+                    font-size: 36px;
+                    font-weight: 800;
+                    line-height: 50px;
+                    color: $aircraft_blue_dark;
+                    margin-bottom: 1px;
+                }
+
+                .stm-ac-category {
+                    color: $aircraft_blue_dark;
+                }
+            }
+
+            .right {
+                padding-top: 6px;
+
+                .stm-ac-category {
+                    text-align: right;
+
+                    &:first-child {
+                        margin-bottom: 2px;
+                    }
+                }
+            }
+
+            .stm-ac-category {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+                color: $gray-88;
+
+                span {
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .stm-car-carousels {
+            position: relative;
+            overflow: visible;
+            margin-bottom: 62px;
+
+            .actions-wrap {
+                .stm-gallery-actions{
+                    display: block;
+                    width: auto;
+                    position: absolute;
+                    left: 50%;
+                    bottom: 20px;
+                    transform: translateX(-50%);
+                    z-index: 1;
+
+                    ul {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        list-style: none;
+                        align-items: center;
+
+                        >li {
+                            margin: 0 5px;
+                        }
+
+                        .stm-listing-favorite-action {
+                            margin-top: 2px;
+                        }
+
+                        .car-action-unit {
+                            background: $aircraft_blue_dark_opacity;
+                            border: 0;
+                            color: $white;
+                            padding: 5px 30px 5px 50px;
+                            font-size: 12px;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                            white-space: nowrap;
+                            border-radius: 25px;
+
+                            i {
+                                left: 19px;
+                                color: $white;
+                            }
+                        }
+                    }
+                }
+
+                .special-wrap {
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    overflow: hidden;
+                    height: 140px;
+                    width: 140px;
+
+                    .special-label {
+                        position: relative;
+                    }
+                }
+            }
+
+            .stm-big-car-gallery {
+
+                &.owl-carousel {
+                    overflow: visible;
+                    .owl-stage-outer {
+                        overflow: visible;
+                    }
+                }
+
+                .stm-single-image {
+                    max-width: 1110px;
+                    &:hover {
+                        .actions-wrap {
+                            opacity: 1;
+                        }
+                    }
+
+                    img {
+                        display: block;
+                        position: relative;
+                        height: 544px;
+                        object-fit: cover;
+                        transform: translateZ(0);
+                    }
+
+                    .stm-car-medias {
+                        position: absolute;
+                        top: 19px;
+                        right: 30px;
+                        font-size: 10px;
+                        padding: 3px 10px 4px 14px;
+                        background: $aircraft_primary;
+                        color: $white;
+                        border-radius: 20px;
+                        text-transform: uppercase;
+
+                        i {
+                            font-size: 14px;
+                            margin-right: 2px;
+                        }
+                    }
+                }
+
+                .owl-item {
+                    &:before {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: $aircraft_blue_dark_opacity;
+                        z-index: 10;
+                    }
+
+                    &.center {
+                        &:before {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .stm-owl-nav {
+                height: 0;
+
+                .stm-owl-prev {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    align-items: center;
+                    justify-content: center;
+                    width: 66px;
+                    height: 66px;
+                    position: absolute;
+                    top: 50%;
+                    left: -12%;
+                    z-index: 10;
+                    border: 3px solid $white;
+                    transform: translateY(-50%);
+                    border-radius: 50%;
+                    opacity: 0.5;
+
+                    i {
+                        color: $white;
+                        font-weight: 400;
+                    }
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+
+                .stm-nav-count-wrap {
+                    display: block;
+                    position: absolute;
+                    top: 50%;
+                    right: -12%;
+                    z-index: 10;
+                    transform: translateY(-50%);
+                    margin-top: 35px;
+                    opacity: 0.5;
+                    transition: all .2s ease-in-out;
+
+                    &:hover {
+                        opacity: 1;
+                    }
+
+                    .stm-owl-next {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        align-items: center;
+                        justify-content: center;
+                        width: 66px;
+                        height: 66px;
+                        border: 3px solid $white;
+                        border-radius: 50%;
+                        margin: 0 auto;
+
+                        i {
+                            color: $white;
+                            font-weight: 400;
+                        }
+                    }
+
+                    .count-img {
+                        white-space: nowrap;
+                        color: $white;
+                        font-size: 18px;
+                        line-height: 70px;
+                    }
+                }
+            }
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+        ul.list-style-2 {
+            li{
+                &:before {
+                    color: $aircraft_secondary;
+                }
+            }
+        }
+
+        .single-car-prices {
+            background-color: $aircraft_secondary;
+        }
+
+        .stm-car_dealer-buttons {
+            margin: 10px 0;
+
+            a {
+                color: $white;
+                background-color: $aircraft_primary;
+                font-size: 16px;
+                font-weight: 700;
+                text-transform: capitalize;
+
+                i {
+                    color: $white;
+
+                    &.stm-moto-icon-trade {
+                        &:before {
+                            content: '\e909';
+                            font-family: 'stm-aircrafts-icon';
+                        }
+                    }
+
+                    &.stm-moto-icon-cash {
+                        &:before {
+                            content: '\e906';
+                            font-family: 'stm-aircrafts-icon';
+                        }
+                    }
+                }
+            }
+        }
+
+        .single-car-data {
+            background-color: $aircraft_blue_dark;
+            margin-bottom: 10px;
+
+            table {
+                td {
+                    color: $white;
+                    font-weight: 700;
+                    border-color: rgba(255,255,255,0.1);
+
+                    &:first-child {
+                        color: $gray-aa;
+                        font-weight: 400;
+                    }
+
+                    &:last-child {
+                        text-align: right;
+                    }
+                }
+            }
+        }
+
+        .stm-single-car-contact {
+            border-top: 3px solid $aircraft_primary;
+            @include dropShadow_2();
+            padding: 25px 20px;
+
+            .title {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: flex-start;
+                color: $aircraft_blue_dark;
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 13px;
+
+                .fa-paper-plane {
+                    color: $aircraft_blue_dark;
+                    margin-right: 15px;
+
+                    &:before {
+                        content: '\e905';
+                        font-family: 'stm-aircrafts-icon';
+                        font-size: 28px;
+                    }
+                }
+            }
+
+            .form-info {
+                margin-bottom: 20px;
+                padding-top: 2px;
+                color: $gray-88;
+
+                span {
+                    display: block;
+                    font-size: 13px;
+                    line-height: 18px;
+                }
+            }
+
+            .form-group {
+                margin-bottom: 20px;
+
+                input{
+                    height: 40px;
+                    line-height: 40px;
+                    background-color: $aircraft_bg_light;
+                    border: 0;
+                    font-size: 13px;
+                }
+            }
+
+            textarea {
+                background-color: $aircraft_bg_light;
+                border: 0;
+                height: 100px;
+                font-size: 13px;
+            }
+
+            input[type='submit'] {
+                width: 100%;
+            }
+        }
+
+        .stm-listing-car-dealer-info {
+            margin-top: -4px;
+
+            &.stm-common-user {
+                .stm-user-main-info-c {
+                    a {
+                        .title {
+                            margin: 1px 0 0;
+                            font-size: 16px;
+                        }
+
+                        .stm-label {
+                            font-size: 13px;
+                            color: #888;
+                        }
+                    }
+
+                    .image {
+                        float: left;
+                        margin-right: 14px;
+                        text-align: center;
+                        line-height: 40px;
+                        width: 40px;
+
+                        img {
+                            border-radius: 50%;
+                            overflow: hidden;
+                        }
+
+                        .no-avatar {
+                            width: 40px;
+                            height: 40px;
+                            background-color: #eeeeee;
+                            color: #5b6771;
+                            border-radius: 50%;
+                            font-size: 16px;
+                            text-indent: 2px;
+                        }
+
+                        a {
+                            text-decoration: none !important;
+                        }
+                    }
+                }
+            }
+
+            .title {
+                font-size: 20px;
+                margin-bottom: 15px;
+                letter-spacing: -0.4px;
+            }
+
+            .dealer-image {
+                float: left;
+                margin-right: 20px;
+            }
+
+            .dealer-rating {
+                padding-top: 6px;
+                overflow: hidden;
+
+                .stm-rate-sum {
+                    color: #888;
+                    font-size: 13px;
+                }
+            }
+
+            .dealer-contacts {
+                margin: 29px 0 28px;
+
+                .dealer-contact-unit {
+                    position: relative;
+                    padding-left: 33px;
+                    padding-top: 17px;
+                    margin-top: 20px;
+                    border-top: 1px solid #e5e8ec;
+                }
+
+                .dealer-contact-unit.phone {
+                    padding-right: 50px;
+                    margin-bottom: 5px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    span {
+                        font-size: 11px;
+                        cursor: pointer;
+                        text-decoration: dotted;
+                        border-bottom: 1px dotted;
+                        line-height: 20px;
+                        position: relative;
+                        min-width: 20px;
+
+                        &.load_number {
+                            color: transparent;
+                            &:before {
+                                content: '\f1ce';
+                                display: block;
+                                font-family: 'FontAwesome';
+                                color: #333333;
+                                font-size: 15px;
+                                position: absolute;
+                                left: 0;
+                                -webkit-animation:spin 2s linear infinite;
+                                -moz-animation:spin 2s linear infinite;
+                                animation:spin 2s linear infinite;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-listing-car-dealer-info .dealer-contacts {
+            .dealer-contact-unit {
+                &.address {
+                    margin-top: 14px;
+                }
+
+                &.mail {
+                    i {
+                        font-size: 15px;
+                        color: #4e90cc;
+                    }
+
+                    .stm-label {
+                        color: #888;
+                        font-size: 13px;
+                    }
+
+                    a {
+                        font-size: 14px;
+
+                        &:hover {
+                            color: $aircraft_secondary_dk;
+                        }
+                    }
+                }
+
+                .phone {
+                    margin-bottom: -1px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    letter-spacing: -0.5px;
+                }
+
+                .phone-label {
+                    font-size: 13px;
+                    color: #888;
+                }
+
+                i {
+                    position: absolute;
+                    top: 21px;
+                    left: 0;
+                    color: $aircraft_secondary;
+                    font-size: 13px;
+
+                    &.stm-service-icon-pin_2 {
+                        font-size: 16px;
+                    }
+                }
+
+                .address {
+                    color: $aircraft_secondary_dk;
+                    font-size: 13px;
+                    line-height: 18px;
+                }
+            }
+
+        }
+    }
+
+    .wpb_tour_tabs_wrapper {
+        &.stm_tabs_style_2 {
+            @include dropShadow_2();
+
+            ul.wpb_tabs_nav {
+                background: transparent;
+                border-left: 0;
+                border-right: 0;
+                border-bottom: 1px solid $aircraft_border;
+
+                li {
+                    border-bottom: 3px solid transparent;
+
+                    &:before {
+                        display: none;
+                    }
+
+                    a {
+                        background: transparent;
+                        padding: 15px 18px 12px;
+                        color: $aircraft_blue_dark;
+                        font-size: 15px;
+                        line-height: 32px;
+                    }
+
+                    &.ui-state-active {
+                        border-bottom-color: $aircraft_secondary;
+
+                        a {
+                            color: $aircraft_secondary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .vc_tta-container {
+        .vc_tta-tabs {
+            .vc_tta-tabs-container {
+                .vc_tta-tabs-list {
+                    background: transparent;
+                    border-left: 0;
+                    border-right: 0;
+                    border-bottom: 1px solid $aircraft_border;
+
+                    li {
+                        border-bottom: 3px solid transparent;
+                        margin-right: 30px;
+
+                        &:before {
+                            display: none;
+                        }
+
+                        &:first-child {
+                            a {
+                                padding-left: 0;
+                            }
+                        }
+
+                        a {
+                            background: transparent;
+                            padding: 20px 18px 21px;
+
+                            span {
+                                color: $aircraft_blue_dark;
+                                font-size: 15px;
+                                line-height: 32px;
+                            }
+                        }
+
+                        &.vc_active {
+                            border-bottom-color: $aircraft_secondary;
+
+                            a {
+                                span {
+                                    color: $aircraft_secondary;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .vc_tta-panels-container {
+                .vc_tta-panel {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    opacity: 0;
+                    transition: opacity .3s ease-in-out;
+                    transform: none;
+
+                    &.vc_active {
+                        opacity: 1;
+                        position: static;
+                    }
+
+                    .vc_tta-panel-body {
+                        display: block !important;
+                        padding: 39px 0 0 !important;
+                        transform: none !important;
+                        transition: none !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .stm-user-public-profile {
+        margin: 50px auto 91px;
+
+        .stm-user-public-profile-top {
+            padding-bottom: 32px;
+            margin-bottom: 24px;
+            border-bottom: 4px solid $aircraft_blue_dark;
+        }
+
+        .stm-user-name {
+            position: relative;
+            float: left;
+            height: 80px;
+            line-height: 80px;
+            padding-left: 104px;
+            margin-right: 5px;
+            overflow: hidden;
+
+            .image {
+                position: absolute;
+                top: 0%;
+                left: 0;
+                width: 80px;
+                height: 80px;
+                line-height: 70px;
+                overflow: hidden;
+                background-color: #eee;
+                border-radius: 50%;
+                overflow: hidden;
+                text-align: center;
+
+                img {
+                    display: inline-block;
+                    max-width: 100%;
+                }
+
+                .stm-service-icon-user {
+                    position: relative;
+                    top: 4px;
+                    font-size: 35px;
+                    line-height: 70px;
+                    color: #acb9bd;
+                }
+            }
+
+            .title {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            h4 {
+                margin-bottom: 6px;
+                line-height: 16px;
+                font-size: 20px;
+            }
+
+            .stm-title-desc {
+                font-size: 13px;
+                line-height: 13px;
+                color: #888;
+            }
+        }
+
+        .stm-user-data-right {
+            overflow: hidden;
+            text-align: center;
+
+            .stm-user-email {
+                text-align: left;
+                position: relative;
+                float: right;
+                margin-top: 8px;
+                margin-left: 5px;
+                padding: 14px 26px 11px 49px;
+                background-color: #f2f2f2;
+                border-radius: 3px;
+
+                .fa {
+                    position: absolute;
+                    top: 18px;
+                    left: 21px;
+                    color: #4e90cc;
+                    font-size: 16px;
+                }
+
+                .mail-label {
+                    font-size: 13px;
+                    color: #888;
+                }
+
+                .mail {
+                    font-size: 14px;
+                }
+            }
+
+            .stm-user-phone {
+                margin-top: 26px;
+                display: inline-block;
+                position: relative;
+                padding-left: 32px;
+                text-align: left;
+                overflow: hidden;
+
+                .stm-service-icon-phone_2 {
+                    position: absolute;
+                    top: 3px;
+                    left: 0;
+                    color: $aircraft_secondary;
+                }
+
+                .phone {
+                    font-size: 18px;
+                    line-height: 18px;
+                    margin-bottom: 0;
+                }
+
+                .phone-label {
+                    margin-top: 2px;
+                    font-size: 13px;
+                    color: #888;
+                }
+            }
+        }
+
+        .stm-user-sidebar {
+            .stm-service-icon-write_message {
+                font-size: 14px;
+            }
+
+            textarea {
+                padding: 8px 10px 8px 30px;
+            }
+        }
+    }
+
+    .stm-user-public-listing {
+        .stm-seller-title {
+            margin-bottom: 21px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .archive-listing-page {
+            margin: 0 0 0;
+            padding: 0;
+        }
+
+        .meta-middle {
+            .meta-middle-divider {
+                width: 1px !important;
+            }
+        }
+
+        .meta-bottom{
+            position: relative;
+        }
+    }
+
+    &.error404 {
+        #wrapper {
+            height: 100vh;
+
+            #main {
+                top: 50%;
+            }
+        }
+    }
+
+    @media (max-width: 1400px) {
+        &.single-listings {
+            .stm-car-carousels {
+                .stm-owl-nav {
+                    .stm-owl-prev {
+                        left: -8%;
+                    }
+
+                    .stm-nav-count-wrap {
+                        right: -9%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1340px) {
+        &.single-listings {
+            .stm-car-carousels {
+                .stm-owl-nav {
+                    .stm-owl-prev {
+                        left: 4%;
+                    }
+
+                    .stm-nav-count-wrap {
+                        right: 3%;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 1024px) {
+
+        #header {
+            .header-inner-content {
+                .listing-service-right {
+                    .listing-menu {
+                        > li:nth-last-child(1), > li:nth-last-child(2), > li:nth-last-child(3) {
+                            > ul {
+                                left: inherit;
+                                right: 0;
+
+                                >li.menu-item-has-children {
+                                    >ul {
+                                        left: inherit;
+                                        right: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .stm-single-header-search {
+            h4 {
+                white-space: nowrap;
+                margin-right: 20px;
+            }
+        }
+
+        &.single-listings {
+            .stm-car-carousels {
+                .stm-owl-nav {
+                    .stm-owl-prev {
+                        left: 3%;
+                    }
+
+                    .stm-nav-count-wrap {
+                        right: 2%;
+                    }
+                }
+            }
+        }
+
+        .stm-car_dealer-buttons {
+            a {
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+
+        .post-grid-single-unit {
+            .content {
+                .post-meta-bottom {
+                    .blog-meta-unit {
+
+                    }
+                }
+            }
+        }
+
+        .stm-car-print {
+            i {
+                top: 50%;
+            }
+        }
+    }
+
+    @media (max-width: 900px) {
+        #header {
+            .header-inner-content {
+                .listing-service-right {
+                    .listing-menu {
+                        li {
+                            a {
+                                padding: 0 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 850px) {
+        .stm-single-car-page {
+            >.container {
+                >.wpb_row {
+                    > .vc_col-sm-9, > .vc_col-sm-8, > .vc_col-sm-4, > .vc_col-sm-3 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .stm-single-header-search {
+            padding: 30px;
+
+            button {
+                min-width: 17%;
+                white-space: nowrap;
+            }
+        }
+
+        .vc_tta-container {
+            margin-bottom: 30px !important;
+
+            .vc_tta-tabs {
+                .vc_tta-panels-container {
+                    .vc_tta-panel {
+                        opacity: 1;
+                        position: relative;
+
+                        .vc_tta-panel-heading {
+                            position: relative;
+                            z-index: 10;
+                        }
+
+                        .vc_tta-panel-body {
+                            opacity: 0;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            transition: all .2s ease-in-out;
+                        }
+
+                        &.vc_active {
+                            .vc_tta-panel-body {
+                                opacity: 1;
+                                position: static;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+
+        body {
+            display: block;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        &.body-noscroll {
+            #header {
+                transform: none;
+                left: 0;
+            }
+        }
+
+        rs-bullets {
+            top: inherit !important;
+            bottom: -45% !important;
+        }
+
+        &:not(.home):not(.stm-inventory-page):not(.single-listings) {
+            #wrapper #header {
+                top: 0 !important;
+                padding-top: 20px !important;
+                min-height: 100px !important;
+            }
+
+            .listing-menu-mobile-wrapper {
+                .stm-opened-menu-listing {
+                    top: 0;
+                }
+            }
+        }
+
+        &.single-listings #wrapper #header,
+        #wrapper #header {
+            top: 0 !important;
+            padding-top: 20px !important;
+            min-height: 100px !important;
+        }
+
+        .car-action-unit {
+            > i {
+                position: absolute;
+                top: 50%;
+            }
+        }
+
+        #wrapper {
+            > #top-bar {
+                display: none;
+            }
+        }
+
+        #header {
+            top: 15px;
+
+            .header-inner-content {
+                .listing-service-right {
+                    .listing-menu {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .listing-menu-mobile-wrapper {
+            display: block;
+
+            .stm-opened-menu-listing {
+                top: 0px;
+            }
+        }
+
+        .stm-single-header-search {
+            margin-top: 40px;
+            z-index: 40;
+        }
+
+        .owl-dots {
+            visibility: visible;
+            opacity: 1;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin: 0;
+        }
+
+        .owl-controls {
+            .stm-owl-prev, .stm-owl-next {
+                display: none;
+            }
+        }
+
+        .listing-list-loop.stm-listing-directory-list-loop {
+
+            .image-inner {
+                max-height: inherit;
+            }
+
+            .content {
+                .meta-top {
+                    .title {
+                        padding-top: 20px;
+                    }
+                }
+
+                .meta-middle {
+                    .meta-middle-unit {
+                        display: flex;
+                        width: 100%;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        align-items: center;
+                        justify-content: flex-start;
+
+                        .value {
+                            margin: 0;
+                        }
+                    }
+                }
+
+                .meta-bottom {
+                    margin-top: 0;
+                }
+            }
+        }
+
+        .single-car-actions {
+            > ul {
+                >li {
+                    &.certified-logo-1, &.certified-logo-2 {
+                        width: auto;
+                        padding-top: 0;
+                    }
+                }
+            }
+        }
+
+        .car-action-unit{
+            &.add-to-compare {
+                padding-left: 22px;
+            }
+
+            &.stm-brochure {
+                > i {
+                    left: 10px;
+                }
+            }
+        }
+
+        .post-grid-single-unit {
+            .image {
+                img {
+                    width: 100%;
+                    margin: 0;
+                }
+            }
+        }
+
+        &.wpb-js-composer {
+            .vc_tta.vc_general.vc_tta-tabs-position-top {
+                .vc_tta-panel {
+                    .vc_tta-panel-heading {
+                        margin: 10px 0 0;
+                        border: 0;
+                        .vc_tta-panel-title {
+                            a {
+                                background-color: $aircraft_bg_light;
+                            }
+                        }
+                    }
+
+                    .vc_tta-panel-body {
+                        padding-top: 20px !important;
+                        padding-left: 20px !important;
+
+                        .title {
+                            padding-top: 0;
+                        }
+
+                        .lists-inline {
+                            ul {
+                                margin-bottom: 0 !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .blog-meta {
+            .right {
+                width: auto;
+            }
+        }
+
+        .blog-meta-bottom {
+            .car-action-unit {
+                padding-left: 25px;
+            }
+        }
+
+        footer {
+            .footer_widgets_wrapper {
+                aside{
+                    &.widget_nav_menu {
+                        ul {
+                            justify-content: flex-start;
+
+                            li:first-child {
+                                a {
+                                    padding-left: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .wpb_single_image {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 670px) {
+        .stm-single-header-search {
+            flex-direction: column;
+            align-items: flex-start;
+
+            h4 {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .row {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            button {
+                width: 100%;
+                margin: 20px 0 0;
+            }
+        }
+
+        &.single-listings {
+            .stm-aircraft-title-box {
+                flex-direction: column;
+                align-items: flex-start;
+
+                .right {
+                     .stm-ac-category {
+                         text-align: left;
+                     }
+                }
+            }
+
+            .stm-car-carousels {
+                .stm-big-car-gallery {
+                    .stm-single-image {
+                        img {
+                            height: 340px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 570px) {
+        .stm_dynamic_listing_filter {
+            margin-top: -53px;
+        }
+
+        &.stm-inventory-page {
+            .entry-header {
+                > .container {
+                    .entry-title {
+                        top: 25%;
+                    }
+                }
+            }
+        }
+
+        &.single-listings {
+            .stm-car-carousels {
+                .actions-wrap {
+                    .stm-gallery-actions {
+                        ul {
+                            .car-action-unit {
+                                font-size: 0;
+                                color: transparent;
+                                padding: 0;
+                                width: 40px;
+                                height: 40px;
+
+                                > i {
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 50%;
+                                    transform: translateX(-50%) translateY(-50%);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 500px) {
+        .stm_dynamic_listing_filter {
+            margin-top: 30px;
+
+            .stm_dynamic_listing_filter_nav {
+                li {
+                    width: 100%;
+                }
+            }
+
+            .tab-pane {
+                form {
+                    display: flex;
+                    flex-direction: column;
+
+                    .filter{
+                        order: 1;
+                    }
+
+                    button[type='submit'] {
+                        order: 2;
+                        width: 100%;
+                        margin: 0 0 30px;
+                    }
+                }
+            }
+        }
+
+        .stm-single-header-search {
+            .row {
+                flex-wrap: wrap;
+
+                .stm-select-col {
+                    width: 100%;
+                    margin-bottom: 15px;
+                    padding: 0;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 450px) {
+        &.single-listings {
+            .stm-car-carousels {
+                .stm-owl-nav {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 320px) {
+        rs-bullets {
+            top: inherit !important;
+            bottom: -50% !important;
+        }
+    }
+
+    @media print {
+        .stm-single-header-search, .stm-owl-nav, .stm-cat-info-box, .vc_col-sm-3, .actions-wrap {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+
+    body {
+        display: block;
+        position: relative;
+        overflow-x: hidden;
+    }
+}
+
+

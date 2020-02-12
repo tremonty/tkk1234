@@ -1,0 +1,137 @@
+.info-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding: 80px 0 77px;
+  position: relative;
+  z-index: 2;
+
+  span {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    position: relative;
+
+    .stm_flipbox {
+      position: relative;
+      transform-style: preserve-3d;
+      perspective: 1000px;
+      padding: 0;
+      border: 0;
+      .stm_flipbox__front,
+      .stm_flipbox__back {
+        transform: rotateX(0deg);
+        transform-style: preserve-3d;
+        min-height: 283px;
+        height: auto;
+        transition: transform 0.6s ease;
+        backface-visibility: hidden;
+        background-size: cover;
+
+        &:after {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          opacity: .75;
+        }
+        .inner {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          top: 50%;
+          height: 100%;
+          width: 100%;
+          border-radius: 2px;
+          outline: 1px solid transparent;
+          perspective: inherit;
+          backface-visibility: hidden;
+          transform: translateY(-50%) translateZ(60px) scale(.94);
+          z-index: 2;
+
+          .inner-flex {
+            display: flex;
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: center;
+            padding-top: 53px;
+
+            .stm_iconbox__icon {
+              display: block;
+              overflow: hidden;
+              position: relative;
+
+              img{
+                display: block;
+                width: 100%;
+                max-height: 92px;
+              }
+            }
+
+            .ib-title {
+              display: block;
+              max-width: 50%;
+              font-size: 20px;
+              margin: 31px auto 0;
+              font-weight: 700;
+              line-height: 24px;
+            }
+
+            .ib-desc {
+              display: block;
+              max-width: 86%;
+              font-size: 14px;
+              font-weight: 300;
+              text-align: center;
+              margin-top: 28px;
+              line-height: 26px;
+              letter-spacing: 0;
+              transition: color .2s ease-out;
+            }
+          }
+        }
+      }
+
+      .stm_flipbox__back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 2px;
+        transform: rotateX(180deg);
+        transform-style: preserve-3d;
+
+        .inner {
+          .inner-flex {
+            .ib-title {
+              margin-top: -5px !important;
+            }
+          }
+        }
+
+        &:after {
+          opacity: 1;
+        }
+      }
+      &:hover {
+        .stm_flipbox__front {
+          transform: rotateX(-180deg);
+          transform-style: preserve-3d;
+        }
+        .stm_flipbox__back {
+          transform: rotateX(0deg);
+          transform-style: preserve-3d;
+        }
+      }
+    }
+  }
+}

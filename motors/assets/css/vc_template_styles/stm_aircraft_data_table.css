@@ -1,0 +1,38 @@
+.stm-data-table {
+    margin-bottom: 46px;
+}
+
+.stm-data-table h3 {
+    font-size: 26px;
+}
+
+.stm-data-table .stm-data-table-wrap .data-row-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm-data-table .stm-data-table-wrap .data-row-wrap .left {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.stm-data-table .stm-data-table-wrap .data-row-wrap .right {
+    font-size: 15px;
+    line-height: 50px;
+}
+
+@media (max-width: 500px) {
+    .stm-data-table .stm-data-table-wrap .data-row-wrap .right {
+        text-align: right;
+        line-height: 22px;
+    }
+}

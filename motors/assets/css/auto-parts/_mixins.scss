@@ -1,0 +1,15 @@
+@mixin pseudo(){
+    position: absolute;
+    content: '';
+    display: block;
+}
+
+@mixin clear(){
+    display: table;
+    content: "";
+    clear: both;
+}
+
+@mixin transitionAll() {
+    transition: all .2s ease;
+}

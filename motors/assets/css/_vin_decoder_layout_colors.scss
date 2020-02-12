@@ -1,0 +1,117 @@
+.wpb_wrapper, aside {
+    button.report_button.stm-button {
+        margin-bottom: 20px;
+    }
+}
+
+#request-stm_vim_history {
+    .modal-body {
+        color: #232629;
+
+        h4 {
+            color: #232529 !important;
+        }
+    }
+}
+
+.stm-template-listing {
+    #request-stm_vim_history {
+        .modal-header-iconed {
+            background-color: #153e4d;
+        }
+
+        i, a {
+            color: #1bc744;
+        }
+
+        .modal-header {
+            .close-history {
+                color: #1bc744;
+            }
+        }
+    }
+}
+
+.stm-template-listing_two {
+    #request-stm_vim_history {
+        .modal-header-iconed {
+            background-color: #153e4d;
+        }
+
+        i, a {
+            color: #1e7bcc;
+        }
+
+        .modal-header {
+            .close-history {
+                color: #1e7bcc;
+            }
+        }
+    }
+}
+
+.stm-template-listing_three {
+    #request-stm_vim_history {
+        .modal-header-iconed {
+            background-color: #153e4d;
+        }
+
+        i, a {
+            color: #ff9500;
+        }
+
+        .modal-header {
+            .close-history {
+                color: #ff9500;
+            }
+        }
+    }
+}
+
+.stm-template-car_dealer_two {
+    #request-stm_vim_history {
+        .modal-header-iconed {
+            background-color: #232628;
+        }
+
+        i, a {
+            color: #4971ff;
+        }
+
+        .modal-header {
+            .close-history {
+                color: #4971ff;
+            }
+        }
+    }
+}
+
+.stm-template-motorcycle {
+
+    .wpb_wrapper, aside {
+        button.report_button.stm-button {
+            color: #ffffff;
+        }
+    }
+
+    #request-stm_vim_history {
+
+        .modal-body {
+            background-color: #ffffff;
+        }
+
+        .modal-header-iconed {
+            background-color: #0e1315;
+        }
+
+        i, a {
+            color: #df1d1d;
+        }
+
+        .modal-header {
+            .close-history {
+                color: #df1d1d;
+            }
+        }
+    }
+}

@@ -1,0 +1,2987 @@
+.stm-orange {
+    color: #ffb129;
+}
+
+@font-face {
+    font-family: 'stm-aircrafts-icon';
+  src: url("../fonts/aircrafts-icon-font/stm-aircrafts-icon.eot?l6elzm");
+  src: url("../fonts/aircrafts-icon-font/stm-aircrafts-icon.eot?l6elzm#iefix") format("embedded-opentype"), url("../fonts/aircrafts-icon-font/stm-aircrafts-icon.ttf?l6elzm") format("truetype"), url("../fonts/aircrafts-icon-font/stm-aircrafts-icon.woff?l6elzm") format("woff"), url("../fonts/aircrafts-icon-font/stm-aircrafts-icon.svg?l6elzm#stm-aircrafts-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ac-icon-"], [class*=" ac-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'stm-aircrafts-icon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ac-icon-ac-paper-pen:before {
+    content: "\e904";
+}
+
+.ac-icon-arrow-left:before {
+    content: "\e902";
+}
+
+.ac-icon-arrow-right:before {
+    content: "\e903";
+}
+
+.ac-icon-ac-brochure:before {
+    content: "\e900";
+}
+
+.ac-icon-ac-compare:before {
+    content: "\e901";
+}
+
+.ac-icon-ac-message:before {
+    content: "\e905";
+}
+
+.ac-icon-ac-offer-price:before {
+    content: "\e906";
+}
+
+.ac-icon-ac-phone:before {
+    content: "\e907";
+}
+
+.ac-icon-ac-share:before {
+    content: "\e908";
+}
+
+.ac-icon-ac-trade-in:before {
+    content: "\e909";
+}
+
+.stm-site-preloader:before {
+    background-color: #142e5d;
+}
+
+.stm-template-aircrafts:not(.home):not(.stm-inventory-page):not(.single-listings) #wrapper #top-bar, .stm-template-aircrafts:not(.home):not(.stm-inventory-page):not(.single-listings) #wrapper #header {
+    position: relative;
+    background-color: #142e5d;
+    top: inherit;
+    left: inherit;
+    transform: none;
+    margin: 0 auto;
+}
+
+.stm-template-aircrafts:not(.home):not(.stm-inventory-page):not(.single-listings) #wrapper #header {
+    min-height: 110px !important;
+    padding-top: 30px !important;
+}
+
+.stm-template-aircrafts.admin-bar.home #top-bar, .stm-template-aircrafts.admin-bar.stm-inventory-page #top-bar {
+    top: 32px;
+}
+
+.stm-template-aircrafts.admin-bar.home #header, .stm-template-aircrafts.admin-bar.stm-inventory-page #header {
+    top: 122px;
+}
+
+.stm-template-aircrafts.single-listings #wrapper #top-bar, .stm-template-aircrafts.single-listings #wrapper #header {
+    position: relative;
+    background-color: #142e5d;
+    top: inherit;
+    left: inherit;
+    transform: none;
+    margin: 0 auto;
+}
+
+.stm-template-aircrafts.single-listings #wrapper #header {
+    min-height: 209px !important;
+    padding-top: 30px !important;
+}
+
+.stm-template-aircrafts span.tp-bullet-title {
+    display: none !important;
+}
+
+.stm-template-aircrafts #top-bar {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.stm-template-aircrafts #top-bar .top-bar-wrapper {
+    padding: 21px 0 17px;
+}
+
+.stm-template-aircrafts #top-bar .language-switcher-unit .stm_current_language {
+    text-transform: capitalize;
+}
+
+.stm-template-aircrafts #top-bar a {
+    color: #ffffff;
+}
+
+.stm-template-aircrafts #top-bar .top-bar-info li {
+    font-size: 13px;
+}
+
+.stm-template-aircrafts #top-bar .top-bar-info li a {
+    font-size: 13px;
+}
+
+.stm-template-aircrafts #top-bar .header-top-bar-socs ul li {
+    margin-right: 40px;
+}
+
+.stm-template-aircrafts #top-bar .header-top-bar-socs ul li:last-child {
+    margin-right: 0;
+}
+
+.stm-template-aircrafts #top-bar .header-top-bar-socs ul li a .fa {
+    font-size: 16px;
+}
+
+.stm-template-aircrafts #header {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.stm-template-aircrafts #header .header-inner-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-logo-main {
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 0;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li {
+    margin: 0;
+    padding: 0 30px;
+    position: relative;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all .2s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li a:hover {
+    border-bottom-color: #ffffff;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li.current-menu-item a {
+    border-bottom-color: #ffffff;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li:first-child {
+    padding-left: 0;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li:last-child {
+    padding-right: 0;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > .sub-menu {
+    z-index: 10;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > .sub-menu:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: -30px;
+    height: 30px;
+    width: 100%;
+    background-color: transparent;
+    opacity: 0;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > a {
+    position: relative;
+    display: block;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > a:after {
+    position: absolute;
+    content: '';
+    display: block;
+    height: 2px;
+    bottom: 6px;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > a:hover:after {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li.current-menu-item a:after {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li.menu-item-has-children a {
+    position: relative;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li.menu-item-has-children a:before {
+    position: absolute;
+    content: '';
+    display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    content: "\f107";
+    top: 3px;
+    right: -20px;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li:hover > ul {
+    visibility: visible;
+    top: 100%;
+    opacity: 1;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul {
+    visibility: hidden;
+    opacity: 0;
+    padding: 0;
+    margin-top: 19px;
+    list-style: none;
+    position: absolute;
+    width: 250px;
+    top: 115%;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul li {
+    display: block;
+    position: relative;
+    margin: 0 !important;
+    text-align: left;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul li.menu-item-has-children > a:after {
+    position: absolute;
+    content: '';
+    display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+    top: 50%;
+    margin-top: -7px;
+    right: 20px;
+    font-size: 14px;
+    content: "\f105";
+    transition: none !important;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul li a {
+    position: relative;
+    display: block;
+    padding: 12px 25px 12px 25px !important;
+    text-decoration: none !important;
+    font-weight: 400;
+    color: #191919;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul li a:before {
+    display: none !important;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul li a:hover {
+    color: #ffffff;
+    background-color: #4c94fa;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul li > ul {
+    visibility: hidden;
+    opacity: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 250px;
+    top: 0;
+    left: 105%;
+    margin-top: 0;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul li > ul li > ul {
+    visibility: hidden;
+    opacity: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 250px;
+    top: 0;
+    left: 105%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul li > ul li > ul li > ul {
+    visibility: hidden;
+    opacity: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    width: 250px;
+    top: 0;
+    left: 105%;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul li > ul li > ul li:hover > ul {
+    visibility: visible;
+    left: 100%;
+    opacity: 1;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul li > ul li:hover > ul {
+    visibility: visible;
+    left: 100%;
+    opacity: 1;
+}
+
+.stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li > ul li:hover > ul {
+    visibility: visible;
+    left: 100%;
+    opacity: 1;
+}
+
+.stm-template-aircrafts .select2-container--default .select2-results > .select2-results__options {
+    max-height: 200px;
+}
+
+.stm-template-aircrafts .entry-header {
+    position: relative;
+    background-size: cover;
+    background-color: #8f9fad;
+    background-image: url("../images/title-box-ac-default-bg.jpg");
+    background-position: 50% 0;
+}
+
+.stm-template-aircrafts .entry-header:after {
+    background: rgba(35, 38, 40, 0.7);
+}
+
+.stm-template-aircrafts .compare-col-stm-empty .image i {
+    display: none;
+}
+
+.stm-template-aircrafts .compare-col-stm-empty .image img.stm-compare-empty {
+    width: 100%;
+    max-height: 135px;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper {
+    display: none;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing {
+    position: fixed;
+    top: 82px;
+    bottom: 0;
+    right: -279px;
+    background-color: rgba(44, 49, 62, 0.9);
+    padding: 26px 0 16px;
+    width: 279px;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.1), inset 0px 3px 0px 0px rgba(76, 148, 250, 0.004);
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 99;
+    height: 100vh;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: -5px;
+    right: 25px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 5px solid rgba(44, 49, 62, 0.9);
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing.opened {
+    right: 0;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing #top-bar {
+    display: block;
+    position: relative;
+    background-color: transparent !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper {
+    padding: 0 !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .top-bar-info {
+    display: none;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .pull-left {
+    width: 100%;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .pull-left .language-switcher-unit {
+    width: 100%;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .pull-right {
+    float: none !important;
+    width: 100%;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .header-login-url {
+    display: none;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .header-top-bar-socs {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 15px 20px 15px 36px;
+    margin: 0 -15px !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .header-top-bar-socs li {
+    margin-right: 26px !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .header-top-bar-socs li:last-child {
+    margin-right: 0 !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .header-top-bar-socs li a i {
+    font-size: 16px !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .top_bar_menu {
+    padding-top: 10px;
+    display: block !important;
+    margin-left: 20px !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .top_bar_menu li {
+    width: 100%;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .top_bar_menu li a {
+    display: block;
+    padding: 15px 0 !important;
+    font-size: 14px !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .top_bar_menu li:after {
+    display: none;
+    opacity: 0;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .language-switcher-unit {
+    float: none !important;
+    padding: 15px 10px 0px 36px;
+    margin: 0 -15px !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .language-switcher-unit .stm_current_language {
+    padding-bottom: 10px;
+    font-size: 14px !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .language-switcher-unit .stm_current_language i {
+    position: absolute !important;
+    top: 15px !important;
+    right: 25px !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .language-switcher-unit .dropdown-menu {
+    position: static;
+    float: none !important;
+    background-color: transparent !important;
+    border: 0 !important;
+    box-shadow: none !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .language-switcher-unit .dropdown-menu li {
+    box-shadow: none !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .top-bar-wrapper .language-switcher-unit .dropdown-menu li a {
+    background-color: transparent !important;
+    padding: 10px 0 10px !important;
+    color: #aaa !important;
+    font-size: 14px !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile {
+    padding: 0;
+    list-style: none;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile li {
+    margin-bottom: 0;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile li a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 36px;
+    padding-right: 25px;
+    text-decoration: none !important;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li {
+    margin-bottom: 0;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > a {
+    padding-right: 40px;
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > a .stm_frst_lvl_trigger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    display: block;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > a .stm_frst_lvl_trigger:after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 17px;
+    left: 17px;
+    width: 3px;
+    height: 13px;
+    background: white;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > a .stm_frst_lvl_trigger:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 22px;
+    left: 12px;
+    width: 13px;
+    height: 3px;
+    background: white;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > a .stm_frst_lvl_trigger.active {
+    opacity: 1;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > a .stm_frst_lvl_trigger.active:after, .stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > a .stm_frst_lvl_trigger.active:before {
+    transform: rotate(-45deg);
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > a .stm_frst_lvl_trigger.active:after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 17px;
+    left: 17px;
+    width: 3px;
+    height: 13px;
+    background: white;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > a .stm_frst_lvl_trigger.active:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 22px;
+    left: 12px;
+    width: 13px;
+    height: 3px;
+    background: white;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > ul {
+    position: relative;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > ul:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: -5px;
+    right: 25px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 5px solid #fff;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > ul > li {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > ul > li > a {
+    background-color: #fff;
+    color: #222;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > ul > li > ul {
+    position: relative;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > ul > li > ul:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: -5px;
+    right: 25px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 5px solid #e1e1e1;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile > li > ul > li > ul > li a {
+    background-color: #e1e1e1;
+    color: #222;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing .listing-menu-mobile ul.sub-menu {
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-menu-trigger {
+    margin-top: 0px;
+    z-index: 100;
+    position: relative;
+    top: 7px;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-menu-trigger span {
+    display: block;
+    width: 28px;
+    height: 4px;
+    margin-bottom: 7px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-menu-trigger span:first-child {
+    position: relative;
+    top: 0;
+    transition: top 0.3s 0.3s, transform 0.3s 0s;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-menu-trigger span:nth-child(2) {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-menu-trigger span:last-child {
+    margin-bottom: 0;
+    position: relative;
+    top: 0;
+    transition: top 0.3s 0.3s, transform 0.3s 0s;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-menu-trigger.opened {
+    position: fixed;
+    top: 36px;
+    right: 15px;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-menu-trigger.opened span {
+    background: white;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-menu-trigger.opened span:first-child {
+    top: 11px;
+    transform: rotate(-45deg);
+    transition: top 0.3s 0s, transform 0.3s 0.3s;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-menu-trigger.opened span:nth-child(2) {
+    opacity: 0;
+}
+
+.stm-template-aircrafts .listing-menu-mobile-wrapper .stm-menu-trigger.opened span:last-child {
+    top: -11px;
+    transform: rotate(45deg);
+    transition: top 0.3s 0s, transform 0.3s 0.3s;
+}
+
+.stm-template-aircrafts .stm-template-listing .header-listing-unfixed .stm-opened-menu-listing {
+    top: 82px !important;
+}
+
+.stm-template-aircrafts #wrapper #main .stm-error-page-unit {
+    position: relative;
+    top: 80px;
+}
+
+.stm-template-aircrafts #wrapper #main .stm-error-page-unit .col-md-12 {
+    text-align: center;
+}
+
+.stm-template-aircrafts rs-bullets rs-bullet {
+    width: 7px !important;
+    height: 7px !important;
+    background: #ffffff !important;
+    margin-top: 1px !important;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.stm-template-aircrafts rs-bullets rs-bullet.selected {
+    width: 9px !important;
+    height: 9px !important;
+    background: #4c94fa !important;
+    margin-top: 0 !important;
+}
+
+.stm-template-aircrafts .stm-single-header-search-wrap {
+    display: block;
+    position: relative;
+    bottom: -75px;
+    margin-bottom: 47px;
+}
+
+.stm-template-aircrafts .stm-single-header-search {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #ffffff;
+    border-top: 4px solid #4c94fa;
+    padding: 30px 30px 30px 50px;
+    position: relative;
+    box-shadow: 0px 2px 27px 0px rgba(35, 36, 58, 0.13), inset 0px 4px 0px 0px rgba(76, 148, 250, 0.004);
+}
+
+.stm-template-aircrafts .stm-single-header-search .select2-container--default .select2-selection--single {
+    height: 43px;
+    opacity: 1 !important;
+    background: transparent;
+    border: 1px solid #d8e5e6;
+    border-radius: 3px;
+}
+
+.stm-template-aircrafts .stm-single-header-search .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 43px;
+    color: #798494;
+    font-size: 13px;
+}
+
+.stm-template-aircrafts .stm-single-header-search .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 43px;
+}
+
+.stm-template-aircrafts .stm-single-header-search .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    font-size: 13px;
+    margin-top: -9px;
+}
+
+.stm-template-aircrafts .stm-single-header-search h4 {
+    width: 20%;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0 48px 0 0;
+}
+
+.stm-template-aircrafts .stm-single-header-search h4 span {
+    font-weight: 700;
+}
+
+.stm-template-aircrafts .stm-single-header-search .row {
+    width: 100%;
+    margin: 0;
+}
+
+.stm-template-aircrafts .stm-single-header-search .row .stm-select-col {
+    width: 33.33%;
+    padding: 0 5px;
+}
+
+.stm-template-aircrafts .stm-single-header-search button {
+    min-width: 14.5%;
+    margin-left: 25px;
+    position: relative;
+    top: 0;
+    float: right;
+    padding: 14px 12px 14px 15px;
+    font-weight: 700;
+    background: #2c313e;
+    box-shadow: none;
+}
+
+.stm-template-aircrafts .stm-single-header-search button i {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 14px;
+}
+
+.stm-template-aircrafts .stm-single-header-search button:active {
+    top: -1px;
+}
+
+.stm-template-aircrafts .aircraft-price-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    background: #ff9420;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.stm-template-aircrafts .aircraft-price-wrap .left {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 55%;
+}
+
+.stm-template-aircrafts .aircraft-price-wrap .left span {
+    text-align: right;
+    margin: 0;
+    color: #ffffff;
+}
+
+.stm-template-aircrafts .aircraft-price-wrap .left span.h4 {
+    text-decoration: line-through;
+    color: #333333;
+}
+
+.stm-template-aircrafts .aircraft-price-wrap .left span.h3 {
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.stm-template-aircrafts .aircraft-price-wrap .right {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 45%;
+}
+
+.stm-template-aircrafts .aircraft-price-wrap .right .price-description-single {
+    background: transparent;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 13px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter {
+    position: relative;
+    filter: drop-shadow(-1px 0 10px rgba(0, 0, 0, 0.1));
+    margin-top: -100px;
+    z-index: 10;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .stm_dynamic_listing_filter_nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background: #4c94fa;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .stm_dynamic_listing_filter_nav li {
+    float: left;
+    margin-bottom: 0;
+    background: #4c94fa;
+    border-right: 1px solid #4c94fa;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .stm_dynamic_listing_filter_nav li a {
+    position: relative;
+    display: block;
+    padding: 15px 40px 16px 40px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    text-decoration: none !important;
+    letter-spacing: 0.2px;
+    z-index: 2;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .stm_dynamic_listing_filter_nav li.active {
+    background-color: #ffffff;
+    border-right-color: #ffffff;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .stm_dynamic_listing_filter_nav li.active a {
+    color: #242426;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content {
+    padding: 29px 30px 0;
+    background-color: #ffffff;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .tab-pane {
+    position: relative;
+    z-index: 2;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .tab-pane input[type="text"],
+      .stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .tab-pane input[type="number"],
+      .stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .tab-pane input[type="tel"],
+      .stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .tab-pane input[type="email"],
+      .stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .tab-pane input[type="search"],
+      .stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .tab-pane input[type="password"] {
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .tab-pane input[type="text"].stm_listing_filter_text {
+    height: 43px;
+    line-height: 43px;
+    background: transparent;
+    border: 1px solid #d8e5e6;
+    border-radius: 3px;
+    color: #798494;
+    font-size: 13px;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .stm-filter-tab-selects {
+    overflow: hidden;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .stm-filter-tab-selects .stm-select-col {
+    margin-bottom: 30px;
+    padding: 0 8px;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .stm-filter-tab-selects > .row {
+    margin: 0 -8px;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content button[type="submit"] {
+    position: relative;
+    top: 0;
+    float: right;
+    margin-left: 16px;
+    min-width: 150px;
+    padding: 14px 12px 14px 15px;
+    font-weight: 700;
+    background: #2c313e;
+    box-shadow: none;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content button[type="submit"] i {
+    display: inline-block;
+    margin-right: 6px;
+    font-size: 14px;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content button[type="submit"]:active {
+    top: -1px;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .stm-slide-content {
+    display: none;
+    position: relative;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .stm-more-options-wrap {
+    display: block;
+    position: relative;
+    float: right;
+    clear: both;
+    cursor: pointer;
+    padding: 10px 0 10px 10px;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .tab-content .stm-more-options-wrap span {
+    border-bottom: 1px dotted;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .select2-container--default .select2-selection--single {
+    height: 43px;
+    opacity: 1 !important;
+    background: transparent;
+    border: 1px solid #d8e5e6;
+    border-radius: 3px;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 43px;
+    color: #798494;
+    font-size: 13px;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 43px;
+}
+
+.stm-template-aircrafts .stm_dynamic_listing_filter .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    font-size: 13px;
+    margin-top: -9px;
+}
+
+.stm-template-aircrafts .special-offers .title {
+    margin-bottom: 46px;
+}
+
+.stm-template-aircrafts .special-offers .colored-separator {
+    display: none;
+}
+
+.stm-template-aircrafts .special-offers .owl-controls {
+    margin-top: 45px;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-image {
+    float: left;
+    margin-right: 17px;
+    height: 36px;
+    width: 36px;
+    line-height: 36px;
+    vertical-align: top;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-image a {
+    color: #5b6771;
+    text-decoration: none !important;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-image img {
+    vertical-align: top;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-image img.stm-user-image {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-image .stm-user-image-empty {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background-color: #eee;
+    text-indent: 2px;
+    border-radius: 50%;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block {
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block div.title {
+    text-decoration: none !important;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .title {
+    display: block;
+    margin: 0;
+    padding-top: 0;
+    font-size: 13px;
+    line-height: 15px;
+    color: #4c94fa;
+    font-weight: 400;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .title span {
+    color: #b1b5bc;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .title a {
+    color: #4c94fa;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .title:hover {
+    text-decoration: underline;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .dealer-information .phone {
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 15px;
+    font-weight: 700;
+    vertical-align: top;
+    color: #2c3648;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .dealer-information i {
+    position: relative;
+    top: 0;
+    font-size: 12px;
+    color: #2c3648;
+    margin-left: 1px;
+    margin-right: 4px;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .dealer-information .stm-show-number {
+    display: inline-block;
+    margin-right: 0;
+    font-size: 12px;
+    font-weight: 400;
+    vertical-align: top;
+    border-bottom: 1px dotted;
+    cursor: pointer;
+    position: relative;
+    min-width: 20px;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .dealer-information .stm-show-number.load_number {
+    color: transparent;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .dealer-information .stm-show-number.load_number:before {
+    content: '\f1ce';
+    display: block;
+    font-family: 'FontAwesome';
+    color: #333333;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    animation: spin 2s linear infinite;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .phone {
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 13px;
+    font-weight: 700;
+    vertical-align: top;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .phone a {
+    color: #4c94fa;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .send-message {
+    color: #888;
+    text-decoration: none !important;
+    font-size: 13px;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .send-message i {
+    font-size: 11px;
+    margin-right: 4px;
+}
+
+.stm-template-aircrafts .listing-archive-dealer-info .dealer-info-block .send-message:hover span {
+    border-bottom: 1px dashed #888;
+}
+
+.stm-template-aircrafts .stm-badge-directory {
+    position: absolute;
+    right: -65px;
+    padding: 0 55px;
+    top: 20px;
+    width: 200px;
+    height: 33px;
+    line-height: 33px;
+    transform: rotate(45deg);
+    background-color: #ff9420;
+    color: #fff !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stm-template-aircrafts .stm-shareble .stm-a2a-popup.stm-a2a-popup-active {
+    top: -112%;
+}
+
+.stm-template-aircrafts .wpcf7-form-control.wpcf7-submit {
+    display: inline-block;
+}
+
+.stm-template-aircrafts .listing-car-items .listing-car-item .image .discounted-price .regular-price {
+    font-weight: 700;
+}
+
+.stm-template-aircrafts .listing-car-items .listing-car-item .listing-car-item-meta .car-subtitle {
+    text-transform: uppercase;
+}
+
+.stm-template-aircrafts .listing-car-items .listing-car-item .listing-car-item-meta .car-title {
+    text-transform: none;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.stm-template-aircrafts .listing-car-items .listing-car-item .listing-car-item-meta .car-meta-top {
+    border-color: #d5d6d8;
+}
+
+.stm-template-aircrafts .listing-car-items .listing-car-item .listing-car-item-meta .car-meta-bottom ul li {
+    line-height: 20px;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop {
+    margin-bottom: 23px;
+    border-color: #d8e5e6;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias {
+    position: absolute;
+    top: 15px;
+    left: 7px;
+    z-index: 20;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias > div {
+    display: inline-block;
+    margin-right: 9px;
+    padding: 2px 5px 0 6px;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias > div i {
+    font-size: 12px;
+    margin-right: 2px;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias > div span {
+    position: relative;
+    top: -1px;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias > div:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias > div.stm-listing-videos-unit i {
+    position: relative;
+    top: -1px;
+    left: 1px;
+    margin-right: 3px;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-listing-compare {
+    position: absolute;
+    left: 7px;
+    bottom: 7px;
+    padding: 3px 5px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+    opacity: 0;
+    z-index: 20;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-listing-compare:hover {
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-listing-compare.active {
+    background: linear-gradient(180deg, #4c94fa 0%, #3370e9 100%);
+    opacity: 1;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-listing-favorite {
+    display: none !important;
+    position: absolute;
+    left: 7px;
+    bottom: 40px;
+    padding: 3px 5px 3px 6px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border-radius: 2px;
+    font-size: 16px;
+    opacity: 0;
+    z-index: 20;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-listing-favorite:hover {
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .stm-listing-favorite.active {
+    background: linear-gradient(180deg, #4c94fa 0%, #3370e9 100%);
+    opacity: 1;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .image-inner {
+    max-height: 163px;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .image-inner img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    min-height: 163px;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .image:hover .stm-listing-compare, .stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .image:hover .stm-listing-favorite, .stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .image:hover .stm-car-medias {
+    opacity: 1;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-top {
+    margin-bottom: 19px;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-top .title {
+    padding: 0;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-top .title .labels {
+    font-size: 14px;
+    line-height: 22px;
+    color: #4c94fa;
+    text-transform: uppercase;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-middle {
+    margin-bottom: 0;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-middle .meta-middle-unit {
+    width: 24%;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-middle .meta-middle-unit:nth-child(4n) {
+    margin-right: 0;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-middle .meta-middle-unit .value {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-bottom {
+    margin-top: 19px;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-bottom .list-unstyled {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 0;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-bottom .list-unstyled li {
+    margin-right: 20px;
+    margin-bottom: 9px;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-bottom .list-unstyled li > img {
+    max-width: 96px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-bottom .list-unstyled li .listing-archive-dealer-info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.stm-template-aircrafts .car-action-unit {
+    border-color: #d8e5e6;
+    border-radius: 5px;
+    padding: 4px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: #4c94fa;
+    margin-top: 2px;
+}
+
+.stm-template-aircrafts .car-action-unit.add-to-compare, .stm-template-aircrafts .car-action-unit.stm-brochure {
+    display: block;
+    width: auto;
+    min-width: inherit;
+}
+
+.stm-template-aircrafts .car-action-unit.add-to-compare.stm-added .stm-show-on-hover {
+    padding-top: 5px;
+    padding-left: 45px;
+}
+
+.stm-template-aircrafts .car-action-unit.add-to-compare.stm-added .stm-show-on-hover > i {
+    top: 10px;
+}
+
+.stm-template-aircrafts .car-action-unit.add-to-compare.disabled:after {
+    top: 11px;
+}
+
+.stm-template-aircrafts .post-grid-single-unit .image {
+    max-height: 232px;
+    margin-bottom: 20px;
+}
+
+.stm-template-aircrafts .post-grid-single-unit .image img {
+    vertical-align: middle;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.stm-template-aircrafts .post-grid-single-unit .content {
+    border: 2px solid #d8e5e6;
+    padding-bottom: 24px;
+}
+
+.stm-template-aircrafts .post-grid-single-unit .content .title-relative a .title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.stm-template-aircrafts .post-grid-single-unit .content .post-meta-bottom {
+    padding-top: 24px;
+    margin-top: 24px;
+}
+
+.stm-template-aircrafts #main .stm-single-post .col-md-3.col-md-pull-9 {
+    padding-top: 6px;
+}
+
+.stm-template-aircrafts #main .stm-single-post #wp-calendar > caption {
+    font-size: 12px;
+}
+
+.stm-template-aircrafts #main .stm-single-post aside.widget {
+    padding-bottom: 27px;
+}
+
+.stm-template-aircrafts #main .stm-single-post aside.widget .widget-title h4 {
+    font-size: 20px;
+}
+
+.stm-template-aircrafts.blog .post-grid-single-unit .content {
+    padding: 25px 20px 14px;
+}
+
+.stm-template-aircrafts.blog .post-grid-single-unit .content .post-meta-bottom .blog-meta-unit {
+    margin-right: 10px;
+}
+
+.stm-template-aircrafts.blog .post-grid-single-unit .content .post-meta-bottom .blog-meta-unit:last-child {
+    margin-right: 0;
+}
+
+.stm-template-aircrafts.blog .col-md-3 aside:last-child {
+    border-bottom: 0 !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.stm-template-aircrafts.blog .col-md-3 .widget_calendar tfoot a {
+    display: block;
+    padding: 10px 0;
+}
+
+.stm-template-aircrafts .blog-meta-bottom .car-action-unit {
+    padding-left: 32px;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper {
+    padding: 40px 0;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper aside .search-form {
+    max-width: 350px;
+    border: 1px solid #d8e5e6;
+    opacity: 0.5;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper aside .search-form label {
+    max-width: 100%;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper aside .search-form label input[type='search'] {
+    height: 41px;
+    line-height: 41px;
+    background: transparent;
+    border: 0;
+    color: #ffffff;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper aside .search-form label input[type='search']:-ms-input-placeholder {
+    color: #e1e1e1;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper aside .search-form label input[type='search']::placeholder {
+    color: #e1e1e1;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper aside .search-form input[type='submit'] {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper aside .search-form:after {
+    background: transparent;
+    font-size: 14px;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper aside.widget_nav_menu ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style: none;
+    margin: 11px 0 0;
+    padding: 0;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper aside.widget_nav_menu ul li {
+    margin: 0;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper aside.widget_nav_menu ul li:last-child a {
+    padding-right: 0;
+}
+
+.stm-template-aircrafts footer .footer_widgets_wrapper aside.widget_nav_menu ul li a {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 0 25px;
+}
+
+.stm-template-aircrafts footer #footer-copyright {
+    padding: 25px 0 20px;
+}
+
+.stm-template-aircrafts footer #footer-copyright .container:before {
+    top: -25px;
+}
+
+.stm-template-aircrafts footer .copyright-socials ul li a i {
+    color: #ffffff;
+}
+
+.stm-template-aircrafts .listing-car-items .listing-car-item .image {
+    max-height: 187px;
+}
+
+.stm-template-aircrafts .listing-car-items .listing-car-item .image img {
+    width: 100%;
+    max-width: inherit;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 100%;
+    max-height: 187px;
+}
+
+.stm-template-aircrafts .car-listing-modern-grid {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.stm-template-aircrafts .car-listing-modern-grid .car-meta-bottom ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.stm-template-aircrafts .car-listing-modern-grid .car-meta-bottom ul li {
+    display: block;
+    max-width: 43%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.stm-template-aircrafts.stm-inventory-page .entry-header > .container {
+    min-height: 585px;
+}
+
+.stm-template-aircrafts.stm-inventory-page .entry-header > .container .entry-title {
+    transform: none;
+}
+
+.stm-template-aircrafts.stm-inventory-page .entry-header > .container .entry-title h1, .stm-template-aircrafts.stm-inventory-page .entry-header > .container .entry-title h2 {
+    letter-spacing: -2px;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.stm-template-aircrafts.stm-inventory-page .entry-header > .container .entry-title .sub-title {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0;
+    font-weight: 500;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.stm-template-aircrafts.single-listings .stm-aircraft-title-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 43px;
+}
+
+.stm-template-aircrafts.single-listings .stm-aircraft-title-box .left h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 50px;
+    color: #142e5d;
+    margin-bottom: 1px;
+}
+
+.stm-template-aircrafts.single-listings .stm-aircraft-title-box .left .stm-ac-category {
+    color: #142e5d;
+}
+
+.stm-template-aircrafts.single-listings .stm-aircraft-title-box .right {
+    padding-top: 6px;
+}
+
+.stm-template-aircrafts.single-listings .stm-aircraft-title-box .right .stm-ac-category {
+    text-align: right;
+}
+
+.stm-template-aircrafts.single-listings .stm-aircraft-title-box .right .stm-ac-category:first-child {
+    margin-bottom: 2px;
+}
+
+.stm-template-aircrafts.single-listings .stm-aircraft-title-box .stm-ac-category {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #888888;
+}
+
+.stm-template-aircrafts.single-listings .stm-aircraft-title-box .stm-ac-category span {
+    font-weight: 700;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels {
+    position: relative;
+    overflow: visible;
+    margin-bottom: 62px;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .actions-wrap .stm-gallery-actions {
+    display: block;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .actions-wrap .stm-gallery-actions ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    list-style: none;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .actions-wrap .stm-gallery-actions ul > li {
+    margin: 0 5px;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .actions-wrap .stm-gallery-actions ul .stm-listing-favorite-action {
+    margin-top: 2px;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .actions-wrap .stm-gallery-actions ul .car-action-unit {
+    background: rgba(44, 49, 62, 0.5);
+    border: 0;
+    color: #ffffff;
+    padding: 5px 30px 5px 50px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border-radius: 25px;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .actions-wrap .stm-gallery-actions ul .car-action-unit i {
+    left: 19px;
+    color: #ffffff;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .actions-wrap .special-wrap {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 140px;
+    width: 140px;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .actions-wrap .special-wrap .special-label {
+    position: relative;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-big-car-gallery.owl-carousel {
+    overflow: visible;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-big-car-gallery.owl-carousel .owl-stage-outer {
+    overflow: visible;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-big-car-gallery .stm-single-image {
+    max-width: 1110px;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-big-car-gallery .stm-single-image:hover .actions-wrap {
+    opacity: 1;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-big-car-gallery .stm-single-image img {
+    display: block;
+    position: relative;
+    height: 544px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transform: translateZ(0);
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-big-car-gallery .stm-single-image .stm-car-medias {
+    position: absolute;
+    top: 19px;
+    right: 30px;
+    font-size: 10px;
+    padding: 3px 10px 4px 14px;
+    background: #4c94fa;
+    color: #ffffff;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-big-car-gallery .stm-single-image .stm-car-medias i {
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-big-car-gallery .owl-item:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(44, 49, 62, 0.5);
+    z-index: 10;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-big-car-gallery .owl-item.center:before {
+    display: none;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav {
+    height: 0;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-owl-prev {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    top: 50%;
+    left: -12%;
+    z-index: 10;
+    border: 3px solid #ffffff;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-owl-prev i {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-owl-prev:hover {
+    opacity: 1;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-nav-count-wrap {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -12%;
+    z-index: 10;
+    transform: translateY(-50%);
+    margin-top: 35px;
+    opacity: 0.5;
+    transition: all .2s ease-in-out;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-nav-count-wrap:hover {
+    opacity: 1;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-nav-count-wrap .stm-owl-next {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 66px;
+    height: 66px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-nav-count-wrap .stm-owl-next i {
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-nav-count-wrap .count-img {
+    white-space: nowrap;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 70px;
+}
+
+.stm-template-aircrafts.single-listings p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.stm-template-aircrafts.single-listings ul.list-style-2 li:before {
+    color: #ff9420;
+}
+
+.stm-template-aircrafts.single-listings .single-car-prices {
+    background-color: #ff9420;
+}
+
+.stm-template-aircrafts.single-listings .stm-car_dealer-buttons {
+    margin: 10px 0;
+}
+
+.stm-template-aircrafts.single-listings .stm-car_dealer-buttons a {
+    color: #ffffff;
+    background-color: #4c94fa;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.stm-template-aircrafts.single-listings .stm-car_dealer-buttons a i {
+    color: #ffffff;
+}
+
+.stm-template-aircrafts.single-listings .stm-car_dealer-buttons a i.stm-moto-icon-trade:before {
+    content: '\e909';
+    font-family: 'stm-aircrafts-icon';
+}
+
+.stm-template-aircrafts.single-listings .stm-car_dealer-buttons a i.stm-moto-icon-cash:before {
+    content: '\e906';
+    font-family: 'stm-aircrafts-icon';
+}
+
+.stm-template-aircrafts.single-listings .single-car-data {
+    background-color: #142e5d;
+    margin-bottom: 10px;
+}
+
+.stm-template-aircrafts.single-listings .single-car-data table td {
+    color: #ffffff;
+    font-weight: 700;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.stm-template-aircrafts.single-listings .single-car-data table td:first-child {
+    color: #aaaaaa;
+    font-weight: 400;
+}
+
+.stm-template-aircrafts.single-listings .single-car-data table td:last-child {
+    text-align: right;
+}
+
+.stm-template-aircrafts.single-listings .stm-single-car-contact {
+    border-top: 3px solid #4c94fa;
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.1), inset 0px 3px 0px 0px rgba(76, 148, 250, 0.004);
+    padding: 25px 20px;
+}
+
+.stm-template-aircrafts.single-listings .stm-single-car-contact .title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    color: #142e5d;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.stm-template-aircrafts.single-listings .stm-single-car-contact .title .fa-paper-plane {
+    color: #142e5d;
+    margin-right: 15px;
+}
+
+.stm-template-aircrafts.single-listings .stm-single-car-contact .title .fa-paper-plane:before {
+    content: '\e905';
+    font-family: 'stm-aircrafts-icon';
+    font-size: 28px;
+}
+
+.stm-template-aircrafts.single-listings .stm-single-car-contact .form-info {
+    margin-bottom: 20px;
+    padding-top: 2px;
+    color: #888888;
+}
+
+.stm-template-aircrafts.single-listings .stm-single-car-contact .form-info span {
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.stm-template-aircrafts.single-listings .stm-single-car-contact .form-group {
+    margin-bottom: 20px;
+}
+
+.stm-template-aircrafts.single-listings .stm-single-car-contact .form-group input {
+    height: 40px;
+    line-height: 40px;
+    background-color: #f3f5f7;
+    border: 0;
+    font-size: 13px;
+}
+
+.stm-template-aircrafts.single-listings .stm-single-car-contact textarea {
+    background-color: #f3f5f7;
+    border: 0;
+    height: 100px;
+    font-size: 13px;
+}
+
+.stm-template-aircrafts.single-listings .stm-single-car-contact input[type='submit'] {
+    width: 100%;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info {
+    margin-top: -4px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info.stm-common-user .stm-user-main-info-c a .title {
+    margin: 1px 0 0;
+    font-size: 16px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info.stm-common-user .stm-user-main-info-c a .stm-label {
+    font-size: 13px;
+    color: #888;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info.stm-common-user .stm-user-main-info-c .image {
+    float: left;
+    margin-right: 14px;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info.stm-common-user .stm-user-main-info-c .image img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info.stm-common-user .stm-user-main-info-c .image .no-avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #eeeeee;
+    color: #5b6771;
+    border-radius: 50%;
+    font-size: 16px;
+    text-indent: 2px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info.stm-common-user .stm-user-main-info-c .image a {
+    text-decoration: none !important;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    letter-spacing: -0.4px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-rating {
+    padding-top: 6px;
+    overflow: hidden;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-rating .stm-rate-sum {
+    color: #888;
+    font-size: 13px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts {
+    margin: 29px 0 28px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit {
+    position: relative;
+    padding-left: 33px;
+    padding-top: 17px;
+    margin-top: 20px;
+    border-top: 1px solid #e5e8ec;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit.phone {
+    padding-right: 50px;
+    margin-bottom: 5px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit.phone span {
+    font-size: 11px;
+    cursor: pointer;
+    text-decoration: dotted;
+    border-bottom: 1px dotted;
+    line-height: 20px;
+    position: relative;
+    min-width: 20px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit.phone span.load_number {
+    color: transparent;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit.phone span.load_number:before {
+    content: '\f1ce';
+    display: block;
+    font-family: 'FontAwesome';
+    color: #333333;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    animation: spin 2s linear infinite;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit.address {
+    margin-top: 14px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit.mail i {
+    font-size: 15px;
+    color: #4e90cc;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit.mail .stm-label {
+    color: #888;
+    font-size: 13px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit.mail a {
+    font-size: 14px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit.mail a:hover {
+    color: #cc761a;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit .phone {
+    margin-bottom: -1px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit .phone-label {
+    font-size: 13px;
+    color: #888;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit i {
+    position: absolute;
+    top: 21px;
+    left: 0;
+    color: #ff9420;
+    font-size: 13px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit i.stm-service-icon-pin_2 {
+    font-size: 16px;
+}
+
+.stm-template-aircrafts.single-listings .stm-listing-car-dealer-info .dealer-contacts .dealer-contact-unit .address {
+    color: #cc761a;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.stm-template-aircrafts .wpb_tour_tabs_wrapper.stm_tabs_style_2 {
+    box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.1), inset 0px 3px 0px 0px rgba(76, 148, 250, 0.004);
+}
+
+.stm-template-aircrafts .wpb_tour_tabs_wrapper.stm_tabs_style_2 ul.wpb_tabs_nav {
+    background: transparent;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8e5e6;
+}
+
+.stm-template-aircrafts .wpb_tour_tabs_wrapper.stm_tabs_style_2 ul.wpb_tabs_nav li {
+    border-bottom: 3px solid transparent;
+}
+
+.stm-template-aircrafts .wpb_tour_tabs_wrapper.stm_tabs_style_2 ul.wpb_tabs_nav li:before {
+    display: none;
+}
+
+.stm-template-aircrafts .wpb_tour_tabs_wrapper.stm_tabs_style_2 ul.wpb_tabs_nav li a {
+    background: transparent;
+    padding: 15px 18px 12px;
+    color: #142e5d;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.stm-template-aircrafts .wpb_tour_tabs_wrapper.stm_tabs_style_2 ul.wpb_tabs_nav li.ui-state-active {
+    border-bottom-color: #ff9420;
+}
+
+.stm-template-aircrafts .wpb_tour_tabs_wrapper.stm_tabs_style_2 ul.wpb_tabs_nav li.ui-state-active a {
+    color: #ff9420;
+}
+
+.stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list {
+    background: transparent;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8e5e6;
+}
+
+.stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list li {
+    border-bottom: 3px solid transparent;
+    margin-right: 30px;
+}
+
+.stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list li:before {
+    display: none;
+}
+
+.stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list li:first-child a {
+    padding-left: 0;
+}
+
+.stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list li a {
+    background: transparent;
+    padding: 20px 18px 21px;
+}
+
+.stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list li a span {
+    color: #142e5d;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list li.vc_active {
+    border-bottom-color: #ff9420;
+}
+
+.stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list li.vc_active a span {
+    color: #ff9420;
+}
+
+.stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    transform: none;
+}
+
+.stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.vc_active {
+    opacity: 1;
+    position: static;
+}
+
+.stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel .vc_tta-panel-body {
+    display: block !important;
+    padding: 39px 0 0 !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+.stm-template-aircrafts .stm-user-public-profile {
+    margin: 50px auto 91px;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-public-profile-top {
+    padding-bottom: 32px;
+    margin-bottom: 24px;
+    border-bottom: 4px solid #142e5d;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-name {
+    position: relative;
+    float: left;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 104px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-name .image {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 70px;
+    overflow: hidden;
+    background-color: #eee;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-name .image img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-name .image .stm-service-icon-user {
+    position: relative;
+    top: 4px;
+    font-size: 35px;
+    line-height: 70px;
+    color: #acb9bd;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-name .title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-name h4 {
+    margin-bottom: 6px;
+    line-height: 16px;
+    font-size: 20px;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-name .stm-title-desc {
+    font-size: 13px;
+    line-height: 13px;
+    color: #888;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-data-right {
+    overflow: hidden;
+    text-align: center;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-data-right .stm-user-email {
+    text-align: left;
+    position: relative;
+    float: right;
+    margin-top: 8px;
+    margin-left: 5px;
+    padding: 14px 26px 11px 49px;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-data-right .stm-user-email .fa {
+    position: absolute;
+    top: 18px;
+    left: 21px;
+    color: #4e90cc;
+    font-size: 16px;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-data-right .stm-user-email .mail-label {
+    font-size: 13px;
+    color: #888;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-data-right .stm-user-email .mail {
+    font-size: 14px;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-data-right .stm-user-phone {
+    margin-top: 26px;
+    display: inline-block;
+    position: relative;
+    padding-left: 32px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-data-right .stm-user-phone .stm-service-icon-phone_2 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    color: #ff9420;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-data-right .stm-user-phone .phone {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-data-right .stm-user-phone .phone-label {
+    margin-top: 2px;
+    font-size: 13px;
+    color: #888;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-sidebar .stm-service-icon-write_message {
+    font-size: 14px;
+}
+
+.stm-template-aircrafts .stm-user-public-profile .stm-user-sidebar textarea {
+    padding: 8px 10px 8px 30px;
+}
+
+.stm-template-aircrafts .stm-user-public-listing .stm-seller-title {
+    margin-bottom: 21px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.stm-template-aircrafts .stm-user-public-listing .archive-listing-page {
+    margin: 0 0 0;
+    padding: 0;
+}
+
+.stm-template-aircrafts .stm-user-public-listing .meta-middle .meta-middle-divider {
+    width: 1px !important;
+}
+
+.stm-template-aircrafts .stm-user-public-listing .meta-bottom {
+    position: relative;
+}
+
+.stm-template-aircrafts.error404 #wrapper {
+    height: 100vh;
+}
+
+.stm-template-aircrafts.error404 #wrapper #main {
+    top: 50%;
+}
+
+@media (max-width: 1400px) {
+    .stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-owl-prev {
+        left: -8%;
+    }
+
+    .stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-nav-count-wrap {
+        right: -9%;
+    }
+}
+
+@media (max-width: 1340px) {
+    .stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-owl-prev {
+        left: 4%;
+    }
+
+    .stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-nav-count-wrap {
+        right: 3%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li:nth-last-child(1) > ul, .stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li:nth-last-child(2) > ul, .stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li:nth-last-child(3) > ul {
+        left: inherit;
+        right: 0;
+    }
+
+    .stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li:nth-last-child(1) > ul > li.menu-item-has-children > ul, .stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li:nth-last-child(2) > ul > li.menu-item-has-children > ul, .stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu > li:nth-last-child(3) > ul > li.menu-item-has-children > ul {
+        left: inherit;
+        right: 100%;
+    }
+
+    .stm-template-aircrafts .stm-single-header-search h4 {
+        white-space: nowrap;
+        margin-right: 20px;
+    }
+
+    .stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-owl-prev {
+        left: 3%;
+    }
+
+    .stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav .stm-nav-count-wrap {
+        right: 2%;
+    }
+
+    .stm-template-aircrafts .stm-car_dealer-buttons a {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .stm-template-aircrafts .stm-car-print i {
+        top: 50%;
+    }
+}
+
+@media (max-width: 900px) {
+    .stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu li a {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 850px) {
+    .stm-template-aircrafts .stm-single-car-page > .container > .wpb_row > .vc_col-sm-9, .stm-template-aircrafts .stm-single-car-page > .container > .wpb_row > .vc_col-sm-8, .stm-template-aircrafts .stm-single-car-page > .container > .wpb_row > .vc_col-sm-4, .stm-template-aircrafts .stm-single-car-page > .container > .wpb_row > .vc_col-sm-3 {
+        width: 100%;
+    }
+
+    .stm-template-aircrafts .stm-single-header-search {
+        padding: 30px;
+    }
+
+    .stm-template-aircrafts .stm-single-header-search button {
+        min-width: 17%;
+        white-space: nowrap;
+    }
+
+    .stm-template-aircrafts .vc_tta-container {
+        margin-bottom: 30px !important;
+    }
+
+    .stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel {
+        opacity: 1;
+        position: relative;
+    }
+
+    .stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel .vc_tta-panel-heading {
+        position: relative;
+        z-index: 10;
+    }
+
+    .stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel .vc_tta-panel-body {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: all .2s ease-in-out;
+    }
+
+    .stm-template-aircrafts .vc_tta-container .vc_tta-tabs .vc_tta-panels-container .vc_tta-panel.vc_active .vc_tta-panel-body {
+        opacity: 1;
+        position: static;
+    }
+}
+
+@media (max-width: 767px) {
+    .stm-template-aircrafts body {
+        display: block;
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    .stm-template-aircrafts.body-noscroll #header {
+        transform: none;
+        left: 0;
+    }
+
+    .stm-template-aircrafts rs-bullets {
+        top: inherit !important;
+        bottom: -45% !important;
+    }
+
+    .stm-template-aircrafts:not(.home):not(.stm-inventory-page):not(.single-listings) #wrapper #header {
+        top: 0 !important;
+        padding-top: 20px !important;
+        min-height: 100px !important;
+    }
+
+    .stm-template-aircrafts:not(.home):not(.stm-inventory-page):not(.single-listings) .listing-menu-mobile-wrapper .stm-opened-menu-listing {
+        top: 0;
+    }
+
+    .stm-template-aircrafts.single-listings #wrapper #header,
+  .stm-template-aircrafts #wrapper #header {
+        top: 0 !important;
+        padding-top: 20px !important;
+        min-height: 100px !important;
+    }
+
+    .stm-template-aircrafts .car-action-unit > i {
+        position: absolute;
+        top: 50%;
+    }
+
+    .stm-template-aircrafts #wrapper > #top-bar {
+        display: none;
+    }
+
+    .stm-template-aircrafts #header {
+        top: 15px;
+    }
+
+    .stm-template-aircrafts #header .header-inner-content .listing-service-right .listing-menu {
+        display: none;
+    }
+
+    .stm-template-aircrafts .listing-menu-mobile-wrapper {
+        display: block;
+    }
+
+    .stm-template-aircrafts .listing-menu-mobile-wrapper .stm-opened-menu-listing {
+        top: 0px;
+    }
+
+    .stm-template-aircrafts .stm-single-header-search {
+        margin-top: 40px;
+        z-index: 40;
+    }
+
+    .stm-template-aircrafts .owl-dots {
+        visibility: visible;
+        opacity: 1;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .stm-template-aircrafts .owl-controls .stm-owl-prev, .stm-template-aircrafts .owl-controls .stm-owl-next {
+        display: none;
+    }
+
+    .stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .image-inner {
+        max-height: inherit;
+    }
+
+    .stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-top .title {
+        padding-top: 20px;
+    }
+
+    .stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-middle .meta-middle-unit {
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-middle .meta-middle-unit .value {
+        margin: 0;
+    }
+
+    .stm-template-aircrafts .listing-list-loop.stm-listing-directory-list-loop .content .meta-bottom {
+        margin-top: 0;
+    }
+
+    .stm-template-aircrafts .single-car-actions > ul > li.certified-logo-1, .stm-template-aircrafts .single-car-actions > ul > li.certified-logo-2 {
+        width: auto;
+        padding-top: 0;
+    }
+
+    .stm-template-aircrafts .car-action-unit.add-to-compare {
+        padding-left: 22px;
+    }
+
+    .stm-template-aircrafts .car-action-unit.stm-brochure > i {
+        left: 10px;
+    }
+
+    .stm-template-aircrafts .post-grid-single-unit .image img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .stm-template-aircrafts.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs-position-top .vc_tta-panel .vc_tta-panel-heading {
+        margin: 10px 0 0;
+        border: 0;
+    }
+
+    .stm-template-aircrafts.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs-position-top .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title a {
+        background-color: #f3f5f7;
+    }
+
+    .stm-template-aircrafts.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs-position-top .vc_tta-panel .vc_tta-panel-body {
+        padding-top: 20px !important;
+        padding-left: 20px !important;
+    }
+
+    .stm-template-aircrafts.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs-position-top .vc_tta-panel .vc_tta-panel-body .title {
+        padding-top: 0;
+    }
+
+    .stm-template-aircrafts.wpb-js-composer .vc_tta.vc_general.vc_tta-tabs-position-top .vc_tta-panel .vc_tta-panel-body .lists-inline ul {
+        margin-bottom: 0 !important;
+    }
+
+    .stm-template-aircrafts .blog-meta .right {
+        width: auto;
+    }
+
+    .stm-template-aircrafts .blog-meta-bottom .car-action-unit {
+        padding-left: 25px;
+    }
+
+    .stm-template-aircrafts footer .footer_widgets_wrapper aside.widget_nav_menu ul {
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .stm-template-aircrafts footer .footer_widgets_wrapper aside.widget_nav_menu ul li:first-child a {
+        padding-left: 0;
+    }
+
+    .stm-template-aircrafts .wpb_single_image {
+        width: 100%;
+    }
+
+    .stm-template-aircrafts .wpb_single_image img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 670px) {
+    .stm-template-aircrafts .stm-single-header-search {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .stm-template-aircrafts .stm-single-header-search h4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .stm-template-aircrafts .stm-single-header-search .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .stm-template-aircrafts .stm-single-header-search button {
+        width: 100%;
+        margin: 20px 0 0;
+    }
+
+    .stm-template-aircrafts.single-listings .stm-aircraft-title-box {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .stm-template-aircrafts.single-listings .stm-aircraft-title-box .right .stm-ac-category {
+        text-align: left;
+    }
+
+    .stm-template-aircrafts.single-listings .stm-car-carousels .stm-big-car-gallery .stm-single-image img {
+        height: 340px;
+    }
+}
+
+@media (max-width: 570px) {
+    .stm-template-aircrafts .stm_dynamic_listing_filter {
+        margin-top: -53px;
+    }
+
+    .stm-template-aircrafts.stm-inventory-page .entry-header > .container .entry-title {
+        top: 25%;
+    }
+
+    .stm-template-aircrafts.single-listings .stm-car-carousels .actions-wrap .stm-gallery-actions ul .car-action-unit {
+        font-size: 0;
+        color: transparent;
+        padding: 0;
+        width: 40px;
+        height: 40px;
+    }
+
+    .stm-template-aircrafts.single-listings .stm-car-carousels .actions-wrap .stm-gallery-actions ul .car-action-unit > i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
+
+@media (max-width: 500px) {
+    .stm-template-aircrafts .stm_dynamic_listing_filter {
+        margin-top: 30px;
+    }
+
+    .stm-template-aircrafts .stm_dynamic_listing_filter .stm_dynamic_listing_filter_nav li {
+        width: 100%;
+    }
+
+    .stm-template-aircrafts .stm_dynamic_listing_filter .tab-pane form {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .stm-template-aircrafts .stm_dynamic_listing_filter .tab-pane form .filter {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+    .stm-template-aircrafts .stm_dynamic_listing_filter .tab-pane form button[type='submit'] {
+        -ms-flex-order: 2;
+        order: 2;
+        width: 100%;
+        margin: 0 0 30px;
+    }
+
+    .stm-template-aircrafts .stm-single-header-search .row {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .stm-template-aircrafts .stm-single-header-search .row .stm-select-col {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+
+    .stm-template-aircrafts .stm-single-header-search .row .stm-select-col:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .stm-template-aircrafts.single-listings .stm-car-carousels .stm-owl-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .stm-template-aircrafts rs-bullets {
+        top: inherit !important;
+        bottom: -50% !important;
+    }
+}
+
+@media print {
+    .stm-template-aircrafts .stm-single-header-search, .stm-template-aircrafts .stm-owl-nav, .stm-template-aircrafts .stm-cat-info-box, .stm-template-aircrafts .vc_col-sm-3, .stm-template-aircrafts .actions-wrap {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        display: block;
+        position: relative;
+        overflow-x: hidden;
+    }
+}

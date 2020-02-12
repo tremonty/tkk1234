@@ -1,0 +1,116 @@
+.stm-listing-cetegories-grid-wrap {
+    h3 {
+        display: block;
+        width: 100%;
+        margin-bottom: 27px;
+    }
+
+    .stm-lcg-items-wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        filter: drop-shadow(-1px 0 10px rgba(0, 0, 0, 0.1));
+        position: relative;
+
+        &:before {
+            content: '';
+            display: block;
+            width: 1px;
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            bottom: 30px;
+            background-color: #e4eeef;
+            z-index: 4;
+        }
+
+
+        .stm-lcg-item {
+            display: block;
+            width: 50%;
+            position: relative;
+
+            &:nth-child(odd) {
+                &:after {
+                    content: '';
+                    width: 90%;
+                    height: 1px;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    background-color: #e4eeef;
+                    z-index: 4;
+                }
+            }
+
+            &:nth-child(even) {
+                &:after {
+                    content: '';
+                    width: 90%;
+                    height: 1px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    background-color: #e4eeef;
+                    z-index: 4;
+                }
+            }
+
+            &:nth-last-child(1), &:nth-last-child(2) {
+                &:after {
+                    display: none;
+                }
+            }
+
+            a {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                min-height: 180px;
+                background-color: #f9fdfe;
+                transition: all .2s ease;
+                position: relative;
+                text-decoration: none;
+                z-index: 2;
+
+                &:hover {
+                    background-color: #ffffff;
+                    filter: drop-shadow(-1px 0 8px rgba(0, 0, 0, 0.1));
+                    z-index: 3;
+
+                    svg path {
+                        fill: #ff9420;
+                    }
+                }
+
+                img {
+                    max-height: 80px;
+                }
+
+                svg {
+                    display: block;
+                    width: auto;
+                    max-width: 130px;
+                    position: relative;
+                    object-fit: cover;
+                    transform: translateZ(0);
+                    overflow: hidden;
+
+                    path {
+                        transition: all .2s ease-in-out;
+                    }
+                }
+
+                span {
+                    font-size: 16px;
+                    line-height: 36px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+@import "../colors";
+.stm-icon-counter {
+    padding: 15px 0;
+    color: $white;
+
+    .stm-icon-counter-left {
+        float: left;
+        margin-top: 8px;
+        margin-right: 14px;
+
+        i {
+            font-size: 56px;
+        }
+    }
+
+    .stm-counter-meta {
+        overflow: hidden;
+        color: $white;
+
+        .stm-value-wrapper {
+            font-weight: 700;
+            word-spacing: 0.2px;
+            font-size: 0;
+
+            .stm-value {
+                display: inline-block;
+                vertical-align: top;
+                max-width: 100%;
+                font-size: 45px;
+                letter-spacing: -1.5px;
+            }
+
+            .stm-value-affix {
+                display: inline-block;
+                vertical-align: top;
+                font-size: 45px;
+                max-width: 100%;
+            }
+        }
+
+        .stm-label {
+            margin: 6px 0 0 4px;
+            text-transform: uppercase;
+            letter-spacing: -0.4px;
+        }
+    }
+}
+
+.stm-template-car_dealer_two {
+    .stm-icon-counter {
+        &:first-child {
+            margin-bottom: 70px;
+        }
+
+        .stm-counter-meta {
+            .stm-value-wrapper {
+                .stm-value {
+                    letter-spacing: 6px;
+                }
+            }
+
+            .stm-label {
+                margin: 20px 0 0 4px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .stm-icon-counter {
+        text-align: center;
+
+        .stm-icon-counter-left {
+            float: none;
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    }
+}

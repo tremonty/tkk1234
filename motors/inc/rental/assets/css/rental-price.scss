@@ -1,0 +1,226 @@
+#advanced-sortables {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    #price_per_hour {
+        display: block;
+        width: 100%;
+        order: 1;
+    }
+
+    #rental_price_for_date_repitor {
+        width: 49%;
+        order: 2;
+    }
+
+    #discount_by_days_repitor {
+        width: 49%;
+        order: 3;
+    }
+}
+
+.rental-price-date-wrap {
+    .rental-price-date-list {
+
+        li {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: flex-start;
+            border-top: 1px solid #ffffff;
+            padding: 10px 0;
+
+            &:first-child{
+                border-top: 0;
+            }
+
+            &:last-child{
+                padding-top: 10px;
+                border-top: 0;
+            }
+
+            .repeat-number {
+                display: block;
+                height: 100%;
+                padding: 0 10px;
+                font-size: 16px;
+            }
+
+            table{
+                margin: 0 10px;
+                tr{
+
+                    &:nth-child(1), &:nth-child(2) {
+                        td {
+                            &:last-child {
+                                position: relative;
+
+                                &:after{
+                                    content: '\f073';
+                                    display: block;
+                                    font-family: 'FontAwesome';
+                                    font-size: 14px;
+                                    color: #cccccc;
+                                    position: absolute;
+                                    top: 50%;
+                                    right: 10px;
+                                    transform: translateY(-50%);
+                                }
+                            }
+                        }
+                    }
+
+                    td{
+                        input{}
+                    }
+                }
+            }
+
+            .btn-wrap{
+                .repeat-fields{
+
+                }
+
+                .remove-fields {
+                    background: #ff3232;
+                    border-color: #ff3232 #e50000 #cc0000;
+                    box-shadow: 0 1px 0 #cc0000;
+                    color: #fff;
+                    text-decoration: none;
+
+                    &:hover,
+                    &:focus {
+                        background: #e50000;
+                        border-color: #cc0000;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.discount-by-days-wrap {
+    .discount-by-days-list {
+
+        li {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: flex-start;
+            border-top: 1px solid #ffffff;
+            padding: 10px 0;
+
+            &:first-child{
+                border-top: 0;
+            }
+
+            &:last-child{
+                padding-top: 10px;
+                border-top: 0;
+            }
+
+            .repeat-days-number {
+                display: block;
+                height: 100%;
+                padding: 0 10px;
+                font-size: 16px;
+            }
+
+            table{
+                margin: 0 10px;
+                tr{
+                    td{
+
+                        input{
+
+                        }
+                    }
+                }
+            }
+
+            .btn-wrap{
+                .repeat-fields{
+
+                }
+
+                .remove-days-fields {
+                    background: #ff3232;
+                    border-color: #ff3232 #e50000 #cc0000;
+                    box-shadow: 0 1px 0 #cc0000;
+                    color: #fff;
+                    text-decoration: none;
+
+                    &:hover,
+                    &:focus {
+                        background: #e50000;
+                        border-color: #cc0000;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.admin-rent-info-wrap {
+    display: block;
+}
+
+.stm-rent-nav-tabs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: auto;
+    margin: 20px 0 0;
+
+    li {
+        display: block;
+        background-color: #f1f1f1;
+
+        &:nth-child(2) {
+            a {
+                border-left: 1px solid #cccccc;
+                border-right: 1px solid #cccccc;
+            }
+        }
+
+        a {
+            padding: 10px 20px;
+            border-bottom: 2px solid #f3f3f3;
+            color: #184c4f;
+            font-weight: 600;
+            transition: all .2s ease;
+            cursor: pointer;
+            background-color: #f1f1f1;
+
+            &.active {
+                border-bottom-color: #184c4f;
+            }
+        }
+    }
+}
+
+.stm-tabs-content {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 5px 0 0;
+
+    .tab-pane {
+        display: none;
+        transition: all .2s ease;
+        background-color: #f1f1f1;
+        padding: 20px;
+        margin-top: 0;
+
+        &.show{
+            display: block;
+        }
+
+    }
+}

@@ -1,0 +1,515 @@
+.stm_dynamic_listing_two_filter {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '';
+    display: block;
+    background: url("../../images/listing-filter-overlay.png") 0 0 no-repeat;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translateZ(0);
+    z-index: 1;
+  }
+
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+  .stm_dynamic_listing_filter_nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    li {
+      float: left;
+      margin-bottom: 0;
+      position: relative;
+
+      &:before {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 15px;
+        background: #ffffff;
+        opacity: 0.75;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+      }
+
+      &:first-child {
+        &:before {
+          display: none;
+        }
+      }
+
+      &.active:first-child + li{
+        &:before {
+          display: none;
+        }
+      }
+
+      &.active:last-child {
+        &:before {
+          display: none;
+        }
+      }
+
+      &.active + li, &.active:not(:first-child):not(:last-child) {
+        &:before {
+          display: none;
+        }
+      }
+
+      &.active {
+        z-index: 100;
+      }
+
+      a {
+        position: relative;
+        display: block;
+        padding: 16px 43px 13px 35px;
+        font-weight: 700;
+        font-size: 15px;
+        text-decoration: none !important;
+        letter-spacing: -0.4px;
+        z-index: 2;
+      }
+    }
+  }
+
+  .tab-content {
+    padding: 38px 30px 38px;
+
+    .tab-pane {
+      position: relative;
+      z-index: 2;
+
+      &.active {
+        &.expanded {
+          flex-direction: column;
+
+          .stm-filter-tab-selects {
+            padding-right: 0;
+          }
+
+        }
+      }
+
+      .motors-gdpr {
+        display: block;
+        float: left;
+        width: 64%;
+        margin: 0 !important;
+        line-height: 22px;
+      }
+    }
+
+    .vmc-file-wrap {
+      display: block;
+
+      .file-wrap {
+        float: left;
+        width: 100%;
+
+        .input-file-holder {
+          display: block;
+          width: 100%;
+          font-weight: 400;
+          color: #888888;
+          font-size: 14px;
+          outline: none !important;
+          background-color: #eceff3;
+          position: relative;
+          overflow: hidden;
+
+          span {
+            position: absolute;
+            top: 50%;
+            left: 25px;
+            transform: translateY(-50%);
+          }
+
+          i {
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+          }
+
+          input[type='file'] {
+            width: 100%;
+            opacity: 0;
+            height: 47px;
+            line-height: 47px;
+            padding: 0;
+          }
+        }
+      }
+    }
+
+    .file-name-wrap {
+      display: block;
+      width: 100%;
+      height: 47px;
+      line-height: 44px;
+      padding: 0 21px;
+      font-weight: 400;
+      color: #888888;
+      border: 2px solid #eceff3;
+      font-size: 14px;
+      outline: none !important;
+      background-color: #eceff3;
+      position: relative;
+
+      i {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+        cursor: pointer;
+      }
+    }
+
+    form{
+      width: 100%;
+      padding-bottom: 40px;
+      transition: all .2s ease-in;
+    }
+
+    .stm-filter-tab-selects {
+      width: 100%;
+      overflow: hidden;
+      transition: all .3s ease-in;
+      padding-right: 0;
+
+      .stm-select-col {
+        margin-bottom: 30px;
+        padding: 0 8px;
+      }
+
+      .col-md-12{
+        padding: 0 15px;
+      }
+
+      > .row {
+        margin: 0 -8px;
+      }
+
+      &.stm-filter-tab-selects-third {
+        padding-right: 0;
+      }
+    }
+
+    .btn-wrap {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 10;
+
+      button{
+        float: right;
+        position: relative;
+        text-transform: none;
+
+        i.fa-spinner{
+          display: none;
+          position: absolute;
+          top: 36%;
+          left: 46%;
+          -webkit-animation: spin 2s linear infinite;
+          -moz-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+        }
+
+        &.loading {
+          color: transparent !important;
+          i.fa-spinner {
+            display: block;
+            color: #ffffff !important;
+          }
+        }
+      }
+
+
+    }
+
+    button[type="submit"] {
+      margin-left: 10px;
+      min-width: 170px;
+      padding: 16px 25px 13px 25px;
+      font-weight: 700;
+
+      i {
+        display: inline-block;
+        margin-right: 6px;
+        font-size: 16px;
+      }
+
+      &:active {
+        top: -1px;
+      }
+    }
+
+    .stm-slide-content {
+      position: relative;
+      transition: all .2s ease-in;
+      //margin-top: 70px;
+
+      .stm-select-col {
+        display: none;
+      }
+    }
+
+    .stm-more-options-wrap {
+      display: block;
+      cursor: pointer;
+      padding: 10px 0 10px 0;
+      text-align: left;
+
+      span {
+        border-bottom: 1px dotted;
+        transition: all .2s ease-in-out;
+        color: #888888;
+
+        &:hover {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.stm_dynamic_listing_two_filter {
+  .select2-container--default {
+    .select2-selection--single {
+      height: 46px;
+      opacity: 1 !important;
+
+      .select2-selection__rendered {
+        line-height: 46px;
+      }
+
+      .select2-selection__arrow {
+        height: 46px;
+      }
+    }
+  }
+
+  .stm_listing_filter_text {
+    height: 46px;
+    line-height: 46px;
+  }
+
+  .tab-content {
+    button[type="submit"]:active {
+      box-shadow: none !important;
+    }
+  }
+
+  &.stm_dynamic_listing_dealer_filter {
+    margin-bottom: 70px !important;
+
+    &:before {
+      display: none !important;
+    }
+
+    .tab-content {
+      padding: 38px 30px 13px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .stm_dynamic_listing_two_filter:before {
+    background: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .stm_dynamic_listing_two_filter {
+    .tab-content {
+      #stm_third_tab {
+        form {
+          padding-bottom: 90px;
+        }
+
+        .btn-wrap {
+          .row {
+            .stm-select-col:last-child {
+              display: flex;
+              flex-direction: column-reverse;
+
+
+              .motors-gdpr{
+                width: 100%;
+                margin-left: -7 !important;
+                margin-bottom: 10px !important;
+              }
+
+              button {
+                display: inline-block;
+                width: auto;
+                align-self: flex-end;
+                max-width: 180px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*sm*/
+@media (max-width: 767px) {
+
+  .stm_dynamic_listing_two_filter {
+    .stm_dynamic_listing_filter_nav {
+      li {
+        float: none;
+        width: 100%;
+      }
+    }
+
+    .tab-content {
+      button[type="submit"] {
+        margin-left: 0;
+        margin-bottom: 0;
+        float: none;
+      }
+
+      .stm-filter-tab-selects {
+        .stm-select-col {
+          padding: 0 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .stm_dynamic_listing_two_filter {
+    .stm_dynamic_listing_filter_nav {
+      li {
+        float: none;
+        width: 100%;
+      }
+    }
+
+    .tab-content {
+      button[type="submit"] {
+        margin-left: 0;
+        margin-bottom: 0;
+        float: none;
+      }
+
+      .stm-filter-tab-selects {
+        .stm-select-col {
+          padding: 0 15px;
+        }
+      }
+
+      .tab-pane {
+        form {
+          padding-bottom: 130px;
+
+          .btn-wrap {
+            top: inherit;
+            bottom: 0;
+            right: 5px;
+          }
+
+          .stm-filter-tab-selects {
+            padding-right: 0;
+          }
+        }
+
+        &#stm_first_tab {
+          form{
+            padding-bottom: 70px;
+
+            .btn-wrap {
+              padding-left: 4px;
+            }
+          }
+        }
+
+        &#stm_second_tab {
+          form{
+            padding-bottom: 50px;
+
+            .btn-wrap {
+              padding-bottom: 10px;
+            }
+          }
+        }
+
+        &#stm_third_tab {
+          form {
+            padding-bottom: 130px;
+          }
+
+          .btn-wrap {
+            .row {
+              .stm-select-col:last-child {
+                display: flex;
+                flex-direction: column-reverse;
+
+                .motors-gdpr{
+                  width: 100%;
+                  margin-left: 0 !important;
+                  margin-bottom: 10px !important;
+                }
+
+                button {
+                  display: inline-block;
+                  width: auto;
+                  align-self: flex-start;
+                }
+              }
+            }
+          }
+        }
+
+        .stm-filter-tab-selects.stm-filter-tab-selects-third {
+          padding-right: 0;
+
+          .stm-slide-content {
+            .vmc-file-wrap{
+              .file-wrap {
+                width: 100%;
+                padding-right: 0;
+              }
+
+              .vmc-photos-list {
+                margin-top: 10px;
+
+                ul {
+                  flex-direction: column;
+                  flex-wrap: wrap;
+
+                  li {
+                    width: 100%;
+                    margin-right: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .btn-wrap {
+          top: inherit;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}

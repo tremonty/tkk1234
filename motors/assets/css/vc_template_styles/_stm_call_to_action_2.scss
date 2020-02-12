@@ -1,0 +1,201 @@
+@mixin transition($transition) {
+    -moz-transition: $transition;
+    -o-transition: $transition;
+    -ms-transition: $transition;
+    -webkit-transition: $transition;
+    transition: $transition;
+}
+
+.stm-call-to-action {
+    padding: 23px 46px 22px 28px;
+    background-color: #fab637;
+
+    .call-to-action-meta {
+        display: inline-block;
+        color: #fff;
+        position: relative;
+        margin-left: 20px;
+        padding-top: 14px;
+        padding-left: 56px;
+        min-height: 30px;
+        font-weight: 400;
+        text-align: left;
+
+        i {
+            position: absolute;
+            left: 0;
+            top: 8px;
+            font-size: 38px;
+        }
+
+        .content {
+            font-size: 30px;
+            line-height: 1;
+        }
+    }
+
+    .call-to-action-right {
+        overflow: hidden;
+        min-height: 55px;
+        text-align: right;
+    }
+
+    .call-to-action-content {
+        position: relative;
+        padding-left: 75px;
+        min-height: 55px;
+        color: #fff;
+        overflow: hidden;
+        font-weight: 400;
+
+        i {
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 55px;
+        }
+
+        .content {
+            padding-top: 14px;
+            font-size: 30px;
+            line-height: 1;
+        }
+    }
+}
+
+.stm-template-car_rental, .stm-template-car_dealer_two {
+    .stm-call-to-action {
+        padding: 40px 46px 35px 28px;
+        .call-to-action-content {
+            padding-left: 0;
+            .content {
+                font-size: 24px;
+                text-transform: uppercase;
+                font-weight: 700;
+                span {
+                    color: #273f44;
+                }
+            }
+        }
+        .call-to-action-right {
+            .call-to-action-meta {
+                .content {
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: #273f44;
+                    i {
+                        left: 11px;
+                        top: 8px;
+                        font-size: 33px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .stm-button-rental {
+            float: right;
+            position: relative;
+            margin-left: 50px;
+            padding: 15px 21px 15px 47px;
+            border: 2px solid #fff;
+            font-size: 14px;
+            font-weight: 700;
+            box-shadow: none !important;
+            background: transparent !important;
+            color: #273f44 !important;
+            @include transition(all .3s ease);
+            i {
+                position: absolute;
+                left: 17px;
+                top: 13px;
+                color: #273f44;
+                font-size: 18px;
+            }
+            &:hover {
+                background-color: #fff !important;
+            }
+        }
+    }
+}
+
+.stm-template-car_dealer_two {
+    .stm-call-to-action {
+        padding: 40px 0 35px 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .stm-template-car_rental .stm-call-to-action {
+        .call-to-action-content {
+            margin-top: 0;
+        }
+        .call-to-action-right {
+            overflow: visible;
+            .stm-button-rental {
+                float: none;
+                margin-left: 0;
+            }
+            .call-to-action-meta {
+                padding: 10px 0 0;
+                display: block;
+                width: auto;
+                margin: 0 auto;
+                text-align: center;
+                .content {
+                    padding-top: 10px;
+                    i {
+                        position: relative;
+                        top: 5px;
+                        left: -10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .stm-call-to-action {
+        padding: 20px 10px 20px 10px;
+        text-align: center;
+
+        .call-to-action-right {
+            text-align: center;
+
+            .call-to-action-meta {
+                margin-left: 0;
+                display: inline-block;
+            }
+        }
+
+        .pull-left {
+            text-align: center;
+            float: none !important;
+        }
+
+        .call-to-action-content {
+            margin-top: 15px;
+            display: inline-block;
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .stm-call-to-action {
+        .call-to-action-content {
+            margin-top: 0;
+            margin-bottom: 10px;
+            padding-left: 0 !important;
+
+            .content {
+                line-height: 1.2;
+                font-size: 25px;
+            }
+
+            i {
+                display: none;
+            }
+        }
+    }
+}

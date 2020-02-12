@@ -1,0 +1,98 @@
+.stm_cars_on_top{
+  h2{
+    margin-bottom: 34px;
+  }
+
+  .car-listing-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .stm-directory-grid-loop {
+      &:nth-child(1) {
+        margin-top: 0;
+      }
+      &:nth-child(2) {
+        margin-top: 0;
+      }
+      &:nth-child(3) {
+        margin-top: 0;
+      }
+      &:nth-child(4) {
+        margin-top: 0;
+      }
+
+      margin-bottom: 14px;
+      margin-top: 13px;
+
+      .listing-car-item-meta {
+        padding-top: 15px;
+
+        .car-meta-top {
+          padding-bottom: 3px;
+        }
+
+        .car-meta-bottom {
+          padding-bottom: 22px;
+        }
+      }
+    }
+  }
+
+  .btn-wrap {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    a.button {
+      display: inline-block;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .car-listing-row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .car-listing-row {
+      display: block;
+
+      .stm-directory-grid-loop:nth-child(4) {
+        margin-top: 13px !important;
+      }
+    }
+  }
+
+  @media (min-width: 600px) and (max-width: 736px) {
+    .car-listing-row {
+      .col-md-4{
+        width: 50%;
+
+        a {
+          .image{
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .car-listing-row {
+      a {
+        .image{
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+

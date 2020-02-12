@@ -1,0 +1,115 @@
+.stm_dynamic_listing_filter_with_rating{
+    .top-filter-wrap{
+        padding: 74px 0 32px;
+
+        .container {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 0 10px;
+            position: relative;
+            margin-bottom: 34px;
+
+            &:before {
+                content: '';
+                display: block;
+                width: 70px;
+                height: 3px;
+                position: absolute;
+                bottom: -3px;
+                left: 0;
+                z-index: 1;
+            }
+
+            h3{
+                display: block;
+                width: 70%;
+                text-align: left;
+                font-size: 28px !important;
+                text-transform: uppercase;
+            }
+
+            .sort_by {
+                display: flex;
+                justify-content: flex-end;
+                width: 30%;
+                padding: 0;
+                margin: 0;
+                list-style: none;
+
+                li {
+                    margin: 0 0 0 20px;
+                    padding: 0;
+
+                    span {
+                        display: block;
+                        position: relative;
+                        padding-left: 20px;
+                        font-size: 14px;
+                        font-weight: 500;
+
+
+                        &.high {
+                            &:before{
+                                content: '\f062';
+                            }
+                        }
+
+                        &.low {
+                            &:before{
+                                content: '\f063';
+                            }
+                        }
+
+                        &:before{
+                            display: block;
+                            font-family: 'FontAwesome';
+                            font-size: 14px;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .selected-filter {
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .middle{
+            margin-top: 10px;
+
+            .filter {
+                .stm-filter-tab-selects {
+                    .row {
+                        &:before, &:after {
+                            display: block !important;
+                        }
+
+                        .col-md-3 {
+                            &:nth-child(1), &:nth-child(2){
+                                width: 31%;
+                            }
+
+                            &:nth-child(3), &:nth-child(4){
+                                width: 19%;
+                            }
+                        }
+                    }
+
+                    .select2-container--default {
+                        .select2-selection--single {
+                            background-color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

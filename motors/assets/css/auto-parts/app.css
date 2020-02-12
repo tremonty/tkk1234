@@ -1,0 +1,5536 @@
+.stm-orange {
+    color: #ffb129;
+}
+
+.stm-template-auto_parts {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+  /*DEFAULT STYLES*/
+  /* Text meant only for screen readers. */
+  /* 1.2 Form controls, form groups */
+  /* 1.3 Layout styles */
+  /* 1.3.2 Footer */
+  /* 1.4 Typography styles */
+  /*DEFAULT STYLES*/
+  /*WC*/
+  /*WC*/
+}
+
+.stm-template-auto_parts.stm-preloader:before {
+    position: absolute;
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #191d21;
+    opacity: 1;
+    visibility: visible;
+    z-index: 9999999999;
+}
+
+.stm-template-auto_parts.stm-preloader:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 64px;
+    height: 64px;
+    margin: -32px 0 0 -32px;
+    background: url("../../images/tmp/preloader.png") 0 0 no-repeat;
+    animation: rotating 1s infinite linear;
+    z-index: 9999999999;
+}
+
+.stm-template-auto_parts .alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.stm-template-auto_parts .aligncenter,
+  .stm-template-auto_parts div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.stm-template-auto_parts .alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.stm-template-auto_parts .alignleft {
+    float: left;
+    margin: 5px 20px 10px 0;
+}
+
+.stm-template-auto_parts a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+.stm-template-auto_parts a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.stm-template-auto_parts a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.stm-template-auto_parts a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stm-template-auto_parts .wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%;
+    /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.stm-template-auto_parts .wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.stm-template-auto_parts .wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.stm-template-auto_parts .wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.stm-template-auto_parts .wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.stm-template-auto_parts .wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 5px 4px 5px;
+}
+
+.stm-template-auto_parts .screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.stm-template-auto_parts .screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+    /* Above WP toolbar. */
+}
+
+.stm-template-auto_parts .gallery-caption {
+    color: #707070;
+    color: rgba(51, 51, 51, 0.7);
+    display: block;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
+.stm-template-auto_parts .bypostauthor > article .fn:after {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-family: "Genericons";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    speak: none;
+    text-align: center;
+    text-decoration: inherit;
+    text-transform: none;
+    vertical-align: top;
+}
+
+.stm-template-auto_parts .wp-caption-text {
+    margin-top: 10px;
+}
+
+.stm-template-auto_parts .gallery {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.stm-template-auto_parts .gallery .gallery-item {
+    display: inline-block;
+    padding: 1.79104477%;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    margin: 0;
+}
+
+.stm-template-auto_parts .gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.stm-template-auto_parts .gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+
+.stm-template-auto_parts .gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.stm-template-auto_parts .gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.stm-template-auto_parts .gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+
+.stm-template-auto_parts .gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+
+.stm-template-auto_parts .gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.stm-template-auto_parts .gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+
+.stm-template-auto_parts .gallery-icon img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.stm-template-auto_parts .gallery-caption {
+    color: #707070;
+    color: rgba(51, 51, 51, 0.7);
+    display: block;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
+.stm-template-auto_parts .gallery-columns-6 .gallery-caption,
+  .stm-template-auto_parts .gallery-columns-7 .gallery-caption,
+  .stm-template-auto_parts .gallery-columns-8 .gallery-caption,
+  .stm-template-auto_parts .gallery-columns-9 .gallery-caption {
+    display: none;
+}
+
+.stm-template-auto_parts .bypostauthor {
+    text-decoration: none;
+}
+
+.stm-template-auto_parts input[type="text"],
+  .stm-template-auto_parts input[type="number"],
+  .stm-template-auto_parts input[type="tel"],
+  .stm-template-auto_parts input[type="email"],
+  .stm-template-auto_parts input[type="search"],
+  .stm-template-auto_parts input[type="password"] {
+    display: block;
+    width: 100%;
+    height: 47px;
+    line-height: 47px;
+    padding: 0 21px;
+    font-weight: 400;
+    color: #888888;
+    border: 2px solid #eceff3;
+    font-size: 14px;
+    outline: none !important;
+    background-color: #eceff3;
+}
+
+.stm-template-auto_parts input[type="text"].form-error,
+  .stm-template-auto_parts input[type="number"].form-error,
+  .stm-template-auto_parts input[type="tel"].form-error,
+  .stm-template-auto_parts input[type="email"].form-error,
+  .stm-template-auto_parts input[type="search"].form-error,
+  .stm-template-auto_parts input[type="password"].form-error {
+    border-color: #ff2325;
+}
+
+.stm-template-auto_parts input[type="text"]:focus,
+  .stm-template-auto_parts input[type="number"]:focus,
+  .stm-template-auto_parts input[type="tel"]:focus,
+  .stm-template-auto_parts input[type="email"]:focus,
+  .stm-template-auto_parts input[type="search"]:focus,
+  .stm-template-auto_parts input[type="password"]:focus {
+    background-color: #fff;
+    border-color: #6c98e1;
+    color: #232628;
+}
+
+.stm-template-auto_parts .stm-row-comments input[type="text"],
+  .stm-template-auto_parts .stm-row-comments input[type="tel"],
+  .stm-template-auto_parts .stm-row-comments input[type="email"],
+  .stm-template-auto_parts .stm-row-comments input[type="search"],
+  .stm-template-auto_parts .stm-row-comments input[type="password"] {
+    height: 44px;
+    line-height: 44px;
+}
+
+.stm-template-auto_parts .stm-forms-sm {
+    margin-bottom: 11px;
+}
+
+.stm-template-auto_parts .stm-forms-sm input[type="text"],
+  .stm-template-auto_parts .stm-forms-sm input[type="tel"],
+  .stm-template-auto_parts .stm-forms-sm input[type="email"],
+  .stm-template-auto_parts .stm-forms-sm input[type="search"],
+  .stm-template-auto_parts .stm-forms-sm input[type="password"] {
+    height: 37px;
+    line-height: 37px;
+}
+
+.stm-template-auto_parts .stm-mc-unit input[type="text"],
+  .stm-template-auto_parts .stm-mc-unit input[type="tel"],
+  .stm-template-auto_parts .stm-mc-unit input[type="email"],
+  .stm-template-auto_parts .stm-mc-unit input[type="search"],
+  .stm-template-auto_parts .stm-mc-unit input[type="password"] {
+    display: block;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    border: none;
+    padding: 0 17px;
+    font-weight: 400;
+    color: #aaa;
+    font-size: 13px;
+    outline: none !important;
+    background-color: #fff;
+}
+
+.stm-template-auto_parts textarea {
+    padding: 21px;
+    width: 100%;
+    max-width: 100%;
+    background-color: #eceff3;
+    border: 2px solid #eceff3;
+    color: #888;
+    resize: none;
+}
+
+.stm-template-auto_parts textarea:focus {
+    background-color: #fff;
+    border-color: #6c98e1;
+    color: #232628;
+}
+
+.stm-template-auto_parts .form-label {
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    color: #888;
+    font-size: 12px;
+}
+
+.stm-template-auto_parts .form-label-small {
+    margin-bottom: 3px;
+    color: #888;
+    font-size: 13px;
+}
+
+.stm-template-auto_parts .form-modal-label {
+    margin-bottom: 3px;
+    font-size: 13px;
+    color: #888;
+}
+
+.stm-template-auto_parts .form-group {
+    margin-bottom: 19px;
+}
+
+.stm-template-auto_parts .form-group-textarea {
+    margin-bottom: 16px;
+}
+
+.stm-template-auto_parts .wpcf7-not-valid {
+    border-color: #ff2325 !important;
+}
+
+.stm-template-auto_parts .has-error input[type="text"],
+  .stm-template-auto_parts .has-error input[type="tel"],
+  .stm-template-auto_parts .has-error input[type="email"],
+  .stm-template-auto_parts .has-error input[type="search"],
+  .stm-template-auto_parts .has-error input[type="password"] {
+    border-color: #ff2325;
+}
+
+.stm-template-auto_parts .modal-body input:not([type="submit"]) {
+    height: 37px;
+    line-height: 37px;
+}
+
+.stm-template-auto_parts .modal-body button {
+    display: inline-block;
+}
+
+.stm-template-auto_parts .stm-button {
+    background: #cc6119;
+    color: #191919;
+    transition: all .2s ease;
+    opacity: 1;
+}
+
+.stm-template-auto_parts .stm-button i {
+    font-size: 10px;
+    margin-right: 5px;
+}
+
+.stm-template-auto_parts .stm-button:hover {
+    opacity: 0.8;
+}
+
+.stm-template-auto_parts .form-error {
+    border-color: #ff2325;
+}
+
+.stm-template-auto_parts .stm-form-alert {
+    margin-top: 6px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #888;
+}
+
+.stm-template-auto_parts .form-hr {
+    margin: 0 0 29px;
+    background-color: #dddddd;
+}
+
+.stm-template-auto_parts .comment-form-comment textarea {
+    height: 172px;
+}
+
+.stm-template-auto_parts input[type=checkbox], .stm-template-auto_parts input[type=radio] {
+    margin: 0;
+    position: relative;
+    top: -1px;
+    vertical-align: middle;
+}
+
+.stm-template-auto_parts span.wpcf7-list-item {
+    margin-left: 0 !important;
+}
+
+.stm-template-auto_parts .wpcf7-list-item-label {
+    color: #888 !important;
+    font-size: 13px;
+}
+
+.stm-template-auto_parts textarea,
+  .stm-template-auto_parts input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.stm-template-auto_parts input[type="radio"] {
+    -webkit-appearance: radio;
+    -moz-appearance: radio;
+    appearance: radio;
+}
+
+.stm-template-auto_parts .stm-label-type-2 {
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+.stm-template-auto_parts html {
+    overflow-y: scroll;
+    font-size: 100%;
+}
+
+.stm-template-auto_parts body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+
+.stm-template-auto_parts .container {
+    width: auto;
+    max-width: 1140px;
+}
+
+.stm-template-auto_parts #wrapper {
+    overflow: hidden;
+}
+
+.stm-template-auto_parts .stm-col-pad-left {
+    padding-left: 25px !important;
+}
+
+.stm-template-auto_parts .stm-col-pad-right {
+    padding-right: 25px !important;
+}
+
+.stm-template-auto_parts .modal-open #wrapper {
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+}
+
+.stm-template-auto_parts .row-4 .col-md-3:nth-child(4n+1) {
+    clear: both;
+}
+
+.stm-template-auto_parts .row-3 .col-md-4:nth-child(3n+1) {
+    clear: both;
+}
+
+.stm-template-auto_parts .row-2 .col-md-6:nth-child(2n+1) {
+    clear: both;
+}
+
+.stm-template-auto_parts .post-type-archive-service #wrapper {
+    margin-bottom: 30px;
+}
+
+.stm-template-auto_parts .wpcf7-response-output {
+    margin: 10px 0 0 !important;
+    padding: 15px !important;
+    border: 2px solid #6c98e1 !important;
+    color: #6c98e1 !important;
+    border-radius: 5px;
+}
+
+.stm-template-auto_parts .wpcf7-response-output.wpcf7-validation-errors {
+    border-color: #ff2325 !important;
+    color: #ff2325 !important;
+}
+
+.stm-template-auto_parts .wpcf7-response-output.wpcf7-mail-sent-ok {
+    border-color: #32cd32 !important;
+    color: #32cd32 !important;
+}
+
+.stm-template-auto_parts .wpcf7-not-valid-tip {
+    display: none !important;
+}
+
+.stm-template-auto_parts #footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.stm-template-auto_parts #footer .panel {
+    margin-bottom: 0;
+}
+
+.stm-template-auto_parts #footer .panel .panel-footer {
+    border-top: 0;
+}
+
+.stm-template-auto_parts #footer #footer_top {
+    padding: 15px 0;
+}
+
+.stm-template-auto_parts #footer #footer_top .widget_title h3 {
+    color: #fff;
+}
+
+.stm-template-auto_parts .less_4 aside .widget-wrapper {
+    border-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.stm-template-auto_parts .more_8 aside .widget-wrapper {
+    border-bottom: 0 !important;
+    padding-bottom: 30px !important;
+}
+
+.stm-template-auto_parts .cols_4 aside:nth-child(5) .widget-wrapper,
+  .stm-template-auto_parts .cols_4 aside:nth-child(6) .widget-wrapper,
+  .stm-template-auto_parts .cols_4 aside:nth-child(7) .widget-wrapper,
+  .stm-template-auto_parts .cols_4 aside:nth-child(8) .widget-wrapper {
+    padding-top: 39px;
+    margin-top: 24px;
+    border-top: 1px solid #444444;
+}
+
+.stm-template-auto_parts .cols_3 aside:nth-child(1) .widget-wrapper,
+  .stm-template-auto_parts .cols_3 aside:nth-child(2) .widget-wrapper,
+  .stm-template-auto_parts .cols_3 aside:nth-child(3) .widget-wrapper {
+    padding-bottom: 39px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #444444;
+}
+
+.stm-template-auto_parts .cols_1 {
+    margin: 0 -15px;
+}
+
+.stm-template-auto_parts .cols_1 aside {
+    float: left;
+    padding: 0 15px 0;
+    width: 100%;
+}
+
+.stm-template-auto_parts .cols_1 aside:nth-child(1n+1) {
+    clear: both;
+}
+
+.stm-template-auto_parts .cols_2 {
+    margin: 0 -15px;
+}
+
+.stm-template-auto_parts .cols_2 aside {
+    float: left;
+    padding: 0 15px 0;
+    width: 50%;
+}
+
+.stm-template-auto_parts .cols_2 aside:nth-child(2n+1) {
+    clear: both;
+}
+
+.stm-template-auto_parts .cols_3 {
+    margin: 0 -15px;
+}
+
+.stm-template-auto_parts .cols_3 aside {
+    float: left;
+    padding: 0 15px 0;
+    width: 33.33333%;
+}
+
+.stm-template-auto_parts .cols_3 aside:nth-child(3n+1) {
+    clear: both;
+}
+
+.stm-template-auto_parts .cols_4 {
+    margin: 0 -15px;
+}
+
+.stm-template-auto_parts .cols_4 aside {
+    float: left;
+    padding: 0 15px 0;
+    width: 25%;
+}
+
+.stm-template-auto_parts .cols_4 aside:nth-child(4n+1) {
+    clear: both;
+}
+
+.stm-template-auto_parts aside.widget-default ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stm-template-auto_parts aside.widget-default ul li a {
+    margin-bottom: 26px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #888;
+}
+
+.stm-template-auto_parts #footer-copyright {
+    padding: 20px 0 19px;
+}
+
+.stm-template-auto_parts #footer-copyright .footer-copyright {
+    position: relative;
+}
+
+.stm-template-auto_parts #footer-copyright .footer-copyright:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: -20px;
+    left: 15px;
+    right: 15px;
+    height: 1px;
+    background-color: #444;
+}
+
+.stm-template-auto_parts #footer-copyright .copyright-text {
+    font-size: 13px;
+    color: #888;
+}
+
+.stm-template-auto_parts #footer-copyright .copyright-text a {
+    color: #6c98e1;
+}
+
+.stm-template-auto_parts #footer-copyright .copyright-text .divider {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    background-color: #888;
+    margin: 0 10px;
+    height: 13px;
+    width: 1px;
+}
+
+.stm-template-auto_parts .copyright-socials ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 7px;
+}
+
+.stm-template-auto_parts .copyright-socials ul:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.stm-template-auto_parts .copyright-socials ul li {
+    float: left;
+    margin-left: 37px;
+}
+
+.stm-template-auto_parts .copyright-socials ul li:first-child {
+    margin-left: 0;
+}
+
+.stm-template-auto_parts .copyright-socials ul li a {
+    color: #6c98e1;
+}
+
+.stm-template-auto_parts #footer-copyright,
+  .stm-template-auto_parts #footer-main {
+    background-color: #232628;
+}
+
+.stm-template-auto_parts h1, .stm-template-auto_parts .h1, .stm-template-auto_parts h2, .stm-template-auto_parts .h2, .stm-template-auto_parts h3, .stm-template-auto_parts .h3, .stm-template-auto_parts h4, .stm-template-auto_parts .h4, .stm-template-auto_parts h5, .stm-template-auto_parts .h5, .stm-template-auto_parts h6, .stm-template-auto_parts .h6, .stm-template-auto_parts .heading-font,
+  .stm-template-auto_parts .button, .stm-template-auto_parts .load-more-btn, .stm-template-auto_parts .vc_tta-panel-title, .stm-template-auto_parts .page-numbers li > a, .stm-template-auto_parts .page-numbers li > span,
+  .stm-template-auto_parts .vc_tta-tabs .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a span,
+  .stm-template-auto_parts .stm_auto_loan_calculator input, .stm-template-auto_parts .post-content blockquote, .stm-template-auto_parts .contact-us-label,
+  .stm-template-auto_parts .wpb_tour_tabs_wrapper.ui-tabs ul.wpb_tabs_nav > li > a,
+  .stm-template-auto_parts .stm-shop-sidebar-area .widget.widget_product_categories > ul,
+  .stm-template-auto_parts #main .stm-shop-sidebar-area .widget .product_list_widget li .product-title,
+  .stm-template-auto_parts #main .stm-shop-sidebar-area .widget .product_list_widget li a,
+  .stm-template-auto_parts .woocommerce ul.products li.product .onsale,
+  .stm-template-auto_parts .woocommerce div.product p.price, .stm-template-auto_parts .woocommerce div.product span.price,
+  .stm-template-auto_parts .woocommerce div.product .woocommerce-tabs ul.tabs li a,
+  .stm-template-auto_parts .woocommerce table.shop_attributes td,
+  .stm-template-auto_parts .woocommerce table.shop_table td.product-name a,
+  .stm-template-auto_parts .woocommerce-cart table.cart td.product-price,
+  .stm-template-auto_parts .woocommerce-cart table.cart td.product-subtotal,
+  .stm-template-auto_parts .header-listing .listing-menu li a {
+    color: #232628;
+}
+
+.stm-template-auto_parts h1, .stm-template-auto_parts .h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.stm-template-auto_parts h2, .stm-template-auto_parts .h2 {
+    margin: 0;
+    margin-bottom: 14px;
+    line-height: 1.2;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.stm-template-auto_parts h3, .stm-template-auto_parts .h3 {
+    margin: 0;
+    margin-bottom: 15px;
+    line-height: 1.2;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.stm-template-auto_parts h4, .stm-template-auto_parts .h4 {
+    margin: 0;
+    margin-bottom: 11px;
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.stm-template-auto_parts h5, .stm-template-auto_parts .h5 {
+    margin: 0;
+    margin-bottom: 7px;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.stm-template-auto_parts h6, .stm-template-auto_parts .h6 {
+    margin: 0;
+    margin-bottom: 8px;
+    line-height: 1.2;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.stm-template-auto_parts body.stm-macintosh h1, .stm-template-auto_parts body.stm-macintosh .h1, .stm-template-auto_parts body.stm-macintosh h2, .stm-template-auto_parts body.stm-macintosh .h2, .stm-template-auto_parts body.stm-macintosh h3, .stm-template-auto_parts body.stm-macintosh .h3, .stm-template-auto_parts body.stm-macintosh h4, .stm-template-auto_parts body.stm-macintosh .h4, .stm-template-auto_parts body.stm-macintosh h5, .stm-template-auto_parts body.stm-macintosh .h5, .stm-template-auto_parts body.stm-macintosh h6, .stm-template-auto_parts body.stm-macintosh .h6, .stm-template-auto_parts body.stm-macintosh .heading-font {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.stm-template-auto_parts ul {
+    padding-left: 20px;
+}
+
+.stm-template-auto_parts ul li {
+    margin-bottom: 8px;
+}
+
+.stm-template-auto_parts ol {
+    padding-left: 20px;
+}
+
+.stm-template-auto_parts ol li {
+    margin-bottom: 8px;
+}
+
+.stm-template-auto_parts ul ol, .stm-template-auto_parts ol ol, .stm-template-auto_parts ol ul, .stm-template-auto_parts ul ul {
+    margin-top: 8px;
+}
+
+.stm-template-auto_parts img {
+    max-width: 100%;
+    height: auto;
+}
+
+.stm-template-auto_parts a {
+    color: #191919;
+}
+
+.stm-template-auto_parts a:hover {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts a:focus {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts a:active {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts blockquote {
+    margin: 22px 0;
+    padding: 2px 32px;
+    border-left-width: 4px;
+    border-left-color: #cc6119;
+    font-size: 14px;
+    line-height: 22px;
+    color: #888888;
+    font-style: italic;
+}
+
+.stm-template-auto_parts label {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.stm-template-auto_parts p {
+    margin: 0 0 14px;
+}
+
+.stm-template-auto_parts table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.stm-template-auto_parts table > thead tr th {
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.stm-template-auto_parts table > tbody tr td {
+    padding: 9px 0 8px;
+    font-size: 12px;
+    color: #888888;
+    border-bottom: 1px solid #d5d9e0;
+}
+
+.stm-template-auto_parts .select2-dropdown.select2-dropdown--below {
+    border-color: #f5f7f7;
+    outline: none;
+}
+
+.stm-template-auto_parts a {
+    text-decoration: none;
+}
+
+.stm-template-auto_parts .rev-btn {
+    width: 100%;
+    max-width: 150px;
+    background: #cc6119 !important;
+    height: 40px;
+    line-height: 20px !important;
+    border-radius: 3px;
+}
+
+.stm-template-auto_parts .woocommerce, .stm-template-auto_parts.woocommerce {
+    overflow: visible;
+}
+
+.stm-template-auto_parts .woocommerce .products ul, .stm-template-auto_parts.woocommerce .products ul {
+    margin: 0 -15px;
+    padding: 0;
+    list-style: none;
+    clear: both;
+}
+
+.stm-template-auto_parts .woocommerce .products ul:before, .stm-template-auto_parts .woocommerce .products ul:after, .stm-template-auto_parts.woocommerce .products ul:before, .stm-template-auto_parts.woocommerce .products ul:after {
+    content: " ";
+    display: table;
+}
+
+.stm-template-auto_parts .woocommerce .products ul li, .stm-template-auto_parts.woocommerce .products ul li {
+    position: relative;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.stm-template-auto_parts .woocommerce .products ul li .stm-product-inner, .stm-template-auto_parts.woocommerce .products ul li .stm-product-inner {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 49px;
+}
+
+.stm-template-auto_parts .woocommerce .products ul li .stm-product-inner .product_thumbnail, .stm-template-auto_parts.woocommerce .products ul li .stm-product-inner .product_thumbnail {
+    overflow: hidden;
+    position: relative;
+}
+
+.stm-template-auto_parts .woocommerce .products ul li .stm-product-inner h6 a:hover, .stm-template-auto_parts.woocommerce .products ul li .stm-product-inner h6 a:hover {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts .woocommerce ul.products, .stm-template-auto_parts.woocommerce ul.products {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    clear: both;
+    overflow: visible;
+}
+
+.stm-template-auto_parts .woocommerce ul.products:before, .stm-template-auto_parts .woocommerce ul.products:after, .stm-template-auto_parts.woocommerce ul.products:before, .stm-template-auto_parts.woocommerce ul.products:after {
+    content: " ";
+    display: table;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li, .stm-template-auto_parts.woocommerce ul.products li {
+    display: block;
+    position: relative;
+    margin-bottom: 0;
+    list-style: none;
+    border-right: 1px dashed #cccccc;
+    border-bottom: 1px dashed #cccccc;
+    padding: 0;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li:before, .stm-template-auto_parts.woocommerce ul.products li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    background: #ffffff;
+    box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.6);
+    z-index: 0;
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li:hover:before, .stm-template-auto_parts.woocommerce ul.products li:hover:before {
+    opacity: 1;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.col-md-3, .stm-template-auto_parts.woocommerce ul.products li.col-md-3 {
+    width: 24.9%;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.col-md-3:nth-child(4n), .stm-template-auto_parts.woocommerce ul.products li.col-md-3:nth-child(4n) {
+    border-right: 0;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.col-md-3:nth-last-child(1), .stm-template-auto_parts .woocommerce ul.products li.col-md-3:nth-last-child(2), .stm-template-auto_parts .woocommerce ul.products li.col-md-3:nth-last-child(3), .stm-template-auto_parts .woocommerce ul.products li.col-md-3:nth-last-child(4), .stm-template-auto_parts.woocommerce ul.products li.col-md-3:nth-last-child(1), .stm-template-auto_parts.woocommerce ul.products li.col-md-3:nth-last-child(2), .stm-template-auto_parts.woocommerce ul.products li.col-md-3:nth-last-child(3), .stm-template-auto_parts.woocommerce ul.products li.col-md-3:nth-last-child(4) {
+    border-bottom: 0;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.col-md-4, .stm-template-auto_parts.woocommerce ul.products li.col-md-4 {
+    width: 33.3%;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.col-md-4:nth-child(3n), .stm-template-auto_parts.woocommerce ul.products li.col-md-4:nth-child(3n) {
+    border-right: 0;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.col-md-4:nth-last-child(1), .stm-template-auto_parts .woocommerce ul.products li.col-md-4:nth-last-child(2), .stm-template-auto_parts .woocommerce ul.products li.col-md-4:nth-last-child(3), .stm-template-auto_parts.woocommerce ul.products li.col-md-4:nth-last-child(1), .stm-template-auto_parts.woocommerce ul.products li.col-md-4:nth-last-child(2), .stm-template-auto_parts.woocommerce ul.products li.col-md-4:nth-last-child(3) {
+    border-bottom: 0;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li .stm-product-inner, .stm-template-auto_parts.woocommerce ul.products li .stm-product-inner {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li .stm-product-inner .product_thumbnail, .stm-template-auto_parts.woocommerce ul.products li .stm-product-inner .product_thumbnail {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding: 0 30px;
+    height: 279px;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li .stm-product-inner .product_thumbnail .onsale, .stm-template-auto_parts.woocommerce ul.products li .stm-product-inner .product_thumbnail .onsale {
+    display: none;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li .stm-product-inner .product_thumbnail > img, .stm-template-auto_parts.woocommerce ul.products li .stm-product-inner .product_thumbnail > img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    position: relative;
+    height: auto;
+    max-height: 210px;
+    margin: 0 auto;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li .stm-product-inner h6 a:hover, .stm-template-auto_parts.woocommerce ul.products li .stm-product-inner h6 a:hover {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product:hover .add_to_cart_button, .stm-template-auto_parts.woocommerce ul.products li.product:hover .add_to_cart_button {
+    opacity: 1;
+    visibility: visible;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product:hover .wc-forward, .stm-template-auto_parts.woocommerce ul.products li.product:hover .wc-forward {
+    opacity: 1;
+    visibility: visible;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product h5, .stm-template-auto_parts.woocommerce ul.products li.product h5 {
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin: 0 0 10px;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product h5 a, .stm-template-auto_parts.woocommerce ul.products li.product h5 a {
+    color: #191919;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product h5 a:hover, .stm-template-auto_parts.woocommerce ul.products li.product h5 a:hover {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product h6, .stm-template-auto_parts.woocommerce ul.products li.product h6 {
+    padding: 0 30px;
+    margin: 0 0 11px;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product h6 a, .stm-template-auto_parts.woocommerce ul.products li.product h6 a {
+    color: #153e4d;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .stm-info-button-wrap, .stm-template-auto_parts.woocommerce ul.products li.product .stm-info-button-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .stm-info-button-wrap .added, .stm-template-auto_parts.woocommerce ul.products li.product .stm-info-button-wrap .added {
+    display: none !important;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .product_info, .stm-template-auto_parts.woocommerce ul.products li.product .product_info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    min-width: 80px;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .add_to_cart_button, .stm-template-auto_parts.woocommerce ul.products li.product .add_to_cart_button {
+    display: block;
+    position: relative;
+    width: 51px;
+    height: 51px;
+    border: 2px solid #cc6119;
+    border-radius: 3px;
+    overflow: hidden;
+    color: transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .add_to_cart_button:before, .stm-template-auto_parts.woocommerce ul.products li.product .add_to_cart_button:before {
+    content: '\e900';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'stm-ap-icon';
+    font-size: 20px;
+    color: #191919;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .add_to_cart_button:hover:before, .stm-template-auto_parts.woocommerce ul.products li.product .add_to_cart_button:hover:before {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .wc-forward, .stm-template-auto_parts.woocommerce ul.products li.product .wc-forward {
+    border: 2px solid #cc6119;
+    padding: 5px 4px;
+    color: #191919;
+    margin: auto 0 8px 4px;
+    border-radius: 3px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .wc-forward:hover, .stm-template-auto_parts.woocommerce ul.products li.product .wc-forward:hover {
+    background: #cc6119;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product a, .stm-template-auto_parts.woocommerce ul.products li.product a {
+    text-decoration: none;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product a img, .stm-template-auto_parts.woocommerce ul.products li.product a img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 0 1em;
+    box-shadow: none;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product strong, .stm-template-auto_parts.woocommerce ul.products li.product strong {
+    display: block;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .star-rating, .stm-template-auto_parts.woocommerce ul.products li.product .star-rating {
+    margin-top: 4px;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    width: 100%;
+    color: #000;
+    margin-bottom: 7px;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .star-rating:before, .stm-template-auto_parts.woocommerce ul.products li.product .star-rating:before {
+    font-family: 'stm-ap-icon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+            /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e90e\e90e\e90e\e90e\e90e";
+    color: #cc6119;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .star-rating span, .stm-template-auto_parts.woocommerce ul.products li.product .star-rating span {
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .star-rating span:before, .stm-template-auto_parts.woocommerce ul.products li.product .star-rating span:before {
+    font-family: 'stm-ap-icon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+              /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e908\e908\e908\e908\e908";
+    top: 0;
+    position: absolute;
+    left: 0;
+    color: #cc6119;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .price, .stm-template-auto_parts.woocommerce ul.products li.product .price {
+    display: block;
+    font-weight: 500;
+    margin-top: 9px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .price del, .stm-template-auto_parts.woocommerce ul.products li.product .price del {
+    color: #999999;
+    opacity: .5;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .price > .amount, .stm-template-auto_parts .woocommerce ul.products li.product .price ins, .stm-template-auto_parts.woocommerce ul.products li.product .price > .amount, .stm-template-auto_parts.woocommerce ul.products li.product .price ins {
+    margin-left: 4px;
+    text-decoration: none;
+    background: 0 0;
+    font-weight: 500;
+    font-size: 20px;
+    color: #cc0033;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .price > .amount span, .stm-template-auto_parts .woocommerce ul.products li.product .price ins span, .stm-template-auto_parts.woocommerce ul.products li.product .price > .amount span, .stm-template-auto_parts.woocommerce ul.products li.product .price ins span {
+    color: #cc0033;
+}
+
+.stm-template-auto_parts .woocommerce ul.products li.product .price .from, .stm-template-auto_parts.woocommerce ul.products li.product .price .from {
+    font-size: .67em;
+    margin: -2px 0 0;
+    text-transform: uppercase;
+    color: rgba(132, 132, 132, 0.5);
+}
+
+.stm-template-auto_parts .stm-wc-badges-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 20px 0 0 20px;
+}
+
+.stm-template-auto_parts .stm-wc-badges-wrap .badge-wrap {
+    display: block;
+    max-width: 50px;
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.stm-template-auto_parts .stm-wc-badges-wrap .badge-wrap:last-child {
+    margin-right: 0;
+}
+
+.stm-template-auto_parts .stm-wc-badges-wrap .badge-wrap img {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.stm-template-auto_parts .woocommerce-notices-wrapper {
+    padding: 0 15px;
+}
+
+.stm-template-auto_parts ul#shipping_method {
+    padding: 0 !important;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+.stm-template-auto_parts ul#shipping_method li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm-template-auto_parts ul#shipping_method li .radio {
+    margin-top: 0;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.stm-template-auto_parts .woocommerce-info {
+    border: 3px solid #6c98e1;
+    padding: 23px 30px;
+    margin-bottom: 20px;
+}
+
+.stm-template-auto_parts .woocommerce-info i {
+    color: #6c98e1;
+    font-size: 22px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.stm-template-auto_parts .woocommerce-info a {
+    color: #6c98e1;
+    border-bottom: 1px dashed #6c98e1;
+    margin-right: 5px;
+}
+
+.stm-template-auto_parts .woocommerce-message {
+    display: block;
+    width: 100%;
+    border: 3px solid #6c98e1;
+    padding: 23px 30px;
+    margin-bottom: 20px;
+}
+
+.stm-template-auto_parts .woocommerce-message i {
+    color: #6c98e1;
+    font-size: 22px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.stm-template-auto_parts .woocommerce-message a {
+    color: #6c98e1;
+    border-bottom: 1px dashed #6c98e1;
+    margin-right: 5px;
+}
+
+.stm-template-auto_parts .woocommerce-error {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stm-template-auto_parts .woocommerce-error li {
+    border: 3px solid #ff0000;
+    padding: 23px 30px;
+    margin-bottom: 20px;
+}
+
+.stm-template-auto_parts .woocommerce-error li i {
+    color: #ff0000;
+    font-size: 22px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.stm-template-auto_parts .woocommerce-error a {
+    color: #6c98e1;
+    border-bottom: 1px dashed #6c98e1;
+    margin-right: 5px;
+}
+
+.stm-template-auto_parts.woocommerce-page .woocommerce-breadcrumb {
+    margin-top: 2px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #777777;
+}
+
+.stm-template-auto_parts.woocommerce-page .woocommerce-breadcrumb i {
+    color: #6c98e1;
+    font-size: 10px;
+    margin: 0 10px;
+}
+
+.stm-template-auto_parts.woocommerce-page .woocommerce-breadcrumb a {
+    font-size: 13px;
+    color: #777777;
+}
+
+.stm-template-auto_parts.woocommerce-account #main .container .woocommerce > .container {
+    padding: 0;
+}
+
+.stm-template-auto_parts.woocommerce-account .entry-title h2 {
+    line-height: 1.2;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.stm-template-auto_parts.woocommerce-account #wrapper h2 {
+    margin-bottom: 20px;
+}
+
+.stm-template-auto_parts.woocommerce-account #wrapper h4 {
+    font-size: 30px;
+    margin-bottom: 26px;
+    line-height: 42px;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-top: 5px solid #191919;
+    padding: 40px 40px 25px 40px;
+    background: #f5f7f7;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-wide {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-wide:first-child {
+    margin-top: 0;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-wide input {
+    height: 50px;
+    border: 2px solid #ffffff;
+    background: #ffffff;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-wide input:active, .stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-wide input:hover, .stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-wide input:focus {
+    border-color: #cc6119;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-login {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 100%;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-login label[for='rememberme'] {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-login label[for='rememberme'] .checker span {
+    display: block;
+    width: 17px;
+    height: 17px;
+    background: #cc6119;
+    position: relative;
+    transition: all .2s ease;
+    margin-right: 9px;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-login label[for='rememberme'] .checker span:before {
+    content: '\f00c';
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 11px;
+    line-height: 10px;
+    margin-top: 1px;
+    margin-left: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-login label[for='rememberme'] .checker span.checked:before {
+    opacity: 1;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-login label[for='rememberme'] .checker input[type='checkbox'] {
+    display: none;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-login a {
+    font-size: 13px;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-btn-wrap {
+    display: block;
+    position: relative;
+    background: #cc6119;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-btn-wrap:after {
+    content: '\e90f';
+    display: block;
+    font-family: 'stm-ap-icon';
+    font-size: 15px;
+    font-weight: 300;
+    color: #191919;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-btn-wrap input[type='submit'] {
+    height: 50px;
+    line-height: 33px;
+    padding: 10px 60px 10px 40px;
+    color: #191919;
+    border: none;
+    text-transform: uppercase;
+    background: transparent;
+}
+
+.stm-template-auto_parts.woocommerce-account .register .stm-woo-form-wrap .form-row:last-child {
+    margin: 30px 0 14px auto;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-navigation ul li a {
+    padding: 10px 18px;
+    position: relative;
+    border-bottom: 3px solid #191919;
+    background: transparent;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-navigation ul li a:before {
+    display: none;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-navigation ul li.is-active a {
+    border-bottom-color: #cc6119;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in table {
+    background: #f5f7f7;
+    border-top: 10px solid #f5f7f7;
+    border-bottom: 10px solid #f5f7f7;
+    border-right: 30px solid #f5f7f7;
+    border-left: 30px solid #f5f7f7;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in table th, .stm-template-auto_parts.woocommerce-account.logged-in table td {
+    border-bottom: 1px solid #dddddd;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in a.edit {
+    display: inline-block;
+    background: #cc6119;
+    padding: 0 30px;
+    height: 40px;
+    line-height: 42px;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #191919 !important;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content form .woocommerce-address-fields {
+    width: 50%;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content form .woocommerce-address-fields .woocommerce-address-fields__field-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content form .woocommerce-address-fields .woocommerce-address-fields__field-wrapper .select2 {
+    border: 1px solid #aaaaaa;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content form .woocommerce-address-fields .form-row {
+    width: 48%;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content form .woocommerce-address-fields .form-row-wide {
+    width: 100%;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content form button {
+    width: 100%;
+    max-width: 150px;
+    background: #cc6119;
+    height: 44px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content .woocommerce-EditAccountForm {
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content .woocommerce-EditAccountForm .select2 {
+    border: 1px solid #aaaaaa;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content .woocommerce-EditAccountForm .form-row {
+    width: 48%;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content .woocommerce-EditAccountForm .form-row-wide {
+    width: 100%;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content .woocommerce-EditAccountForm fieldset {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content .woocommerce-EditAccountForm fieldset .form-row-wide {
+    width: 100%;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content .woocommerce-EditAccountForm > p:last-child {
+    margin-bottom: 0;
+}
+
+.stm-template-auto_parts.woocommerce-account.logged-in .woocommerce-MyAccount-content .woocommerce-EditAccountForm input[type='submit'] {
+    display: block;
+    padding: 0 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    background: #cc6119;
+    border: 0;
+    height: 46px;
+    text-transform: uppercase;
+}
+
+.stm-template-auto_parts.woocommerce-cart .stm-cart-title-box .container {
+    padding: 0;
+}
+
+.stm-template-auto_parts.woocommerce-cart .stm-cart-title-box h2 {
+    margin-bottom: 29px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .woocommerce-notices-wrapper {
+    display: block;
+    width: 100%;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .woocommerce-notices-wrapper .woocommerce-message {
+    display: block;
+    width: 100%;
+    border: 3px solid #6c98e1;
+    padding: 23px 30px;
+    margin-bottom: 20px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .woocommerce-notices-wrapper .woocommerce-message i {
+    color: #6c98e1;
+    font-size: 22px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .woocommerce-notices-wrapper ul {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .woocommerce-notices-wrapper ul li {
+    display: block;
+    width: 100%;
+    border: 3px solid #6c98e1;
+    padding: 23px 30px;
+    margin-bottom: 20px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .woocommerce-notices-wrapper ul li i {
+    color: #6c98e1;
+    font-size: 22px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .woocommerce-notices-wrapper ul.woocommerce-error li {
+    border-color: #ff0000;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .woocommerce-notices-wrapper ul.woocommerce-error li i {
+    color: #ff0000;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form {
+    display: block;
+    width: 75%;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr {
+    border: 0;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr th {
+    background: #191919;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 10px 20px 12px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr th:first-child {
+    padding-left: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr th.product-name {
+    width: 54%;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr th.product-price {
+    width: 18%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr th.product-quantity {
+    width: 12%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr th.product-subtotal {
+    padding: 10px 0;
+    width: 21%;
+    text-align: center;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr th.product-remove {
+    padding: 0;
+    width: 5%;
+    color: transparent;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td {
+    padding: 16px 0;
+    border-bottom-width: 1px !important;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name > a {
+    display: block;
+    width: 95px;
+    height: auto;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name > a img {
+    display: block;
+    width: auto;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name .product-name_text a {
+    font-size: 16px;
+    line-height: 16px !important;
+    color: #191919;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name .stm-categ-wrap {
+    line-height: 14px;
+    margin-bottom: 8px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name .stm-categ-wrap ul {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name .stm-categ-wrap ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name .stm-categ-wrap ul li a {
+    font-size: 13px;
+    line-height: 14px;
+    color: #777777;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name .rating-wrap .star-rating {
+    margin-top: 4px;
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    width: 100%;
+    color: #000;
+    margin-bottom: 7px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name .rating-wrap .star-rating:before {
+    font-family: 'stm-ap-icon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+                /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e90e\e90e\e90e\e90e\e90e";
+    color: #cc6119;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name .rating-wrap .star-rating span {
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name .rating-wrap .star-rating span:before {
+    font-family: 'stm-ap-icon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+                  /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\e908\e908\e908\e908\e908";
+    top: 0;
+    position: absolute;
+    left: 0;
+    color: #cc6119;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-price {
+    font-size: 18px;
+    color: #191919;
+    text-align: center;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-quantity {
+    text-align: center;
+    padding-left: 10px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-quantity input[type='number'] {
+    max-width: 85px;
+    border: 1px solid #777777;
+    background: transparent;
+    padding: 0 20px;
+    height: 44px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-subtotal {
+    font-size: 18px;
+    color: #191919;
+    text-align: center;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-remove {
+    text-align: right;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-remove a {
+    font-size: 22px;
+    color: #777777;
+    padding-right: 17px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tbody tr:last-child td {
+    position: relative;
+    padding-top: 20px;
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tbody tr:last-child td .coupon {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    float: left;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tbody tr:last-child td .coupon input[type='text'] {
+    max-width: 255px;
+    margin-right: 10px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tbody tr:last-child td .coupon input[type='submit'] {
+    border: 2px solid #cc6119;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 13px;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tbody tr:last-child td .coupon input[type='submit']:hover {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tbody tr:last-child td > input[type='submit'] {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    border: 2px solid #cc6119;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 7px 13px;
+    z-index: 10;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce form table tbody tr:last-child td > input[type='submit']:hover {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals {
+    display: block;
+    width: 25%;
+    padding: 50px 0 0 20px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart_totals > div {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals h4 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table {
+    background: #f5f7f7;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr:first-child th, .stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr:first-child td {
+    padding-top: 45px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr:last-child th, .stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr:last-child td {
+    padding-bottom: 45px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr.shipping th {
+    vertical-align: top;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr th {
+    width: 44%;
+    font-size: 13px;
+    color: #191919;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr td {
+    width: 56%;
+    border: 0;
+    padding-right: 10px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr td .woocommerce-shipping-methods {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr td .woocommerce-shipping-methods li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr td .woocommerce-shipping-methods li .radio, .stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr td .woocommerce-shipping-methods li input[type='radio'] {
+    margin: 0 10px 0 0;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr td .woocommerce-shipping-destination {
+    font-size: 12px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr td .woocommerce-shipping-calculator {
+    width: 100%;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr td .woocommerce-shipping-calculator select {
+    display: block;
+    height: 44px;
+    line-height: 44px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr td .woocommerce-shipping-calculator input[type='text'] {
+    max-width: 255px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap table tr td .woocommerce-shipping-calculator button {
+    width: 100%;
+    background: #cc6119;
+    height: 44px;
+    line-height: 20px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap .wc-proceed-to-checkout {
+    margin-top: 50px;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap .wc-proceed-to-checkout a {
+    display: block;
+    background: #cc6119;
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 46px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 11px;
+    padding-right: 20px;
+    position: relative;
+    border-radius: 4px;
+    transition: all .2s ease-in-out;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap .wc-proceed-to-checkout a:after {
+    content: '\e90f';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    font-family: 'stm-ap-icon';
+    font-size: 12px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals .cart-totals_wrap .wc-proceed-to-checkout a:hover {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .entry-header {
+    margin-bottom: 20px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout h2 {
+    font-size: 36px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout input[type='text'], .stm-template-auto_parts.woocommerce-checkout input[type='email'], .stm-template-auto_parts.woocommerce-checkout input[type='password'], .stm-template-auto_parts.woocommerce-checkout input[type='number'], .stm-template-auto_parts.woocommerce-checkout input[type='tel'] {
+    background: #f5f7f7;
+    height: 42px;
+    line-height: 42px;
+    border-color: #f5f7f7;
+}
+
+.stm-template-auto_parts.woocommerce-checkout input[type='text']:focus, .stm-template-auto_parts.woocommerce-checkout input[type='text']:active, .stm-template-auto_parts.woocommerce-checkout input[type='text']:visited, .stm-template-auto_parts.woocommerce-checkout input[type='email']:focus, .stm-template-auto_parts.woocommerce-checkout input[type='email']:active, .stm-template-auto_parts.woocommerce-checkout input[type='email']:visited, .stm-template-auto_parts.woocommerce-checkout input[type='password']:focus, .stm-template-auto_parts.woocommerce-checkout input[type='password']:active, .stm-template-auto_parts.woocommerce-checkout input[type='password']:visited, .stm-template-auto_parts.woocommerce-checkout input[type='number']:focus, .stm-template-auto_parts.woocommerce-checkout input[type='number']:active, .stm-template-auto_parts.woocommerce-checkout input[type='number']:visited, .stm-template-auto_parts.woocommerce-checkout input[type='tel']:focus, .stm-template-auto_parts.woocommerce-checkout input[type='tel']:active, .stm-template-auto_parts.woocommerce-checkout input[type='tel']:visited {
+    border-color: #cc6119;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .select2-selection__rendered {
+    background: #f5f7f7;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .woocommerce h4 {
+    font-size: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .woocommerce h4#ship-to-different-address {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    line-height: 1;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .woocommerce h4#ship-to-different-address label {
+    margin-top: 0;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .woocommerce h4#ship-to-different-address input[type='checkbox'] {
+    width: 38px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    z-index: 10;
+    outline: none;
+    border: 0;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .woocommerce h4#ship-to-different-address input[type='checkbox']:checked {
+    background-color: transparent;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .woocommerce h4#ship-to-different-address .checker {
+    position: relative;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .woocommerce h4#ship-to-different-address .checker span {
+    position: relative;
+    display: block;
+    text-align: right;
+    padding-right: 45px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .woocommerce h4#ship-to-different-address .checker span:before {
+    content: "";
+    display: block;
+    height: 16px;
+    width: 30px;
+    border: 2px solid #bbb;
+    background: #bbb;
+    border-radius: 13rem;
+    box-sizing: content-box;
+    transition: all ease-in-out .3s;
+    position: absolute;
+    top: 4px;
+    right: 0;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .woocommerce h4#ship-to-different-address .checker span:after {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    position: absolute;
+    top: 7px;
+    right: 17px;
+    border-radius: 13rem;
+    transition: all ease-in-out .3s;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .woocommerce h4#ship-to-different-address .checker span.checked:before {
+    border-color: #000;
+    background: #000;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .woocommerce h4#ship-to-different-address .checker span.checked:after {
+    right: 3px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout form {
+    margin-top: 55px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm-billing-fields {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm-billing-fields .form-row {
+    width: 47%;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm-billing-fields .form-row label {
+    display: none;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm-billing-fields .form-row-wide, .stm-template-auto_parts.woocommerce-checkout .stm-billing-fields .notes {
+    width: 100%;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm-billing-fields .notes label {
+    display: block;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm-billing-fields .notes textarea {
+    background: #f5f7f7;
+    min-height: 123px;
+    border-color: #f5f7f7;
+    outline: none;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm-billing-fields .notes textarea:focus, .stm-template-auto_parts.woocommerce-checkout .stm-billing-fields .notes textarea:active, .stm-template-auto_parts.woocommerce-checkout .stm-billing-fields .notes textarea:visited {
+    border-color: #cc6119;
+}
+
+.stm-template-auto_parts.woocommerce-checkout h4 {
+    margin-bottom: 28px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table tr.table_heading th {
+    background: #191919;
+    color: #ffffff;
+    padding: 8px 30px;
+    font-weight: 400;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table tr.table_heading th:last-child {
+    text-align: right;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table tr td {
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom-color: #f5f7f7;
+    color: #191919;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table tr td .product-quantity {
+    color: #595959;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table tr td:first-child {
+    padding-right: 0;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table tr td:last-child {
+    padding-left: 0;
+    text-align: right;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .cart-subtotal, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .woocommerce-shipping-totals, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .order-total {
+    background: #f5f7f7;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .cart-subtotal th, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .woocommerce-shipping-totals th, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .order-total th {
+    padding-top: 30px;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .cart-subtotal td, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .woocommerce-shipping-totals td, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .order-total td {
+    border: 0;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .cart-subtotal td ul, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .woocommerce-shipping-totals td ul, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .order-total td ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .cart-subtotal td ul li, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .woocommerce-shipping-totals td ul li, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .order-total td ul li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .cart-subtotal td ul li .radio, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .cart-subtotal td ul li input[type='radio'], .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .woocommerce-shipping-totals td ul li .radio, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .woocommerce-shipping-totals td ul li input[type='radio'], .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .order-total td ul li .radio, .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .order-total td ul li input[type='radio'] {
+    margin: 0 10px 0 0;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .order-total th {
+    padding-bottom: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table .order-total td {
+    padding-bottom: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods {
+    margin-top: 35px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods h4 {
+    padding-bottom: 28px;
+    border-bottom: 5px solid #191919;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods ul li input[type='radio'] {
+    width: 16px;
+    height: 16px;
+    color: #6c98e1;
+    border: 1px solid #6c98e1;
+    margin-right: 4px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods ul li .radio-wrap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods ul li label {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods ul li label .label-text-wrap {
+    display: block;
+    clear: both;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods ul li label img {
+    clear: both;
+    max-width: 200px;
+    margin-top: 7px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods ul li label a {
+    display: inline-block;
+    color: #595959;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none;
+    border-bottom: 1px dashed #595959;
+    line-height: 16px;
+    margin-left: 11px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods ul li label a:hover {
+    color: #cc6119;
+    border-color: #cc6119;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods ul li .payment_box {
+    display: block;
+    padding-left: 23px;
+    font-size: 12px;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods .wc-place-order-btn {
+    display: block;
+    background: #cc6119;
+    position: relative;
+    max-width: 190px;
+    border-radius: 4px;
+    margin-top: 75px;
+    color: #191919;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods .wc-place-order-btn:hover {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods .wc-place-order-btn:hover input[type='submit'] {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods .wc-place-order-btn input[type='submit'] {
+    width: 100%;
+    background: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 48px;
+    padding: 2px 23px 0 0;
+    border: none;
+    outline: none;
+    color: #191919;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts.woocommerce-checkout .stm_rental_payment_methods .wc-place-order-btn:after {
+    content: '\e90f';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    transform: translateY(-50%);
+    font-family: 'stm-ap-icon';
+    font-size: 12px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .entry-header {
+    margin-bottom: 10px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .entry-title h2 {
+    margin-bottom: 2px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .woocommerce-notice {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .left, .stm-template-auto_parts.woocommerce-order-received .woocommerce-order .right {
+    width: 50%;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .left {
+    padding-right: 15px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .left p:last-child {
+    margin-top: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .right {
+    padding-left: 15px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-details {
+    display: block;
+    margin: 0;
+    padding: 33px 60px;
+    list-style: none;
+    background: #f5f7f7;
+    position: relative;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-details li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: 1px solid #dddddd;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-bottom: 0;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-details li:last-child {
+    border-bottom: 0;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-details li span {
+    font-size: 13px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-details li strong {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-details:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 9px;
+    background: url("../../images/auto-parts/mount.png") repeat-x 0 0;
+    position: absolute;
+    top: -9px;
+    left: 0;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .woocommerce-thankyou-order-details:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 9px;
+    background: url("../../images/auto-parts/mount-bottom.png") repeat-x 0 0;
+    position: absolute;
+    bottom: -9px;
+    left: 0;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table {
+    margin-bottom: 40px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table thead th {
+    background: #191919;
+    color: #ffffff;
+    padding: 8px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table thead th:last-child {
+    text-align: right;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tr td {
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom-color: #f5f7f7;
+    color: #191919;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tr td .product-quantity {
+    color: #595959;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tr td:first-child {
+    padding-right: 0;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tr td:last-child {
+    padding-left: 0;
+    text-align: right;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tbody {
+    background: #f5f7f7;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tbody th {
+    padding-top: 30px;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tbody td {
+    border: 0;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tbody td ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tbody td ul li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tbody td ul li .radio, .stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tbody td ul li input[type='radio'] {
+    margin: 0 10px 0 0;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tbody tr:last-child th, .stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tbody tr:last-child td {
+    padding-bottom: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tfoot {
+    background: #f5f7f7;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tfoot tr:last-child th, .stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tfoot tr:last-child td {
+    padding-bottom: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tfoot th {
+    padding-top: 30px;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tfoot td {
+    border: 0;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tfoot td ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tfoot td ul li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tfoot td ul li .radio, .stm-template-auto_parts.woocommerce-order-received .woocommerce-order table tfoot td ul li input[type='radio'] {
+    margin: 0 10px 0 0;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table .order-total th {
+    padding-bottom: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order table .order-total td {
+    padding-bottom: 30px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .addresses {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .addresses .col-1, .stm-template-auto_parts.woocommerce-order-received .woocommerce-order .addresses .col-2 {
+    width: 50%;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .addresses .col-1 h3, .stm-template-auto_parts.woocommerce-order-received .woocommerce-order .addresses .col-1 h4, .stm-template-auto_parts.woocommerce-order-received .woocommerce-order .addresses .col-2 h3, .stm-template-auto_parts.woocommerce-order-received .woocommerce-order .addresses .col-2 h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .go-to-shop {
+    display: block;
+    max-width: 240px;
+    background: #cc6119;
+    text-align: center;
+    text-transform: uppercase;
+    min-height: 46px;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 11px;
+    padding-right: 20px;
+    position: relative;
+    border-radius: 4px;
+    margin: 50px 0 50px auto;
+    color: #191919;
+    letter-spacing: 0;
+}
+
+.stm-template-auto_parts.woocommerce-order-received .woocommerce-order .go-to-shop:after {
+    content: '\e90f';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    font-family: 'stm-ap-icon';
+    font-size: 12px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop #main .container > .row, .stm-template-auto_parts.tax-product_cat #main .container > .row {
+    padding-bottom: 30px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area .select2, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area .select2 {
+    border: 1px solid #f5f7f7;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside {
+    margin-top: 30px;
+    border-top: 4px solid #cc6119;
+    box-shadow: 0 3px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .widget_title, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .widget_title {
+    border-top: 0;
+    margin-top: 0;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .widget_title h3, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .widget_title h3 {
+    padding: 11px 0;
+    font-size: 18px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li {
+    display: -ms-flexbox;
+    display: flex;
+    width: 48%;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 22px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li a, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li a {
+    text-decoration: none;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li:nth-child(1n) .has-checkbox, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li:nth-child(1n) .has-checkbox {
+    margin-left: 15px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li:nth-child(2n) .has-checkbox, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li:nth-child(2n) .has-checkbox {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li .has-checkbox, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li .has-checkbox {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding: 0 0 0 20px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li .has-checkbox:before, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li .has-checkbox:before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: #dfe1e5;
+    border-radius: 2px;
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%);
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li .has-checkbox .term-name, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li .has-checkbox .term-name {
+    margin: 0;
+    text-align: left;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li.chosen .has-checkbox:before, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li.chosen .has-checkbox:before {
+    background: #6c98e1;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li.chosen .has-checkbox:after, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li.chosen .has-checkbox:after {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li.chosen .has-icon, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li.chosen .has-icon {
+    opacity: 0.5;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li .term-img, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li .term-img {
+    display: block;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li .term-img img, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li .term-img img {
+    display: block;
+    width: 100%;
+    max-width: 78px;
+    margin: 0 auto;
+    transform: translateZ(0);
+    position: relative;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside ul li .term-name, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside ul li .term-name {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: #191919;
+    margin-top: 8px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper {
+    margin-top: 7px;
+    padding: 0 25px 30px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider {
+    margin: 0 20px 0 0;
+    background: #aaaaaa;
+    height: 4px;
+    border: 0;
+    position: relative;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider:before, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #aaaaaa;
+    position: absolute;
+    top: 0;
+    right: -20px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider .ui-slider-range, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider .ui-slider-range {
+    background: #6c98e1;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider .ui-slider-handle, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider .ui-slider-handle {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: #ffffff;
+    margin: 0;
+    border-radius: 50%;
+    border: 0;
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.5);
+    top: -10px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider .ui-slider-handle:before, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider .ui-slider-handle:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #6c98e1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount #min_price, .stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount #max_price, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount #min_price, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount #max_price {
+    display: block !important;
+    width: 40%;
+    height: 36px;
+    text-align: center;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .clear, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .clear {
+    display: none;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .price_label, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .price_label {
+    display: none;
+    overflow: hidden;
+    float: left;
+    text-transform: none;
+    font-font: 'Arial';
+    font-weight: 400;
+    font-size: 13px;
+    color: #777777;
+    padding-top: 3px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .price_label .from, .stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .price_label .to, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .price_label .from, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .price_label .to {
+    font-font: 'Arial';
+    font-weight: 700;
+    font-size: 13px;
+    color: #191919;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .button, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .button {
+    display: none;
+    float: right;
+    margin: 0;
+    color: #191919;
+    font-size: 14px;
+    height: 36px;
+    line-height: 28px;
+    padding: 5px 25px 6px;
+    border-radius: 0;
+    border: 0;
+    background-color: #cc6119 !important;
+    font-weight: 600;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .button:before, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .button:before {
+    background: #191919;
+    transform: scale3d(1, 1, 1);
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .button:hover, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .button:hover {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .button:hover:before, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside .price_slider_wrapper .price_slider_amount .button:hover:before {
+    opacity: 1;
+    transform: scale3d(0, 1, 1);
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside.widget_rating_filter ul, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside.widget_rating_filter ul {
+    margin: 0 25px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside.widget_rating_filter ul li, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside.widget_rating_filter ul li {
+    width: 100%;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside.widget_rating_filter ul li a, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside.widget_rating_filter ul li a {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    color: #191919;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside.widget_rating_filter ul li a .star-rating, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside.widget_rating_filter ul li a .star-rating {
+    width: auto;
+    margin-right: 10px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside.widget_rating_filter ul li a .star-rating > span, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside.widget_rating_filter ul li a .star-rating > span {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 140px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .stm-shop-sidebar-area aside.widget_rating_filter ul li a .star-rating > span strong, .stm-template-auto_parts.tax-product_cat .stm-shop-sidebar-area aside.widget_rating_filter ul li a .star-rating > span strong {
+    margin: 0 5px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description, .stm-template-auto_parts.tax-product_cat .page-description {
+    margin-bottom: 41px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer {
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__title, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__title {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    position: absolute;
+    top: 42%;
+    left: -256px;
+    width: 100%;
+    background: #cc6119;
+    transform: rotate(-90deg) translateY(-42%);
+    padding: 0 15px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__title > *, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__title > * {
+    padding: 0 5px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__meta_box, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__meta_box {
+    padding: 17px 70px 30px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__meta_box .stm-spec-prod-text-info, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__meta_box .stm-spec-prod-text-info {
+    width: 70%;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__meta_box .stm-spec-prod-img, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__meta_box .stm-spec-prod-img {
+    max-width: 50%;
+    min-width: 370px;
+    width: auto;
+    margin-left: -24px;
+    margin-top: 25px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__meta_box h5, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__meta_box h5 {
+    letter-spacing: -0.8px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__meta_box h5 a, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__meta_box h5 a {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__meta_box .price, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__meta_box .price {
+    margin-top: 50px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__meta_box .price del, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__meta_box .price del {
+    color: #ffffff;
+    opacity: 0.8;
+    font-weight: 700;
+    font-size: 32px;
+    margin-right: 20px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__meta_box .price ins, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__meta_box .price ins {
+    font-weight: 700 !important;
+    font-size: 46px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__countdown, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__countdown {
+    margin-top: 30px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__countdown .count_meta, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__countdown .count_meta {
+    border-radius: 100px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .stm-spec-prod-img, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .stm-spec-prod-img {
+    margin-right: -100px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap, .stm-template-auto_parts.tax-product_cat .action-bar-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .left, .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .left, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right {
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .left h1, .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right h1, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .left h1, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .left .select2, .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right .select2, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .left .select2, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right .select2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 10px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .left .select2 .select2-selection, .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right .select2 .select2-selection, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .left .select2 .select2-selection, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right .select2 .select2-selection {
+    border: 0;
+    height: 42px;
+    font-size: 14px;
+    color: #191d21;
+    background: #ffffff;
+    line-height: 42px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .left .select2 .select2-selection__rendered, .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right .select2 .select2-selection__rendered, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .left .select2 .select2-selection__rendered, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right .select2 .select2-selection__rendered {
+    height: 42px;
+    line-height: 42px;
+    background: #f5f7f7;
+    padding-right: 45px;
+    outline: none !important;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .left .select2 .select2-selection__arrow, .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right .select2 .select2-selection__arrow, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .left .select2 .select2-selection__arrow, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right .select2 .select2-selection__arrow {
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .left .select2 .select2-selection__arrow b, .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right .select2 .select2-selection__arrow b, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .left .select2 .select2-selection__arrow b, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right .select2 .select2-selection__arrow b {
+    position: relative;
+    border: 0;
+    margin: 0 auto;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .left .select2 .select2-selection__arrow b:before, .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right .select2 .select2-selection__arrow b:before, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .left .select2 .select2-selection__arrow b:before, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right .select2 .select2-selection__arrow b:before {
+    content: "\f078";
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 10px;
+    color: #6c98e1;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right .woocommerce-result-count, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right .woocommerce-result-count {
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+
+.stm-template-auto_parts .woocommerce .cart-empty {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.stm-template-auto_parts .woocommerce .return-to-shop {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.stm-template-auto_parts .woocommerce .return-to-shop a {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 16px 10px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: #6c98e1;
+    text-decoration: none;
+    outline: none;
+    visibility: visible;
+    border: none;
+}
+
+.stm-template-auto_parts .wishlist_table {
+    margin-top: 40px;
+}
+
+.stm-template-auto_parts .wishlist_table thead th {
+    background: #191919;
+    color: #ffffff;
+    padding: 8px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.stm-template-auto_parts .wishlist_table thead th:last-child {
+    text-align: right;
+}
+
+.stm-template-auto_parts .wishlist_table tr td {
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom-color: #f5f7f7;
+    color: #191919;
+    text-align: left;
+}
+
+.stm-template-auto_parts .wishlist_table tr td .product-quantity {
+    color: #595959;
+}
+
+.stm-template-auto_parts .wishlist_table tr td:first-child {
+    padding: 0 15px;
+    text-align: center;
+}
+
+.stm-template-auto_parts .wishlist_table tr td:first-child .remove {
+    font-size: 26px;
+    color: #595959;
+}
+
+.stm-template-auto_parts .wishlist_table tr td:last-child {
+    padding-left: 0;
+    text-align: right;
+}
+
+.stm-template-auto_parts .wishlist_table tbody {
+    background: #f5f7f7;
+}
+
+.stm-template-auto_parts .wishlist_table tbody th {
+    padding-top: 30px;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.stm-template-auto_parts .wishlist_table tbody td {
+    border: 0;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.stm-template-auto_parts .wishlist_table tfoot {
+    background: #f5f7f7;
+}
+
+.stm-template-auto_parts .wishlist_table tfoot th {
+    padding-top: 30px;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.stm-template-auto_parts .wishlist_table tfoot td {
+    border: 0;
+    padding: 0;
+}
+
+.stm-template-auto_parts .select2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 10px;
+}
+
+.stm-template-auto_parts .select2 .select2-selection {
+    border: 0;
+    height: 42px;
+    font-size: 14px;
+    color: #191d21;
+    background: #ffffff;
+    line-height: 42px;
+}
+
+.stm-template-auto_parts .select2 .select2-selection__rendered {
+    height: 42px;
+    line-height: 42px;
+    outline: none !important;
+}
+
+.stm-template-auto_parts .select2 .select2-selection__arrow {
+    height: 40px;
+    line-height: 40px;
+}
+
+.stm-template-auto_parts .select2 .select2-selection__arrow b {
+    position: relative;
+    border: 0;
+    margin: 0;
+}
+
+.stm-template-auto_parts .select2 .select2-selection__arrow b:before {
+    content: "\f078";
+    display: block;
+    font-family: 'FontAwesome';
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.stm-template-auto_parts .select2-container ul {
+    padding: 0;
+}
+
+.stm-template-auto_parts .select2-container ul li {
+    padding: 5px 10px;
+}
+
+.stm-template-auto_parts button {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 16px 10px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: #cc6119;
+    text-decoration: none;
+    outline: none;
+    visibility: visible;
+    border: none;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts button:hover {
+    color: #191919;
+}
+
+.stm-template-auto_parts .fa.fa-user {
+    vertical-align: middle;
+}
+
+.stm-template-auto_parts .fa.fa-user:before {
+    content: '\e90a';
+    font-family: 'stm-ap-icon';
+    color: #6c98e1;
+    font-size: 14px;
+}
+
+.stm-template-auto_parts.home .vc_column_container .mc4wp-form {
+    width: 100%;
+    max-width: 440px;
+}
+
+.stm-template-auto_parts.home .vc_column_container .mc4wp-form .mc4wp-form-fields p {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.stm-template-auto_parts.home .vc_column_container .mc4wp-form .mc4wp-form-fields p input[type="email"] {
+    width: 76%;
+    font-size: 16px;
+    color: #777777;
+    height: 50px;
+    line-height: 48px;
+    padding-left: 17px;
+    border: 0;
+}
+
+.stm-template-auto_parts.home .vc_column_container .mc4wp-form .mc4wp-form-fields p span {
+    display: block;
+    width: 24%;
+    border-radius: 0 3px 3px 0;
+    overflow: hidden;
+}
+
+.stm-template-auto_parts.home .vc_column_container .mc4wp-form .mc4wp-form-fields p input[type="submit"] {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 45px;
+    height: 50px;
+    color: #191919;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    background: #cc6119;
+    border: 0;
+    padding-top: 3px;
+    outline: none !important;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts.home .vc_column_container .mc4wp-form .mc4wp-form-fields p input[type="submit"]:hover, .stm-template-auto_parts.home .vc_column_container .mc4wp-form .mc4wp-form-fields p input[type="submit"]:active {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts .stm-header__hb {
+    margin-bottom: 30px;
+}
+
+.stm-template-auto_parts .stm-header__row_top {
+    height: 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_left .stm-text-link a {
+    font-size: 13px;
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_right .stm-multi-currency {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+      /*&:after {
+                            content: "\f078";
+                            display: block;
+                            font-family: 'FontAwesome';
+                            font-size: 10px;
+                            position: absolute;
+                            top: 50%;
+                            right: 0;
+                            transform: translateY(-50%);
+                            z-index: 10;
+                            color: $blue-ap;
+                        }*/
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_right .stm-multi-currency .stm-multi-currency__info {
+    margin-right: 3px;
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_right .stm-multi-currency .stm-multi-currency__info .stm-multi-curr__text {
+    color: #808080;
+    font-size: 13px;
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_right .stm-multi-currency .stm-multicurr-select {
+    display: block;
+    position: relative;
+    font-size: 13px;
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_right .stm-multi-currency .stm-multicurr-select #stm-multi-curr-select {
+    width: 66px;
+    padding-left: 5px;
+    border: 0;
+    background: transparent;
+    color: #191919;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0;
+    outline: none !important;
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_right .stm-multi-currency .stm-multicurr-select .select2.select2-container--focus {
+    outline: none;
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_right .stm-multi-currency .stm-multicurr-select .select2 .select2-selection {
+    height: 30px;
+    line-height: 30px;
+    outline: none !important;
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_right .stm-multi-currency .stm-multicurr-select .select2 .select2-selection__rendered {
+    height: 30px;
+    line-height: 30px;
+    outline: none !important;
+    border: none;
+    box-shadow: none;
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_right .stm-multi-currency .stm-multicurr-select .select2 .select2-selection__arrow {
+    height: 26px;
+    line-height: 26px;
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_right .stm-multi-currency .stm-multicurr-select .select2 .select2-selection__arrow b {
+    position: relative;
+    border: 0;
+    margin: 0;
+}
+
+.stm-template-auto_parts .stm-header__row_top .stm-header__cell_right .stm-multi-currency .stm-multicurr-select .select2 .select2-selection__arrow b:before {
+    content: "\f078";
+    display: block;
+    width: 10px;
+    font-family: 'FontAwesome';
+    font-size: 10px;
+    color: #6c98e1;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__element {
+    margin-right: 120px;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__cell_right .stm-iconbox {
+    margin-top: 5px;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__cell_right .stm-iconbox__icon:before {
+    font-size: 21px;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__cell_right .stm-iconbox__text:nth-child(1) {
+    font-size: 13px;
+    color: #808080;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 2px;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__cell_right .stm-iconbox__text:nth-child(2) {
+    font-size: 15px;
+    color: #191919;
+    line-height: 18px;
+    margin: 2px 0;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__cell_right .stm-iconbox__description {
+    font-size: 13px;
+    color: #808080;
+    line-height: 18px;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__cell_right .stm-cart-2-link {
+    text-decoration: none;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__cell_right .stm-cart-2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__cell_right .stm-cart-2 .cart__quantity-badge {
+    background-color: transparent !important;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__cell_right .stm-cart-2__text:nth-child(1) {
+    font-size: 13px;
+    color: #808080;
+    font-weight: 400;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__cell_right .stm-cart-2__text:nth-child(2) {
+    font-size: 15px;
+    color: #191919;
+}
+
+.stm-template-auto_parts .stm-header__row_center .stm-header__cell_right .stm-cart-2__description {
+    font-size: 13px;
+    color: #808080;
+}
+
+.stm-template-auto_parts .stm-header__row_color_bottom .stm-header__element_default {
+    width: 100%;
+    margin: 0;
+}
+
+.stm-template-auto_parts .stm-header__row_color_bottom .container .stm-navigation {
+    width: 100%;
+    background: #191919;
+    border-radius: 3px;
+}
+
+.stm-template-auto_parts .stm-header__row_color_bottom .container .stm-navigation ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.stm-template-auto_parts .stm-header__row_color_bottom .container .stm-navigation ul li {
+    display: block;
+    border-bottom: 3px solid #191919;
+    margin-bottom: 0;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .stm-header__row_color_bottom .container .stm-navigation ul li.current-menu-item {
+    border-bottom-color: #ffcc12;
+}
+
+.stm-template-auto_parts .stm-header__row_color_bottom .container .stm-navigation ul li.current-menu-item a {
+    background: #000000;
+}
+
+.stm-template-auto_parts .stm-header__row_color_bottom .container .stm-navigation ul li a {
+    display: block;
+    width: 100%;
+    padding: 15px 20px 15px;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .stm-header__row_color_bottom .container .stm-navigation ul li:hover {
+    border-bottom-color: #ffcc12;
+}
+
+.stm-template-auto_parts .stm-header__row_color_bottom .container .stm-navigation ul li:hover a {
+    background: #000000;
+}
+
+.stm-template-auto_parts .vc_carousel-slideline .vc_carousel-slideline-inner .vc_item:hover img {
+    filter: none;
+}
+
+.stm-template-auto_parts .vc_carousel-slideline .vc_carousel-slideline-inner .vc_item .vc_inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 45px;
+}
+
+.stm-template-auto_parts .vc_carousel-slideline .vc_carousel-slideline-inner .vc_item img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 40px;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    transform: translateZ(0);
+    transition: all .2s ease;
+    position: relative;
+}
+
+.stm-template-auto_parts .post-grid-single-unit:hover .content {
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.stm-template-auto_parts .post-grid-single-unit:hover .content .title-relative a h4 {
+    color: #cc6119 !important;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .content {
+    display: block;
+    border: 1px solid #dddddd;
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0);
+    margin-top: 15px;
+    background: #ffffff;
+    padding: 40px 40px 0;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .content .title-relative {
+    margin-bottom: 29px;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .content .title-relative a {
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .content .title-relative a h4 {
+    line-height: 22px;
+    min-height: 44px;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .content .post-meta-bottom {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    border-top: 1px solid #dddddd;
+    padding: 10px 0 13px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .content .post-meta-bottom .blog-meta-unit i {
+    margin-right: 7px;
+    color: #6c98e1;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .content .post-meta-bottom .blog-meta-unit span, .stm-template-auto_parts .post-grid-single-unit .content .post-meta-bottom .blog-meta-unit a {
+    font-size: 13px;
+    color: #888888;
+}
+
+.stm-template-auto_parts .post-list-single-item {
+    margin-bottom: 30px;
+}
+
+.stm-template-auto_parts .post-list-single-item:hover .absoluted-content .relatived-content .title {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts .post-list-single-item .image {
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+    max-height: 429px;
+}
+
+.stm-template-auto_parts .post-list-single-item .image img {
+    vertical-align: top;
+    width: 100%;
+}
+
+.stm-template-auto_parts .post-list-single-item .video-preview {
+    position: absolute;
+    right: 9px;
+    top: 17px;
+    padding: 1px 11px 1px 25px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: #6c98e1;
+    z-index: 20;
+}
+
+.stm-template-auto_parts .post-list-single-item .video-preview .fa {
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    margin-top: -6px;
+    font-size: 12px;
+}
+
+.stm-template-auto_parts .post-list-single-item .sticky-post {
+    position: absolute;
+    top: 20px;
+    left: -90px;
+    background-color: #cc6119;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    width: 250px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    transform: rotate(-45deg);
+}
+
+.stm-template-auto_parts .post-list-single-item .blog-meta {
+    position: relative;
+    margin-top: -44px;
+    padding-left: 36px;
+    padding-right: 27px;
+    margin-bottom: 0;
+    background-color: #191919;
+    z-index: 20;
+}
+
+.stm-template-auto_parts .post-list-single-item .absoluted-content {
+    position: absolute;
+    bottom: 44px;
+    left: 0;
+    right: 0;
+}
+
+.stm-template-auto_parts .post-list-single-item .absoluted-content .relatived-content {
+    padding: 0 36px 31px;
+    position: relative;
+    z-index: 10;
+}
+
+.stm-template-auto_parts .post-list-single-item .absoluted-content .relatived-content .title {
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .post-list-single-item .absoluted-content .relatived-content .video-preview {
+    display: inline-block;
+    margin-bottom: 16px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.stm-template-auto_parts .post-list-single-item .absoluted-content:before {
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 189px;
+    background: linear-gradient(to top, rgba(35, 38, 40, 0.9), rgba(35, 38, 40, 0));
+    z-index: 5;
+}
+
+.stm-template-auto_parts.blog .post-grid-single-unit, .stm-template-auto_parts.archive .post-grid-single-unit {
+    margin-bottom: 30px;
+}
+
+.stm-template-auto_parts.blog .blog-posts-excerpt, .stm-template-auto_parts.archive .blog-posts-excerpt {
+    padding-bottom: 20px;
+}
+
+.stm-template-auto_parts.blog .blog-posts-excerpt a, .stm-template-auto_parts.archive .blog-posts-excerpt a {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts.blog #main aside, .stm-template-auto_parts.archive #main aside, .stm-template-auto_parts.single-post #main aside, .stm-template-auto_parts.page #main aside {
+    margin-top: 30px;
+    border-top: 4px solid #cc6119;
+    box-shadow: 0 3px 20px -5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.stm-template-auto_parts.blog #main aside:first-child, .stm-template-auto_parts.archive #main aside:first-child, .stm-template-auto_parts.single-post #main aside:first-child, .stm-template-auto_parts.page #main aside:first-child {
+    margin-top: 0;
+}
+
+.stm-template-auto_parts.blog #main aside .widget-title, .stm-template-auto_parts.archive #main aside .widget-title, .stm-template-auto_parts.single-post #main aside .widget-title, .stm-template-auto_parts.page #main aside .widget-title {
+    border-top: 0;
+    margin-top: 0;
+}
+
+.stm-template-auto_parts.blog #main aside .widget-title h4, .stm-template-auto_parts.archive #main aside .widget-title h4, .stm-template-auto_parts.single-post #main aside .widget-title h4, .stm-template-auto_parts.page #main aside .widget-title h4 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #191919;
+    font-weight: 500;
+}
+
+.stm-template-auto_parts.blog #main aside a:hover, .stm-template-auto_parts.archive #main aside a:hover, .stm-template-auto_parts.single-post #main aside a:hover, .stm-template-auto_parts.page #main aside a:hover {
+    color: #cc6119;
+}
+
+.stm-template-auto_parts.single-post .comment-form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.stm-template-auto_parts.single-post .comment-form .comment-form-rating .stars {
+    margin-bottom: 0;
+}
+
+.stm-template-auto_parts.single-post .comment-form .comment-form-rating .stars span {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.stm-template-auto_parts.single-post .comment-form .comment-form-rating .stars span a {
+    display: block;
+    position: relative;
+    color: transparent;
+    line-height: 15px;
+    width: 18px;
+}
+
+.stm-template-auto_parts.single-post .comment-form .comment-form-rating .stars span a:before {
+    content: '\e90e';
+    display: block;
+    width: 15px;
+    height: 15px;
+    font-family: 'stm-ap-icon';
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #cc6119;
+}
+
+.stm-template-auto_parts.single-post .comment-form .comment-form-rating .stars span a.selected:before, .stm-template-auto_parts.single-post .comment-form .comment-form-rating .stars span a.active:before {
+    content: '\e908';
+}
+
+.stm-template-auto_parts.single-post .comment-form .comment-form-rating select {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.stm-template-auto_parts.single-post .comment-form .comment-form-rating .select2 {
+    display: none;
+}
+
+.stm-template-auto_parts.single-post .comment-form .comment-form-comment {
+    width: 100%;
+}
+
+.stm-template-auto_parts.single-post .comment-form textarea {
+    background: #efefef;
+}
+
+.stm-template-auto_parts.single-post .comment-form textarea:focus, .stm-template-auto_parts.single-post .comment-form textarea:active {
+    outline: none;
+    border: 1px solid #cccccc;
+}
+
+.stm-template-auto_parts.single-post .comment-form input[type='submit'] {
+    border: 0;
+    background: #cc6119;
+    color: #191919;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .image {
+    display: block;
+    position: relative;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .image .video-preview {
+    position: absolute;
+    right: 9px;
+    top: 17px;
+    padding: 1px 11px 1px 25px;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: #6c98e1;
+    z-index: 20;
+    line-height: 22px;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .image .video-preview i {
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    margin-top: -6px;
+    font-size: 12px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .image .video-preview:before {
+    display: none;
+}
+
+.stm-template-auto_parts .post-grid-single-unit .image .video-preview a:before {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts .stm-blog-pagination {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.stm-template-auto_parts .stm-blog-pagination ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    margin: 0 5px;
+    padding: 0;
+    list-style: none;
+}
+
+.stm-template-auto_parts .stm-blog-pagination ul li {
+    padding: 0;
+    margin: 0 5px;
+}
+
+.stm-template-auto_parts .stm-blog-pagination ul li a, .stm-template-auto_parts .stm-blog-pagination ul li span {
+    display: block;
+    width: 33px;
+    height: 33px;
+    padding: 7px 6px;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.stm-template-auto_parts .stm-blog-pagination ul li span {
+    background: #ddd;
+}
+
+.stm-template-auto_parts .stm-blog-pagination ul li a {
+    background: #6c98e1;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .stm-blog-pagination ul li a:hover {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts .stm-blog-pagination .stm-prev-next {
+    border-radius: 3px;
+    width: 54px;
+    height: 35px;
+}
+
+.stm-template-auto_parts .stm-blog-pagination .stm-prev-next.disabled {
+    background-color: #ddd;
+}
+
+.stm-template-auto_parts .stm-blog-pagination .stm-prev-next i {
+    display: block;
+    font-size: 20px;
+    padding: 6px 16px 7px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.stm-template-auto_parts .stm-blog-pagination .stm-prev-next a {
+    display: block;
+    transition: all .2s ease;
+    background: #6c98e1;
+    border-radius: 3px;
+}
+
+.stm-template-auto_parts .stm-blog-pagination .stm-prev-next a:hover {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts .blog-meta {
+    padding: 16px 18px 0;
+    margin-bottom: 45px;
+    background-color: #191919;
+}
+
+.stm-template-auto_parts .blog-meta .left {
+    float: left;
+}
+
+.stm-template-auto_parts .blog-meta .right {
+    float: right;
+}
+
+.stm-template-auto_parts .blog-meta .blog-meta-unit {
+    position: relative;
+    color: #fff;
+    padding-left: 22px;
+    margin-bottom: 14px;
+    font-weight: 400;
+}
+
+.stm-template-auto_parts .blog-meta .blog-meta-unit .post_comments {
+    font-weight: 400;
+}
+
+.stm-template-auto_parts .blog-meta .blog-meta-unit a {
+    color: #fff;
+}
+
+.stm-template-auto_parts .blog-meta .blog-meta-unit a:hover {
+    color: #6c98e1;
+    text-decoration: none;
+}
+
+.stm-template-auto_parts .blog-meta .blog-meta-unit i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+    font-size: 15px;
+    color: #6c98e1;
+}
+
+.stm-template-auto_parts .blog-meta .blog-meta-unit i .stm-icon-message {
+    font-size: 14px;
+    margin-top: -7px;
+}
+
+.stm-template-auto_parts .blog-meta .clearfix .blog-meta-unit {
+    float: left;
+    margin-right: 41px;
+}
+
+.stm-template-auto_parts .post-content {
+    padding-bottom: 35px;
+    margin-bottom: 38px;
+    border-bottom: 1px solid #ddd;
+}
+
+.stm-template-auto_parts .post-content iframe {
+    width: 100% !important;
+    max-width: 100% !important;
+    vertical-align: top;
+}
+
+.stm-template-auto_parts .post-content.post-content-vc {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.stm-template-auto_parts .post-content blockquote {
+    position: relative;
+    margin-top: 10px;
+    padding-left: 72px;
+    padding-right: 5px;
+    border-left: none;
+    font-size: 16px;
+    line-height: 32px;
+    color: #191919;
+    font-style: normal;
+}
+
+.stm-template-auto_parts .post-content blockquote:after, .stm-template-auto_parts .post-content blockquote:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 9px;
+    left: 4px;
+    font-size: 31px;
+    font-family: 'stm-icon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+        /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #cc6119;
+    content: "\e923";
+}
+
+.stm-template-auto_parts .blog-meta-bottom {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.stm-template-auto_parts .blog-meta-bottom .left {
+    float: left;
+}
+
+.stm-template-auto_parts .blog-meta-bottom .right {
+    float: right;
+}
+
+.stm-template-auto_parts .blog-meta-bottom span.h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.stm-template-auto_parts .blog-meta-bottom .post-tags .post-tag, .stm-template-auto_parts .blog-meta-bottom .post-tags .post-category, .stm-template-auto_parts .blog-meta-bottom .post-cat .post-tag, .stm-template-auto_parts .blog-meta-bottom .post-cat .post-category {
+    color: #888;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.stm-template-auto_parts .blog-meta-bottom .post-tags .post-tag:last-child .divider, .stm-template-auto_parts .blog-meta-bottom .post-tags .post-category:last-child .divider, .stm-template-auto_parts .blog-meta-bottom .post-cat .post-tag:last-child .divider, .stm-template-auto_parts .blog-meta-bottom .post-cat .post-category:last-child .divider {
+    display: none;
+}
+
+.stm-template-auto_parts .blog-meta-bottom .post-tags .post-tag a, .stm-template-auto_parts .blog-meta-bottom .post-tags .post-category a, .stm-template-auto_parts .blog-meta-bottom .post-cat .post-tag a, .stm-template-auto_parts .blog-meta-bottom .post-cat .post-category a {
+    color: #888;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.stm-template-auto_parts .blog-meta-bottom .post-tags .post-tag a:hover, .stm-template-auto_parts .blog-meta-bottom .post-tags .post-category a:hover, .stm-template-auto_parts .blog-meta-bottom .post-cat .post-tag a:hover, .stm-template-auto_parts .blog-meta-bottom .post-cat .post-category a:hover {
+    text-decoration: none;
+    color: #6c98e1;
+}
+
+.stm-template-auto_parts .blog-meta-bottom .post-tags {
+    margin-top: 2px;
+}
+
+.stm-template-auto_parts .blog-meta-bottom .stm-shareble {
+    margin-top: 7px;
+}
+
+.stm-template-auto_parts .stm-author-box {
+    padding: 30px 50px 30px 30px;
+    margin-bottom: 58px;
+    border-top: 4px solid #191919;
+    background-color: #f3f4f5;
+}
+
+.stm-template-auto_parts .stm-author-box .author-image {
+    float: left;
+    margin-right: 29px;
+}
+
+.stm-template-auto_parts .stm-author-box .author-image > img {
+    border-radius: 50%;
+}
+
+.stm-template-auto_parts .stm-author-box .author-content {
+    overflow: hidden;
+}
+
+.stm-template-auto_parts .stm-author-box .author-content h6 {
+    margin-bottom: 4px;
+    color: #aaaaaa;
+}
+
+.stm-template-auto_parts .stm-author-box .author-content h4 {
+    margin-bottom: 10px;
+}
+
+.stm-template-auto_parts .stm-author-box .author-content .author-description {
+    color: #555;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.stm-template-auto_parts .stm-carousel .owl-controls {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.stm-template-auto_parts .owl-dots {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 7px;
+    position: relative;
+    top: 1px;
+}
+
+.stm-template-auto_parts .owl-dots .owl-dot {
+    display: block;
+    float: left;
+    padding: 4px;
+}
+
+.stm-template-auto_parts .owl-dots .owl-dot.active span {
+    transform: scale(1.3);
+    background-color: #6c98e1;
+}
+
+.stm-template-auto_parts .owl-dots .owl-dot span {
+    display: block;
+    width: 4px;
+    height: 4px;
+    background-color: #aaaaaa;
+    border-radius: 50%;
+}
+
+.stm-template-auto_parts .stm-owl-next,
+  .stm-template-auto_parts .stm-owl-prev {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 5px 15px;
+    border: 2px solid transparent;
+    color: #aaaaaa;
+}
+
+.stm-template-auto_parts .stm-owl-next :hover,
+    .stm-template-auto_parts .stm-owl-prev :hover {
+    cursor: pointer;
+    border-color: #6c98e1;
+    color: #6c98e1;
+}
+
+.stm-template-auto_parts .stm-our-team {
+    max-width: 255px;
+    width: auto;
+    margin: 0 auto 30px;
+}
+
+.stm-template-auto_parts .stm-our-team .image {
+    margin-bottom: 13px;
+    position: relative;
+}
+
+.stm-template-auto_parts .stm-our-team .image:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+
+.stm-template-auto_parts .stm-our-team .meta {
+    background-color: #fff;
+    padding: 21px 10px 23px 10px;
+    text-align: center;
+}
+
+.stm-template-auto_parts .stm-our-team .meta .name {
+    margin-bottom: -2px;
+    text-transform: uppercase;
+}
+
+.stm-template-auto_parts .stm-our-team .meta .position {
+    color: #888;
+    font-size: 13px;
+}
+
+.stm-template-auto_parts .stm-our-team:hover .image:before {
+    opacity: 1;
+}
+
+.stm-template-auto_parts .stm-our-team:hover .meta {
+    background-color: #191919;
+}
+
+.stm-template-auto_parts .stm-our-team:hover .meta .name, .stm-template-auto_parts .stm-our-team:hover .meta .position {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts .stm-our-team:hover .team-info {
+    bottom: 18px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.stm-template-auto_parts .team-info {
+    position: absolute;
+    padding: 0 15px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.stm-template-auto_parts .team-info .phone {
+    position: relative;
+    min-width: 160px;
+    max-width: 100%;
+    margin-top: 8px;
+    display: inline-block;
+    padding-left: 36px;
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 32px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.stm-template-auto_parts .team-info .phone i {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    margin-top: -10px;
+    font-size: 20px;
+    color: #6c98e1;
+}
+
+.stm-template-auto_parts .team-info .email {
+    display: inline-block;
+    min-width: 160px;
+    max-width: 100%;
+    padding: 0 12px;
+    background-color: #6c98e1;
+    border-radius: 20px;
+    color: #ffffff !important;
+    font-size: 13px;
+    line-height: 33px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.stm-template-auto_parts.error404 #wrapper {
+    position: relative;
+}
+
+.stm-template-auto_parts.error404 #wrapper #main {
+    min-height: 250px;
+    position: absolute;
+    top: 201px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 15;
+}
+
+.stm-template-auto_parts.error404 #wrapper #main .stm-error-page-unit {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.stm-template-auto_parts.error404 #wrapper #main .stm-error-page-unit h2 {
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 650px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.stm-template-auto_parts.error404 #wrapper #main .stm-error-page-unit .button {
+    display: inline-block;
+    border: 1px solid #cc6119;
+    padding: 10px 30px;
+    color: #191919;
+    text-decoration: none;
+    background: transparent;
+    border-radius: 3px;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts.error404 #wrapper #main .stm-error-page-unit .button:hover {
+    background: #cc6119;
+    color: #191919;
+}
+
+.stm-template-auto_parts .wpcf7 input[type='submit'] {
+    display: inline-block;
+    border: 1px solid #cc6119;
+    padding: 8px 30px;
+    color: #191919;
+    text-decoration: none;
+    background: #cc6119;
+    border-radius: 3px;
+    font-weight: 700;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts .wpcf7 input[type='submit']:hover {
+    background: #cc6119;
+    color: #191919;
+}
+
+.stm-template-auto_parts .icon-box {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.stm-template-auto_parts .icon-box .icon-text {
+    margin-top: 10px;
+}
+
+.stm-template-auto_parts .icon-box .icon-text .content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.stm-template-auto_parts .stm-layout-box-boats {
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.stm-template-auto_parts .stm-layout-box-boats .icon-text {
+    margin-top: 10px;
+}
+
+.stm-template-auto_parts .stm-layout-box-boats .icon-text .content p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+}
+
+.stm-template-auto_parts .stm-layout-box-car_dealer {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.stm-template-auto_parts .stm-layout-box-car_dealer .boat-line {
+    display: none;
+}
+
+.stm-template-auto_parts .stm-layout-box-car_dealer .icon {
+    margin-top: 0 !important;
+    margin-right: 10px !important;
+    margin-left: 0 !important;
+}
+
+.stm-template-auto_parts .stm-layout-box-car_dealer .icon-text {
+    margin: 0;
+}
+
+.stm-template-auto_parts.page .prefooter-section, .stm-template-auto_parts.blog .prefooter-section, .stm-template-auto_parts.single-post .prefooter-section, .stm-template-auto_parts.archive .prefooter-section {
+    position: relative;
+    margin: 55px auto 0;
+}
+
+.stm-template-auto_parts.page .prefooter-section:before, .stm-template-auto_parts.blog .prefooter-section:before, .stm-template-auto_parts.single-post .prefooter-section:before, .stm-template-auto_parts.archive .prefooter-section:before {
+    content: '';
+    display: block;
+    width: 97.5%;
+    border-top: 1px solid #aaaaaa;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 0;
+}
+
+.stm-template-auto_parts.home .prefooter-section {
+    position: relative;
+    margin: 0 auto;
+}
+
+.stm-template-auto_parts.home .prefooter-section:before {
+    display: none;
+}
+
+.stm-template-auto_parts .prefooter-section {
+    padding: 55px 15px 40px;
+}
+
+.stm-template-auto_parts #footer .widgets aside {
+    padding-top: 64px;
+    margin-bottom: 57px;
+}
+
+.stm-template-auto_parts #footer .widgets aside .widget-title {
+    margin-bottom: 17px;
+}
+
+.stm-template-auto_parts #footer .widgets aside .widget-title h6 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.stm-template-auto_parts #footer .widgets aside .textwidget {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #aaaaaa;
+    padding-top: 3px;
+}
+
+.stm-template-auto_parts #footer .widgets aside .textwidget > p {
+    line-height: 7px;
+    font-size: 13px;
+    color: #888888;
+}
+
+.stm-template-auto_parts #footer .widgets aside .gallery {
+    margin-bottom: 0;
+    padding-top: 13px;
+}
+
+.stm-template-auto_parts #footer .widgets aside .gallery figure {
+    padding: 0;
+    text-align: left;
+}
+
+.stm-template-auto_parts #footer .widgets aside .gallery figure .gallery-icon img {
+    border-radius: 4px;
+}
+
+.stm-template-auto_parts #footer .widgets aside .widget_socials {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 7px 0 0;
+    margin: 0;
+}
+
+.stm-template-auto_parts #footer .widgets aside .widget_socials li {
+    padding: 0;
+}
+
+.stm-template-auto_parts #footer .widgets aside .widget_socials li a {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: #3b3d3f;
+    padding: 0;
+    border-radius: 45px;
+    transition: all .2s ease;
+    text-decoration: none;
+}
+
+.stm-template-auto_parts #footer .widgets aside .widget_socials li a i {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.stm-template-auto_parts #footer .widgets aside .widget_socials li a:hover {
+    background: #cc6119;
+}
+
+.stm-template-auto_parts #footer .widgets aside .mc4wp-form {
+    margin-top: -3px;
+}
+
+.stm-template-auto_parts #footer .widgets aside .mc4wp-form .mc4wp-form-fields p {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.stm-template-auto_parts #footer .widgets aside .mc4wp-form .mc4wp-form-fields p input[type="email"] {
+    width: 85%;
+    font-size: 14px;
+    color: #777777;
+    height: 38px;
+    line-height: 48px;
+    padding-left: 17px;
+    border: 0;
+}
+
+.stm-template-auto_parts #footer .widgets aside .mc4wp-form .mc4wp-form-fields p span {
+    display: block;
+    width: 15%;
+    border-radius: 0 3px 3px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.stm-template-auto_parts #footer .widgets aside .mc4wp-form .mc4wp-form-fields p span:before {
+    content: '\e904';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #191919;
+    font-size: 14px;
+    font-family: 'stm-ap-icon';
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts #footer .widgets aside .mc4wp-form .mc4wp-form-fields p span:hover:before {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts #footer .widgets aside .mc4wp-form .mc4wp-form-fields p input[type="submit"] {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 35px;
+    height: 38px;
+    color: transparent !important;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    background: #cc6119;
+    border: 0;
+    outline: none !important;
+    transition: all .2s ease;
+}
+
+.stm-template-auto_parts #footer .widgets aside .mc4wp-form .mc4wp-form-fields p input[type="submit"]:hover, .stm-template-auto_parts #footer .widgets aside .mc4wp-form .mc4wp-form-fields p input[type="submit"]:active {
+    color: #ffffff;
+}
+
+.stm-template-auto_parts #footer-copyright {
+    padding: 15px 0;
+}
+
+.stm-template-auto_parts #footer-copyright .footer-copyright {
+    text-align: center;
+    color: #888888;
+    font-size: 13px;
+}
+
+.stm-template-auto_parts #footer-copyright .footer-copyright:before {
+    top: -15px;
+}
+
+.stm-template-auto_parts #footer-copyright .footer-copyright a {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+@media (max-width: 1165px) {
+    .stm-template-auto_parts .stm-header__row {
+        margin: 0 -15px;
+    }
+
+    .stm-template-auto_parts .vc_row-no-padding {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 1100px) {
+    .stm-template-auto_parts .post-grid-single-unit .content {
+        padding: 30px 30px 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .stm-template-auto_parts .select2-container--default .select2-selection--single .select2-selection__arrow {
+        text-align: center;
+    }
+
+    .stm-template-auto_parts.home .woocommerce ul.products .col-md-3 {
+        width: 24.9%;
+    }
+
+    .stm-template-auto_parts.home .woocommerce ul.products .wc-forward {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .stm-template-auto_parts.home .woocommerce ul.products li.product .product_thumbnail,
+    .stm-template-auto_parts.home .woocommerce ul.products li.product h6, .stm-template-auto_parts.home .woocommerce ul.products li.product h5,
+    .stm-template-auto_parts.home .woocommerce ul.products li.product .stm-info-button-wrap {
+        padding: 0 15px;
+    }
+
+    .stm-template-auto_parts.home .stm-home-newsletter .vc_column-inner {
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__title, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__title {
+        left: -252px;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__title > *, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__title > * {
+        padding-top: 10px;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .left, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .left {
+        width: 40%;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right {
+        width: 60%;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right .woocommerce-result-count, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right .woocommerce-result-count {
+        margin-right: 10px;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .products .col-md-4, .stm-template-auto_parts.tax-product_cat .products .col-md-4 {
+        width: 33% !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .products .col-md-3, .stm-template-auto_parts.tax-product_cat .products .col-md-3 {
+        width: 24% !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .products li.product .stm-product-inner .product_thumbnail,
+    .stm-template-auto_parts.stm-wcmap-shop .products li.product .stm-product-inner h6, .stm-template-auto_parts.stm-wcmap-shop .products li.product .stm-product-inner h5,
+    .stm-template-auto_parts.stm-wcmap-shop .products li.product .stm-product-inner .stm-info-button-wrap, .stm-template-auto_parts.tax-product_cat .products li.product .stm-product-inner .product_thumbnail,
+    .stm-template-auto_parts.tax-product_cat .products li.product .stm-product-inner h6, .stm-template-auto_parts.tax-product_cat .products li.product .stm-product-inner h5,
+    .stm-template-auto_parts.tax-product_cat .products li.product .stm-product-inner .stm-info-button-wrap {
+        padding: 0 15px;
+    }
+
+    .stm-template-auto_parts .mc4wp-form .mc4wp-form-fields p input[type="email"] {
+        border-radius: 5px 0 0 5px;
+    }
+
+    .stm-template-auto_parts .mc4wp-form .mc4wp-form-fields p input[type="submit"] {
+        border-radius: 0 5px 5px 0;
+        height: 50px;
+    }
+
+    .stm-template-auto_parts.blog .post-grid-single-unit .content, .stm-template-auto_parts.archive9 .post-grid-single-unit .content {
+        padding: 15px 15px 0;
+    }
+
+    .stm-template-auto_parts.blog .post-grid-single-unit .content .post-meta-bottom, .stm-template-auto_parts.archive9 .post-grid-single-unit .content .post-meta-bottom {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .stm-template-auto_parts #footer .widgets aside .widget_socials {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .stm-template-auto_parts #footer .widgets aside .widget_socials li {
+        margin-right: 10px;
+    }
+
+    .stm-template-auto_parts #footer .widgets aside .mc4wp-form .mc4wp-form-fields p input[type="email"] {
+        line-height: 38px;
+    }
+
+    .stm-template-auto_parts #footer .widgets aside .mc4wp-form .mc4wp-form-fields p input[type="submit"] {
+        height: 38px;
+    }
+}
+
+@media (max-width: 900px) {
+    .stm-template-auto_parts .vc_col-md-6.vc_col-sm-12:last-child {
+        margin-top: 30px;
+    }
+
+    .stm-template-auto_parts .stm-header__hb .stm-header__row_color_top {
+        padding-left: 15px !important;
+    }
+
+    .stm-template-auto_parts .stm-header__hb .stm-header__row_color_top .stm-header__row_top {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .stm-template-auto_parts .stm-header__hb .stm-header__row_color_top .stm-header__row_top .stm-header__cell_left,
+        .stm-template-auto_parts .stm-header__hb .stm-header__row_color_top .stm-header__row_top .stm-header__cell_right {
+        margin-bottom: 10px;
+    }
+
+    .stm-template-auto_parts .stm-header__hb .stm-header__row_color_top .stm-header__row_top .stm-header__cell_left .stm-header__element,
+          .stm-template-auto_parts .stm-header__hb .stm-header__row_color_top .stm-header__row_top .stm-header__cell_right .stm-header__element {
+        margin-bottom: 5px !important;
+    }
+
+    .stm-template-auto_parts .stm-header__hb .stm-header__row_color_center {
+        padding-left: 15px !important;
+    }
+
+    .stm-template-auto_parts .stm-header__hb .stm-header__row_color_center .stm-header__row_center .stm-header__cell {
+        margin-bottom: 0;
+    }
+
+    .stm-template-auto_parts .stm-header__hb .stm-header__row_color_bottom .container .stm-navigation {
+        border-radius: 0;
+    }
+
+    .stm-template-auto_parts .woocommerce ul.products li.product {
+        width: 49.5% !important;
+        border-right: 1px dashed #cccccc;
+        border-bottom: 1px dashed #cccccc;
+    }
+
+    .stm-template-auto_parts .woocommerce ul.products li.product.col-md-3:nth-child(1n) {
+        border-right: 1px dashed #cccccc;
+        border-bottom: 1px dashed #cccccc;
+    }
+
+    .stm-template-auto_parts .woocommerce ul.products li.product.col-md-3:nth-child(2n) {
+        border-right: 0;
+        border-bottom: 1px dashed #cccccc;
+    }
+
+    .stm-template-auto_parts .woocommerce ul.products li.product.col-md-3:nth-last-child(1), .stm-template-auto_parts .woocommerce ul.products li.product.col-md-3:nth-last-child(2) {
+        border-bottom: 0;
+    }
+
+    .stm-template-auto_parts.woocommerce-account .woocommerce-MyAccount-navigation ul {
+        padding: 0;
+    }
+
+    .stm-template-auto_parts.woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+        padding: 10px 0 !important;
+        border-left: 0;
+        border-right: 0;
+    }
+
+    .stm-template-auto_parts.woocommerce-account .addresses .row .col-sm-12:last-child {
+        margin-top: 40px;
+    }
+
+    .stm-template-auto_parts.woocommerce-account #customer_login .col-md-6:last-child {
+        margin-top: 40px;
+    }
+
+    .stm-template-auto_parts.woocommerce-account .stm-woo-form-wrap .form-row-login label[for='rememberme'] .checker span:before {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce .woocommerce-cart-form {
+        width: 100%;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals {
+        width: 50%;
+    }
+
+    .stm-template-auto_parts .related.products ul.products li.product {
+        width: 49.5% !important;
+        border-right: 1px dashed #cccccc;
+        border-bottom: 1px dashed #cccccc;
+    }
+
+    .stm-template-auto_parts .related.products ul.products li.product:nth-child(1n) {
+        border-right: 1px dashed #cccccc;
+        border-bottom: 1px dashed #cccccc;
+    }
+
+    .stm-template-auto_parts .related.products ul.products li.product:nth-last-child(1), .stm-template-auto_parts .related.products ul.products li.product:nth-last-child(2) {
+        border-bottom: 0;
+    }
+
+    .stm-template-auto_parts .related.products ul.products li.product:nth-child(2n) {
+        border-right: 0;
+        border-bottom: 1px dashed #cccccc;
+    }
+
+    .stm-template-auto_parts .post-grid-single-unit .content .post-meta-bottom {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .stm-template-auto_parts #footer #footer-main .widgets aside {
+        width: 49%;
+    }
+}
+
+@media (max-width: 740px) {
+    .stm-template-auto_parts .post-grid-single-unit {
+        margin-bottom: 30px;
+    }
+
+    .stm-template-auto_parts .post-grid-single-unit .image a img.wp-post-image {
+        display: block;
+        width: 100%;
+    }
+
+    .stm-template-auto_parts .post-grid-single-unit .content .post-meta-bottom {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+
+    .stm-template-auto_parts .prefooter-section .stm-wcmap-ap-icon-box {
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        margin: 20px 0;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop ul.products li.col-md-4 {
+        width: 49.9% !important;
+        border-bottom: 1px dashed #cccccc !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop ul.products li.col-md-4:nth-child(1n) {
+        border-right: 1px dashed #cccccc !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop ul.products li.col-md-4:nth-child(2n) {
+        border-right: 0 !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop ul.products li.col-md-4:nth-last-child(1), .stm-template-auto_parts.stm-wcmap-shop ul.products li.col-md-4:nth-last-child(2) {
+        border-bottom: 0 !important;
+    }
+
+    .stm-template-auto_parts .related .products li {
+        border-bottom: 0 !important;
+        border-right: 1px dashed #cccccc !important;
+    }
+
+    .stm-template-auto_parts .related .products li:last-child {
+        border-right: 0 !important;
+    }
+
+    .stm-template-auto_parts .stm-wcmap-single-product .product_images .flex-control-nav {
+        margin-bottom: 30px !important;
+    }
+
+    .stm-template-auto_parts.woocommerce-checkout .woocommerce-order {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .stm-template-auto_parts.woocommerce-checkout .woocommerce-order .left,
+      .stm-template-auto_parts.woocommerce-checkout .woocommerce-order .right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .stm-template-auto_parts.woocommerce-checkout .woocommerce-order .right {
+        margin-top: 30px;
+    }
+
+    .stm-template-auto_parts .stm-wcmap-icon-filter-wrap .stm-wcmap-title-wrap {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .stm-template-auto_parts .stm-wcmap-icon-filter-wrap .stm-wcmap-title-wrap h2 {
+        margin: 0;
+        font-size: 30px;
+    }
+
+    .stm-template-auto_parts .stm-wcmap-icon-filter-wrap .stm-wcmap-title-wrap span {
+        margin-top: 20px;
+    }
+
+    .stm-template-auto_parts .vc_tta-panel-body .woocommerce.columns-4 .products li {
+        width: 100% !important;
+        border-right: 0 !important;
+        border-bottom: 1px dashed #cccccc !important;
+    }
+
+    .stm-template-auto_parts .vc_tta-panel-body .woocommerce.columns-4 .products li:last-child {
+        border-bottom: 0 !important;
+    }
+
+    .stm-template-auto_parts .stm_special_offer .special_offer_product__meta_box {
+        padding: 20px !important;
+    }
+
+    .stm-template-auto_parts .stm_special_offer .special_offer_product__meta_box .stm-spec-prod-text-info {
+        min-width: 290px !important;
+    }
+
+    .stm-template-auto_parts .stm_special_offer .special_offer_product__meta_box .special_offer_product__meta {
+        display: block;
+        width: 100%;
+    }
+
+    .stm-template-auto_parts .stm_special_offer .special_offer_product__meta_box .special_offer_product__meta h5 a {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .stm-template-auto_parts .stm_special_offer .special_offer_product__meta_box .special_offer_product__meta .price.heading-title {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        margin-top: 30px;
+    }
+
+    .stm-template-auto_parts .stm_special_offer .special_offer_product__meta_box .special_offer_product__meta .price.heading-title del {
+        margin: 0 0 20px;
+    }
+
+    .stm-template-auto_parts .stm_special_offer .special_offer_product__meta_box .special_offer_product__meta .price.heading-title ins {
+        margin: 0;
+    }
+
+    .stm-template-auto_parts .stm_special_offer .special_offer_product__meta_box .special_offer_product__countdown .special_offer_countdown .count_meta {
+        width: 64px !important;
+        height: 64px !important;
+    }
+
+    .stm-template-auto_parts .stm_special_offer .special_offer_product__meta_box .special_offer_product__countdown .special_offer_countdown .count_meta .count_meta_info {
+        font-size: 20px !important;
+        line-height: 20px !important;
+        padding-top: 10px !important;
+    }
+
+    .stm-template-auto_parts .stm_special_offer .special_offer_product__meta_box .special_offer_product__countdown .special_offer_countdown .count_meta .count_meta_info > div {
+        font-size: 12px !important;
+        line-height: 14px;
+        padding-top: 0 !important;
+    }
+
+    .stm-template-auto_parts.home .stm-home-newsletter .vc_column-inner {
+        padding-top: 20px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .left, .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right {
+        width: 100%;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right p {
+        -ms-flex-order: 1;
+        order: 1;
+        margin: 0 0 15px !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right form {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right > div {
+        -ms-flex-order: 3;
+        order: 3;
+        margin-top: 15px;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop ul.products li.col-md-4 {
+        width: 100% !important;
+        border-right: 0 !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop ul.products li.col-md-4:nth-child(1n) {
+        border-right: 0 !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop ul.products li.col-md-4:nth-last-child(2) {
+        border-bottom: 1px dashed #cccccc !important;
+    }
+
+    .stm-template-auto_parts .stm-wcmap-single-product .prod-add-to-cart form {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .stm-template-auto_parts .stm-wcmap-single-product .prod-add-to-cart form .quantity {
+        width: 100%;
+    }
+
+    .stm-template-auto_parts .stm-wcmap-single-product .prod-add-to-cart form button {
+        width: 100%;
+        margin: 20px 0 0 0;
+        text-align: center;
+        padding-right: 60px;
+    }
+
+    .stm-template-auto_parts .stm-wcmap-single-product .prod-compare-whish-wrap {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .stm-template-auto_parts .stm-wcmap-single-product .woocommerce-tabs ul.tabs {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .stm-template-auto_parts .stm-wcmap-single-product .woocommerce-tabs .panel .shop_attributes tr td {
+        min-width: 240px;
+    }
+
+    .stm-template-auto_parts .blog-meta {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .stm-template-auto_parts .stm-author-box .author-image {
+        display: none;
+    }
+
+    .stm-template-auto_parts #footer #footer-main .widgets {
+        padding: 20px 0;
+    }
+
+    .stm-template-auto_parts #footer #footer-main .widgets aside {
+        width: 100%;
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .stm-template-auto_parts .mobile-no-padding .vc_column-inner {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .stm-template-auto_parts .related.products ul.products {
+        -ms-flex-direction: column !important;
+        flex-direction: column !important;
+    }
+
+    .stm-template-auto_parts .related.products ul.products li.product {
+        width: 100% !important;
+        border-bottom: 1px dashed #cccccc !important;
+        border-right: 0 !important;
+    }
+
+    .stm-template-auto_parts .related.products ul.products li.product:last-child {
+        border-bottom: 0 !important;
+    }
+
+    .stm-template-auto_parts .prefooter-section:before {
+        width: 92% !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__title, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__title {
+        left: -252px;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__title > *, .stm-template-auto_parts.tax-product_cat .page-description .stm_special_offer .special_offer_product__title > * {
+        padding-top: 10px;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap, .stm-template-auto_parts.tax-product_cat .action-bar-wrap {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .left, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .left {
+        width: 100%;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right {
+        width: 100%;
+        text-align: left;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right .woocommerce-notices-wrapper, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right .woocommerce-notices-wrapper {
+        display: none;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .action-bar-wrap .right .woocommerce-result-count, .stm-template-auto_parts.tax-product_cat .action-bar-wrap .right .woocommerce-result-count {
+        margin-right: 10px;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .products .col-md-4, .stm-template-auto_parts.tax-product_cat .products .col-md-4 {
+        width: 100% !important;
+        border-right: none;
+        border-bottom: 1px dashed #cccccc !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .products .col-md-4:last-child, .stm-template-auto_parts.tax-product_cat .products .col-md-4:last-child {
+        border-bottom: none !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .products .col-md-3, .stm-template-auto_parts.tax-product_cat .products .col-md-3 {
+        width: 100% !important;
+        border-right: none;
+        border-bottom: 1px dashed #cccccc !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .products .col-md-3:last-child, .stm-template-auto_parts.tax-product_cat .products .col-md-3:last-child {
+        border-bottom: none !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .products li.product .stm-product-inner .product_thumbnail,
+    .stm-template-auto_parts.stm-wcmap-shop .products li.product .stm-product-inner h6, .stm-template-auto_parts.stm-wcmap-shop .products li.product .stm-product-inner h5,
+    .stm-template-auto_parts.stm-wcmap-shop .products li.product .stm-product-inner .stm-info-button-wrap, .stm-template-auto_parts.tax-product_cat .products li.product .stm-product-inner .product_thumbnail,
+    .stm-template-auto_parts.tax-product_cat .products li.product .stm-product-inner h6, .stm-template-auto_parts.tax-product_cat .products li.product .stm-product-inner h5,
+    .stm-template-auto_parts.tax-product_cat .products li.product .stm-product-inner .stm-info-button-wrap {
+        padding: 0 15px;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name {
+        padding-left: 5px;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce form table tr td.product-name > a {
+        display: none;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce form table tr:last-child td.actions {
+        padding-right: 20px;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce form table tr:last-child td.actions .coupon {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        max-width: 100%;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce form table tr:last-child td.actions .coupon input[type='text'] {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce form table tr:last-child td.actions > input[type='submit'] {
+        height: 40px;
+        line-height: 24px;
+        right: 20px;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce .cart-collaterals {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table tr td:first-child {
+        padding-left: 10px;
+        width: 50%;
+    }
+
+    .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table tr td:last-child {
+        padding-right: 10px;
+    }
+
+    .stm-template-auto_parts.woocommerce-checkout table.woocommerce-checkout-review-order-table tr th {
+        padding-left: 10px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    .stm-template-auto_parts .stm_special_offer .special_offer_product__meta_box {
+        padding: 17px !important;
+    }
+
+    .stm-template-auto_parts.stm-wcmap-shop .page-description .stm_special_offer .special_offer_product__meta_box {
+        padding: 3px !important;
+    }
+
+    .stm-template-auto_parts .post-grid-single-unit .content .post-meta-bottom {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce form table tr .product-subtotal {
+        display: none;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce form table tr:last-child td.actions {
+        padding-right: 0;
+    }
+
+    .stm-template-auto_parts.woocommerce-cart .woocommerce form table tr:last-child td.actions input[type='submit'] {
+        right: 0;
+    }
+}
