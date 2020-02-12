@@ -163,9 +163,12 @@
 				</div>
 			<?php endif; ?>
 
+
+
+
 			<!--Comments-->
 			<?php if ( comments_open() || get_comments_number() ) { ?>
-				<div class="stm_post_comments">
+				<div class="stm_post_comments cmnt1">
 					<?php comments_template(); ?>
 				</div>
 			<?php } ?>

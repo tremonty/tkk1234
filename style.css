@@ -1545,3 +1545,494 @@ button.pswp__button--close:hover {
 button.pswp__button--zoom:hover {
     background-position: -88px 0
 }
+
+
+.stm_motorcycle-header .stm_mc-nav .main-menu .inner .header-menu li li {
+    display: inline-block;
+}
+
+
+div#dakh_search-wrap {
+    display: none;
+}
+.is-visible {
+    display: table !important;
+}
+
+
+.post-grid-single-unit img,
+img.magzinethumb {
+    transition: all .3s ease;
+}
+
+/*.animatedposts .animateup:hover {
+    opacity: 1;
+    transform: translate(0,-3px);
+    box-shadow: 0 3px 12px -1px rgba(255, 255, 255, 0.2), 0 22px 27px -20px rgba(0, 0, 0, 0.2);
+}*/
+
+.post-grid-single-unit:hover img,
+img.magzinethumb:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    -webkit-transform: scale3d(1.1, 1.1, 1);
+    -moz-transform: scale3d(1.1, 1.1, 1);
+    -ms-transform: scale3d(1.1, 1.1, 1);
+    -o-transform: scale3d(1.1, 1.1, 1);
+}
+
+	
+	
+	
+h1.joinushead {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.animatedposts .vc_column_container {
+    margin-top: -115px !important;
+    position: relative;
+    z-index: 9;
+}
+
+
+@media (min-width: 1200px){
+/*.container {
+    max-width: 1360px;
+}*/
+	
+}
+
+.car-listing-row img {
+    width: 100%;
+}
+
+.navisinglediv {
+    padding: 40px;
+    padding-top: 70px;
+}
+.magzinesingleimg{
+	width:100%;
+	}
+
+h3.magtitle {
+    font-size: 42px;
+    line-height: 42px;
+    height: 80px;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    MOZ-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    -MOZ-line-clamp: 2;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+p.metdata {
+    font-size: 20px;
+    border-top: 2px solid red;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+.btnsdiv {
+    padding: 15px 0;
+    text-align: center;
+}
+.btnsdiv a {
+    color: #fff;
+    min-width: 400px;
+    display: inline-block;
+    padding: 25px;
+    font-size: 28px;
+    border: 1px solid #8F2400;
+    background-color: #D63600;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #D63600), color-stop(50%, #D63600), color-stop(50%, #99000A));
+    background: -webkit-linear-gradient(top, #D63600, #99000A);
+    background: -moz-linear-gradient(top, #D63600, #99000A);
+    background: -ms-linear-gradient(top, #D63600, #99000A);
+    background: -o-linear-gradient(top, #D63600, #99000A);
+    -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+    box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+        font-family: 'Exo 2';
+}
+.post-grid-single-unit img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: top center;
+}
+.post-grid-single-unit .image {
+    height: 250px;
+}
+.post-grid-single-unit .featured-video-plus {
+    height: 250px !important;
+}
+.post-grid-single-unit .fluid-width-video-wrapper {
+    height: 250px !important;
+}
+
+.stm_moto_single_grid_item .car-meta-bottom {
+    padding: 6px 15px 10px !important;
+}
+.trendingmeta{
+	    min-height: 75px;
+    padding: 18px 35px 14px 35px;
+    background: #243136;
+    border-bottom: 0;
+	}
+	
+	
+.minheightcontrol{
+	    min-height: 185px !important;
+	}	
+	
+	
+.ourpicksnavi .image {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+
+}	
+
+.ourpicksnavi .recomended-data {
+    display: none;
+}
+
+.ourpicksnavi h2 {
+    font-size: 19px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+.sanpimg img {
+    min-height: 220px;
+    object-fit: cover;
+    object-position: top center;
+}
+.sanprow{
+	margin-bottom: 20px;
+}
+.sanptitle {
+    font-size: 24px;
+    margin: 10px 0;
+        font-family: 'Exo 2';
+}
+
+h3.megzinetop {
+    margin-bottom: 25px;
+}
+
+.bannerad {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.sommrgin {
+    margin: 15px 0;
+}
+a.relatedmagtitle {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 10px 0;
+}
+.bannerad img {
+    width: 100%;
+}
+
+.magzinesingleimg {
+    width: 100%;
+    min-height: 700px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.magazinesidebar .widget {
+    float: left;
+    width: 100%;
+}
+
+.magazinesidebar .textwidget {
+    float: left;
+    width: 100%;
+}
+
+.subimgsec {
+    float: left;
+    width: 40%;
+}
+.submetasec {
+    float: left;
+    width: 56%;
+    margin-left: 4%;
+}
+.mostsubscribed {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.subvategory a {
+    color: #fff;
+    font-weight: bold;
+}
+.overlaybtns {
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    min-height: 700px;
+    padding-top: 265px;
+    opacity: 0;
+    float: left;
+    left: 0;
+	transition: all 0.5s;
+}
+
+
+img.magzinesingleimg:hover + .overlaybtns, .overlaybtns:hover {
+    opacity: 1;
+}
+
+div#dakh_search-wrap iframe.inner {
+    width: 100%;
+    height: 100%;
+}
+
+.navirelatedposts .image {
+    height: 160px;
+}
+
+.navirelatedposts .image img {
+    height: 160px;
+}
+
+.navirelatedposts .content {
+    padding: 10px;
+}
+
+#penci-demobar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100000;
+    -webkit-box-shadow: -1px 2px 10px 0 rgba(0, 0, 0, .2);
+    -moz-box-shadow: -1px 2px 10px 0 rgba(0, 0, 0, .2);
+    box-shadow: -1px 2px 10px 0 rgba(0, 0, 0, .2);
+    background: #000;
+    height: 100%;
+    width: 280px;
+    font-family: 'Lato', sans-serif;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+}
+
+#penci-demobar .style-toggle {
+    width: 64px;
+    height: 40px;
+    cursor: pointer;
+    opacity: 1;
+    border: 1px solid #8F2400;
+    background-color: #D63600;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #D63600), color-stop(50%, #D63600), color-stop(50%, #99000A));
+    background: -webkit-linear-gradient(top, #D63600, #99000A);
+    float: left;
+    margin-left: -64px;
+    margin-top: 0;
+    top: 150px;
+    line-height: 40px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: -1px 2px 10px 0 rgba(255, 255, 255, 0.53);
+    -webkit-box-shadow: -1px 2px 10px 0 rgba(255, 255, 255, 0.53);
+    -moz-box-shadow: -1px 2px 10px 0 rgba(255, 255, 255, 0.53);
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+#penci-demobar .style-toggle:after {
+  
+  animation: shine 1s ease-in-out  infinite;
+  animation-fill-mode: forwards;  
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+    to right, 
+    rgba(255, 255, 255, 0.13) 0%,
+    rgba(255, 255, 255, 0.13) 77%,
+    rgba(255, 255, 255, 0.5) 92%,
+    rgba(255, 255, 255, 0.0) 100%
+  );
+}
+
+/* Hover state - trigger effect */
+
+
+/* Active state */
+
+#penci-demobar .style-toggle:active:after {
+  opacity: 0;
+}
+
+@keyframes shine{
+  10% {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 0.7s, 0.7s, 0.15s;
+    transition-timing-function: ease;
+  }
+  100% {
+    opacity: 0;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+  }
+}
+
+
+
+
+
+
+#penci-demobar-container {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+#penci-demobar.hide-demos-bar {
+    right: -280px;
+}
+
+.sidepaneldiv {
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+.sidepaneldiv a img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+#penci-demobar .preview-img {
+    position: absolute;
+    top: 50%;
+    background-size: 100% 100%;
+    background-position: center center;
+    right: 280px;
+    z-index: 2;
+    border: 5px solid #f5f5f5;
+    background-color: #e0e0e0;
+    -webkit-box-shadow: -1px 1.8px 4px 0 rgba(0, 0, 0, .1);
+    -moz-box-shadow: -1px 1.8px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: -1px 1.8px 4px 0 rgba(0, 0, 0, .1);
+    width: 360px;
+    height: 465px;
+    margin-top: -232px;
+    visibility: hidden;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    opacity: 0;
+}
+
+#penci-demobar a:hover ~ .preview-img {
+    opacity: 1;
+    visibility: visible;
+}
+
+.descsec {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding: 20px 10px;
+}
+.latestmagbtn {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+}
+.latestmagbtn a {
+    border: 1px solid #8F2400;
+    background-color: #D63600;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #D63600), color-stop(50%, #D63600), color-stop(50%, #99000A));
+    background: -webkit-linear-gradient(top, #D63600, #99000A);
+    background: -moz-linear-gradient(top, #D63600, #99000A);
+    background: -ms-linear-gradient(top, #D63600, #99000A);
+    background: -o-linear-gradient(top, #D63600, #99000A);
+    -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+    box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1);
+    padding: 10px 15px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+.ul-single-post-content .ourpicksnavi .title.heading-font {
+    margin-bottom: 10px;
+    text-align: center !important;
+    color: #000 !important;
+    line-height: 18px;
+    font-size: 13px;
+}
+
+.ul-single-post-content .ourpicksnavi .image {
+    width: 100% !important;
+    float: left;
+    height: auto !important;
+    margin-bottom: 3px;
+}
+
+.stm_motorcycle-header .stm_mc-nav .main-menu .inner .header-menu li li a:hover {
+    color: #b51905 !important;
+}
+
+
+.naveedahmad {
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+}
+.naveedahmad img {
+    width: 100%;
+}
+
+
+.sanpcat {
+    font-family: 'Exo 2';
+}
+
+.sanpyear {
+    font-family: 'Exo 2';
+}
