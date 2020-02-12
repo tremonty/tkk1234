@@ -92,9 +92,12 @@ $stm_sidebar_layout_mode = stm_sidebar_layout_mode($sidebar_position, $sidebar_i
     <!--Previous Next Post Pagination-->
     <?php get_template_part('partials/magazine/content/previous_next_pagination'); ?>
 
+
+
+
     <!--Comments-->
     <?php if ( comments_open() || get_comments_number() ) { ?>
-        <div class="stm_post_comments">
+        <div class="stm_post_comments cmnt2">
             <?php comments_template(); ?>
         </div>
     <?php } ?>

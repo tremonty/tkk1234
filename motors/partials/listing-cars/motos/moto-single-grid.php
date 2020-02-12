@@ -76,7 +76,7 @@ if(!empty($badge_bg_color)) {
 ?>
 
 <div
-	class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 stm-isotope-listing-item stm_moto_single_grid_item all <?php print_r(implode(' ', $classes)); ?>"
+	class="adsasd col-md-4 col-sm-6 col-xs-6 col-xxs-12 stm-isotope-listing-item stm_moto_single_grid_item all <?php print_r(implode(' ', $classes)); ?>"
 	data-price="<?php echo esc_attr($data_price) ?>"
 	data-date="<?php echo get_the_date('Ymdhi') ?>"
 	data-mileage="<?php echo esc_attr($data_mileage); ?>"
