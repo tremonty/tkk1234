@@ -1296,9 +1296,9 @@ body {
 .main-menu .header-menu > li > a {
     display: block;
     position: relative;
-    height: 52px;
-    padding: 0 21px;
-    line-height: 52px;
+    height: 30px;
+    padding: 0 22px;
+    line-height: 20px;
     text-transform: uppercase;
     text-decoration: none !important;
 }

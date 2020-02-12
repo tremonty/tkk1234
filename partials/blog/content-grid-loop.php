@@ -22,7 +22,7 @@ $stm_sidebar_layout_mode = stm_sidebar_layout_mode( $sidebar_position, $sidebar_
 
 $blog_show_excerpt = get_theme_mod( 'blog_show_excerpt', false );
 
-$imgSize = ( !stm_is_use_plugin( 'stm-post-type/stm-post-type.php' ) && stm_is_car_dealer() ) ? 'full' : 'stm-img-350-181';
+$imgSize = ( !stm_is_use_plugin( 'stm-post-type/stm-post-type.php' ) && stm_is_car_dealer() ) ? 'full' : 'stm-img-420-250';
 
 ?>
 <div class="<?php echo esc_attr( $stm_sidebar_layout_mode['default_col'] ); ?>">
@@ -30,7 +30,7 @@ $imgSize = ( !stm_is_use_plugin( 'stm-post-type/stm-post-type.php' ) && stm_is_c
         echo 'sticky-wrap';
     } ?>">
         <?php if ( has_post_thumbnail() ): ?>
-            <div class="image">
+            <div class="image aa">
                 <a href="<?php the_permalink() ?>">
                     <!--Video Format-->
                     <?php if ( get_post_format( get_the_ID() ) == 'video' ): ?>
@@ -47,6 +47,7 @@ $imgSize = ( !stm_is_use_plugin( 'stm-post-type/stm-post-type.php' ) && stm_is_c
                         the_post_thumbnail( 'stm-img-398-206', array( 'class' => 'img-responsive' ) );
                     } else {
                         the_post_thumbnail( $imgSize, array( 'class' => 'img-responsive' ) );
+                     // the_post_thumbnail( 'stm-img-420-250', array( 'class' => 'img-responsive' ) );
                     }
                     ?>
                 </a>

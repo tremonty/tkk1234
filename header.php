@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K45WL7D');</script>
+<!-- End Google Tag Manager -->
+<script data-ad-client="ca-pub-5548703024835293" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="profile" href="http://gmpg.org/xfn/11">
@@ -25,6 +33,35 @@
 		echo "</style>";
 	}
 	?>
+    
+    <style>
+	<?php if( get_field('bg_image','option') ) { ?>
+	.dakh_search-wrap{
+		background:url(<?php the_field('bg_image','option') ?>) !Important;
+		background-size: cover !important;
+		background-position: top center !important;
+		background-repeat: no-repeat !important;	
+	}
+<?php } ?>
+
+
+
+
+<?php /*?>	<?php if( get_field('bg_image2','option') ) { ?>
+	#postad{
+		background:url(<?php the_field('bg_image2','option') ?>) !Important;
+		background-size: cover !important;
+		background-position: top center !important;
+		background-repeat: no-repeat !important;	
+		padding-top: 110px !important;
+    	padding-bottom: 110px !important;
+	}
+<?php } ?><?php */?>
+
+	</style>
+	
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0" defer="defer"></script>
 </head>
 
 <?php
@@ -37,8 +74,11 @@
 	}
 
 ?>
-
 <body <?php body_class(); ?> <?php if(!empty($body_custom_image)): ?> style="background-image: url('<?php echo esc_url($body_custom_image); ?>')" <?php endif; ?> ontouchstart="">
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K45WL7D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 	<?php do_action('motors_before_header'); ?>
 	<div id="wrapper">
         <?php if(!stm_is_auto_parts()) { ?>
